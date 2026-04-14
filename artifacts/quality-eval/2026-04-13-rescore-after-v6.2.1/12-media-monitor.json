@@ -1,0 +1,274 @@
+{
+  "id": "12-media-monitor",
+  "category": "open-ended strategy",
+  "question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+  "selectedDomain": "strategy",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnx77sr30009nrrjk53vdlob",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 54484,
+  "analysis": {
+    "title": "Niche Media Brand Growth Strategy Monitoring",
+    "original_question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+    "reframed_question": "Which leading indicators over 18 months reveal whether a niche media brand’s growth strategy is succeeding or failing?",
+    "time_horizon": "next 18 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Niche media brand",
+        "definition": "A media outlet targeting a specific, narrowly defined audience segment with specialized content."
+      },
+      {
+        "term": "Growth",
+        "definition": "Increase in audience size, engagement, revenue, or market influence relevant to the niche."
+      },
+      {
+        "term": "Current strategy",
+        "definition": "The existing approach to content, distribution, monetization, and audience development."
+      }
+    ],
+    "domains": [
+      "Strategy",
+      "Customer Acquisition & Retention",
+      "Monetization & Unit Economics"
+    ],
+    "key_drivers": [
+      "Audience growth rate",
+      "Engagement metrics",
+      "Customer acquisition cost (CAC)",
+      "Revenue growth and diversification",
+      "Retention and churn rates",
+      "Distribution channel efficiency"
+    ],
+    "hidden_variables": [
+      "Shifts in dominant distribution platforms impacting reach",
+      "Changes in niche audience preferences or content consumption habits",
+      "Competitor moves introducing disruptive content or pricing",
+      "Internal execution delays on monetization initiatives"
+    ],
+    "change_my_mind_conditions": [
+      "IF audience growth falls below 1% monthly for 3 consecutive months -> current growth strategy is failing",
+      "IF engagement metrics decline >15% quarter-over-quarter sustained over 2 quarters -> content-market fit or distribution assumptions fail",
+      "IF CAC increases >20% sustained for 2 consecutive quarters without proportional revenue growth -> growth strategy is uneconomical",
+      "IF new revenue streams remain below 10% of total revenue after 12 months -> monetization diversification assumption fails"
+    ],
+    "bottom_line": "View: Growth strategy is cautiously effective but vulnerable to monetization execution and distribution risks. Reason: Moderate audience and engagement growth with stable CAC supports cautious optimism. Risk: Sustained CAC increases or engagement declines could stall growth. Downgrade if: Audience growth <1% monthly for 3 months or CAC rises >20% for 2 quarters without revenue gains. Upgrade if: Audience growth >5% monthly for 3 months and new revenue streams exceed 10% after 12 months. Review: Monthly monitoring of audience, engagement, CAC, retention, and revenue diversification. Weakest assumption: CAC thresholds may not fully capture short-term campaign volatility.",
+    "watchlist": [
+      "Monthly audience growth <1% for 3 consecutive months signals failing growth strategy",
+      "Quarter-over-quarter engagement decline >15% sustained over 2 quarters indicates weakening content-market fit",
+      "CAC increase >20% sustained for 2 quarters without revenue growth flags unsustainable acquisition costs",
+      "New revenue streams <10% of total revenue after 12 months signals weak monetization diversification",
+      "Distribution platform policy changes causing >15% reach reduction require immediate strategy reassessment"
+    ],
+    "current_stance": "Growth strategy is cautiously effective but sensitive to distribution shifts and monetization execution.",
+    "monitoring_signals": [
+      {
+        "name": "Audience growth rate",
+        "why_it_matters": "Sustained audience expansion is core to validating content-market fit and growth strategy.",
+        "bullish_threshold": "Monthly audience growth >5% sustained over 3 months",
+        "neutral_threshold": "Monthly audience growth between 1%-5%",
+        "bearish_threshold": "Monthly audience growth <1% or decline over 3 months"
+      },
+      {
+        "name": "Engagement depth",
+        "why_it_matters": "High engagement signals strong content resonance and potential for monetization.",
+        "bullish_threshold": "Average session duration or repeat visits increase >10% quarter-over-quarter",
+        "neutral_threshold": "Stable engagement metrics within ±5%",
+        "bearish_threshold": "Engagement metrics decline >10% quarter-over-quarter"
+      },
+      {
+        "name": "Customer acquisition cost (CAC)",
+        "why_it_matters": "Rising CAC without proportional revenue growth signals inefficient growth and margin pressure.",
+        "bullish_threshold": "CAC stable or decreasing while revenue per user grows",
+        "neutral_threshold": "CAC stable with flat revenue per user",
+        "bearish_threshold": "CAC increases >15% without revenue growth"
+      },
+      {
+        "name": "Revenue diversification",
+        "why_it_matters": "Dependence on a single revenue source increases vulnerability; diversification signals strategic robustness.",
+        "bullish_threshold": "New revenue streams contribute >20% of total revenue within 12 months",
+        "neutral_threshold": "No significant change in revenue mix",
+        "bearish_threshold": "Revenue concentration >80% in one source with no diversification"
+      },
+      {
+        "name": "Retention and churn rates",
+        "why_it_matters": "High retention and low churn indicate sustainable audience loyalty critical for long-term growth.",
+        "bullish_threshold": "Monthly churn <5% and retention rates improving",
+        "neutral_threshold": "Churn stable between 5%-10%",
+        "bearish_threshold": "Churn >10% or retention declining"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Consistent audience growth above 3% monthly",
+      "Stable or improving engagement metrics",
+      "CAC stable or declining relative to revenue growth"
+    ],
+    "disconfirm_current_view": [
+      "Audience growth stalls below 1% monthly for 3+ months",
+      "Engagement metrics decline >10% quarter-over-quarter",
+      "CAC increases >15% without revenue gains",
+      "Revenue remains concentrated without diversification"
+    ],
+    "what_to_ignore": [
+      "Short-term weekly audience fluctuations under 5%",
+      "Minor engagement metric volatility within ±5%",
+      "Temporary CAC spikes due to seasonal campaigns"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Niche Media Brand Growth Strategy Monitoring",
+    "original_question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+    "reframed_question": "Which leading indicators over 18 months reveal whether a niche media brand’s growth strategy is succeeding or failing?",
+    "time_horizon": "next 18 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Niche media brand",
+        "definition": "A media outlet targeting a specific, narrowly defined audience segment with specialized content."
+      },
+      {
+        "term": "Growth",
+        "definition": "Increase in audience size, engagement, revenue, or market influence relevant to the niche."
+      },
+      {
+        "term": "Current strategy",
+        "definition": "The existing approach to content, distribution, monetization, and audience development."
+      }
+    ],
+    "domains": [
+      "Strategy",
+      "Customer Acquisition & Retention",
+      "Monetization & Unit Economics"
+    ],
+    "key_drivers": [
+      "Audience growth rate",
+      "Engagement metrics",
+      "Customer acquisition cost (CAC)",
+      "Revenue growth and diversification",
+      "Retention and churn rates",
+      "Distribution channel efficiency"
+    ],
+    "current_stance": "Growth strategy is cautiously effective but sensitive to distribution shifts and monetization execution.",
+    "monitoring_signals": [
+      {
+        "name": "Audience growth rate",
+        "why_it_matters": "Sustained audience expansion is core to validating content-market fit and growth strategy.",
+        "bullish_threshold": "Monthly audience growth >5% sustained over 3 months",
+        "neutral_threshold": "Monthly audience growth between 1%-5%",
+        "bearish_threshold": "Monthly audience growth <1% or decline over 3 months"
+      },
+      {
+        "name": "Engagement depth",
+        "why_it_matters": "High engagement signals strong content resonance and potential for monetization.",
+        "bullish_threshold": "Average session duration or repeat visits increase >10% quarter-over-quarter",
+        "neutral_threshold": "Stable engagement metrics within ±5%",
+        "bearish_threshold": "Engagement metrics decline >10% quarter-over-quarter"
+      },
+      {
+        "name": "Customer acquisition cost (CAC)",
+        "why_it_matters": "Rising CAC without proportional revenue growth signals inefficient growth and margin pressure.",
+        "bullish_threshold": "CAC stable or decreasing while revenue per user grows",
+        "neutral_threshold": "CAC stable with flat revenue per user",
+        "bearish_threshold": "CAC increases >15% without revenue growth"
+      },
+      {
+        "name": "Revenue diversification",
+        "why_it_matters": "Dependence on a single revenue source increases vulnerability; diversification signals strategic robustness.",
+        "bullish_threshold": "New revenue streams contribute >20% of total revenue within 12 months",
+        "neutral_threshold": "No significant change in revenue mix",
+        "bearish_threshold": "Revenue concentration >80% in one source with no diversification"
+      },
+      {
+        "name": "Retention and churn rates",
+        "why_it_matters": "High retention and low churn indicate sustainable audience loyalty critical for long-term growth.",
+        "bullish_threshold": "Monthly churn <5% and retention rates improving",
+        "neutral_threshold": "Churn stable between 5%-10%",
+        "bearish_threshold": "Churn >10% or retention declining"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Consistent audience growth above 3% monthly",
+      "Stable or improving engagement metrics",
+      "CAC stable or declining relative to revenue growth"
+    ],
+    "disconfirm_current_view": [
+      "Audience growth stalls below 1% monthly for 3+ months",
+      "Engagement metrics decline >10% quarter-over-quarter",
+      "CAC increases >15% without revenue gains",
+      "Revenue remains concentrated without diversification"
+    ],
+    "what_to_ignore": [
+      "Short-term weekly audience fluctuations under 5%",
+      "Minor engagement metric volatility within ±5%",
+      "Temporary CAC spikes due to seasonal campaigns"
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Shifts in dominant distribution platforms impacting reach",
+      "Changes in niche audience preferences or content consumption habits",
+      "Competitor moves introducing disruptive content or pricing",
+      "Internal execution delays on monetization initiatives"
+    ],
+    "change_my_mind_conditions": [
+      "IF audience growth accelerates above 7% monthly for 3 consecutive months -> current strategy is outperforming assumptions",
+      "IF engagement metrics decline >15% quarter-over-quarter -> content-market fit or distribution is weakening",
+      "IF CAC rises >20% sustained without revenue growth -> growth strategy is becoming uneconomical",
+      "IF new revenue streams exceed 30% of total revenue -> monetization diversification is successful"
+    ],
+    "bottom_line": "View: Current growth strategy is marginally effective but vulnerable to distribution and monetization execution risks. Reason: Moderate audience and engagement growth with stable CAC support cautious optimism. Risk: Distribution platform changes or monetization delays could stall growth. Downgrade if: Audience growth falls below 1% monthly for 3 months or CAC rises >15% without revenue gains. Upgrade if: Audience growth exceeds 7% monthly for 3 months and new revenue streams surpass 20% of total revenue. Review: Monthly monitoring of audience, engagement, CAC, retention, and revenue diversification. Ignore: Weekly minor audience or engagement fluctuations under 5%.",
+    "watchlist": [
+      "Monthly audience growth <1% for 3 months signals strategy failure",
+      "Engagement drop >10% quarter-over-quarter indicates content resonance loss",
+      "CAC increase >15% without revenue growth flags inefficient acquisition",
+      "New revenue streams <10% after 12 months signals weak monetization",
+      "Monthly churn >10% warns of audience loyalty erosion",
+      "Distribution platform policy changes reduce reach by >15%"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 3,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 3,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 3,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational thresholds for all key signals",
+      "Clear, actionable change-my-mind conditions with observable triggers",
+      "Strong discipline in what-to-ignore and review cadence"
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are mostly obvious and lack depth",
+      "Some overlap between monitoring signals and watchlist items",
+      "Bottom line is cautious but not sharply decisive"
+    ],
+    "summary": "This monitoring analysis is operationally sound, with explicit thresholds, clear review cadence, and actionable change-my-mind logic. Domains and monitoring signals are well-chosen and distinct, though hidden variables are somewhat generic and the bottom line hedges. The output is well-aligned to the monitor objective, but could be strengthened by deeper hidden variable insight and a more decisive bottom line.",
+    "average_score": 3.44
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis introduces more precise disconfirmation logic, especially by specifying timeframes for negative signals (e.g., 'sustained over 2 quarters'), and clarifies watchlist items with tighter thresholds and explicit triggers for reassessment. Weak claims are slightly improved by highlighting the weakest assumption. The bottom line is marginally sharper, but still largely reiterates the primary view. Overall, the changes materially improve specificity and actionability.",
+    "best_red_team_change": "Watchlist and disconfirmation logic now require sustained negative trends over defined periods, reducing noise and clarifying when strategy is failing.",
+    "remaining_gap": "Retention/churn thresholds remain less granular than other metrics, and the bottom line could further distinguish between degrees of strategic failure or success."
+  }
+}

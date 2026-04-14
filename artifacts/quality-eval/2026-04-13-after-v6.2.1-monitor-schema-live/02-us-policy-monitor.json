@@ -1,0 +1,276 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnx6gxqc0002nryhjxq3qvra",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 31580,
+  "analysis": {
+    "title": "US Governing Coalition Durability Monitor",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reliably signal strengthening or fracturing of the US governing coalition and legislative momentum over the next 9 months?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "governing coalition",
+        "definition": "The effective alliance of political actors and factions within the US Congress and executive branch that enables passage and implementation of policy."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The pace and success rate of passing significant legislation aligned with the governing coalition’s agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "Observable increase in coalition cohesion, legislative success, and unified messaging."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Observable increase in intra-coalition dissent, legislative failures, or defections."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process"
+    ],
+    "key_drivers": [
+      "Intra-party factional cohesion",
+      "Leadership control and discipline",
+      "Legislative success rate",
+      "Public approval and elite support",
+      "External shocks affecting political unity"
+    ],
+    "hidden_variables": [
+      "Influence of key swing members whose defection could trigger broader coalition splits",
+      "Impact of behind-the-scenes negotiations and informal power brokers not visible in public signals",
+      "Role of external interest groups or donors in exacerbating factional tensions",
+      "Effectiveness of crisis management mechanisms within the coalition"
+    ],
+    "change_my_mind_conditions": [
+      "IF multiple senior coalition members publicly break ranks on key legislation -> coalition cohesion thesis fails",
+      "IF party-line voting cohesion falls below 70% on three or more major bills within a month -> momentum durability assumption fails",
+      "IF leadership issues contradictory public statements on core legislative priorities in two or more consecutive weeks -> control assumption fails",
+      "IF elite approval ratings fall below 40% for more than one month accompanied by public calls for leadership change -> coalition stability assumption fails"
+    ],
+    "bottom_line": "View: US governing coalition cohesion and legislative momentum remain moderate but vulnerable to factional tensions and external shocks. Reason: Stable voting unity and legislative success persist but rely heavily on leadership messaging coherence. Risk: Fragmentation driven by leadership messaging breakdowns and sustained voting defections could rapidly erode momentum. Downgrade if: Party-line voting cohesion drops below 70% on multiple major bills, leadership messaging publicly fractures for consecutive weeks, or legislative success rate falls below 50% for two months. Upgrade if: Voting cohesion exceeds 90%, leadership messaging is fully unified, and legislative success rate surpasses 70%. Review: Biweekly monitoring of voting cohesion, leadership messaging consistency, legislative outcomes, and elite approval. Weakest assumption: Leadership messaging consistency as an early fracture indicator.",
+    "watchlist": [
+      "Party-line voting cohesion falls below 70% on at least three major coalition bills within one month, signaling weakening unity",
+      "Public leadership issues contradictory or competing messaging on core legislative priorities for two consecutive weeks, indicating fracturing",
+      "Legislative success rate for coalition priority bills drops below 50% for two consecutive months, showing lost momentum",
+      "Elite approval ratings decline below 40% sustained for over one month with increased public elite criticism, suggesting loss of internal support",
+      "Key swing members publicly defect or threaten defection on priority legislation, risking coalition splits"
+    ],
+    "current_stance": "Coalition cohesion and legislative momentum are moderate but vulnerable to factional tensions and external pressures.",
+    "monitoring_signals": [
+      {
+        "name": "Intra-coalition voting unity",
+        "why_it_matters": "High unity signals coalition strength; rising defections signal fracturing.",
+        "bullish_threshold": "Party-line votes exceed 90% cohesion on key legislation",
+        "neutral_threshold": "Party-line votes between 75-90% cohesion",
+        "bearish_threshold": "Party-line votes below 75% cohesion or frequent defections on major bills"
+      },
+      {
+        "name": "Leadership public messaging consistency",
+        "why_it_matters": "Consistent messaging from party leadership indicates control; public disputes indicate fractures.",
+        "bullish_threshold": "Unified public statements and coordinated messaging on legislative priorities",
+        "neutral_threshold": "Occasional minor disagreements but overall coordinated messaging",
+        "bearish_threshold": "Public leadership disputes or contradictory statements on key policies"
+      },
+      {
+        "name": "Legislative success rate",
+        "why_it_matters": "High passage rate of priority bills signals momentum; repeated failures indicate weakening.",
+        "bullish_threshold": "Passage of over 70% of coalition-priority legislation introduced",
+        "neutral_threshold": "Passage rate between 50-70%",
+        "bearish_threshold": "Passage rate below 50% or high-profile bill failures"
+      },
+      {
+        "name": "Elite public approval ratings",
+        "why_it_matters": "High elite approval supports coalition legitimacy; declining ratings may embolden dissenters.",
+        "bullish_threshold": "Consistent approval ratings above 50% among party elites and key stakeholders",
+        "neutral_threshold": "Approval ratings between 40-50%",
+        "bearish_threshold": "Approval ratings below 40% or rising elite criticism"
+      },
+      {
+        "name": "External political shocks",
+        "why_it_matters": "Crises or scandals can either unify or divide the coalition depending on response.",
+        "bullish_threshold": "Effective coalition response to shocks with unified messaging",
+        "neutral_threshold": "Mixed responses with some internal debate but no public fracturing",
+        "bearish_threshold": "Public blame games, resignations, or factional blame over shocks"
+      }
+    ],
+    "review_cadence": "biweekly",
+    "confirm_current_view": [
+      "Moderate but stable party-line voting cohesion around 80%",
+      "Leadership maintains mostly consistent messaging with occasional minor disputes",
+      "Legislative success rate near 60% for priority bills",
+      "Elite approval ratings steady around 45-50%"
+    ],
+    "disconfirm_current_view": [
+      "Sharp drop in party-line voting cohesion below 70%",
+      "Public leadership disputes or contradictory messaging on major policies",
+      "High-profile legislative failures or stalled priority bills",
+      "Significant decline in elite approval ratings below 40%"
+    ],
+    "what_to_ignore": [
+      "Routine minor disagreements in messaging that do not affect legislative outcomes",
+      "Single isolated voting defections on non-priority or symbolic bills"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "US Governing Coalition Durability Monitor",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reliably signal strengthening or fracturing of the US governing coalition and legislative momentum over the next 9 months?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "governing coalition",
+        "definition": "The effective alliance of political actors and factions within the US Congress and executive branch that enables passage and implementation of policy."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The pace and success rate of passing significant legislation aligned with the governing coalition’s agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "Observable increase in coalition cohesion, legislative success, and unified messaging."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Observable increase in intra-coalition dissent, legislative failures, or defections."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process"
+    ],
+    "key_drivers": [
+      "Intra-party factional cohesion",
+      "Leadership control and discipline",
+      "Legislative success rate",
+      "Public approval and elite support",
+      "External shocks affecting political unity"
+    ],
+    "current_stance": "Coalition cohesion and legislative momentum are moderate but vulnerable to factional tensions and external pressures.",
+    "monitoring_signals": [
+      {
+        "name": "Intra-coalition voting unity",
+        "why_it_matters": "High unity signals coalition strength; rising defections signal fracturing.",
+        "bullish_threshold": "Party-line votes exceed 90% cohesion on key legislation",
+        "neutral_threshold": "Party-line votes between 75-90% cohesion",
+        "bearish_threshold": "Party-line votes below 75% cohesion or frequent defections on major bills"
+      },
+      {
+        "name": "Leadership public messaging consistency",
+        "why_it_matters": "Consistent messaging from party leadership indicates control; public disputes indicate fractures.",
+        "bullish_threshold": "Unified public statements and coordinated messaging on legislative priorities",
+        "neutral_threshold": "Occasional minor disagreements but overall coordinated messaging",
+        "bearish_threshold": "Public leadership disputes or contradictory statements on key policies"
+      },
+      {
+        "name": "Legislative success rate",
+        "why_it_matters": "High passage rate of priority bills signals momentum; repeated failures indicate weakening.",
+        "bullish_threshold": "Passage of over 70% of coalition-priority legislation introduced",
+        "neutral_threshold": "Passage rate between 50-70%",
+        "bearish_threshold": "Passage rate below 50% or high-profile bill failures"
+      },
+      {
+        "name": "Elite public approval ratings",
+        "why_it_matters": "High elite approval supports coalition legitimacy; declining ratings may embolden dissenters.",
+        "bullish_threshold": "Consistent approval ratings above 50% among party elites and key stakeholders",
+        "neutral_threshold": "Approval ratings between 40-50%",
+        "bearish_threshold": "Approval ratings below 40% or rising elite criticism"
+      },
+      {
+        "name": "External political shocks",
+        "why_it_matters": "Crises or scandals can either unify or divide the coalition depending on response.",
+        "bullish_threshold": "Effective coalition response to shocks with unified messaging",
+        "neutral_threshold": "Mixed responses with some internal debate but no public fracturing",
+        "bearish_threshold": "Public blame games, resignations, or factional blame over shocks"
+      }
+    ],
+    "review_cadence": "biweekly",
+    "confirm_current_view": [
+      "Moderate but stable party-line voting cohesion around 80%",
+      "Leadership maintains mostly consistent messaging with occasional minor disputes",
+      "Legislative success rate near 60% for priority bills",
+      "Elite approval ratings steady around 45-50%"
+    ],
+    "disconfirm_current_view": [
+      "Sharp drop in party-line voting cohesion below 70%",
+      "Public leadership disputes or contradictory messaging on major policies",
+      "High-profile legislative failures or stalled priority bills",
+      "Significant decline in elite approval ratings below 40%"
+    ],
+    "what_to_ignore": [
+      "Routine minor disagreements in messaging that do not affect legislative outcomes",
+      "Single isolated voting defections on non-priority or symbolic bills"
+    ],
+    "hidden_variables": [
+      "Influence of key swing members whose defection could trigger broader coalition splits",
+      "Impact of behind-the-scenes negotiations and informal power brokers not visible in public signals",
+      "Role of external interest groups or donors in exacerbating factional tensions",
+      "Effectiveness of crisis management mechanisms within the coalition"
+    ],
+    "change_my_mind_conditions": [
+      "IF multiple senior coalition members publicly break ranks on key legislation -> coalition cohesion thesis fails",
+      "IF legislative success rate drops below 50% for two consecutive months -> momentum durability assumption fails",
+      "IF leadership messaging fractures into competing narratives in public forums -> control assumption fails",
+      "IF elite approval ratings fall below 40% and trigger public calls for leadership change -> coalition stability assumption fails"
+    ],
+    "bottom_line": "View: US governing coalition cohesion and legislative momentum are currently moderate but at risk of fracturing due to factional tensions and external shocks. Reason: Voting unity, leadership messaging, and legislative success remain stable but not robust. Risk: Rising defections, public leadership disputes, and legislative failures could rapidly degrade momentum. Downgrade if: Party-line voting cohesion falls below 70%, leadership messaging fractures publicly, or legislative success rate drops below 50%. Upgrade if: Voting cohesion exceeds 90%, leadership messaging is fully unified, and legislative success rate surpasses 70%. Review: Biweekly monitoring of voting cohesion, leadership statements, legislative outcomes, and elite approval. Ignore: Routine minor messaging disagreements and isolated non-priority bill defections.",
+    "watchlist": [
+      "Party-line voting cohesion drops below 75% on major bills, signaling weakening unity",
+      "Public leadership disputes or contradictory messaging emerge, indicating fracturing",
+      "Legislative success rate falls below 50% for coalition priority bills, showing lost momentum",
+      "Elite approval ratings decline below 40%, suggesting loss of internal support",
+      "Key swing members publicly defect or threaten to, risking coalition splits",
+      "Coalition response to external shocks shifts from unified to fragmented"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 5,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 5,
+      "bottom_line_decisiveness": 5,
+      "watchlist_action_usefulness": 5,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Clear, operational reframed question focused on reliable indicators",
+      "Highly relevant political domains with well-chosen causal drivers",
+      "Explicit, sharp change-my-mind conditions with observable thresholds"
+    ],
+    "notable_weaknesses": [
+      "No explicit lenses section despite monitoring objective",
+      "Scenario section empty, limiting scenario differentiation depth",
+      "Some watchlist items could be more granular on measurement methods"
+    ],
+    "summary": "The analysis provides a strong, operational monitoring framework with clear thresholds and actionable signals aligned to the objective. It excels in domain relevance and decisiveness, with well-defined change-my-mind triggers. However, the absence of explicit lenses and scenarios slightly limits the distinctness and depth of signal differentiation.",
+    "average_score": 4.56
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis improves disconfirmation logic by specifying more precise temporal and quantitative thresholds for key indicators, enhancing rigor. Watchlist items are more detailed, adding duration and frequency criteria that increase monitoring specificity. Weak claims are slightly reduced by clarifying risk factors and assumptions, though some remain. The bottom line is somewhat sharper with explicit mention of the weakest assumption and clearer downgrade/upgrade conditions. However, the overall structure and content remain largely consistent.",
+    "best_red_team_change": "Refinement of change-my-mind conditions with explicit thresholds over time (e.g., voting cohesion below 70% on three or more bills within a month, leadership messaging fractures for consecutive weeks) significantly strengthens disconfirmation logic and monitoring precision.",
+    "remaining_gap": "The analysis could further improve by integrating scenario planning or lenses to explore alternative futures and by explicitly addressing hidden variables in monitoring signals to reduce residual uncertainty."
+  }
+}

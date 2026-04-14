@@ -1,0 +1,442 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6",
+  "analysisId": "cmnwv2n4m0001nrcwnxa86cwg",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 29070,
+  "analysis": {
+    "title": "Durability and Cohesion of US Governing Coalition Over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reliably signal strengthening or fracturing of the US governing coalition and policy momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The effective alliance of political actors, including parties, factions, and key legislators, enabling passage and implementation of policy."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity to advance, pass, and implement significant legislation aligned with the governing coalition’s agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in coalition cohesion, legislative success rate, and unified public messaging."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of visible splits within the coalition, legislative gridlock, or defections undermining policy goals."
+      }
+    ],
+    "domains": [
+      "Politics",
+      "Legislative Process",
+      "Political Economy"
+    ],
+    "key_drivers": [
+      "Intra-coalition factional alignment",
+      "Legislative success rate",
+      "Public approval and elite consensus",
+      "External political pressures",
+      "Institutional veto points",
+      "Party leadership effectiveness"
+    ],
+    "lenses": [
+      {
+        "name": "Intra-Coalition Factional Dynamics",
+        "why_it_matters": "Coalition durability depends on managing ideological and strategic divisions among factions controlling legislative votes.",
+        "key_drivers": [
+          "Intra-coalition factional alignment",
+          "Party leadership effectiveness"
+        ],
+        "bull_case": "Strong leadership mediates factional disputes, maintaining unified voting blocs and coordinated messaging.",
+        "bear_case": "Factions increasingly defect or withhold support, causing legislative failures and public disputes.",
+        "base_case": "Periodic factional disagreements occur but are managed without major legislative derailments.",
+        "wildcard_case": "A major faction splits or forms a new caucus, triggering rapid coalition collapse.",
+        "evidence_for": [
+          "Consistent party-line votes on key bills",
+          "Unified public statements from coalition leaders",
+          "Absence of high-profile defections"
+        ],
+        "evidence_against": [
+          "Frequent public disagreements among coalition leaders",
+          "Narrow legislative victories with defections",
+          "Emergence of rival factional leadership"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line roll calls",
+          "Public statements by faction leaders",
+          "Internal leadership election outcomes"
+        ],
+        "disconfirming_signals": [
+          "Unexpected bipartisan alliances on coalition bills",
+          "Rapid reconciliation after disputes"
+        ]
+      },
+      {
+        "name": "Legislative Process and Institutional Constraints",
+        "why_it_matters": "Institutional veto points and procedural hurdles shape the coalition’s ability to convert agenda into law.",
+        "key_drivers": [
+          "Legislative success rate",
+          "Institutional veto points"
+        ],
+        "bull_case": "Coalition navigates procedural hurdles efficiently, passing major legislation on schedule.",
+        "bear_case": "Procedural roadblocks and opposition vetoes stall key bills, eroding momentum.",
+        "base_case": "Legislation passes with some delays and compromises but maintains overall agenda progress.",
+        "wildcard_case": "Unexpected court rulings or parliamentary maneuvers disrupt legislative calendar.",
+        "evidence_for": [
+          "Timely passage of priority bills",
+          "Limited use of filibusters or procedural blocks",
+          "Smooth committee approvals"
+        ],
+        "evidence_against": [
+          "Increased use of filibusters or holds",
+          "Repeated failure to advance key legislation",
+          "Judicial injunctions on passed laws"
+        ],
+        "leading_indicators": [
+          "Number of bills passed vs introduced",
+          "Frequency of procedural objections",
+          "Judicial rulings affecting legislation"
+        ],
+        "disconfirming_signals": [
+          "Rapid bipartisan procedural agreements",
+          "Legislative compromises preserving core agenda"
+        ]
+      },
+      {
+        "name": "Public and Elite Political Environment",
+        "why_it_matters": "Public opinion and elite consensus influence coalition incentives and external pressures on legislative actors.",
+        "key_drivers": [
+          "Public approval and elite consensus",
+          "External political pressures"
+        ],
+        "bull_case": "Rising public approval and elite alignment bolster coalition confidence and discipline.",
+        "bear_case": "Declining approval and elite infighting increase defections and reduce legislative ambition.",
+        "base_case": "Stable but polarized public opinion with manageable elite disagreements.",
+        "wildcard_case": "Major external event (e.g., economic shock) shifts public opinion abruptly.",
+        "evidence_for": [
+          "Rising approval ratings for coalition leaders",
+          "Unified elite endorsements",
+          "Limited negative media coverage"
+        ],
+        "evidence_against": [
+          "Polling showing declining support for coalition policies",
+          "High-profile elite criticism or defections",
+          "Intensified opposition media campaigns"
+        ],
+        "leading_indicators": [
+          "Polling trends on coalition approval",
+          "Elite public endorsements or criticisms",
+          "Media tone and volume on coalition issues"
+        ],
+        "disconfirming_signals": [
+          "Temporary dips in approval reversed quickly",
+          "Elite disputes resolved publicly"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Managed Cohesion and Steady Momentum",
+        "description": "Coalition leadership successfully manages factional tensions and institutional hurdles, maintaining legislative progress consistent with historical norms.",
+        "probability": 60,
+        "impact": "medium",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Consistent party-line votes above 85%",
+          "At least 70% of priority bills passed on schedule",
+          "Stable or improving coalition approval ratings"
+        ]
+      },
+      {
+        "name": "Coalition Fracture and Legislative Gridlock",
+        "description": "Factional splits deepen, procedural roadblocks increase, and public/elite support erodes, causing significant legislative failures and coalition instability.",
+        "probability": 25,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes drop below 70%",
+          "More than 50% of priority bills stalled or blocked",
+          "Public approval ratings decline by 10+ points"
+        ]
+      },
+      {
+        "name": "Coalition Consolidation and Accelerated Agenda",
+        "description": "Improved factional alignment, effective leadership, and favorable external conditions enable faster legislative success and coalition strengthening.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Party-line votes exceed 90%",
+          "Passage of unexpected major legislation",
+          "Significant uptick in public and elite support"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Influence of informal backchannel negotiations among faction leaders",
+      "Impact of upcoming midterm election candidate positioning on coalition discipline",
+      "Role of key committee chairs in shaping legislative agenda",
+      "Effect of external crises (e.g., international events) on domestic political priorities"
+    ],
+    "change_my_mind_conditions": [
+      "Disprove \"Leadership’s sustained capacity to mediate factional tensions without major defections\": High-profile coalition leader defects or forms rival caucus",
+      "Disprove \"Stability of public and elite support preventing coalition fracturing\": Public approval for coalition drops by 10+ points sustained over 2 months",
+      "Disprove \"Effectiveness of institutional navigation to avoid procedural gridlock\": More than 50% of priority bills fail to pass or are blocked by procedural tactics",
+      "Judicial rulings invalidate multiple key coalition-backed laws",
+      "Emergence of a formal bipartisan coalition excluding core governing factions"
+    ],
+    "bottom_line": "View: The US governing coalition is likely to maintain managed cohesion and steady legislative momentum over the next 9 months. Reason: Leadership’s ability to mediate factional tensions and navigate institutional hurdles remains intact, supported by stable public and elite backing. Risk: The weakest assumption is leadership’s sustained mediation capacity; rising factional defections or procedural blockades could trigger gridlock and fracturing. Downgrade if: Party-line votes drop below 70% consistently, priority bill passage falls under 50%, or public approval declines sharply and persistently. Upgrade if: Party-line votes exceed 90%, major bipartisan legislation passes, or public/elite support surges. Review: Monthly tracking of legislative votes, bill passage rates, and polling trends.",
+    "watchlist": [
+      "Party-line vote share falls below 70% on 3+ consecutive key bills, signaling cohesion breakdown",
+      "Over 50% of priority legislation stalled beyond committee stage for more than 2 months, indicating procedural obstruction",
+      "Sustained public approval decline of 10+ points over 8 weeks for coalition leaders, implying eroding support",
+      "Public defection or formation of rival caucus by a senior faction leader, marking internal fracture",
+      "Judicial rulings overturn 2+ coalition-backed laws within 3 months, reflecting institutional challenges",
+      "Formation of bipartisan legislative bloc excluding core coalition members, suggesting coalition realignment"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Durability and Cohesion of US Governing Coalition Over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reliably signal strengthening or fracturing of the US governing coalition and policy momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The effective alliance of political actors, including parties, factions, and key legislators, enabling passage and implementation of policy."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity to advance, pass, and implement significant legislation aligned with the governing coalition’s agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in coalition cohesion, legislative success rate, and unified public messaging."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of visible splits within the coalition, legislative gridlock, or defections undermining policy goals."
+      }
+    ],
+    "domains": [
+      "Politics",
+      "Legislative Process",
+      "Political Economy"
+    ],
+    "key_drivers": [
+      "Intra-coalition factional alignment",
+      "Legislative success rate",
+      "Public approval and elite consensus",
+      "External political pressures",
+      "Institutional veto points",
+      "Party leadership effectiveness"
+    ],
+    "lenses": [
+      {
+        "name": "Intra-Coalition Factional Dynamics",
+        "why_it_matters": "Coalition durability depends on managing ideological and strategic divisions among factions controlling legislative votes.",
+        "key_drivers": [
+          "Intra-coalition factional alignment",
+          "Party leadership effectiveness"
+        ],
+        "bull_case": "Strong leadership mediates factional disputes, maintaining unified voting blocs and coordinated messaging.",
+        "bear_case": "Factions increasingly defect or withhold support, causing legislative failures and public disputes.",
+        "base_case": "Periodic factional disagreements occur but are managed without major legislative derailments.",
+        "wildcard_case": "A major faction splits or forms a new caucus, triggering rapid coalition collapse.",
+        "evidence_for": [
+          "Consistent party-line votes on key bills",
+          "Unified public statements from coalition leaders",
+          "Absence of high-profile defections"
+        ],
+        "evidence_against": [
+          "Frequent public disagreements among coalition leaders",
+          "Narrow legislative victories with defections",
+          "Emergence of rival factional leadership"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line roll calls",
+          "Public statements by faction leaders",
+          "Internal leadership election outcomes"
+        ],
+        "disconfirming_signals": [
+          "Unexpected bipartisan alliances on coalition bills",
+          "Rapid reconciliation after disputes"
+        ]
+      },
+      {
+        "name": "Legislative Process and Institutional Constraints",
+        "why_it_matters": "Institutional veto points and procedural hurdles shape the coalition’s ability to convert agenda into law.",
+        "key_drivers": [
+          "Legislative success rate",
+          "Institutional veto points"
+        ],
+        "bull_case": "Coalition navigates procedural hurdles efficiently, passing major legislation on schedule.",
+        "bear_case": "Procedural roadblocks and opposition vetoes stall key bills, eroding momentum.",
+        "base_case": "Legislation passes with some delays and compromises but maintains overall agenda progress.",
+        "wildcard_case": "Unexpected court rulings or parliamentary maneuvers disrupt legislative calendar.",
+        "evidence_for": [
+          "Timely passage of priority bills",
+          "Limited use of filibusters or procedural blocks",
+          "Smooth committee approvals"
+        ],
+        "evidence_against": [
+          "Increased use of filibusters or holds",
+          "Repeated failure to advance key legislation",
+          "Judicial injunctions on passed laws"
+        ],
+        "leading_indicators": [
+          "Number of bills passed vs introduced",
+          "Frequency of procedural objections",
+          "Judicial rulings affecting legislation"
+        ],
+        "disconfirming_signals": [
+          "Rapid bipartisan procedural agreements",
+          "Legislative compromises preserving core agenda"
+        ]
+      },
+      {
+        "name": "Public and Elite Political Environment",
+        "why_it_matters": "Public opinion and elite consensus influence coalition incentives and external pressures on legislative actors.",
+        "key_drivers": [
+          "Public approval and elite consensus",
+          "External political pressures"
+        ],
+        "bull_case": "Rising public approval and elite alignment bolster coalition confidence and discipline.",
+        "bear_case": "Declining approval and elite infighting increase defections and reduce legislative ambition.",
+        "base_case": "Stable but polarized public opinion with manageable elite disagreements.",
+        "wildcard_case": "Major external event (e.g., economic shock) shifts public opinion abruptly.",
+        "evidence_for": [
+          "Rising approval ratings for coalition leaders",
+          "Unified elite endorsements",
+          "Limited negative media coverage"
+        ],
+        "evidence_against": [
+          "Polling showing declining support for coalition policies",
+          "High-profile elite criticism or defections",
+          "Intensified opposition media campaigns"
+        ],
+        "leading_indicators": [
+          "Polling trends on coalition approval",
+          "Elite public endorsements or criticisms",
+          "Media tone and volume on coalition issues"
+        ],
+        "disconfirming_signals": [
+          "Temporary dips in approval reversed quickly",
+          "Elite disputes resolved publicly"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Managed Cohesion and Steady Momentum",
+        "description": "Coalition leadership successfully manages factional tensions and institutional hurdles, maintaining legislative progress consistent with historical norms.",
+        "probability": 60,
+        "impact": "medium",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Consistent party-line votes above 85%",
+          "At least 70% of priority bills passed on schedule",
+          "Stable or improving coalition approval ratings"
+        ]
+      },
+      {
+        "name": "Coalition Fracture and Legislative Gridlock",
+        "description": "Factional splits deepen, procedural roadblocks increase, and public/elite support erodes, causing significant legislative failures and coalition instability.",
+        "probability": 25,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes drop below 70%",
+          "More than 50% of priority bills stalled or blocked",
+          "Public approval ratings decline by 10+ points"
+        ]
+      },
+      {
+        "name": "Coalition Consolidation and Accelerated Agenda",
+        "description": "Improved factional alignment, effective leadership, and favorable external conditions enable faster legislative success and coalition strengthening.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Party-line votes exceed 90%",
+          "Passage of unexpected major legislation",
+          "Significant uptick in public and elite support"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Influence of informal backchannel negotiations among faction leaders",
+      "Impact of upcoming midterm election candidate positioning on coalition discipline",
+      "Role of key committee chairs in shaping legislative agenda",
+      "Effect of external crises (e.g., international events) on domestic political priorities"
+    ],
+    "change_my_mind_conditions": [
+      "Emergence of a high-profile defection from coalition leadership",
+      "Unexpected judicial ruling invalidating key legislation",
+      "Rapid shift in public opinion polls exceeding 10 points",
+      "Successful passage of a major bipartisan reform bill"
+    ],
+    "bottom_line": "View: The US governing coalition is likely to maintain managed cohesion and steady legislative momentum over the next 9 months. Reason: Leadership’s capacity to mediate factional tensions and navigate institutional hurdles remains intact, supported by stable public and elite backing. Risk: Rising factional defections or procedural blockades could trigger legislative gridlock and coalition fracturing. Downgrade if: Party-line votes fall below 70%, priority bill passage drops below 50%, or public approval declines sharply. Upgrade if: Party-line votes exceed 90%, major bipartisan legislation passes, or public/elite support surges. Review: Monthly tracking of legislative votes, bill passage rates, and polling trends. Ignore: Routine fluctuations in minor legislative skirmishes without broader coalition impact.",
+    "watchlist": [
+      "Party-line vote share drops below 75% on key legislation indicating weakening cohesion",
+      "More than 40% of priority bills fail to advance past committee stage signaling procedural obstruction",
+      "Public approval ratings for coalition leaders decline by 5+ points within one month implying eroding support",
+      "High-profile faction leader publicly criticizes or distances from coalition agenda indicating internal fracture",
+      "Judicial rulings overturning coalition-backed legislation signaling institutional challenges",
+      "Emergence of bipartisan coalition on major legislation suggesting coalition realignment"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Reframed question is sharper and operational with clear focus on indicators",
+      "Lenses are well differentiated and causally relevant to coalition durability",
+      "Watchlist items are concrete, measurable, and directly tied to key risks"
+    ],
+    "notable_weaknesses": [
+      "Some hidden variables are somewhat obvious given political context",
+      "Change-my-mind conditions could be more granular in timing and thresholds",
+      "Bottom line hedges moderately, limiting decisiveness"
+    ],
+    "summary": "The analysis provides a clear, operational reframing of the question with well-chosen, distinct lenses and scenarios that capture key causal dynamics. Hidden variables and change-my-mind conditions are useful but could be more nuanced. The bottom line and watchlist are actionable and aligned with the monitoring objective, though the conclusion is cautiously framed rather than strongly decisive.",
+    "average_score": 4.11
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 2,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 2
+    },
+    "summary": "The final analysis substantially improves specificity and rigor across all evaluated dimensions. It replaces vague or generic change-my-mind conditions with precise, measurable disconfirmation criteria tied to concrete events and thresholds. The watchlist is more detailed with explicit durations and counts, enhancing monitoring clarity. The bottom line sharpens risk articulation by identifying the weakest assumption and specifying downgrade/upgrade triggers with persistence conditions, improving actionable insight.",
+    "best_red_team_change": "Introduction of explicit, quantifiable disconfirmation conditions and watchlist items with clear thresholds and persistence requirements, replacing broad or ambiguous signals.",
+    "remaining_gap": "The analysis could further improve by integrating quantitative probability adjustments based on emerging signals and by explicitly addressing potential interactions among hidden variables."
+  }
+}

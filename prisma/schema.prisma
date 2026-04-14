@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Analysis {
+  id                  String   @id @default(cuid())
+  title               String
+  originalQuestion    String
+  reframedQuestion    String
+  timeHorizon         String?
+  objective           String?
+  selectedDomain      String?
+  definitionsJson     String
+  domainsJson         String
+  keyDriversJson      String
+  lensesJson          String
+  scenariosJson       String
+  currentStance       String?
+  monitorSignalsJson  String?
+  reviewCadence       String?
+  confirmCurrentJson  String?
+  disconfirmCurrentJson String?
+  ignoreNoiseJson     String?
+  hiddenVariablesJson String
+  changeMyMindJson    String
+  bottomLine          String
+  watchlistJson       String
+  evidenceSnapshotJson String?
+  evidenceSourcesJson String?
+  groundingValidationJson String?
+  rawResponseJson     String
+  notes               String?
+  modelUsed           String?
+  promptVersion       String   @default("wv-v6.4-core")
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  followUps           AnalysisFollowUp[]
+  review              AnalysisReview?
+}
+
+model AppSettings {
+  id                   Int      @id @default(1)
+  model                String   @default("gpt-4.1-mini")
+  temperature          Float    @default(0.3)
+  maxTokens            Int      @default(4800)
+  schemaMode           String   @default("strict-json-repair")
+  systemPromptOverride String?
+  liveDataEnabled      Boolean  @default(false)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+}
+
+model AnalysisReview {
+  id                  String   @id @default(cuid())
+  analysisId          String   @unique
+  outcomeLabel        String?  // "mostly_right" | "mixed" | "wrong" | null
+  realizedScenario    String?  // scenario name, "no_clear_match", or null
+  downgradeTriggered  String?  // "yes" | "no" | "unknown" | null
+  upgradeTriggered    String?  // "yes" | "no" | "unknown" | null
+  watchlistTriggered  String?  // "yes" | "no" | "partially" | "unknown" | null
+  reviewNotes         String?
+  reviewedAt          DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  analysis            Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@index([analysisId])
+}
+
+model AnalysisFollowUp {
+  id              String   @id @default(cuid())
+  analysisId      String
+  question        String
+  title           String
+  answer          String
+  keyPointsJson   String
+  watchoutsJson   String
+  rawResponseJson String
+  modelUsed       String?
+  promptVersion   String   @default("wv-follow-up-v1")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  analysis        Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@index([analysisId, createdAt])
+}

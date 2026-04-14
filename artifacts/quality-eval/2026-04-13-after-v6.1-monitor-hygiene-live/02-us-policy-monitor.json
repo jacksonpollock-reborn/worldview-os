@@ -1,0 +1,442 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.1",
+  "analysisId": "cmnwv71090003nrcw8l5auq4d",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 34000,
+  "analysis": {
+    "title": "Durability and Cohesion of US Governing Coalition over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which political and institutional indicators will reveal strengthening or fracturing of the US governing coalition sustaining legislative momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The set of political actors, including the ruling party, allied legislators, and key interest groups, whose cooperation enables policy and legislative action."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity to pass and implement significant legislation aligned with the governing coalition's agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in coalition unity, legislative success rate, and political capital enabling agenda advancement."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of significant internal dissent, defections, or breakdowns in cooperation that impede legislative progress."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process",
+      "Political Economy"
+    ],
+    "key_drivers": [
+      "Intra-coalition ideological cohesion",
+      "Leadership control and discipline",
+      "Legislative agenda clarity and prioritization",
+      "Public approval and electoral incentives",
+      "Opposition party strength and tactics",
+      "External shocks affecting political focus"
+    ],
+    "lenses": [
+      {
+        "name": "Coalition Cohesion and Leadership Control",
+        "why_it_matters": "Strong leadership and ideological alignment reduce defections and enable coordinated legislative action.",
+        "key_drivers": [
+          "Intra-coalition ideological cohesion",
+          "Leadership control and discipline"
+        ],
+        "bull_case": "Leadership maintains strict discipline, resolving internal disputes quickly, and ideological differences are minimal, enabling smooth legislative passage.",
+        "bear_case": "Factionalism grows, leadership loses control over key members, and ideological splits widen, causing legislative gridlock and defections.",
+        "base_case": "Moderate ideological differences persist, leadership manages disputes with occasional concessions, allowing steady but uneven legislative progress.",
+        "wildcard_case": "A charismatic outsider or faction emerges, either consolidating control rapidly or causing a sudden coalition collapse.",
+        "evidence_for": [
+          "Consistent party-line votes on major bills",
+          "Public endorsements of leadership by coalition members",
+          "Limited public intra-party disputes"
+        ],
+        "evidence_against": [
+          "High-profile defections or dissenting votes",
+          "Leaked internal conflicts or leadership challenges",
+          "Public criticism of leadership from coalition members"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line votes exceeding 90%",
+          "Number of public disagreements or defections per month",
+          "Leadership’s success in setting legislative calendar"
+        ],
+        "disconfirming_signals": [
+          "Unexpected bipartisan coalitions bypassing leadership",
+          "Rapid rise of intra-party insurgents"
+        ]
+      },
+      {
+        "name": "Legislative Agenda and Opposition Dynamics",
+        "why_it_matters": "Clear agenda and manageable opposition pressure enable momentum; strong opposition or agenda confusion stalls progress.",
+        "key_drivers": [
+          "Legislative agenda clarity and prioritization",
+          "Opposition party strength and tactics"
+        ],
+        "bull_case": "Coalition advances a focused, popular agenda while opposition is fragmented or ineffective, facilitating legislative wins.",
+        "bear_case": "Opposition unifies and exploits coalition agenda conflicts, blocking bills and forcing compromises that stall momentum.",
+        "base_case": "Agenda is somewhat fragmented; opposition mounts tactical resistance but fails to fully block progress.",
+        "wildcard_case": "Opposition adopts unexpected cooperation or obstruction tactics, reshaping legislative dynamics abruptly.",
+        "evidence_for": [
+          "Passage of priority bills on schedule",
+          "Public opinion polls favoring coalition agenda items",
+          "Opposition internal disagreements reported"
+        ],
+        "evidence_against": [
+          "Repeated legislative failures or delays",
+          "Unified opposition messaging and coordinated tactics",
+          "Public backlash against coalition agenda"
+        ],
+        "leading_indicators": [
+          "Number of priority bills passed per quarter",
+          "Opposition unity measured by coordinated votes or statements",
+          "Polling shifts on key policy issues"
+        ],
+        "disconfirming_signals": [
+          "Cross-party alliances on controversial bills",
+          "Sudden opposition leadership changes"
+        ]
+      },
+      {
+        "name": "Public Opinion and Electoral Incentives",
+        "why_it_matters": "Public support and upcoming elections shape coalition members’ incentives to cooperate or defect.",
+        "key_drivers": [
+          "Public approval and electoral incentives",
+          "External shocks affecting political focus"
+        ],
+        "bull_case": "High public approval and favorable electoral outlook incentivize coalition unity and legislative productivity.",
+        "bear_case": "Declining approval and looming electoral threats increase defections and intra-coalition competition, undermining momentum.",
+        "base_case": "Public opinion is stable but mixed; electoral incentives create moderate pressure for unity with occasional dissent.",
+        "wildcard_case": "Major external shock (economic, security, or social) shifts public priorities, disrupting coalition incentives.",
+        "evidence_for": [
+          "Rising approval ratings for coalition leaders",
+          "Positive polling on coalition policies",
+          "Stable or improving fundraising and candidate recruitment"
+        ],
+        "evidence_against": [
+          "Declining approval ratings",
+          "Electoral losses in recent primaries or special elections",
+          "Public protests or negative media coverage"
+        ],
+        "leading_indicators": [
+          "Monthly approval rating changes >3 points",
+          "Electoral performance in off-cycle elections",
+          "Fundraising totals relative to previous cycles"
+        ],
+        "disconfirming_signals": [
+          "Disproportionate media focus on coalition scandals",
+          "Unexpected external crises shifting public attention"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Consolidation Through Leadership and Agenda Control",
+        "description": "Coalition leadership maintains discipline and clarifies agenda priorities, opposition remains fragmented, and public support holds steady, enabling sustained legislative momentum consistent with historical midterm cycles.",
+        "probability": 50,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes consistently above 90%",
+          "Passage of key legislative priorities on schedule",
+          "Stable or rising coalition approval ratings"
+        ]
+      },
+      {
+        "name": "Fragmentation from Ideological Fissures and Opposition Pressure",
+        "description": "Internal ideological splits deepen, leadership loses control, opposition unifies tactically, and public support erodes, causing legislative gridlock and loss of coalition cohesion beyond typical political volatility.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Increase in defections or dissenting votes above 10%",
+          "Repeated legislative failures or delays",
+          "Declining approval ratings below 40%"
+        ]
+      },
+      {
+        "name": "External Shock Reshapes Coalition Dynamics",
+        "description": "A significant external event (economic downturn, major security incident, or social unrest) shifts public priorities and electoral incentives, either rallying the coalition around leadership or exacerbating fractures unpredictably.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Sudden shifts in public opinion polls (>5 points in one month)",
+          "Emergence of new political actors or factions",
+          "Rapid changes in legislative agenda focus"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Influence of informal power brokers within the coalition not visible in public records",
+      "Impact of behind-the-scenes negotiations with interest groups affecting coalition unity",
+      "Role of media framing in amplifying or suppressing intra-coalition conflicts",
+      "Effect of procedural rules changes in Congress on coalition leverage"
+    ],
+    "change_my_mind_conditions": [
+      "Disprove \"Leadership discipline is sufficient to manage ideological splits and prevent defections\": Sustained defections exceed 15% on key votes despite leadership efforts",
+      "Disprove \"Public approval ratings above 40% reliably sustain coalition unity\": Public approval for coalition leaders falls below 40% for more than one month",
+      "Disprove \"Opposition fragmentation will persist without rapid unification\": Opposition party unites under a new leader with coordinated legislative obstruction",
+      "Repeated failure or withdrawal of multiple priority bills within a single quarter",
+      "Emergence of a major external crisis causing rapid shifts in coalition incentives"
+    ],
+    "bottom_line": "View: The US governing coalition is likely to maintain moderate legislative momentum with occasional internal tensions over the next 9 months. Reason: Leadership discipline, agenda clarity, and stable public support currently outweigh factionalism and opposition pressure. Risk: The weakest assumption is that leadership discipline can contain ideological splits; if this fails, gridlock and fracturing will accelerate. Downgrade if: Defections exceed 15% on key votes, opposition unifies under effective leadership, or multiple priority bills fail repeatedly. Upgrade if: Party-line votes exceed 90%, priority bills pass on schedule, and approval ratings rise above 50%. Review: Monthly to quarterly monitoring of voting cohesion, legislative output, and public opinion. Ignore: Routine minor dissent and short-term polling noise.",
+    "watchlist": [
+      "Party-line vote share drops below 85% on major legislation for two consecutive months, signaling weakening discipline",
+      "Public defections or dissenting votes exceed 10% in any month, indicating coalition fracturing",
+      "Failure or withdrawal of two or more priority bills within a quarter, showing agenda disruption",
+      "Opposition party leadership change followed by unified messaging and coordinated obstruction tactics",
+      "Public approval ratings for coalition leaders fall below 40% sustained for over one month, reflecting eroding electoral incentives",
+      "Onset of a major external crisis (economic, security, or social) shifting legislative focus and coalition cohesion"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Durability and Cohesion of US Governing Coalition over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which political and institutional indicators will reveal strengthening or fracturing of the US governing coalition sustaining legislative momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The set of political actors, including the ruling party, allied legislators, and key interest groups, whose cooperation enables policy and legislative action."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity to pass and implement significant legislation aligned with the governing coalition's agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in coalition unity, legislative success rate, and political capital enabling agenda advancement."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of significant internal dissent, defections, or breakdowns in cooperation that impede legislative progress."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process",
+      "Political Economy"
+    ],
+    "key_drivers": [
+      "Intra-coalition ideological cohesion",
+      "Leadership control and discipline",
+      "Legislative agenda clarity and prioritization",
+      "Public approval and electoral incentives",
+      "Opposition party strength and tactics",
+      "External shocks affecting political focus"
+    ],
+    "lenses": [
+      {
+        "name": "Coalition Cohesion and Leadership Control",
+        "why_it_matters": "Strong leadership and ideological alignment reduce defections and enable coordinated legislative action.",
+        "key_drivers": [
+          "Intra-coalition ideological cohesion",
+          "Leadership control and discipline"
+        ],
+        "bull_case": "Leadership maintains strict discipline, resolving internal disputes quickly, and ideological differences are minimal, enabling smooth legislative passage.",
+        "bear_case": "Factionalism grows, leadership loses control over key members, and ideological splits widen, causing legislative gridlock and defections.",
+        "base_case": "Moderate ideological differences persist, leadership manages disputes with occasional concessions, allowing steady but uneven legislative progress.",
+        "wildcard_case": "A charismatic outsider or faction emerges, either consolidating control rapidly or causing a sudden coalition collapse.",
+        "evidence_for": [
+          "Consistent party-line votes on major bills",
+          "Public endorsements of leadership by coalition members",
+          "Limited public intra-party disputes"
+        ],
+        "evidence_against": [
+          "High-profile defections or dissenting votes",
+          "Leaked internal conflicts or leadership challenges",
+          "Public criticism of leadership from coalition members"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line votes exceeding 90%",
+          "Number of public disagreements or defections per month",
+          "Leadership’s success in setting legislative calendar"
+        ],
+        "disconfirming_signals": [
+          "Unexpected bipartisan coalitions bypassing leadership",
+          "Rapid rise of intra-party insurgents"
+        ]
+      },
+      {
+        "name": "Legislative Agenda and Opposition Dynamics",
+        "why_it_matters": "Clear agenda and manageable opposition pressure enable momentum; strong opposition or agenda confusion stalls progress.",
+        "key_drivers": [
+          "Legislative agenda clarity and prioritization",
+          "Opposition party strength and tactics"
+        ],
+        "bull_case": "Coalition advances a focused, popular agenda while opposition is fragmented or ineffective, facilitating legislative wins.",
+        "bear_case": "Opposition unifies and exploits coalition agenda conflicts, blocking bills and forcing compromises that stall momentum.",
+        "base_case": "Agenda is somewhat fragmented; opposition mounts tactical resistance but fails to fully block progress.",
+        "wildcard_case": "Opposition adopts unexpected cooperation or obstruction tactics, reshaping legislative dynamics abruptly.",
+        "evidence_for": [
+          "Passage of priority bills on schedule",
+          "Public opinion polls favoring coalition agenda items",
+          "Opposition internal disagreements reported"
+        ],
+        "evidence_against": [
+          "Repeated legislative failures or delays",
+          "Unified opposition messaging and coordinated tactics",
+          "Public backlash against coalition agenda"
+        ],
+        "leading_indicators": [
+          "Number of priority bills passed per quarter",
+          "Opposition unity measured by coordinated votes or statements",
+          "Polling shifts on key policy issues"
+        ],
+        "disconfirming_signals": [
+          "Cross-party alliances on controversial bills",
+          "Sudden opposition leadership changes"
+        ]
+      },
+      {
+        "name": "Public Opinion and Electoral Incentives",
+        "why_it_matters": "Public support and upcoming elections shape coalition members’ incentives to cooperate or defect.",
+        "key_drivers": [
+          "Public approval and electoral incentives",
+          "External shocks affecting political focus"
+        ],
+        "bull_case": "High public approval and favorable electoral outlook incentivize coalition unity and legislative productivity.",
+        "bear_case": "Declining approval and looming electoral threats increase defections and intra-coalition competition, undermining momentum.",
+        "base_case": "Public opinion is stable but mixed; electoral incentives create moderate pressure for unity with occasional dissent.",
+        "wildcard_case": "Major external shock (economic, security, or social) shifts public priorities, disrupting coalition incentives.",
+        "evidence_for": [
+          "Rising approval ratings for coalition leaders",
+          "Positive polling on coalition policies",
+          "Stable or improving fundraising and candidate recruitment"
+        ],
+        "evidence_against": [
+          "Declining approval ratings",
+          "Electoral losses in recent primaries or special elections",
+          "Public protests or negative media coverage"
+        ],
+        "leading_indicators": [
+          "Monthly approval rating changes >3 points",
+          "Electoral performance in off-cycle elections",
+          "Fundraising totals relative to previous cycles"
+        ],
+        "disconfirming_signals": [
+          "Disproportionate media focus on coalition scandals",
+          "Unexpected external crises shifting public attention"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Consolidation Through Leadership and Agenda Control",
+        "description": "Coalition leadership maintains discipline and clarifies agenda priorities, opposition remains fragmented, and public support holds steady, enabling sustained legislative momentum consistent with historical midterm cycles.",
+        "probability": 50,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes consistently above 90%",
+          "Passage of key legislative priorities on schedule",
+          "Stable or rising coalition approval ratings"
+        ]
+      },
+      {
+        "name": "Fragmentation from Ideological Fissures and Opposition Pressure",
+        "description": "Internal ideological splits deepen, leadership loses control, opposition unifies tactically, and public support erodes, causing legislative gridlock and loss of coalition cohesion beyond typical political volatility.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Increase in defections or dissenting votes above 10%",
+          "Repeated legislative failures or delays",
+          "Declining approval ratings below 40%"
+        ]
+      },
+      {
+        "name": "External Shock Reshapes Coalition Dynamics",
+        "description": "A significant external event (economic downturn, major security incident, or social unrest) shifts public priorities and electoral incentives, either rallying the coalition around leadership or exacerbating fractures unpredictably.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Sudden shifts in public opinion polls (>5 points in one month)",
+          "Emergence of new political actors or factions",
+          "Rapid changes in legislative agenda focus"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Influence of informal power brokers within the coalition not visible in public records",
+      "Impact of behind-the-scenes negotiations with interest groups affecting coalition unity",
+      "Role of media framing in amplifying or suppressing intra-coalition conflicts",
+      "Effect of procedural rules changes in Congress on coalition leverage"
+    ],
+    "change_my_mind_conditions": [
+      "Sustained increase in public defections from coalition exceeding 15% on major votes",
+      "Opposition party unites under a new leader with strong legislative strategy",
+      "Major legislative agenda items fail or are withdrawn repeatedly",
+      "Significant external crisis triggers emergency legislative sessions with bipartisan cooperation"
+    ],
+    "bottom_line": "View: The US governing coalition will likely maintain moderate legislative momentum with occasional internal tensions over the next 9 months. Reason: Leadership discipline, agenda clarity, and stable public support currently outweigh factionalism and opposition pressure. Risk: Rising ideological splits or unified opposition could cause gridlock. Downgrade if: Defections exceed 15%, opposition unifies under effective leadership, or key bills fail repeatedly. Upgrade if: Party-line votes exceed 90%, priority bills pass on schedule, and approval ratings rise above 50%. Review: Monthly to quarterly monitoring of voting cohesion, legislative output, and public opinion. Ignore: Routine minor dissent and short-term polling noise.",
+    "watchlist": [
+      "Party-line vote percentage falls below 85% on major legislation indicating weakening cohesion",
+      "Number of public coalition defections or dissenting votes exceeds 10% in any month signaling fracturing",
+      "Failure or withdrawal of two or more priority bills within a quarter indicating agenda disruption",
+      "Opposition party leadership change accompanied by unified messaging increasing legislative obstruction",
+      "Public approval ratings for coalition leaders drop below 40% sustained for more than one month",
+      "Emergence of major external crisis shifting legislative focus and coalition incentives"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Reframed question is sharper and operational with clear focus on indicators",
+      "Lenses are distinct and cover leadership, agenda, and public opinion comprehensively",
+      "Bottom line is decisive with clear upgrade/downgrade conditions and review cadence"
+    ],
+    "notable_weaknesses": [
+      "Some hidden variables are somewhat generic and could be more tightly linked to causal mechanisms",
+      "Change-my-mind conditions are mostly quantitative thresholds but could better specify observational sources",
+      "Watchlist items are concrete but occasionally rely on thresholds that may be noisy in practice"
+    ],
+    "summary": "The analysis is well-structured and operationalized, with a clear reframed question and relevant political domains. Lenses and scenarios are distinct and causally meaningful, supporting the monitoring objective effectively. The bottom line and watchlist provide actionable guidance, though some hidden variables and disconfirmation criteria could be more tightly specified to reduce ambiguity.",
+    "average_score": 4.11
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 1,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis improves disconfirmation logic by explicitly framing key assumptions to be disproven and adding more precise change-my-mind conditions. It also sharpens the bottom line by identifying the weakest assumption about leadership discipline and clarifying downgrade triggers. Watchlist indicators are slightly more specific in timing and conditions. However, many core elements remain unchanged, limiting the scale of improvement.",
+    "best_red_team_change": "Introduction of explicit disproof conditions in the change-my-mind section that challenge core assumptions about leadership discipline, public approval thresholds, and opposition fragmentation.",
+    "remaining_gap": "The analysis could further improve by integrating more nuanced evidence weighting, expanding wildcard scenarios, and enhancing watchlist granularity with quantitative thresholds and temporal patterns."
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "id": "04-recession-monitor",
+  "category": "macro/markets",
+  "question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+  "selectedDomain": "markets",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnxbs5hz0003nrksp1rkhfa3",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 30691,
+  "analysis": {
+    "title": "Premium Brand Recession Risk & Pricing/Inventory Monitor",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators over the next 12 months will signal recession risk shifts that materially impact premium brand pricing power and inventory management?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "premium consumer brand",
+        "definition": "A brand targeting affluent consumers with higher price points and perceived quality or status."
+      },
+      {
+        "term": "recession risk",
+        "definition": "The probability of a significant economic contraction within the next 12 months impacting consumer demand."
+      },
+      {
+        "term": "pricing power",
+        "definition": "The brand’s ability to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "inventory decisions",
+        "definition": "Operational choices regarding stock levels, including buildup or drawdown, in response to demand expectations."
+      }
+    ],
+    "domains": [
+      "Macro Economy",
+      "Consumer Behavior",
+      "Retail & Supply Chain"
+    ],
+    "key_drivers": [
+      "GDP growth trajectory",
+      "Consumer confidence and spending patterns",
+      "Inflation and real disposable income",
+      "Labor market strength",
+      "Credit conditions and liquidity",
+      "Supply chain disruptions and costs"
+    ],
+    "hidden_variables": [
+      "Shift in consumer preference from premium to value brands under stress",
+      "Effectiveness and timing of central bank policy adjustments on inflation and credit",
+      "Supply chain cost pass-through elasticity to end consumer pricing",
+      "Emergence of alternative luxury consumption models (e.g., resale, rental) impacting inventory turnover"
+    ],
+    "change_my_mind_conditions": [
+      "IF GDP growth revisions show sustained positive surprise >0.5% QoQ for two consecutive quarters -> recession risk assumption fails",
+      "IF consumer confidence index rises >5 points month-over-month for at least two consecutive months -> demand softness thesis fails",
+      "IF credit spreads tighten >20bps from current levels sustained over one month -> liquidity risk assumption fails",
+      "IF inventory-to-sales ratio falls >5% month-over-month sustained for two months -> inventory markdown risk assumption fails"
+    ],
+    "bottom_line": "View: Elevated recession risk with pressured pricing power and cautious inventory posture. Reason: Mixed macro signals, inflation eroding real income, and cautious consumer sentiment. Risk: Sudden macro stabilization or policy easing could improve outlook. Weakest assumption: that short-term GDP and confidence rebounds reliably disconfirm recession risk. Downgrade if: GDP growth revisions and consumer confidence rebound sharply and sustain. Upgrade if: GDP contracts deeper with widening credit spreads and rising inventory ratios. Review: Monthly.",
+    "watchlist": [
+      "GDP growth revisions: Two consecutive quarters with >0.5% QoQ upward revisions signal recession risk easing",
+      "Consumer confidence index: Consecutive monthly rises >5 points signal improving demand and pricing power",
+      "Real disposable income growth: Falling below -1% YoY signals sustained pricing power erosion risk",
+      "Credit spreads: Widening >30bps from current levels sustained over one month signals tightening liquidity",
+      "Inventory-to-sales ratio: Rising >7% month-over-month sustained for two months signals inventory buildup and markdown risk"
+    ],
+    "current_stance": "Structurally cautious; recession risk elevated but uncertain, pricing power pressured by inflation and consumer sensitivity",
+    "monitoring_signals": [
+      {
+        "name": "GDP growth revisions",
+        "why_it_matters": "GDP contraction or downgrade signals broad demand weakness affecting premium brand sales",
+        "current_read": "likely near neutral based on recent mixed macro data",
+        "bullish_threshold": "Q2/Q3 GDP growth revised upward >0.5% QoQ",
+        "neutral_threshold": "GDP growth between -0.1% and +0.3% QoQ revisions",
+        "bearish_threshold": "GDP growth revised below -0.2% QoQ for two consecutive quarters"
+      },
+      {
+        "name": "Consumer confidence index",
+        "why_it_matters": "Sharp drops indicate reduced willingness to pay premium prices and cut discretionary spending",
+        "current_read": "structurally tilted bearish given inflation pressures",
+        "bullish_threshold": "Index rises >5 points month-over-month",
+        "neutral_threshold": "Index fluctuates within ±3 points",
+        "bearish_threshold": "Index falls >7 points month-over-month"
+      },
+      {
+        "name": "Real disposable income growth",
+        "why_it_matters": "Declining real income constrains premium brand pricing power and forces inventory caution",
+        "current_read": "to be checked against current data, likely pressured by inflation",
+        "bullish_threshold": "Real disposable income growth >+1% YoY",
+        "neutral_threshold": "Real disposable income growth between -0.5% and +0.5% YoY",
+        "bearish_threshold": "Real disposable income growth < -1% YoY"
+      },
+      {
+        "name": "Credit spreads (investment grade and high yield)",
+        "why_it_matters": "Widening spreads signal tighter liquidity and risk aversion, reducing consumer credit availability",
+        "current_read": "structurally cautious given recent volatility",
+        "bullish_threshold": "Spreads tighten >20bps from current levels",
+        "neutral_threshold": "Spreads fluctuate within ±10bps",
+        "bearish_threshold": "Spreads widen >30bps from current levels"
+      },
+      {
+        "name": "Inventory-to-sales ratio in premium retail segment",
+        "why_it_matters": "Rising ratio indicates inventory buildup risking markdowns; falling ratio signals tight supply or strong demand",
+        "current_read": "to be checked; likely elevated due to supply chain normalization",
+        "bullish_threshold": "Ratio declines >5% month-over-month",
+        "neutral_threshold": "Ratio stable within ±2%",
+        "bearish_threshold": "Ratio rises >7% month-over-month"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "GDP growth revisions remain flat or negative",
+      "Consumer confidence shows sustained declines",
+      "Credit spreads remain elevated or widen further"
+    ],
+    "disconfirm_current_view": [
+      "GDP growth revisions turn positive and sustained",
+      "Consumer confidence rebounds sharply",
+      "Credit spreads tighten materially"
+    ],
+    "what_to_ignore": [
+      "Single-month volatility in consumer confidence under ±3 points",
+      "Temporary supply chain disruptions resolved within one month",
+      "Minor fluctuations in inventory ratios within ±2%"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Premium Brand Recession Risk & Pricing/Inventory Monitor",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators over the next 12 months will signal recession risk shifts that materially impact premium brand pricing power and inventory management?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "premium consumer brand",
+        "definition": "A brand targeting affluent consumers with higher price points and perceived quality or status."
+      },
+      {
+        "term": "recession risk",
+        "definition": "The probability of a significant economic contraction within the next 12 months impacting consumer demand."
+      },
+      {
+        "term": "pricing power",
+        "definition": "The brand’s ability to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "inventory decisions",
+        "definition": "Operational choices regarding stock levels, including buildup or drawdown, in response to demand expectations."
+      }
+    ],
+    "domains": [
+      "Macro Economy",
+      "Consumer Behavior",
+      "Retail & Supply Chain"
+    ],
+    "key_drivers": [
+      "GDP growth trajectory",
+      "Consumer confidence and spending patterns",
+      "Inflation and real disposable income",
+      "Labor market strength",
+      "Credit conditions and liquidity",
+      "Supply chain disruptions and costs"
+    ],
+    "current_stance": "Structurally cautious; recession risk elevated but uncertain, pricing power pressured by inflation and consumer sensitivity",
+    "monitoring_signals": [
+      {
+        "name": "GDP growth revisions",
+        "why_it_matters": "GDP contraction or downgrade signals broad demand weakness affecting premium brand sales",
+        "current_read": "likely near neutral based on recent mixed macro data",
+        "bullish_threshold": "Q2/Q3 GDP growth revised upward >0.5% QoQ",
+        "neutral_threshold": "GDP growth between -0.1% and +0.3% QoQ revisions",
+        "bearish_threshold": "GDP growth revised below -0.2% QoQ for two consecutive quarters"
+      },
+      {
+        "name": "Consumer confidence index",
+        "why_it_matters": "Sharp drops indicate reduced willingness to pay premium prices and cut discretionary spending",
+        "current_read": "structurally tilted bearish given inflation pressures",
+        "bullish_threshold": "Index rises >5 points month-over-month",
+        "neutral_threshold": "Index fluctuates within ±3 points",
+        "bearish_threshold": "Index falls >7 points month-over-month"
+      },
+      {
+        "name": "Real disposable income growth",
+        "why_it_matters": "Declining real income constrains premium brand pricing power and forces inventory caution",
+        "current_read": "to be checked against current data, likely pressured by inflation",
+        "bullish_threshold": "Real disposable income growth >+1% YoY",
+        "neutral_threshold": "Real disposable income growth between -0.5% and +0.5% YoY",
+        "bearish_threshold": "Real disposable income growth < -1% YoY"
+      },
+      {
+        "name": "Credit spreads (investment grade and high yield)",
+        "why_it_matters": "Widening spreads signal tighter liquidity and risk aversion, reducing consumer credit availability",
+        "current_read": "structurally cautious given recent volatility",
+        "bullish_threshold": "Spreads tighten >20bps from current levels",
+        "neutral_threshold": "Spreads fluctuate within ±10bps",
+        "bearish_threshold": "Spreads widen >30bps from current levels"
+      },
+      {
+        "name": "Inventory-to-sales ratio in premium retail segment",
+        "why_it_matters": "Rising ratio indicates inventory buildup risking markdowns; falling ratio signals tight supply or strong demand",
+        "current_read": "to be checked; likely elevated due to supply chain normalization",
+        "bullish_threshold": "Ratio declines >5% month-over-month",
+        "neutral_threshold": "Ratio stable within ±2%",
+        "bearish_threshold": "Ratio rises >7% month-over-month"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "GDP growth revisions remain flat or negative",
+      "Consumer confidence shows sustained declines",
+      "Credit spreads remain elevated or widen further"
+    ],
+    "disconfirm_current_view": [
+      "GDP growth revisions turn positive and sustained",
+      "Consumer confidence rebounds sharply",
+      "Credit spreads tighten materially"
+    ],
+    "what_to_ignore": [
+      "Single-month volatility in consumer confidence under ±3 points",
+      "Temporary supply chain disruptions resolved within one month",
+      "Minor fluctuations in inventory ratios within ±2%"
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Shift in consumer preference from premium to value brands under stress",
+      "Effectiveness and timing of central bank policy adjustments on inflation and credit",
+      "Supply chain cost pass-through elasticity to end consumer pricing",
+      "Emergence of alternative luxury consumption models (e.g., resale, rental) impacting inventory turnover"
+    ],
+    "change_my_mind_conditions": [
+      "IF GDP growth revisions show sustained positive surprise >0.5% QoQ -> recession risk and pricing pressure assumptions fail",
+      "IF consumer confidence rebounds >5 points month-over-month for 2 consecutive months -> demand softness thesis weakens",
+      "IF credit spreads tighten >20bps from current levels -> liquidity risk assumptions fail",
+      "IF inventory-to-sales ratio falls >5% month-over-month -> inventory risk and markdown pressure assumptions fail"
+    ],
+    "bottom_line": "View: Elevated recession risk with pressured pricing power and cautious inventory posture. Reason: Mixed macro signals, inflation eroding real income, and cautious consumer sentiment. Risk: Sudden macro stabilization or policy easing could improve outlook. Downgrade if: GDP growth revisions and consumer confidence rebound sharply. Upgrade if: GDP contracts deeper with widening credit spreads and rising inventory ratios. Review: Monthly. Ignore: Minor monthly volatility in confidence and inventory ratios.",
+    "watchlist": [
+      "GDP growth revisions: Two consecutive quarters below -0.2% QoQ signal recession risk rising",
+      "Consumer confidence index: Drop >7 points month-over-month signals demand contraction",
+      "Real disposable income growth: Falling below -1% YoY signals pricing power erosion",
+      "Credit spreads: Widening >30bps from current levels signals liquidity tightening",
+      "Inventory-to-sales ratio: Rising >7% month-over-month signals inventory buildup risk"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational monitoring signals with clear thresholds and review cadence",
+      "Strong domain and driver selection tightly linked to premium brand risks",
+      "Change-my-mind and disconfirmation logic is specific and observable"
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are somewhat generic and could be more novel",
+      "Bottom line is cautious but not sharply differentiated from consensus",
+      "Some signal thresholds (e.g., inventory-to-sales) could be more granular"
+    ],
+    "summary": "This monitor is well-structured, operational, and tightly aligned to the objective. Monitoring signals are concrete, with explicit thresholds and disciplined what-to-ignore guidance. Domain coverage and change-my-mind logic are strong. Weaknesses are minor: hidden variables are not especially novel, and the bottom line is cautious but not bold. Overall, this is a strong, decision-useful monitor for premium brand recession risk.",
+    "average_score": 3.78
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis introduces more rigorous disconfirmation logic by requiring sustained indicator moves (e.g., two consecutive months/quarters) to trigger a change in view, reducing the risk of reacting to noise. Watchlist criteria are tightened to emphasize persistence, and the bottom line now explicitly flags the weakest assumption. However, most core content and structure remain unchanged, so improvements are incremental rather than transformative.",
+    "best_red_team_change": "Added duration requirements (e.g., consecutive months/quarters) to watchlist and change-my-mind conditions, making the framework more robust against short-term volatility.",
+    "remaining_gap": "Still lacks scenario analysis, explicit integration of hidden variables into monitoring, and more granular operational guidance for inventory and pricing decisions."
+  }
+}

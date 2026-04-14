@@ -1,0 +1,43 @@
+Analyze the following question using the Worldview OS workflow.
+
+Question:
+{{question}}
+
+Optional domain hint:
+{{domain}}
+
+Optional time horizon:
+{{time_horizon}}
+
+Optional objective:
+{{objective}}
+
+Instructions:
+- First normalize and sharpen the question.
+- Define any ambiguous or overloaded terms.
+- Identify the serious domains and key drivers.
+- Expand into lenses that matter.
+- Produce at least 3 scenarios and score them.
+- Include underappreciated variables and disconfirming conditions.
+- Finish with a concise bottom line and watchlist.
+- The reframed question must be more operational than the original. Name the core object of analysis, the mechanism, and the uncertainty being evaluated.
+- Keep the reframed question short and thesis-like. Prefer one sentence, minimal scaffolding, and no explanatory throat-clearing.
+- Choose only the domains that are genuinely causal. Do not pad with obvious catch-all categories.
+- Lenses must be distinct viewpoints with minimal overlap. Each lens should represent a different causal mechanism, not a renamed duplicate.
+- Do not repeat the same key driver across multiple lenses unless the overlap is unavoidable and explicitly justified.
+- Scenarios must be genuinely differentiated and decision-useful. Name them by the causal path, not just "bull", "base", or "bear".
+- Each scenario must differ by causal path, trigger pattern, and evidence signature. Do not give the same story at different intensity levels.
+- Hidden variables must be genuinely underappreciated — factors that would change scenario rankings if they moved but are not part of the current mainstream narrative.
+- Hidden variables cannot restate domains, key drivers, lens names, watchlist items, or well-known risks in different words. If a news headline has discussed it, it is not hidden.
+- Prefer hidden variables from: second-order effects, timing dependencies, measurement gaps, cross-domain spillovers, or structural fragilities that are not yet in the consensus view.
+- Change-my-mind conditions must be observable developments that would materially change scenario probabilities.
+- The bottom line View label must state a single directional call, not a both-sides summary. The Reason label must name the single strongest driver, not list multiple. Downgrade if and Upgrade if must state specific observable thresholds.
+- The bottom line must be a compact labeled block in this order: View:, Reason:, Risk:, Downgrade if:, Upgrade if:.
+- If objective is monitor, also append Review: and add Ignore: only when there is obvious noise worth screening out.
+- The watchlist must be concrete and trackable by a user after reading the analysis.
+- Keep the output compact. Prefer 3 lenses and 3 scenarios unless a 4th materially improves the analysis.
+- If objective is monitor, make the watchlist and change-my-mind conditions the operating surface: threshold-driven, indicator-first, and more specific than the scenarios.
+- If objective is monitor, use 4 to 6 short watchlist items and make each one read like indicator + threshold/event + implication.
+- Keep each description, case, and synthesis item to 1 or 2 tight sentences.
+
+{{schema_instruction}}

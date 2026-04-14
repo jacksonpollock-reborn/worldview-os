@@ -1,0 +1,289 @@
+{
+  "id": "04-recession-monitor",
+  "category": "macro/markets",
+  "question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+  "selectedDomain": "markets",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnxe259m0003nrbndiwv0it8",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 50383,
+  "analysis": {
+    "title": "Premium Brand Recession Risk Monitoring for Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators reliably signal recession risk shifts that impact premium brand pricing power and inventory management over 12 months?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned at the higher end of the market, targeting consumers willing to pay a price premium for perceived quality, status, or exclusivity."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, employment, and consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Operational choices regarding the quantity and timing of stock held to meet expected demand while minimizing holding costs and obsolescence."
+      }
+    ],
+    "domains": [
+      "Macro",
+      "Consumer Markets",
+      "Monetary Policy"
+    ],
+    "key_drivers": [
+      "Consumer discretionary spending trends",
+      "Labor market conditions",
+      "Inflation trajectory",
+      "Monetary policy stance",
+      "Credit market conditions"
+    ],
+    "hidden_variables": [
+      "Timing mismatch between labor market deterioration and consumer spending contraction",
+      "Delayed pass-through of inflation to consumer prices in premium segments",
+      "Shifts in consumer substitution patterns within premium categories",
+      "Impact of credit availability on consumer financing for premium purchases"
+    ],
+    "change_my_mind_conditions": [
+      "IF Consumer Confidence Index falls below 90 for two consecutive months -> assumption of stable consumer spending fails",
+      "IF Initial Jobless Claims rise above 230k weekly for four consecutive weeks -> assumption of labor market stability fails",
+      "IF Core Inflation rate exceeds 4% annualized for two consecutive months -> assumption of manageable inflation risk to pricing power fails",
+      "IF Fed signals additional rate hikes or quantitative tightening in next 3 months -> assumption of stable monetary policy fails"
+    ],
+    "bottom_line": "View: Cautiously bearish on recession risk driven by consumer spending and labor market signals; Reason: Consumer confidence and jobless claims trending toward stress, inflation remains elevated; Risk: Lag between labor market deterioration and spending contraction may delay signal clarity; Downgrade if: Consumer Confidence <90 and Jobless Claims >230k persist for 2+ months; Upgrade if: Consumer Confidence >110 and Fed signals easing; Review: Monthly",
+    "watchlist": [
+      "Consumer Confidence Index below 90 for 2 consecutive months: signals rising consumer spending risk",
+      "Initial Jobless Claims above 230k weekly for 4 consecutive weeks: signals accelerating labor market stress",
+      "Core Inflation rate above 4% annualized for 2 consecutive months: signals sustained inflation pressure on pricing",
+      "Credit spreads widen beyond 150bps IG and 600bps HY for 1 month: signals tightening credit conditions",
+      "Fed policy statements indicating additional rate hikes or quantitative tightening: signals monetary tightening risk"
+    ],
+    "current_stance": "Likely near neutral based on recent macro trajectory with cautious watch on inflation and labor signals",
+    "monitoring_signals": [
+      {
+        "name": "Consumer Confidence Index",
+        "why_it_matters": "Leading indicator of consumer willingness to spend on premium discretionary goods",
+        "current_read": "Likely near neutral based on recent macro trajectory",
+        "bullish_threshold": "Index rises above 110 signaling strong consumer optimism",
+        "neutral_threshold": "Index between 90 and 110 indicating stable but cautious sentiment",
+        "bearish_threshold": "Index falls below 90 signaling consumer pessimism and spending pullback"
+      },
+      {
+        "name": "Initial Jobless Claims",
+        "why_it_matters": "Early signal of labor market weakening, which reduces disposable income and premium brand demand",
+        "current_read": "Structurally tilted bearish given current policy direction",
+        "bullish_threshold": "Claims drop below 190k weekly indicating tight labor market",
+        "neutral_threshold": "Claims between 190k and 230k weekly indicating stable labor conditions",
+        "bearish_threshold": "Claims rise above 230k weekly signaling labor market stress"
+      },
+      {
+        "name": "Core Inflation Rate (CPI excluding food and energy)",
+        "why_it_matters": "Sustained inflation pressures can erode real incomes and force pricing adjustments",
+        "current_read": "Likely near neutral with inflation showing signs of plateauing",
+        "bullish_threshold": "Core CPI annual rate falls below 2.5%, easing pricing pressure",
+        "neutral_threshold": "Core CPI between 2.5% and 4% indicating moderate inflation",
+        "bearish_threshold": "Core CPI above 4% signaling persistent inflation risk"
+      },
+      {
+        "name": "Credit Spreads (Investment Grade and High Yield)",
+        "why_it_matters": "Widening spreads indicate tightening credit conditions, reducing consumer and business spending",
+        "current_read": "Likely near neutral with spreads stable but watch for widening",
+        "bullish_threshold": "Spreads tighten below 100bps for IG and 400bps for HY indicating easy credit",
+        "neutral_threshold": "Spreads between 100-150bps IG and 400-600bps HY indicating stable credit",
+        "bearish_threshold": "Spreads widen above 150bps IG and 600bps HY signaling credit stress"
+      },
+      {
+        "name": "Federal Reserve Policy Signals",
+        "why_it_matters": "Policy tightening or easing influences borrowing costs and consumer spending power",
+        "current_read": "Structurally tilted bearish given recent hawkish stance",
+        "bullish_threshold": "Fed signals pause or easing of rate hikes",
+        "neutral_threshold": "Fed maintains current rate levels without further hikes",
+        "bearish_threshold": "Fed signals additional rate hikes or quantitative tightening"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Consumer confidence remains in neutral range",
+      "Initial jobless claims stable but elevated",
+      "Core inflation shows signs of plateauing"
+    ],
+    "disconfirm_current_view": [
+      "Consumer confidence breaks decisively below 90",
+      "Initial jobless claims rise above 230k persistently",
+      "Core inflation accelerates above 4%",
+      "Fed signals additional rate hikes"
+    ],
+    "what_to_ignore": [
+      "Short-term volatility in equity markets unrelated to macro fundamentals",
+      "Single-month anomalies in retail sales due to seasonal effects",
+      "Transient supply chain disruptions without demand impact"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Premium Brand Recession Risk Monitoring for Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators reliably signal recession risk shifts that impact premium brand pricing power and inventory management over 12 months?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned at the higher end of the market, targeting consumers willing to pay a price premium for perceived quality, status, or exclusivity."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, employment, and consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Operational choices regarding the quantity and timing of stock held to meet expected demand while minimizing holding costs and obsolescence."
+      }
+    ],
+    "domains": [
+      "Macro",
+      "Consumer Markets",
+      "Monetary Policy"
+    ],
+    "key_drivers": [
+      "Consumer discretionary spending trends",
+      "Labor market conditions",
+      "Inflation trajectory",
+      "Monetary policy stance",
+      "Credit market conditions"
+    ],
+    "current_stance": "Likely near neutral based on recent macro trajectory with cautious watch on inflation and labor signals",
+    "monitoring_signals": [
+      {
+        "name": "Consumer Confidence Index",
+        "why_it_matters": "Leading indicator of consumer willingness to spend on premium discretionary goods",
+        "current_read": "Likely near neutral based on recent macro trajectory",
+        "bullish_threshold": "Index rises above 110 signaling strong consumer optimism",
+        "neutral_threshold": "Index between 90 and 110 indicating stable but cautious sentiment",
+        "bearish_threshold": "Index falls below 90 signaling consumer pessimism and spending pullback"
+      },
+      {
+        "name": "Initial Jobless Claims",
+        "why_it_matters": "Early signal of labor market weakening, which reduces disposable income and premium brand demand",
+        "current_read": "Structurally tilted bearish given current policy direction",
+        "bullish_threshold": "Claims drop below 190k weekly indicating tight labor market",
+        "neutral_threshold": "Claims between 190k and 230k weekly indicating stable labor conditions",
+        "bearish_threshold": "Claims rise above 230k weekly signaling labor market stress"
+      },
+      {
+        "name": "Core Inflation Rate (CPI excluding food and energy)",
+        "why_it_matters": "Sustained inflation pressures can erode real incomes and force pricing adjustments",
+        "current_read": "Likely near neutral with inflation showing signs of plateauing",
+        "bullish_threshold": "Core CPI annual rate falls below 2.5%, easing pricing pressure",
+        "neutral_threshold": "Core CPI between 2.5% and 4% indicating moderate inflation",
+        "bearish_threshold": "Core CPI above 4% signaling persistent inflation risk"
+      },
+      {
+        "name": "Credit Spreads (Investment Grade and High Yield)",
+        "why_it_matters": "Widening spreads indicate tightening credit conditions, reducing consumer and business spending",
+        "current_read": "Likely near neutral with spreads stable but watch for widening",
+        "bullish_threshold": "Spreads tighten below 100bps for IG and 400bps for HY indicating easy credit",
+        "neutral_threshold": "Spreads between 100-150bps IG and 400-600bps HY indicating stable credit",
+        "bearish_threshold": "Spreads widen above 150bps IG and 600bps HY signaling credit stress"
+      },
+      {
+        "name": "Federal Reserve Policy Signals",
+        "why_it_matters": "Policy tightening or easing influences borrowing costs and consumer spending power",
+        "current_read": "Structurally tilted bearish given recent hawkish stance",
+        "bullish_threshold": "Fed signals pause or easing of rate hikes",
+        "neutral_threshold": "Fed maintains current rate levels without further hikes",
+        "bearish_threshold": "Fed signals additional rate hikes or quantitative tightening"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Consumer confidence remains in neutral range",
+      "Initial jobless claims stable but elevated",
+      "Core inflation shows signs of plateauing"
+    ],
+    "disconfirm_current_view": [
+      "Consumer confidence breaks decisively below 90",
+      "Initial jobless claims rise above 230k persistently",
+      "Core inflation accelerates above 4%",
+      "Fed signals additional rate hikes"
+    ],
+    "what_to_ignore": [
+      "Short-term volatility in equity markets unrelated to macro fundamentals",
+      "Single-month anomalies in retail sales due to seasonal effects",
+      "Transient supply chain disruptions without demand impact"
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Timing mismatch between labor market deterioration and consumer spending contraction",
+      "Delayed pass-through of inflation to consumer prices in premium segments",
+      "Shifts in consumer substitution patterns within premium categories",
+      "Impact of credit availability on consumer financing for premium purchases"
+    ],
+    "change_my_mind_conditions": [
+      "IF Consumer Confidence Index falls below 85 for two consecutive months -> consumer spending contraction risk underestimated",
+      "IF Initial Jobless Claims rise above 250k weekly for a month -> labor market deterioration accelerating",
+      "IF Core Inflation rises above 4.5% for two consecutive months -> inflation risk to pricing power underestimated",
+      "IF Fed signals rate cuts or pause within next 3 months -> monetary tightening risk overstated"
+    ],
+    "bottom_line": "View: Monitor neutral recession risk with cautious tilt bearish; Reason: Consumer discretionary spending signals; Risk: Sudden labor market deterioration; Downgrade if: Consumer Confidence <90 and Jobless Claims >230k persist; Upgrade if: Consumer Confidence >110 and Fed signals easing; Review: Monthly; Ignore: Equity market short-term volatility",
+    "watchlist": [
+      "Consumer Confidence Index falls below 90 for 2 months: signals consumer spending risk",
+      "Initial Jobless Claims rise above 230k weekly for 4 weeks: signals labor market stress",
+      "Core Inflation rate exceeds 4% annualized for 2 months: signals pricing power erosion",
+      "Credit spreads widen beyond 150bps IG and 600bps HY for 1 month: signals credit tightening",
+      "Fed policy statements indicate additional rate hikes or easing pause: shifts monetary conditions"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational thresholds and review cadence for all monitoring signals",
+      "Change-my-mind conditions are sharp, observable, and materially disconfirming",
+      "Watchlist items are concrete, trackable, and directly tied to actionable signals"
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are mostly logical extensions of key drivers, not deeply non-obvious",
+      "Bottom line is cautious but hedged, with some ambiguity on decisive action triggers",
+      "Some overlap between confirm/disconfirm and monitoring signals, reducing distinctiveness"
+    ],
+    "summary": "This monitoring analysis is operationally strong, with clear thresholds, actionable watchlist items, and sharp change-my-mind logic. Domains and drivers are well-chosen and relevant, and the reframed question is more decision-useful than the original. Weaknesses include only moderately non-obvious hidden variables and a bottom line that, while clear, could be more decisive. Overall, this is a robust, above-average monitor output with minor areas for improvement.",
+    "average_score": 3.78
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 1,
+      "bottom_line_sharpness": 2
+    },
+    "summary": "The final analysis clarifies the logic for disconfirmation and change-my-mind conditions, making them more tightly linked to the core monitoring objective and more actionable. The bottom line is sharper, with a more explicit stance and clearer risk articulation. Watchlist items are slightly more specific in their phrasing, and weak claims are marginally reduced by tightening language around assumptions. However, most monitoring signals and thresholds remain unchanged, and some ambiguity persists in scenario planning.",
+    "best_red_team_change": "Change-my-mind conditions and disconfirmation logic now directly tie indicator breaches to explicit failures of key assumptions, improving falsifiability and operational clarity.",
+    "remaining_gap": "Scenario analysis and alternative lenses are still missing, and the analysis could further reduce ambiguity by specifying more granular triggers and integrating explicit inventory/pricing decision implications."
+  }
+}

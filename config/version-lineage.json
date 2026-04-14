@@ -1,0 +1,21 @@
+{
+  "analysisBaselinePromptVersion": "wv-v6.4-core",
+  "analysisLiveBtcPilotPromptVersion": "wv-v6.4-core+btc-live-pilot",
+  "followUpPromptVersion": "wv-follow-up-v1",
+  "activeBaselineLabel": "Worldview OS v6.4 core baseline",
+  "canonicalRules": {
+    "analysisBaselineUsage": "Use analysisBaselinePromptVersion for all non-pilot analyses and for source-aware control runs with liveDataEnabled=false.",
+    "analysisLivePilotUsage": "Use analysisLiveBtcPilotPromptVersion for eligible BTC live-data pilot analyses whenever the live pilot path is invoked, even if sources degrade or return unavailable.",
+    "followUpUsage": "Use followUpPromptVersion for every saved follow-up generated from a persisted analysis record."
+  },
+  "namingConvention": {
+    "analysisBaseline": "wv-v<baseline>-core",
+    "analysisPilot": "wv-v<baseline>-core+<pilot-name>",
+    "followUp": "wv-follow-up-v<major>"
+  },
+  "notes": [
+    "Use the canonical promptVersion strings above for all new analyses, follow-ups, eval reports, and baseline summaries.",
+    "Historical artifact directory names may retain older sprint labels, but current lineage references should point back to these canonical prompt versions.",
+    "Legacy promptVersion labels may remain in older historical records, but current baseline, BTC live pilot, and follow-up lineage must use the canonical strings above."
+  ]
+}

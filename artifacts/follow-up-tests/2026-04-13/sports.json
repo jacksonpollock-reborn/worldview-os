@@ -1,0 +1,31 @@
+{
+  "analysisId": "cmnwvdtt6000bnrcwspxqi2iu",
+  "domain": "sports",
+  "question": "Expand lens 2 and explain the key trigger in more detail.",
+  "status": 200,
+  "response": {
+    "followUp": {
+      "id": "cmnwwn5ec000lnreqo05nxrmi",
+      "question": "Expand lens 2 and explain the key trigger in more detail.",
+      "title": "Lens 2: Star Power and Competitive Racing Quality Key Trigger",
+      "answer": "Lens 2 centers on the influence of star driver appeal combined with the quality of competitive racing as primary drivers of Formula 1's audience growth. The key trigger is the emergence or presence of charismatic, high-profile drivers alongside consistently close and unpredictable races. This combination fuels emotional engagement, strengthens fan loyalty, and attracts casual viewers through word-of-mouth. When races are competitive and stars resonate globally, audience growth is supported. Conversely, dominance by a single team or driver diminishes excitement, leading to audience fatigue and potential decline.",
+      "keyPoints": [
+        "Star driver appeal and close racing increase fan loyalty and attract new viewers.",
+        "Emergence of new charismatic stars is a strong positive growth trigger.",
+        "Dominance by one team or driver reduces competitive excitement and risks audience decline.",
+        "Race finish margin statistics and rookie performance serve as leading indicators of competitive quality.",
+        "Fan engagement and social media sentiment reflect the emotional connection to star power."
+      ],
+      "watchouts": [
+        "Sustained dominance by a single team or driver causing audience fatigue.",
+        "Declining viewership during predictable race outcomes.",
+        "Negative social media sentiment spikes linked to lack of competition.",
+        "Absence of new star drivers achieving significant global appeal."
+      ],
+      "modelUsed": "gpt-4.1-mini",
+      "promptVersion": "follow-up-v1",
+      "createdAt": "2026-04-13T08:02:29.268Z",
+      "updatedAt": "2026-04-13T08:02:29.268Z"
+    }
+  }
+}

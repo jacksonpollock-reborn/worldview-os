@@ -1,0 +1,278 @@
+{
+  "id": "08-bitcoin-monitor",
+  "category": "crypto",
+  "question": "What is the serious 12-month outlook for Bitcoin?",
+  "selectedDomain": "crypto",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnxbz0oc0007nrks09w5ebu5",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 47265,
+  "analysis": {
+    "title": "Bitcoin 12-Month Indicator Surveillance",
+    "original_question": "What is the serious 12-month outlook for Bitcoin?",
+    "reframed_question": "Which leading indicators and thresholds will signal material shifts in Bitcoin’s 12-month price and adoption trajectory?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Bitcoin",
+        "definition": "A decentralized digital currency operating on a proof-of-work blockchain, subject to market, regulatory, and technological dynamics."
+      },
+      {
+        "term": "12-month outlook",
+        "definition": "The expected directional trend and volatility regime of Bitcoin’s price and adoption metrics over the next year."
+      },
+      {
+        "term": "serious",
+        "definition": "Focused on material, actionable signals with operational relevance for investors and strategists."
+      }
+    ],
+    "domains": [
+      "crypto-market-structure",
+      "macro-liquidity",
+      "regulation",
+      "adoption-utility"
+    ],
+    "key_drivers": [
+      "macro liquidity conditions",
+      "crypto market leverage and funding rates",
+      "regulatory developments affecting Bitcoin",
+      "onchain adoption and network activity"
+    ],
+    "hidden_variables": [
+      "Institutional Bitcoin treasury allocations beyond public disclosures",
+      "Stablecoin issuance growth as a proxy for crypto ecosystem liquidity",
+      "Shifts in Bitcoin mining economics affecting sell pressure",
+      "Cross-asset correlation shifts, especially with tech equities and commodities"
+    ],
+    "change_my_mind_conditions": [
+      "IF central banks implement sustained rate cuts or signal prolonged pause beyond 2 months -> macro tightening risk thesis fails",
+      "IF US or EU regulators approve Bitcoin ETFs or issue clear custody guidelines -> regulatory uncertainty thesis fails",
+      "IF onchain active addresses grow consistently above 10% quarterly for two consecutive quarters -> adoption stagnation thesis fails",
+      "IF exchange Bitcoin balances increase by more than 5% monthly for two consecutive months alongside rising funding rates -> assumption of limited sell pressure fails"
+    ],
+    "bottom_line": "View: Neutral-to-bearish bias on Bitcoin over next 12 months driven by macro tightening and regulatory uncertainty. Reason: Liquidity tightening and ambiguous regulatory environment limit upside; leverage and funding rates pose correction risk. Risk: Macro easing or clear regulatory approvals could rapidly improve outlook. Downgrade if: Sustained macro liquidity easing or regulatory clarity emerges. Upgrade if: Leverage and funding rates normalize and adoption metrics accelerate. Weakest assumption: Regulatory clarity will straightforwardly reduce risk without partial or ambiguous outcomes. Review: Biweekly to track macro policy, regulatory updates, funding rates, and onchain adoption.",
+    "watchlist": [
+      "Central bank policy: sustained rate cuts or pause >2 months; signals easing macro liquidity risk",
+      "Regulatory approvals: Bitcoin ETF or custody rule clarity in US/EU; signals reduced regulatory uncertainty",
+      "Funding rates: daily funding >0.05% for 7+ days; signals crowded long positioning and correction risk",
+      "Onchain active addresses: quarterly growth >10% for 2 consecutive quarters; signals accelerating adoption",
+      "Exchange Bitcoin balances: monthly increase >5% for 2 consecutive months with rising funding rates; signals elevated sell pressure risk"
+    ],
+    "current_stance": "structurally tilted neutral with risk skewed to downside given macro tightening and regulatory uncertainty",
+    "monitoring_signals": [
+      {
+        "name": "Macro Liquidity Conditions",
+        "why_it_matters": "Liquidity tightening or easing drives risk appetite for speculative assets including Bitcoin",
+        "current_read": "likely near neutral based on recent central bank policy trajectory",
+        "bullish_threshold": "significant easing or pause in rate hikes sustained for 2+ months",
+        "neutral_threshold": "stable or slowly tightening liquidity without shocks",
+        "bearish_threshold": "accelerated rate hikes or quantitative tightening beyond current expectations"
+      },
+      {
+        "name": "Crypto Market Leverage and Funding Rates",
+        "why_it_matters": "High leverage and positive funding rates often precede sharp corrections; deleveraging signals risk-off",
+        "current_read": "moderate leverage with occasional spikes, to be checked against volatility",
+        "bullish_threshold": "sustained low or negative funding rates indicating reduced speculative pressure",
+        "neutral_threshold": "funding rates fluctuating near zero with moderate leverage",
+        "bearish_threshold": "persistent high positive funding rates and rising open interest indicating crowded longs"
+      },
+      {
+        "name": "Regulatory Developments",
+        "why_it_matters": "New laws or enforcement actions can materially impact Bitcoin’s institutional adoption and retail sentiment",
+        "current_read": "uncertain with mixed signals globally, leaning cautious",
+        "bullish_threshold": "clear regulatory clarity favoring Bitcoin adoption, e.g., ETF approvals or favorable tax rulings",
+        "neutral_threshold": "status quo with no major new regulatory actions",
+        "bearish_threshold": "major crackdowns, bans, or hostile tax policies in key markets"
+      },
+      {
+        "name": "Onchain Adoption and Network Activity",
+        "why_it_matters": "Rising active addresses, transaction volume, and stablecoin inflows indicate growing utility and demand",
+        "current_read": "stable but not accelerating materially",
+        "bullish_threshold": "sustained 10%+ quarterly growth in active addresses and transaction volume",
+        "neutral_threshold": "flat or modest growth in network metrics",
+        "bearish_threshold": "declining active addresses and transaction volume over multiple quarters"
+      },
+      {
+        "name": "Exchange Bitcoin Balances",
+        "why_it_matters": "Declining exchange balances suggest accumulation and reduced selling pressure; rising balances indicate potential sell pressure",
+        "current_read": "moderate decline consistent with cautious accumulation",
+        "bullish_threshold": "exchange balances falling >5% over 1 month",
+        "neutral_threshold": "exchange balances stable within ±2%",
+        "bearish_threshold": "exchange balances rising >5% over 1 month"
+      }
+    ],
+    "review_cadence": "biweekly",
+    "confirm_current_view": [
+      "Macro liquidity remains in tightening mode globally",
+      "Regulatory environment remains uncertain with no major positive breakthroughs",
+      "Funding rates and leverage show episodic spikes but no sustained deleveraging"
+    ],
+    "disconfirm_current_view": [
+      "Sustained macro liquidity easing or pause in rate hikes",
+      "Clear regulatory approvals or favorable rulings for Bitcoin",
+      "Sustained decline in leverage and funding rates indicating risk-off"
+    ],
+    "what_to_ignore": [
+      "Short-term price volatility spikes under 5% without volume or leverage confirmation",
+      "Social media hype cycles without onchain or market structure support"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Bitcoin 12-Month Indicator Surveillance",
+    "original_question": "What is the serious 12-month outlook for Bitcoin?",
+    "reframed_question": "Which leading indicators and thresholds will signal material shifts in Bitcoin’s 12-month price and adoption trajectory?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Bitcoin",
+        "definition": "A decentralized digital currency operating on a proof-of-work blockchain, subject to market, regulatory, and technological dynamics."
+      },
+      {
+        "term": "12-month outlook",
+        "definition": "The expected directional trend and volatility regime of Bitcoin’s price and adoption metrics over the next year."
+      },
+      {
+        "term": "serious",
+        "definition": "Focused on material, actionable signals with operational relevance for investors and strategists."
+      }
+    ],
+    "domains": [
+      "crypto-market-structure",
+      "macro-liquidity",
+      "regulation",
+      "adoption-utility"
+    ],
+    "key_drivers": [
+      "macro liquidity conditions",
+      "crypto market leverage and funding rates",
+      "regulatory developments affecting Bitcoin",
+      "onchain adoption and network activity"
+    ],
+    "current_stance": "structurally tilted neutral with risk skewed to downside given macro tightening and regulatory uncertainty",
+    "monitoring_signals": [
+      {
+        "name": "Macro Liquidity Conditions",
+        "why_it_matters": "Liquidity tightening or easing drives risk appetite for speculative assets including Bitcoin",
+        "current_read": "likely near neutral based on recent central bank policy trajectory",
+        "bullish_threshold": "significant easing or pause in rate hikes sustained for 2+ months",
+        "neutral_threshold": "stable or slowly tightening liquidity without shocks",
+        "bearish_threshold": "accelerated rate hikes or quantitative tightening beyond current expectations"
+      },
+      {
+        "name": "Crypto Market Leverage and Funding Rates",
+        "why_it_matters": "High leverage and positive funding rates often precede sharp corrections; deleveraging signals risk-off",
+        "current_read": "moderate leverage with occasional spikes, to be checked against volatility",
+        "bullish_threshold": "sustained low or negative funding rates indicating reduced speculative pressure",
+        "neutral_threshold": "funding rates fluctuating near zero with moderate leverage",
+        "bearish_threshold": "persistent high positive funding rates and rising open interest indicating crowded longs"
+      },
+      {
+        "name": "Regulatory Developments",
+        "why_it_matters": "New laws or enforcement actions can materially impact Bitcoin’s institutional adoption and retail sentiment",
+        "current_read": "uncertain with mixed signals globally, leaning cautious",
+        "bullish_threshold": "clear regulatory clarity favoring Bitcoin adoption, e.g., ETF approvals or favorable tax rulings",
+        "neutral_threshold": "status quo with no major new regulatory actions",
+        "bearish_threshold": "major crackdowns, bans, or hostile tax policies in key markets"
+      },
+      {
+        "name": "Onchain Adoption and Network Activity",
+        "why_it_matters": "Rising active addresses, transaction volume, and stablecoin inflows indicate growing utility and demand",
+        "current_read": "stable but not accelerating materially",
+        "bullish_threshold": "sustained 10%+ quarterly growth in active addresses and transaction volume",
+        "neutral_threshold": "flat or modest growth in network metrics",
+        "bearish_threshold": "declining active addresses and transaction volume over multiple quarters"
+      },
+      {
+        "name": "Exchange Bitcoin Balances",
+        "why_it_matters": "Declining exchange balances suggest accumulation and reduced selling pressure; rising balances indicate potential sell pressure",
+        "current_read": "moderate decline consistent with cautious accumulation",
+        "bullish_threshold": "exchange balances falling >5% over 1 month",
+        "neutral_threshold": "exchange balances stable within ±2%",
+        "bearish_threshold": "exchange balances rising >5% over 1 month"
+      }
+    ],
+    "review_cadence": "biweekly",
+    "confirm_current_view": [
+      "Macro liquidity remains in tightening mode globally",
+      "Regulatory environment remains uncertain with no major positive breakthroughs",
+      "Funding rates and leverage show episodic spikes but no sustained deleveraging"
+    ],
+    "disconfirm_current_view": [
+      "Sustained macro liquidity easing or pause in rate hikes",
+      "Clear regulatory approvals or favorable rulings for Bitcoin",
+      "Sustained decline in leverage and funding rates indicating risk-off"
+    ],
+    "what_to_ignore": [
+      "Short-term price volatility spikes under 5% without volume or leverage confirmation",
+      "Social media hype cycles without onchain or market structure support"
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Institutional Bitcoin treasury allocations beyond public disclosures",
+      "Stablecoin issuance growth as a proxy for crypto ecosystem liquidity",
+      "Shifts in Bitcoin mining economics affecting sell pressure",
+      "Cross-asset correlation shifts, especially with tech equities and commodities"
+    ],
+    "change_my_mind_conditions": [
+      "IF major central banks signal indefinite pause or reversal of tightening -> macro risk-off thesis weakens",
+      "IF US or EU regulators approve Bitcoin ETFs or clarify custody rules -> regulatory risk thesis weakens",
+      "IF onchain metrics show sustained 15%+ quarterly growth in active users -> adoption-driven upside thesis strengthens",
+      "IF exchange balances spike sharply alongside rising funding rates -> risk of sharp correction increases"
+    ],
+    "bottom_line": "View: Neutral-to-bearish bias on Bitcoin over next 12 months given macro tightening and regulatory uncertainty. Reason: Liquidity conditions and regulatory ambiguity currently limit sustained upside, while leverage and funding rates pose correction risk. Risk: Unexpected macro easing or regulatory clarity could quickly shift sentiment. Downgrade if: Macro liquidity eases materially or regulatory clarity emerges. Upgrade if: Leverage and funding rates normalize with rising adoption metrics. Review: Biweekly to capture shifts in macro policy, regulatory announcements, funding rates, and onchain activity. Ignore: Short-term price noise under 5% without volume or leverage confirmation.",
+    "watchlist": [
+      "Central bank policy announcements and rate changes; sustained pause or cuts signal easing",
+      "Regulatory approvals or crackdowns in US, EU, China; approvals boost, crackdowns hurt",
+      "Funding rates above 0.05% daily for 1+ week; signals crowded longs and risk",
+      "Quarterly active Bitcoin addresses growth >10%; signals adoption acceleration",
+      "Exchange Bitcoin balances change >5% monthly; falling balances indicate accumulation",
+      "Stablecoin market cap growth >5% quarterly; signals ecosystem liquidity expansion"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 3,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational monitoring signals with clear thresholds and current reads",
+      "Strong domain coverage capturing macro, regulatory, and onchain drivers",
+      "Watchlist and what-to-ignore items are concrete and actionable"
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are mostly plausible but not especially non-obvious",
+      "Change-my-mind conditions could be sharper on observability and trigger logic",
+      "Bottom line is clear but hedges with neutral-to-bearish bias, not a strong directional call"
+    ],
+    "summary": "This monitoring analysis is well-structured, with explicit signals, thresholds, and review cadence tailored to the objective. Domains and watchlist items are relevant and operational. Some hidden variables and change-my-mind logic are adequate but not unusually insightful. The bottom line is decisive but not bold. Overall, this is a strong, practical monitoring framework with minor room for sharper variable selection and thesis disconfirmation logic.",
+    "average_score": 3.67
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis introduces more precise and falsifiable 'change_my_mind' conditions, tightening the logic for disconfirmation and making the watchlist triggers more specific (e.g., requiring consecutive periods for key metrics). The bottom line is marginally sharper by explicitly stating the weakest assumption. Weak claims are slightly improved by clarifying the risk of ambiguous regulatory outcomes. However, scenario analysis and alternative lenses remain absent, and some thresholds could be further operationalized.",
+    "best_red_team_change": "Disconfirmation logic and watchlist triggers now require sustained or consecutive signals, reducing ambiguity and improving actionability.",
+    "remaining_gap": "No scenario mapping or alternative lenses are provided, and some thresholds (e.g., 'regulatory clarity') could be further operationalized to reduce interpretive risk."
+  }
+}

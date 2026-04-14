@@ -1,0 +1,282 @@
+{
+  "id": "12-media-monitor",
+  "category": "open-ended strategy",
+  "question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+  "selectedDomain": "strategy",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnxc7f3p000bnrks6lwduj1p",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 24570,
+  "analysis": {
+    "title": "Niche Media Brand Growth Strategy Monitoring",
+    "original_question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+    "reframed_question": "Which operational and market indicators will reliably signal the effectiveness of a niche media brand’s growth strategy over the next 18 months?",
+    "time_horizon": "next 18 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "niche media brand",
+        "definition": "A media company targeting a narrowly defined audience segment with specialized content."
+      },
+      {
+        "term": "growth",
+        "definition": "Expansion in audience size, engagement, revenue, or influence relevant to the brand’s strategic goals."
+      },
+      {
+        "term": "strategy effectiveness",
+        "definition": "The degree to which the current growth plan achieves sustainable audience and revenue expansion within resource constraints."
+      }
+    ],
+    "domains": [
+      "strategy",
+      "customer acquisition and retention",
+      "distribution channels",
+      "unit economics"
+    ],
+    "key_drivers": [
+      "audience growth rate",
+      "engagement metrics",
+      "customer acquisition cost (CAC)",
+      "revenue per user (RPU)",
+      "distribution channel efficiency",
+      "competitive positioning"
+    ],
+    "hidden_variables": [
+      "Platform algorithm changes impacting distribution unpredictably.",
+      "Emergence of a new competitor targeting the same niche with superior resources.",
+      "Shifts in audience content consumption preferences within the niche.",
+      "Internal execution risks such as content quality or operational bottlenecks."
+    ],
+    "change_my_mind_conditions": [
+      "IF monthly audience growth exceeds 5% for 3 consecutive months -> niche growth constraint assumption fails.",
+      "IF CAC increases by more than 10% over a quarter without proportional revenue growth -> unit economics assumption fails.",
+      "IF engagement metrics (average session duration or repeat visits) decline by more than 10% over 3 months -> content relevance assumption fails.",
+      "IF a major platform algorithm change causes traffic to drop by more than 20% in a month -> distribution stability assumption fails."
+    ],
+    "bottom_line": "View: Current growth strategy is cautiously viable but constrained by niche audience limits and distribution risks. Reason: Moderate audience growth and stable unit economics are typical in niche media absent major disruptions. Risk: The weakest assumption is that audience growth can sustain above niche constraints and that CAC remains manageable. Downgrade if: Audience growth fails to exceed 5% monthly for 3 months, CAC rises >10% quarterly without revenue gains, or engagement drops >10% over 3 months. Upgrade if: Audience growth consistently exceeds 5% monthly for 3 months, CAC decreases with revenue growth, or engagement metrics improve >10%. Review: Monthly.",
+    "watchlist": [
+      "Monthly active user growth >5% sustained for 3 months signals breaking niche growth constraints.",
+      "Quarterly CAC increase >10% without matching revenue growth signals deteriorating unit economics.",
+      "Engagement metrics (session duration or repeat visits) drop >10% over 3 months signals declining content relevance.",
+      "Key distribution channel traffic loss >15% within 1 month signals urgent distribution risk.",
+      "Platform algorithm change causing >20% traffic drop within 1 month signals immediate strategy reassessment."
+    ],
+    "current_stance": "Likely near neutral based on structural reasoning; growth is feasible but constrained by distribution and monetization challenges.",
+    "monitoring_signals": [
+      {
+        "name": "Audience Growth Rate",
+        "why_it_matters": "Sustained audience expansion is critical to validate product-market fit and growth strategy.",
+        "current_read": "Likely near neutral given niche focus and typical slow scaling in specialized segments.",
+        "bullish_threshold": "Monthly active users grow >5% month-over-month for 3 consecutive months.",
+        "neutral_threshold": "Monthly active users grow between 0% and 5% month-over-month.",
+        "bearish_threshold": "Monthly active users decline or stagnate for 3 consecutive months."
+      },
+      {
+        "name": "Customer Acquisition Cost (CAC)",
+        "why_it_matters": "Rising CAC signals diminishing returns on marketing spend and threatens unit economics.",
+        "current_read": "To be checked against current spend efficiency; niche targeting may keep CAC moderate.",
+        "bullish_threshold": "CAC decreases or remains stable while audience grows.",
+        "neutral_threshold": "CAC increases moderately (<10%) without proportional revenue growth.",
+        "bearish_threshold": "CAC increases >10% without revenue or audience growth."
+      },
+      {
+        "name": "Revenue Per User (RPU)",
+        "why_it_matters": "Improving RPU indicates better monetization and validates pricing or sponsorship strategies.",
+        "current_read": "Likely stable or slowly increasing if monetization experiments are underway.",
+        "bullish_threshold": "RPU increases >5% quarter-over-quarter.",
+        "neutral_threshold": "RPU flat or fluctuates within ±5%.",
+        "bearish_threshold": "RPU declines >5% quarter-over-quarter."
+      },
+      {
+        "name": "Engagement Metrics (Time Spent, Repeat Visits)",
+        "why_it_matters": "High engagement correlates with retention and monetization potential.",
+        "current_read": "Likely stable; niche content often drives loyal but limited audiences.",
+        "bullish_threshold": "Average session duration or repeat visit rate increases >10% over 3 months.",
+        "neutral_threshold": "Engagement metrics stable within ±10%.",
+        "bearish_threshold": "Engagement metrics decline >10% over 3 months."
+      },
+      {
+        "name": "Distribution Channel Efficiency",
+        "why_it_matters": "Effective channels reduce CAC and increase reach; channel shifts can disrupt growth.",
+        "current_read": "To be checked; dependency on volatile platforms is a risk.",
+        "bullish_threshold": "New or existing channels deliver >10% increase in traffic or conversions without higher spend.",
+        "neutral_threshold": "Channel performance stable or minor fluctuations within ±10%.",
+        "bearish_threshold": "Key channels lose >10% traffic or conversions, or CAC rises sharply."
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Audience growth remains modest and steady within niche limits.",
+      "CAC stable or improving relative to revenue growth.",
+      "Engagement metrics consistent with loyal niche audience."
+    ],
+    "disconfirm_current_view": [
+      "Audience growth accelerates beyond niche norms.",
+      "CAC rises sharply without revenue gains.",
+      "Engagement metrics deteriorate significantly."
+    ],
+    "what_to_ignore": [
+      "Short-term fluctuations in daily traffic due to one-off events.",
+      "Minor monthly revenue volatility under ±5%."
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Niche Media Brand Growth Strategy Monitoring",
+    "original_question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+    "reframed_question": "Which operational and market indicators will reliably signal the effectiveness of a niche media brand’s growth strategy over the next 18 months?",
+    "time_horizon": "next 18 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "niche media brand",
+        "definition": "A media company targeting a narrowly defined audience segment with specialized content."
+      },
+      {
+        "term": "growth",
+        "definition": "Expansion in audience size, engagement, revenue, or influence relevant to the brand’s strategic goals."
+      },
+      {
+        "term": "strategy effectiveness",
+        "definition": "The degree to which the current growth plan achieves sustainable audience and revenue expansion within resource constraints."
+      }
+    ],
+    "domains": [
+      "strategy",
+      "customer acquisition and retention",
+      "distribution channels",
+      "unit economics"
+    ],
+    "key_drivers": [
+      "audience growth rate",
+      "engagement metrics",
+      "customer acquisition cost (CAC)",
+      "revenue per user (RPU)",
+      "distribution channel efficiency",
+      "competitive positioning"
+    ],
+    "current_stance": "Likely near neutral based on structural reasoning; growth is feasible but constrained by distribution and monetization challenges.",
+    "monitoring_signals": [
+      {
+        "name": "Audience Growth Rate",
+        "why_it_matters": "Sustained audience expansion is critical to validate product-market fit and growth strategy.",
+        "current_read": "Likely near neutral given niche focus and typical slow scaling in specialized segments.",
+        "bullish_threshold": "Monthly active users grow >5% month-over-month for 3 consecutive months.",
+        "neutral_threshold": "Monthly active users grow between 0% and 5% month-over-month.",
+        "bearish_threshold": "Monthly active users decline or stagnate for 3 consecutive months."
+      },
+      {
+        "name": "Customer Acquisition Cost (CAC)",
+        "why_it_matters": "Rising CAC signals diminishing returns on marketing spend and threatens unit economics.",
+        "current_read": "To be checked against current spend efficiency; niche targeting may keep CAC moderate.",
+        "bullish_threshold": "CAC decreases or remains stable while audience grows.",
+        "neutral_threshold": "CAC increases moderately (<10%) without proportional revenue growth.",
+        "bearish_threshold": "CAC increases >10% without revenue or audience growth."
+      },
+      {
+        "name": "Revenue Per User (RPU)",
+        "why_it_matters": "Improving RPU indicates better monetization and validates pricing or sponsorship strategies.",
+        "current_read": "Likely stable or slowly increasing if monetization experiments are underway.",
+        "bullish_threshold": "RPU increases >5% quarter-over-quarter.",
+        "neutral_threshold": "RPU flat or fluctuates within ±5%.",
+        "bearish_threshold": "RPU declines >5% quarter-over-quarter."
+      },
+      {
+        "name": "Engagement Metrics (Time Spent, Repeat Visits)",
+        "why_it_matters": "High engagement correlates with retention and monetization potential.",
+        "current_read": "Likely stable; niche content often drives loyal but limited audiences.",
+        "bullish_threshold": "Average session duration or repeat visit rate increases >10% over 3 months.",
+        "neutral_threshold": "Engagement metrics stable within ±10%.",
+        "bearish_threshold": "Engagement metrics decline >10% over 3 months."
+      },
+      {
+        "name": "Distribution Channel Efficiency",
+        "why_it_matters": "Effective channels reduce CAC and increase reach; channel shifts can disrupt growth.",
+        "current_read": "To be checked; dependency on volatile platforms is a risk.",
+        "bullish_threshold": "New or existing channels deliver >10% increase in traffic or conversions without higher spend.",
+        "neutral_threshold": "Channel performance stable or minor fluctuations within ±10%.",
+        "bearish_threshold": "Key channels lose >10% traffic or conversions, or CAC rises sharply."
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Audience growth remains modest and steady within niche limits.",
+      "CAC stable or improving relative to revenue growth.",
+      "Engagement metrics consistent with loyal niche audience."
+    ],
+    "disconfirm_current_view": [
+      "Audience growth accelerates beyond niche norms.",
+      "CAC rises sharply without revenue gains.",
+      "Engagement metrics deteriorate significantly."
+    ],
+    "what_to_ignore": [
+      "Short-term fluctuations in daily traffic due to one-off events.",
+      "Minor monthly revenue volatility under ±5%."
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Platform algorithm changes impacting distribution unpredictably.",
+      "Emergence of a new competitor targeting the same niche with superior resources.",
+      "Shifts in audience content consumption preferences within the niche.",
+      "Internal execution risks such as content quality or operational bottlenecks."
+    ],
+    "change_my_mind_conditions": [
+      "IF audience growth exceeds 10% month-over-month for 3 months -> niche constraints assumption fails.",
+      "IF CAC rises >15% without revenue growth -> unit economics assumption fails.",
+      "IF engagement metrics fall >15% over 3 months -> content relevance assumption fails.",
+      "IF a major platform changes algorithm reducing traffic >20% -> distribution stability assumption fails."
+    ],
+    "bottom_line": "View: Current growth strategy is cautiously viable but constrained by niche limits and distribution risks. Reason: Moderate audience growth and stable unit economics are typical in niche media absent major channel disruption. Risk: Platform dependency and rising CAC could undermine growth. Downgrade if: Audience growth stalls or declines for 3 months, CAC rises >10% without revenue gains, or engagement drops >10%. Upgrade if: Audience growth exceeds 5% monthly for 3 months, CAC decreases with revenue growth, or engagement metrics improve >10%. Review: Monthly. Ignore: Daily traffic spikes from one-off events and minor revenue fluctuations under 5%.",
+    "watchlist": [
+      "Monthly active user growth >5% for 3 months signals strategy success.",
+      "CAC increase >10% without revenue growth signals weakening unit economics.",
+      "RPU increase >5% quarter-over-quarter signals improved monetization.",
+      "Engagement drop >10% over 3 months signals content or audience issues.",
+      "Key distribution channel traffic loss >10% signals distribution risk.",
+      "Platform algorithm change causing >20% traffic drop signals urgent strategy review."
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational monitoring signals with clear thresholds and review cadence.",
+      "Distinct, relevant domains and drivers; strong alignment to monitor objective.",
+      "Change-my-mind conditions and watchlist items are concrete and observable."
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are mostly standard and not especially non-obvious.",
+      "Bottom line is cautious but lacks a sharp, actionable call.",
+      "Some overlap in confirm/disconfirm logic with monitoring signals."
+    ],
+    "summary": "This analysis is well-structured and operationally focused, with clear, actionable monitoring signals and explicit thresholds. Domains and drivers are relevant and distinct, and the output is tightly aligned to the monitor objective. The main weaknesses are generic hidden variables and a bottom line that, while reasonable, could be more decisive. Overall, this is a strong monitoring analysis with only minor areas for improvement.",
+    "average_score": 3.78
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis makes modest but clear improvements. Disconfirmation logic is more explicit, with tighter thresholds and clearer links to underlying assumptions. The watchlist is more specific, especially regarding timeframes and the severity of distribution risks. Weak claims and the bottom line are slightly improved by clarifying the weakest assumption and tightening upgrade/downgrade criteria, but the overall stance remains similar.",
+    "best_red_team_change": "Watchlist items now specify timeframes and sharper thresholds for distribution channel and platform risks, making monitoring more actionable.",
+    "remaining_gap": "The analysis still lacks scenario exploration and does not address potential leading indicators or early warning signals beyond the main metrics. Lenses and alternative hypotheses remain undeveloped."
+  }
+}

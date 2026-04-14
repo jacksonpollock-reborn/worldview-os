@@ -1,0 +1,447 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "mock:policy",
+  "promptVersion": "mock-policy-v1",
+  "analysisId": "cmnwux9br0001nr6cwsnwjwoq",
+  "redTeamRan": false,
+  "redTeamStatus": "skipped",
+  "redTeamError": "Mock mode skips the live red-team pass.",
+  "durationMs": 13,
+  "analysis": {
+    "title": "U.S. Policy Momentum Through 2027",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Through 2027, what are the highest-probability pathways by which the current U.S. administration could lose the capacity to advance or defend its policy agenda?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Policy momentum",
+        "definition": "The administration’s practical ability to pass, implement, defend, and sustain its preferred agenda."
+      },
+      {
+        "term": "Lose momentum",
+        "definition": "A material decline in coalition control, institutional leverage, execution capacity, or public legitimacy."
+      },
+      {
+        "term": "Pathway",
+        "definition": "A causal chain, not a single headline event, that shifts the balance of political power."
+      }
+    ],
+    "domains": [
+      "politics",
+      "law",
+      "macroeconomics",
+      "social dynamics",
+      "narrative"
+    ],
+    "key_drivers": [
+      "Legislative coalition cohesion",
+      "Court and agency constraints",
+      "Inflation, growth, and labor-market conditions",
+      "Public-perception shocks and narrative control",
+      "Execution quality inside the bureaucracy"
+    ],
+    "lenses": [
+      {
+        "name": "Institutional leverage",
+        "why_it_matters": "Policy success depends on whether the administration can still convert preferences into durable government action.",
+        "key_drivers": [
+          "Congressional margin management",
+          "Agency implementation capacity",
+          "Court vulnerability of key initiatives"
+        ],
+        "bull_case": "The administration keeps enough coalition discipline to move targeted priorities and absorbs court setbacks selectively.",
+        "bear_case": "Fragmentation, procedural defeats, and court losses turn policy into a defensive posture.",
+        "base_case": "Incremental action remains possible, but only on narrower issues with lower political heat.",
+        "wildcard_case": "A sudden external shock creates bipartisan cover for a temporary burst of policy throughput.",
+        "evidence_for": [
+          "Leadership still controls the agenda on select issues",
+          "Executive agencies retain room for narrower rulemaking"
+        ],
+        "evidence_against": [
+          "Thin margins increase veto power for small factions",
+          "Courts can slow or reverse ambitious regulatory moves"
+        ],
+        "leading_indicators": [
+          "Whip-count stability",
+          "Agency implementation milestones",
+          "Major court-calendar events"
+        ],
+        "disconfirming_signals": [
+          "Repeated clean passage of contested priorities",
+          "Unexpected bipartisan legislative wins"
+        ]
+      },
+      {
+        "name": "Macro and voter pain",
+        "why_it_matters": "Economic frustration can degrade public tolerance even when policy content remains popular on paper.",
+        "key_drivers": [
+          "Inflation trend",
+          "Real wage improvement",
+          "Labor-market softness"
+        ],
+        "bull_case": "Disinflation continues while growth stays resilient, muting backlash and preserving governing legitimacy.",
+        "bear_case": "Sticky prices or labor weakness convert macro frustration into broad anti-incumbent energy.",
+        "base_case": "Mixed macro signals keep public opinion unstable and selective rather than catastrophic.",
+        "wildcard_case": "A supply shock or fiscal accident re-orders the political agenda around crisis management.",
+        "evidence_for": [
+          "Improving real wages can stabilize perceptions over time",
+          "Macro relief gives the administration message discipline"
+        ],
+        "evidence_against": [
+          "Voters often react to level effects, not just trend improvement",
+          "Economic narratives can sour faster than the data improves"
+        ],
+        "leading_indicators": [
+          "Inflation expectations",
+          "Consumer-sentiment gaps by party and income cohort",
+          "Payroll revision direction"
+        ],
+        "disconfirming_signals": [
+          "Sustained sentiment recovery despite mediocre growth",
+          "Policy polling that decouples from macro dissatisfaction"
+        ]
+      },
+      {
+        "name": "Narrative and coalition durability",
+        "why_it_matters": "Governing power erodes quickly when the administration loses the ability to define events and keep its coalition aligned.",
+        "key_drivers": [
+          "Media agenda-setting",
+          "Coalition issue splits",
+          "Elite defections or donor pressure"
+        ],
+        "bull_case": "The coalition absorbs internal disagreements without allowing them to become identity-level fractures.",
+        "bear_case": "Narrative chaos and coalition fragmentation make every event look like proof of drift and incompetence.",
+        "base_case": "Narrative control weakens episodically but does not fully collapse into an open coalition break.",
+        "wildcard_case": "A single symbolic event sharply compresses confidence among swing constituencies and elite allies.",
+        "evidence_for": [
+          "The administration still has issue areas where coalition language remains coordinated",
+          "Opposition overreach can restore temporary cohesion"
+        ],
+        "evidence_against": [
+          "Media cycles reward conflict amplification",
+          "Coalitions under stress tend to reveal latent fractures all at once"
+        ],
+        "leading_indicators": [
+          "Elite and surrogate message divergence",
+          "Issue-salience shifts among independents",
+          "Donor and activist pressure points"
+        ],
+        "disconfirming_signals": [
+          "High-profile dissent resolves without measurable polling damage",
+          "Coalition subgroups converge on a shared priorities list"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case: narrower governability",
+        "description": "The administration keeps functional control but loses ambition. Policy throughput narrows to incremental, lower-heat priorities while contested items stall or get diluted.",
+        "probability": 45,
+        "impact": "medium",
+        "time_horizon": "through 2027",
+        "confidence": "medium",
+        "leading_indicators": [
+          "More reliance on small-bore executive actions",
+          "Declining success rate on contested legislative priorities",
+          "Mixed but not catastrophic macro sentiment"
+        ]
+      },
+      {
+        "name": "Bear case: visible loss of policy momentum",
+        "description": "A mix of macro frustration, court setbacks, and coalition slippage turns the administration into a reactive operator with little agenda-setting capacity.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "through 2027",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Factional public defections",
+          "Back-to-back legal reversals",
+          "Persistent anti-incumbent macro polling"
+        ]
+      },
+      {
+        "name": "Bull case: selective policy resilience",
+        "description": "Better macro conditions and disciplined prioritization preserve enough legitimacy to keep moving a narrower but real agenda.",
+        "probability": 20,
+        "impact": "medium",
+        "time_horizon": "through 2027",
+        "confidence": "low",
+        "leading_indicators": [
+          "Improved real-income data",
+          "Clean passage of targeted priorities",
+          "Reduced coalition message divergence"
+        ]
+      },
+      {
+        "name": "Wildcard: shock-driven reset",
+        "description": "An external event or opposition error unexpectedly resets the political field and gives the administration a temporary governing burst.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "12 to 18 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Rapid issue-salience shifts",
+          "Temporary bipartisan bargaining windows"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Whether coalition tensions are tactical disagreements or deeper value-level fractures",
+      "How much court timing, not just court ideology, alters policy sequencing",
+      "Whether macro improvement is felt broadly enough to matter politically"
+    ],
+    "change_my_mind_conditions": [
+      "A sustained improvement in public economic perceptions without a corresponding rise in anti-incumbent sentiment",
+      "Repeated evidence that contested priorities can still clear Congress or survive courts",
+      "A major coalition dispute resolving with no measurable damage to trust or message cohesion"
+    ],
+    "bottom_line": "The most likely outcome is not full collapse but narrowing governability: fewer clean wins, more defensive sequencing, and a greater dependence on external conditions to preserve momentum.",
+    "watchlist": [
+      "Factional whip-count leakage on priority votes",
+      "Court timing around flagship initiatives",
+      "Inflation expectations and real wage trend",
+      "Independent-voter issue salience",
+      "High-profile coalition message divergence"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "U.S. Policy Momentum Through 2027",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Through 2027, what are the highest-probability pathways by which the current U.S. administration could lose the capacity to advance or defend its policy agenda?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Policy momentum",
+        "definition": "The administration’s practical ability to pass, implement, defend, and sustain its preferred agenda."
+      },
+      {
+        "term": "Lose momentum",
+        "definition": "A material decline in coalition control, institutional leverage, execution capacity, or public legitimacy."
+      },
+      {
+        "term": "Pathway",
+        "definition": "A causal chain, not a single headline event, that shifts the balance of political power."
+      }
+    ],
+    "domains": [
+      "politics",
+      "law",
+      "macroeconomics",
+      "social dynamics",
+      "narrative"
+    ],
+    "key_drivers": [
+      "Legislative coalition cohesion",
+      "Court and agency constraints",
+      "Inflation, growth, and labor-market conditions",
+      "Public-perception shocks and narrative control",
+      "Execution quality inside the bureaucracy"
+    ],
+    "lenses": [
+      {
+        "name": "Institutional leverage",
+        "why_it_matters": "Policy success depends on whether the administration can still convert preferences into durable government action.",
+        "key_drivers": [
+          "Congressional margin management",
+          "Agency implementation capacity",
+          "Court vulnerability of key initiatives"
+        ],
+        "bull_case": "The administration keeps enough coalition discipline to move targeted priorities and absorbs court setbacks selectively.",
+        "bear_case": "Fragmentation, procedural defeats, and court losses turn policy into a defensive posture.",
+        "base_case": "Incremental action remains possible, but only on narrower issues with lower political heat.",
+        "wildcard_case": "A sudden external shock creates bipartisan cover for a temporary burst of policy throughput.",
+        "evidence_for": [
+          "Leadership still controls the agenda on select issues",
+          "Executive agencies retain room for narrower rulemaking"
+        ],
+        "evidence_against": [
+          "Thin margins increase veto power for small factions",
+          "Courts can slow or reverse ambitious regulatory moves"
+        ],
+        "leading_indicators": [
+          "Whip-count stability",
+          "Agency implementation milestones",
+          "Major court-calendar events"
+        ],
+        "disconfirming_signals": [
+          "Repeated clean passage of contested priorities",
+          "Unexpected bipartisan legislative wins"
+        ]
+      },
+      {
+        "name": "Macro and voter pain",
+        "why_it_matters": "Economic frustration can degrade public tolerance even when policy content remains popular on paper.",
+        "key_drivers": [
+          "Inflation trend",
+          "Real wage improvement",
+          "Labor-market softness"
+        ],
+        "bull_case": "Disinflation continues while growth stays resilient, muting backlash and preserving governing legitimacy.",
+        "bear_case": "Sticky prices or labor weakness convert macro frustration into broad anti-incumbent energy.",
+        "base_case": "Mixed macro signals keep public opinion unstable and selective rather than catastrophic.",
+        "wildcard_case": "A supply shock or fiscal accident re-orders the political agenda around crisis management.",
+        "evidence_for": [
+          "Improving real wages can stabilize perceptions over time",
+          "Macro relief gives the administration message discipline"
+        ],
+        "evidence_against": [
+          "Voters often react to level effects, not just trend improvement",
+          "Economic narratives can sour faster than the data improves"
+        ],
+        "leading_indicators": [
+          "Inflation expectations",
+          "Consumer-sentiment gaps by party and income cohort",
+          "Payroll revision direction"
+        ],
+        "disconfirming_signals": [
+          "Sustained sentiment recovery despite mediocre growth",
+          "Policy polling that decouples from macro dissatisfaction"
+        ]
+      },
+      {
+        "name": "Narrative and coalition durability",
+        "why_it_matters": "Governing power erodes quickly when the administration loses the ability to define events and keep its coalition aligned.",
+        "key_drivers": [
+          "Media agenda-setting",
+          "Coalition issue splits",
+          "Elite defections or donor pressure"
+        ],
+        "bull_case": "The coalition absorbs internal disagreements without allowing them to become identity-level fractures.",
+        "bear_case": "Narrative chaos and coalition fragmentation make every event look like proof of drift and incompetence.",
+        "base_case": "Narrative control weakens episodically but does not fully collapse into an open coalition break.",
+        "wildcard_case": "A single symbolic event sharply compresses confidence among swing constituencies and elite allies.",
+        "evidence_for": [
+          "The administration still has issue areas where coalition language remains coordinated",
+          "Opposition overreach can restore temporary cohesion"
+        ],
+        "evidence_against": [
+          "Media cycles reward conflict amplification",
+          "Coalitions under stress tend to reveal latent fractures all at once"
+        ],
+        "leading_indicators": [
+          "Elite and surrogate message divergence",
+          "Issue-salience shifts among independents",
+          "Donor and activist pressure points"
+        ],
+        "disconfirming_signals": [
+          "High-profile dissent resolves without measurable polling damage",
+          "Coalition subgroups converge on a shared priorities list"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case: narrower governability",
+        "description": "The administration keeps functional control but loses ambition. Policy throughput narrows to incremental, lower-heat priorities while contested items stall or get diluted.",
+        "probability": 45,
+        "impact": "medium",
+        "time_horizon": "through 2027",
+        "confidence": "medium",
+        "leading_indicators": [
+          "More reliance on small-bore executive actions",
+          "Declining success rate on contested legislative priorities",
+          "Mixed but not catastrophic macro sentiment"
+        ]
+      },
+      {
+        "name": "Bear case: visible loss of policy momentum",
+        "description": "A mix of macro frustration, court setbacks, and coalition slippage turns the administration into a reactive operator with little agenda-setting capacity.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "through 2027",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Factional public defections",
+          "Back-to-back legal reversals",
+          "Persistent anti-incumbent macro polling"
+        ]
+      },
+      {
+        "name": "Bull case: selective policy resilience",
+        "description": "Better macro conditions and disciplined prioritization preserve enough legitimacy to keep moving a narrower but real agenda.",
+        "probability": 20,
+        "impact": "medium",
+        "time_horizon": "through 2027",
+        "confidence": "low",
+        "leading_indicators": [
+          "Improved real-income data",
+          "Clean passage of targeted priorities",
+          "Reduced coalition message divergence"
+        ]
+      },
+      {
+        "name": "Wildcard: shock-driven reset",
+        "description": "An external event or opposition error unexpectedly resets the political field and gives the administration a temporary governing burst.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "12 to 18 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Rapid issue-salience shifts",
+          "Temporary bipartisan bargaining windows"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Whether coalition tensions are tactical disagreements or deeper value-level fractures",
+      "How much court timing, not just court ideology, alters policy sequencing",
+      "Whether macro improvement is felt broadly enough to matter politically"
+    ],
+    "change_my_mind_conditions": [
+      "A sustained improvement in public economic perceptions without a corresponding rise in anti-incumbent sentiment",
+      "Repeated evidence that contested priorities can still clear Congress or survive courts",
+      "A major coalition dispute resolving with no measurable damage to trust or message cohesion"
+    ],
+    "bottom_line": "The most likely outcome is not full collapse but narrowing governability: fewer clean wins, more defensive sequencing, and a greater dependence on external conditions to preserve momentum.",
+    "watchlist": [
+      "Factional whip-count leakage on priority votes",
+      "Court timing around flagship initiatives",
+      "Inflation expectations and real wage trend",
+      "Independent-voter issue salience",
+      "High-profile coalition message divergence"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 5,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Reframed question sharpens focus on pathways of losing policy capacity",
+      "Domains and lenses are well-chosen and causally relevant",
+      "Watchlist items are concrete and operationally useful"
+    ],
+    "notable_weaknesses": [
+      "Some lens elements and scenarios overlap in macro and narrative effects",
+      "Change-my-mind conditions could be more granular in disconfirmation logic",
+      "Bottom line is somewhat cautious and could state clearer thresholds for reversal"
+    ],
+    "summary": "The analysis provides a clear, operational reframing and uses relevant political and economic domains with distinct lenses. Scenarios are causally differentiated and watchlist items actionable. Minor weaknesses include some overlap in lens content and slightly generic disconfirmation criteria. Overall, it aligns well with the monitoring objective and offers a decisive, if cautious, bottom line.",
+    "average_score": 4.22
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 0,
+      "disconfirmation_logic": 0,
+      "watchlist_specificity": 0,
+      "bottom_line_sharpness": 0
+    },
+    "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There is no added specificity, refinement, or new insights introduced by the red-team pass. Consequently, no improvement is evident across any evaluated dimension.",
+    "best_red_team_change": "None; the final analysis is a verbatim copy of the primary analysis.",
+    "remaining_gap": "The analysis could benefit from clearer disconfirmation logic, more specific watchlist indicators, sharper bottom-line conclusions, and stronger claims to better guide monitoring efforts."
+  }
+}

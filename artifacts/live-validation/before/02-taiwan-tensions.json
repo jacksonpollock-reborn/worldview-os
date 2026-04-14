@@ -1,0 +1,225 @@
+{
+  "slug": "02-taiwan-tensions",
+  "domain": "geopolitics",
+  "timeHorizon": "next 18 months",
+  "objective": "forecast",
+  "question": "What are the most credible paths for China-Taiwan tensions over the next 18 months, and what would change the base case?",
+  "status": 200,
+  "response": {
+    "id": "cmnvzxw680001nr0h244iu4wn",
+    "analysis": {
+      "title": "Forecasting China-Taiwan Tensions Over 18 Months",
+      "original_question": "What are the most credible paths for China-Taiwan tensions over the next 18 months, and what would change the base case?",
+      "reframed_question": "What are the most plausible geopolitical developments regarding China-Taiwan relations within the next 18 months, what scenarios could unfold, and which factors could shift the expected trajectory?",
+      "time_horizon": "next 18 months",
+      "objective": "forecast",
+      "definitions": [
+        {
+          "term": "China-Taiwan tensions",
+          "definition": "The range of political, military, economic, and diplomatic frictions and conflicts between the People's Republic of China and Taiwan (Republic of China), including threats or acts of coercion, military posturing, or diplomatic isolation."
+        },
+        {
+          "term": "credible paths",
+          "definition": "Plausible scenarios or developments grounded in current evidence, expert analysis, and historical precedent."
+        },
+        {
+          "term": "base case",
+          "definition": "The most likely scenario or expected trajectory of China-Taiwan relations absent major unforeseen shocks."
+        }
+      ],
+      "domains": [
+        "geopolitics",
+        "international relations",
+        "military strategy",
+        "economic policy",
+        "diplomacy"
+      ],
+      "key_drivers": [
+        "China's domestic political stability and leadership priorities",
+        "Taiwan's political leadership and public opinion",
+        "US and allied countries' strategic policies and military posture",
+        "Cross-strait military capabilities and deployments",
+        "Economic interdependence and trade relations",
+        "International diplomatic recognition and alliances",
+        "Regional security dynamics including other actors (Japan, ASEAN, India)"
+      ],
+      "lenses": [
+        {
+          "name": "Military and Security Lens",
+          "why_it_matters": "Military posturing and capabilities directly influence the risk of conflict escalation or deterrence effectiveness.",
+          "key_drivers": [
+            "China's PLA modernization and exercises near Taiwan",
+            "Taiwan's defense readiness and asymmetric capabilities",
+            "US military presence and commitments in the region"
+          ],
+          "bull_case": "China escalates military pressure, including potential limited incursions or blockade attempts to coerce Taiwan.",
+          "bear_case": "Military tensions de-escalate due to diplomatic engagement or deterrence credibility, reducing risk of conflict.",
+          "base_case": "Sustained high-alert military posturing with periodic exercises but no direct conflict.",
+          "wildcard_case": "Unexpected military incident triggers rapid escalation or miscalculation leading to open conflict.",
+          "evidence_for": [
+            "Increased PLA exercises and incursions into Taiwan's ADIZ",
+            "US arms sales and naval transits near Taiwan",
+            "Taiwan's defense budget increases"
+          ],
+          "evidence_against": [
+            "Public statements by China emphasizing peaceful reunification",
+            "US diplomatic efforts to reduce tensions",
+            "Taiwan's political moves towards moderation"
+          ],
+          "leading_indicators": [
+            "Frequency and scale of PLA air and naval operations near Taiwan",
+            "Changes in Taiwan's military readiness status",
+            "US military deployments or joint exercises in the region"
+          ],
+          "disconfirming_signals": [
+            "Sudden reduction in PLA activity near Taiwan",
+            "High-level diplomatic meetings between China and Taiwan",
+            "Public statements by China signaling de-escalation"
+          ]
+        },
+        {
+          "name": "Diplomatic and Political Lens",
+          "why_it_matters": "Diplomatic recognition, alliances, and political rhetoric shape international support and legitimacy, influencing conflict dynamics.",
+          "key_drivers": [
+            "Taiwan's international diplomatic engagements",
+            "China's efforts to isolate Taiwan diplomatically",
+            "US and allies' policy statements and actions"
+          ],
+          "bull_case": "China intensifies diplomatic isolation of Taiwan, reducing its international space and increasing pressure.",
+          "bear_case": "Taiwan secures new diplomatic partners or informal alliances, strengthening its international position.",
+          "base_case": "Status quo diplomatic contest with limited changes in recognition but ongoing political friction.",
+          "wildcard_case": "Major diplomatic breakthrough or crisis, such as Taiwan joining international organizations or China imposing sanctions.",
+          "evidence_for": [
+            "China's efforts to block Taiwan's participation in international forums",
+            "US and allies' reaffirmation of Taiwan support",
+            "Taiwan's outreach to new diplomatic partners"
+          ],
+          "evidence_against": [
+            "Taiwan losing diplomatic allies",
+            "China signaling willingness to engage in talks",
+            "US reducing public support for Taiwan"
+          ],
+          "leading_indicators": [
+            "Changes in diplomatic recognition or status of Taiwan",
+            "Statements from key international actors on Taiwan",
+            "International organization membership developments"
+          ],
+          "disconfirming_signals": [
+            "Improved China-Taiwan official communications",
+            "International actors adopting neutral or ambiguous stances"
+          ]
+        },
+        {
+          "name": "Economic and Trade Lens",
+          "why_it_matters": "Economic interdependence and trade relations can act as both a stabilizing factor and a source of leverage or vulnerability.",
+          "key_drivers": [
+            "Cross-strait trade volume and restrictions",
+            "Global supply chain dependencies on Taiwan's semiconductor industry",
+            "Economic sanctions or trade barriers"
+          ],
+          "bull_case": "China imposes economic sanctions or trade restrictions to pressure Taiwan, disrupting supply chains.",
+          "bear_case": "Economic ties deepen, incentivizing peaceful coexistence and reducing conflict risk.",
+          "base_case": "Continued economic interdependence with occasional trade frictions but no major disruptions.",
+          "wildcard_case": "Global semiconductor supply shock triggers new alliances or escalates tensions.",
+          "evidence_for": [
+            "China restricting imports from Taiwan",
+            "Taiwan diversifying trade partnerships",
+            "Global semiconductor demand fluctuations"
+          ],
+          "evidence_against": [
+            "Stable or growing cross-strait trade",
+            "Joint economic initiatives or agreements",
+            "Global efforts to reduce semiconductor supply chain risks"
+          ],
+          "leading_indicators": [
+            "Changes in trade volume or tariffs between China and Taiwan",
+            "Announcements of supply chain diversification",
+            "Economic sanctions or countermeasures"
+          ],
+          "disconfirming_signals": [
+            "Resumption of stalled economic dialogues",
+            "Joint investments or cooperation announcements"
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Sustained Status Quo with High Tensions",
+          "description": "China maintains intense military and diplomatic pressure without initiating direct conflict; Taiwan strengthens defenses and international support; US and allies continue strategic ambiguity and deterrence.",
+          "probability": 60,
+          "impact": "medium",
+          "time_horizon": "next 18 months",
+          "confidence": "high",
+          "leading_indicators": [
+            "Continued PLA exercises near Taiwan",
+            "Stable diplomatic contest without major shifts",
+            "Ongoing US arms sales and naval presence"
+          ]
+        },
+        {
+          "name": "Escalation to Limited Military Conflict",
+          "description": "A miscalculation or deliberate limited military action by China occurs, such as a blockade or airspace incursion, prompting heightened crisis but avoiding full-scale war.",
+          "probability": 20,
+          "impact": "high",
+          "time_horizon": "next 18 months",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Significant increase in PLA incursions or naval blockades",
+            "Heightened Taiwan military alert levels",
+            "US and allied military repositioning"
+          ]
+        },
+        {
+          "name": "Diplomatic De-escalation and Engagement",
+          "description": "China and Taiwan engage in meaningful diplomatic dialogue, possibly facilitated by international actors, leading to reduced tensions and confidence-building measures.",
+          "probability": 15,
+          "impact": "medium",
+          "time_horizon": "next 18 months",
+          "confidence": "low",
+          "leading_indicators": [
+            "High-level meetings or communication channels established",
+            "Public statements emphasizing peaceful resolution",
+            "Reduction in military exercises near Taiwan"
+          ]
+        },
+        {
+          "name": "Rapid Escalation to Full-Scale Conflict",
+          "description": "An unexpected incident or strategic decision triggers full-scale military conflict between China and Taiwan, drawing in regional and global powers.",
+          "probability": 5,
+          "impact": "high",
+          "time_horizon": "next 18 months",
+          "confidence": "low",
+          "leading_indicators": [
+            "Sudden large-scale PLA mobilization near Taiwan",
+            "Breakdown of diplomatic communications",
+            "US and allies moving to wartime postures"
+          ]
+        }
+      ],
+      "hidden_variables": [
+        "Internal political stability within China, including leadership cohesion",
+        "Taiwanese public opinion shifts toward independence or reconciliation",
+        "US domestic political will and policy consistency",
+        "Unexpected external shocks (e.g., global economic crisis, pandemics)",
+        "Technological breakthroughs affecting military balance"
+      ],
+      "change_my_mind_conditions": [
+        "Significant reduction in PLA military activities near Taiwan sustained over months",
+        "Major diplomatic breakthrough between China and Taiwan mediated by a third party",
+        "US policy shift away from strategic ambiguity toward explicit defense commitments",
+        "Taiwanese elections resulting in a government with radically different cross-strait policy",
+        "Emergence of a severe economic crisis in China limiting its capacity for external coercion"
+      ],
+      "bottom_line": "The most credible near-term path is continued high-tension status quo marked by military posturing and diplomatic contest without direct conflict, driven by China's strategic calculus and US-Taiwan deterrence. However, risks of limited military escalation or rare diplomatic breakthroughs remain. Monitoring military activities, diplomatic signals, and internal political dynamics in China and Taiwan is critical to detecting shifts that could alter this trajectory.",
+      "watchlist": [
+        "Frequency and scale of PLA military exercises near Taiwan",
+        "Taiwan's defense budget and readiness indicators",
+        "US and allied military deployments and arms sales",
+        "Diplomatic recognition changes or international organization participation by Taiwan",
+        "Public statements by Chinese and Taiwanese leadership on cross-strait relations",
+        "Taiwanese election outcomes and policy shifts",
+        "Global semiconductor supply chain developments"
+      ]
+    }
+  }
+}

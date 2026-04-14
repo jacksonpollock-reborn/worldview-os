@@ -1,0 +1,461 @@
+{
+  "id": "04-recession-monitor",
+  "category": "macro/markets",
+  "question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+  "selectedDomain": "markets",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v5",
+  "analysisId": "cmnwt9bg1000fnrme7axxlo43",
+  "redTeamRan": true,
+  "durationMs": 44449,
+  "analysis": {
+    "title": "Monitoring Recession Risk Impact on Premium Brand Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and consumer behavior indicators predict recession risk affecting premium brand pricing power and inventory over 12 months?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned in the upper tier of the market, targeting consumers willing to pay higher prices for perceived quality, exclusivity, or status."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, rising unemployment, and reduced consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Strategic choices regarding stock levels, including buildup or drawdown, to optimize sales and minimize holding costs amid demand fluctuations."
+      }
+    ],
+    "domains": [
+      "Macroeconomics",
+      "Consumer Behavior",
+      "Retail Operations",
+      "Credit Markets",
+      "Monetary Policy"
+    ],
+    "key_drivers": [
+      "Consumer disposable income trends",
+      "Credit availability and cost",
+      "Consumer sentiment and spending patterns",
+      "Inflation trajectory and real price sensitivity",
+      "Supply chain stability and lead times",
+      "Monetary policy stance and interest rates"
+    ],
+    "lenses": [
+      {
+        "name": "Macroeconomic Growth and Inflation Lens",
+        "why_it_matters": "Economic growth and inflation directly affect consumer purchasing power and cost structures, influencing pricing flexibility and inventory risk.",
+        "key_drivers": [
+          "GDP growth rates",
+          "Inflation rates",
+          "Real wage growth"
+        ],
+        "bull_case": "Moderate growth with stable inflation preserves consumer purchasing power, supporting steady premium pricing and manageable inventory turnover.",
+        "bear_case": "Sharp GDP contraction combined with accelerating inflation (stagflation) erodes real incomes, forcing discounting and inventory markdowns.",
+        "base_case": "Mild slowdown with persistent but moderating inflation leads to cautious pricing and conservative inventory buildup.",
+        "wildcard_case": "Sudden deflationary shock reduces input costs but triggers demand collapse, disrupting pricing strategies and causing inventory gluts.",
+        "evidence_for": [
+          "Slowing GDP growth in quarterly reports",
+          "Rising CPI and PCE inflation metrics",
+          "Stagnant or declining real wages"
+        ],
+        "evidence_against": [
+          "Resilient GDP growth above 2%",
+          "Inflation easing below 3%",
+          "Real wage gains outpacing inflation"
+        ],
+        "leading_indicators": [
+          "Monthly GDP nowcasts",
+          "Core inflation monthly prints",
+          "Real wage growth data"
+        ],
+        "disconfirming_signals": [
+          "Unexpected surge in industrial production",
+          "Sharp drop in commodity prices",
+          "Positive revisions to prior GDP quarters"
+        ]
+      },
+      {
+        "name": "Consumer Credit and Liquidity Lens",
+        "why_it_matters": "Availability and cost of consumer credit influence discretionary spending on premium goods and affect inventory turnover velocity.",
+        "key_drivers": [
+          "Consumer credit growth",
+          "Credit card delinquency rates",
+          "Interest rate levels"
+        ],
+        "bull_case": "Credit remains accessible and affordable, enabling consumers to maintain premium purchases and supporting stable inventory cycles.",
+        "bear_case": "Tightening credit standards and rising delinquency reduce discretionary spending, forcing price cuts and inventory clearance.",
+        "base_case": "Gradual credit tightening with moderate delinquency increases leads to cautious consumer spending and slower inventory turnover.",
+        "wildcard_case": "Sudden credit market freeze or spike in interest rates sharply curtails premium segment demand and inflates inventory risk.",
+        "evidence_for": [
+          "Rising credit card delinquencies",
+          "Slowing consumer credit growth",
+          "Central bank rate hikes"
+        ],
+        "evidence_against": [
+          "Stable or growing consumer credit balances",
+          "Low and stable delinquency rates",
+          "No change or cuts in policy rates"
+        ],
+        "leading_indicators": [
+          "Monthly consumer credit reports",
+          "Credit bureau delinquency data",
+          "Federal Reserve policy announcements"
+        ],
+        "disconfirming_signals": [
+          "Unexpected easing of lending standards",
+          "Strong consumer loan originations",
+          "Stable or declining credit spreads"
+        ]
+      },
+      {
+        "name": "Consumer Sentiment and Spending Behavior Lens",
+        "why_it_matters": "Shifts in consumer confidence and spending patterns directly affect demand for premium products, impacting pricing power and inventory management.",
+        "key_drivers": [
+          "Consumer confidence indices",
+          "Luxury and discretionary retail sales data",
+          "Shift toward value or discount purchasing"
+        ],
+        "bull_case": "High consumer confidence and sustained luxury spending support premium pricing and justify inventory replenishment.",
+        "bear_case": "Falling confidence and migration to discount channels force price reductions and inventory de-stocking.",
+        "base_case": "Moderate confidence decline with mixed spending signals leads to cautious pricing and tighter inventory control.",
+        "wildcard_case": "Rapid consumer shift to experiential or alternative spending reduces premium goods demand unexpectedly, disrupting inventory plans.",
+        "evidence_for": [
+          "Declining consumer confidence surveys",
+          "Weak luxury retail sales growth",
+          "Increased discounting in premium channels"
+        ],
+        "evidence_against": [
+          "Stable or rising consumer confidence",
+          "Strong luxury segment sales",
+          "Limited promotional activity"
+        ],
+        "leading_indicators": [
+          "Monthly consumer confidence reports",
+          "Weekly retail sales by segment",
+          "Promotional activity tracking"
+        ],
+        "disconfirming_signals": [
+          "Surge in premium product pre-orders",
+          "Positive consumer sentiment in key demographics",
+          "Reduced discounting frequency"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Soft Landing with Resilient Premium Demand",
+        "description": "Moderate economic slowdown with inflation easing and stable credit conditions preserves consumer purchasing power; premium brand maintains pricing power and manages inventory conservatively.",
+        "probability": 50,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "GDP growth >1.5% quarterly",
+          "Core inflation <3%",
+          "Stable credit growth",
+          "Consumer confidence >90"
+        ]
+      },
+      {
+        "name": "Late-Cycle Recession with Demand Compression",
+        "description": "Economic contraction with rising inflation and credit tightening reduces disposable income and consumer confidence, forcing premium brands to discount and reduce inventory.",
+        "probability": 35,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "GDP contraction >0.5% q/q",
+          "Inflation >5%",
+          "Rising credit card delinquencies >3%",
+          "Consumer confidence <80"
+        ]
+      },
+      {
+        "name": "Stagflationary Shock with Inventory Glut",
+        "description": "Persistent inflation combined with stagnant growth and sudden credit market stress triggers sharp demand drop; premium brands face severe pricing pressure and inventory overhang.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Inflation >6% persistently",
+          "GDP near zero or negative",
+          "Credit spreads widening >200bps",
+          "Luxury sales decline >10%"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Shift in consumer preference toward sustainability impacting premium brand desirability",
+      "Emergence of alternative luxury channels (e.g., resale, rental) reducing new product demand",
+      "Supply chain disruptions causing inventory shortages independent of demand",
+      "Changes in competitor pricing strategies altering market elasticity"
+    ],
+    "change_my_mind_conditions": [
+      "Disprove \"Assumption that consumer credit delinquency rising above 4% is a clear recession trigger without accounting for credit mix or regional variation\": Sustained consumer credit delinquency above 4% accompanied by rising credit card interest rates and tightening lending standards",
+      "Disprove \"Reliance on consumer confidence index thresholds (e.g., below 75 or 80) as a direct proxy for premium demand shifts without integrating spending behavior nuances\": Consumer confidence index falling below 75 combined with a 5% or greater month-over-month decline in luxury retail sales",
+      "Disprove \"Use of GDP growth thresholds (e.g., below 0.5%) as a leading indicator without considering lag effects or sector-specific impacts on premium brands\": GDP growth below 0.5% for two consecutive quarters with concurrent contraction in premium goods sector sales",
+      "Core inflation exceeding 5% for three consecutive months with no easing in real wage declines"
+    ],
+    "bottom_line": "The base case remains a mild slowdown with moderating inflation supporting cautious premium demand; however, this hinges on credit conditions and consumer confidence holding steady—watch for combined deterioration in credit delinquency, confidence, and luxury sales as the weakest assumption and key break signals.",
+    "watchlist": [
+      "Monthly consumer credit delinquency rates rising above 4% alongside increased credit card interest rates",
+      "Consumer confidence index dropping below 75 with simultaneous luxury retail sales decline >5% month-over-month",
+      "GDP quarterly growth falling below 0.5% for two consecutive quarters with premium segment sales contraction",
+      "Core inflation monthly prints exceeding 5% for three consecutive months",
+      "Central bank policy rate hikes surpassing market expectations by 25bps or more",
+      "Credit spreads widening beyond 200bps in consumer credit markets"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Monitoring Recession Risk Impact on Premium Brand Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and consumer behavior indicators predict recession risk affecting premium brand pricing power and inventory over 12 months?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned in the upper tier of the market, targeting consumers willing to pay higher prices for perceived quality, exclusivity, or status."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, rising unemployment, and reduced consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without losing significant sales volume."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Strategic choices regarding stock levels, including buildup or drawdown, to optimize sales and minimize holding costs amid demand fluctuations."
+      }
+    ],
+    "domains": [
+      "Macroeconomics",
+      "Consumer Behavior",
+      "Retail Operations",
+      "Credit Markets",
+      "Monetary Policy"
+    ],
+    "key_drivers": [
+      "Consumer disposable income trends",
+      "Credit availability and cost",
+      "Consumer sentiment and spending patterns",
+      "Inflation trajectory and real price sensitivity",
+      "Supply chain stability and lead times",
+      "Monetary policy stance and interest rates"
+    ],
+    "lenses": [
+      {
+        "name": "Macroeconomic Growth and Inflation Lens",
+        "why_it_matters": "Economic growth and inflation directly affect consumer purchasing power and cost structures, influencing pricing flexibility and inventory risk.",
+        "key_drivers": [
+          "GDP growth rates",
+          "Inflation rates",
+          "Real wage growth"
+        ],
+        "bull_case": "Moderate growth with stable inflation preserves consumer purchasing power, supporting steady premium pricing and manageable inventory turnover.",
+        "bear_case": "Sharp GDP contraction combined with accelerating inflation (stagflation) erodes real incomes, forcing discounting and inventory markdowns.",
+        "base_case": "Mild slowdown with persistent but moderating inflation leads to cautious pricing and conservative inventory buildup.",
+        "wildcard_case": "Sudden deflationary shock reduces input costs but triggers demand collapse, disrupting pricing strategies and causing inventory gluts.",
+        "evidence_for": [
+          "Slowing GDP growth in quarterly reports",
+          "Rising CPI and PCE inflation metrics",
+          "Stagnant or declining real wages"
+        ],
+        "evidence_against": [
+          "Resilient GDP growth above 2%",
+          "Inflation easing below 3%",
+          "Real wage gains outpacing inflation"
+        ],
+        "leading_indicators": [
+          "Monthly GDP nowcasts",
+          "Core inflation monthly prints",
+          "Real wage growth data"
+        ],
+        "disconfirming_signals": [
+          "Unexpected surge in industrial production",
+          "Sharp drop in commodity prices",
+          "Positive revisions to prior GDP quarters"
+        ]
+      },
+      {
+        "name": "Consumer Credit and Liquidity Lens",
+        "why_it_matters": "Availability and cost of consumer credit influence discretionary spending on premium goods and affect inventory turnover velocity.",
+        "key_drivers": [
+          "Consumer credit growth",
+          "Credit card delinquency rates",
+          "Interest rate levels"
+        ],
+        "bull_case": "Credit remains accessible and affordable, enabling consumers to maintain premium purchases and supporting stable inventory cycles.",
+        "bear_case": "Tightening credit standards and rising delinquency reduce discretionary spending, forcing price cuts and inventory clearance.",
+        "base_case": "Gradual credit tightening with moderate delinquency increases leads to cautious consumer spending and slower inventory turnover.",
+        "wildcard_case": "Sudden credit market freeze or spike in interest rates sharply curtails premium segment demand and inflates inventory risk.",
+        "evidence_for": [
+          "Rising credit card delinquencies",
+          "Slowing consumer credit growth",
+          "Central bank rate hikes"
+        ],
+        "evidence_against": [
+          "Stable or growing consumer credit balances",
+          "Low and stable delinquency rates",
+          "No change or cuts in policy rates"
+        ],
+        "leading_indicators": [
+          "Monthly consumer credit reports",
+          "Credit bureau delinquency data",
+          "Federal Reserve policy announcements"
+        ],
+        "disconfirming_signals": [
+          "Unexpected easing of lending standards",
+          "Strong consumer loan originations",
+          "Stable or declining credit spreads"
+        ]
+      },
+      {
+        "name": "Consumer Sentiment and Spending Behavior Lens",
+        "why_it_matters": "Shifts in consumer confidence and spending patterns directly affect demand for premium products, impacting pricing power and inventory management.",
+        "key_drivers": [
+          "Consumer confidence indices",
+          "Luxury and discretionary retail sales data",
+          "Shift toward value or discount purchasing"
+        ],
+        "bull_case": "High consumer confidence and sustained luxury spending support premium pricing and justify inventory replenishment.",
+        "bear_case": "Falling confidence and migration to discount channels force price reductions and inventory de-stocking.",
+        "base_case": "Moderate confidence decline with mixed spending signals leads to cautious pricing and tighter inventory control.",
+        "wildcard_case": "Rapid consumer shift to experiential or alternative spending reduces premium goods demand unexpectedly, disrupting inventory plans.",
+        "evidence_for": [
+          "Declining consumer confidence surveys",
+          "Weak luxury retail sales growth",
+          "Increased discounting in premium channels"
+        ],
+        "evidence_against": [
+          "Stable or rising consumer confidence",
+          "Strong luxury segment sales",
+          "Limited promotional activity"
+        ],
+        "leading_indicators": [
+          "Monthly consumer confidence reports",
+          "Weekly retail sales by segment",
+          "Promotional activity tracking"
+        ],
+        "disconfirming_signals": [
+          "Surge in premium product pre-orders",
+          "Positive consumer sentiment in key demographics",
+          "Reduced discounting frequency"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Soft Landing with Resilient Premium Demand",
+        "description": "Moderate economic slowdown with inflation easing and stable credit conditions preserves consumer purchasing power; premium brand maintains pricing power and manages inventory conservatively.",
+        "probability": 50,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "GDP growth >1.5% quarterly",
+          "Core inflation <3%",
+          "Stable credit growth",
+          "Consumer confidence >90"
+        ]
+      },
+      {
+        "name": "Late-Cycle Recession with Demand Compression",
+        "description": "Economic contraction with rising inflation and credit tightening reduces disposable income and consumer confidence, forcing premium brands to discount and reduce inventory.",
+        "probability": 35,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "GDP contraction >0.5% q/q",
+          "Inflation >5%",
+          "Rising credit card delinquencies >3%",
+          "Consumer confidence <80"
+        ]
+      },
+      {
+        "name": "Stagflationary Shock with Inventory Glut",
+        "description": "Persistent inflation combined with stagnant growth and sudden credit market stress triggers sharp demand drop; premium brands face severe pricing pressure and inventory overhang.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Inflation >6% persistently",
+          "GDP near zero or negative",
+          "Credit spreads widening >200bps",
+          "Luxury sales decline >10%"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Shift in consumer preference toward sustainability impacting premium brand desirability",
+      "Emergence of alternative luxury channels (e.g., resale, rental) reducing new product demand",
+      "Supply chain disruptions causing inventory shortages independent of demand",
+      "Changes in competitor pricing strategies altering market elasticity"
+    ],
+    "change_my_mind_conditions": [
+      "Two consecutive quarters of GDP growth above 2%",
+      "Core inflation falling below 2.5% for three months",
+      "Consumer credit delinquency rates rising above 4%",
+      "Consumer confidence index dropping below 75"
+    ],
+    "bottom_line": "The base case is a mild economic slowdown with moderating inflation preserving cautious premium demand; watch for GDP growth below 0.5% and credit delinquencies above 3% as key break signals toward recession-driven pricing and inventory stress.",
+    "watchlist": [
+      "Monthly GDP growth rate crossing below 0.5%",
+      "Core inflation monthly prints exceeding 5%",
+      "Consumer credit card delinquency rates rising above 3%",
+      "Consumer confidence index falling below 80",
+      "Luxury retail sales declining more than 5% month-over-month",
+      "Central bank policy rate hikes exceeding market expectations"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 5,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 5,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Highly relevant and causal domains selected with clear economic and consumer focus",
+      "Well-differentiated lenses and scenarios with concrete leading indicators and evidence",
+      "Watchlist items are specific, measurable, and operationally actionable"
+    ],
+    "notable_weaknesses": [
+      "Some lenses overlap in economic indicators, limiting distinctness slightly",
+      "Change-my-mind conditions are good but could be more granular on timing and thresholds",
+      "Bottom line is strong but could more explicitly state what would overturn the base case"
+    ],
+    "summary": "The analysis provides a sharp reframed question and selects highly relevant domains for monitoring recession risk impacting premium brand pricing and inventory. Lenses and scenarios are distinct and supported by concrete indicators. Hidden variables and change-my-mind conditions add depth, though some overlap and slight vagueness limit perfect distinctness. The bottom line and watchlist are decisive and operationally useful, well aligned with the monitoring objective.",
+    "average_score": 4.33
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 2,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 2
+    },
+    "summary": "The final analysis materially improves on the primary by explicitly adding nuanced change-my-mind conditions that challenge key assumptions with combined indicator thresholds, enhancing disconfirmation logic. It sharpens the watchlist with more precise, conditional triggers linking multiple indicators rather than isolated thresholds. The bottom line is more conditional and nuanced, emphasizing dependencies and weakest assumptions rather than a static summary. Overall, the final analysis provides clearer, more actionable monitoring criteria and better guards against oversimplification.",
+    "best_red_team_change": "Introduction of detailed change-my-mind conditions that integrate multiple indicators to disprove assumptions, improving disconfirmation rigor and watchlist specificity.",
+    "remaining_gap": "The final analysis could further improve by quantifying indicator lead times and integrating competitor pricing dynamics more explicitly into monitoring frameworks."
+  }
+}

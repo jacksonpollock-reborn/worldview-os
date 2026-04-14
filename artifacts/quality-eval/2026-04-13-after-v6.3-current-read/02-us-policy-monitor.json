@@ -1,0 +1,278 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnxbpkg10001nrksqu0zbfgl",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 38367,
+  "analysis": {
+    "title": "Durability of US Policy and Governing Coalition over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which observable political indicators over the next 9 months will reliably signal strengthening or fracturing of the US governing coalition sustaining current policy momentum?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US policy and legislative momentum",
+        "definition": "The ongoing pace and success rate of passing and implementing key government policies and laws aligned with the current administration and majority coalition agenda."
+      },
+      {
+        "term": "governing coalition",
+        "definition": "The effective alliance of political actors, including the ruling party, key factions, and supporting legislators, enabling policy passage and governance."
+      },
+      {
+        "term": "strengthening or fracturing",
+        "definition": "Observable shifts indicating increased cohesion and effectiveness or growing divisions and defections within the governing coalition."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics"
+    ],
+    "key_drivers": [
+      "Legislative cohesion and voting unity",
+      "Executive-legislative coordination",
+      "Intra-party factional dynamics",
+      "Public approval and electoral pressure",
+      "Institutional veto points and procedural hurdles"
+    ],
+    "hidden_variables": [
+      "Influence of external interest groups on coalition cohesion",
+      "Backchannel negotiations not visible in public records",
+      "Impact of upcoming midterm election candidate positioning",
+      "Role of Senate filibuster and reconciliation rules in legislative momentum"
+    ],
+    "change_my_mind_conditions": [
+      "IF party-line voting falls below 75% on key legislation -> coalition cohesion is weaker than assumed",
+      "IF executive publicly criticizes majority party leadership multiple times within a month -> executive-legislative coordination is weaker than assumed",
+      "IF public approval ratings remain below 40% for over 2 months -> electoral pressure is higher than assumed",
+      "IF a major faction publicly forms an alternative legislative agenda -> coalition fracturing is accelerating"
+    ],
+    "bottom_line": "View: Coalition durability is neutral to fragile, constrained by factionalism and legislative defections. Reason: Mixed voting unity, visible factional disputes, and moderate public support limit momentum. Risk: Major faction splits or executive-legislative conflicts could fracture coalition. Downgrade if: Party-line voting drops below 75% sustained and public factional splits emerge. Upgrade if: Sustained party-line votes above 90% and executive-legislative coordination improves. Weakest assumption: That public approval above 50% reliably eases electoral pressure. Review: Monthly monitoring of voting unity, factional disputes, executive-legislative coordination, public approval, and procedural veto activity.",
+    "watchlist": [
+      "Party-line voting on major legislation falls below 75% sustained over 2 consecutive votes indicating coalition fracture",
+      "Repeated public executive criticism of majority party leadership within one month signaling coordination breakdown",
+      "Emergence of a major faction proposing competing legislative agenda publicly indicating coalition split",
+      "Sustained public approval ratings below 40% for over 2 months indicating rising electoral pressure",
+      "Increase in procedural blocks or adverse legal rulings delaying key legislation for more than one month signaling coalition vulnerability"
+    ],
+    "current_stance": "Likely near neutral based on structural coalition fragility and recent legislative gridlocks",
+    "monitoring_signals": [
+      {
+        "name": "Legislative Voting Unity",
+        "why_it_matters": "High party-line voting indicates coalition cohesion; defections signal fractures.",
+        "current_read": "Structurally tilted bearish given recent bipartisan defections on key bills",
+        "bullish_threshold": "Party-line votes exceed 90% on major legislation",
+        "neutral_threshold": "Party-line votes between 75% and 90%",
+        "bearish_threshold": "Party-line votes below 75% with multiple defections"
+      },
+      {
+        "name": "Executive-Legislative Coordination",
+        "why_it_matters": "Frequent executive-legislative negotiations and aligned messaging indicate coalition strength.",
+        "current_read": "Likely near neutral due to mixed signals from executive outreach and legislative pushback",
+        "bullish_threshold": "Multiple coordinated legislative initiatives with executive support passed within 3 months",
+        "neutral_threshold": "Occasional coordination with moderate legislative success",
+        "bearish_threshold": "Public executive criticism of legislature or stalled joint initiatives"
+      },
+      {
+        "name": "Intra-Party Factional Activity",
+        "why_it_matters": "Emergence of organized factions or public disputes signals internal coalition stress.",
+        "current_read": "Structurally tilted bearish given visible factional disputes in key committees",
+        "bullish_threshold": "No public factional disputes and unified committee leadership votes",
+        "neutral_threshold": "Minor factional disagreements contained within party caucus meetings",
+        "bearish_threshold": "Public factional splits with competing legislative proposals"
+      },
+      {
+        "name": "Public Approval of Governing Coalition",
+        "why_it_matters": "Rising public support reduces electoral pressure and strengthens coalition incentives.",
+        "current_read": "Likely near neutral given mixed polling on administration and congressional approval",
+        "bullish_threshold": "Sustained approval ratings above 50% for administration and majority party",
+        "neutral_threshold": "Approval ratings between 40% and 50%",
+        "bearish_threshold": "Approval ratings below 40% sustained for over 2 months"
+      },
+      {
+        "name": "Institutional Veto Point Activity",
+        "why_it_matters": "Increased use of procedural blocks or judicial challenges indicates coalition vulnerability.",
+        "current_read": "Structurally tilted bearish due to rising procedural delays and legal challenges",
+        "bullish_threshold": "Minimal use of procedural blocks and few legal challenges",
+        "neutral_threshold": "Moderate procedural delays with some legal challenges",
+        "bearish_threshold": "Frequent procedural blocks and multiple adverse legal rulings"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Recent legislative bills show multiple defections",
+      "Visible factional disputes in party leadership",
+      "Mixed executive-legislative messaging",
+      "Moderate public approval ratings"
+    ],
+    "disconfirm_current_view": [
+      "Strong party-line voting on major legislation",
+      "Coordinated executive-legislative policy rollouts",
+      "Decline in public factional disputes",
+      "Improved public approval above 50%"
+    ],
+    "what_to_ignore": [
+      "Routine legislative amendments without coalition impact",
+      "Short-term polling volatility under 2 weeks",
+      "Isolated individual legislator statements without broader faction support"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Durability of US Policy and Governing Coalition over 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which observable political indicators over the next 9 months will reliably signal strengthening or fracturing of the US governing coalition sustaining current policy momentum?",
+    "time_horizon": "next 9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US policy and legislative momentum",
+        "definition": "The ongoing pace and success rate of passing and implementing key government policies and laws aligned with the current administration and majority coalition agenda."
+      },
+      {
+        "term": "governing coalition",
+        "definition": "The effective alliance of political actors, including the ruling party, key factions, and supporting legislators, enabling policy passage and governance."
+      },
+      {
+        "term": "strengthening or fracturing",
+        "definition": "Observable shifts indicating increased cohesion and effectiveness or growing divisions and defections within the governing coalition."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics"
+    ],
+    "key_drivers": [
+      "Legislative cohesion and voting unity",
+      "Executive-legislative coordination",
+      "Intra-party factional dynamics",
+      "Public approval and electoral pressure",
+      "Institutional veto points and procedural hurdles"
+    ],
+    "current_stance": "Likely near neutral based on structural coalition fragility and recent legislative gridlocks",
+    "monitoring_signals": [
+      {
+        "name": "Legislative Voting Unity",
+        "why_it_matters": "High party-line voting indicates coalition cohesion; defections signal fractures.",
+        "current_read": "Structurally tilted bearish given recent bipartisan defections on key bills",
+        "bullish_threshold": "Party-line votes exceed 90% on major legislation",
+        "neutral_threshold": "Party-line votes between 75% and 90%",
+        "bearish_threshold": "Party-line votes below 75% with multiple defections"
+      },
+      {
+        "name": "Executive-Legislative Coordination",
+        "why_it_matters": "Frequent executive-legislative negotiations and aligned messaging indicate coalition strength.",
+        "current_read": "Likely near neutral due to mixed signals from executive outreach and legislative pushback",
+        "bullish_threshold": "Multiple coordinated legislative initiatives with executive support passed within 3 months",
+        "neutral_threshold": "Occasional coordination with moderate legislative success",
+        "bearish_threshold": "Public executive criticism of legislature or stalled joint initiatives"
+      },
+      {
+        "name": "Intra-Party Factional Activity",
+        "why_it_matters": "Emergence of organized factions or public disputes signals internal coalition stress.",
+        "current_read": "Structurally tilted bearish given visible factional disputes in key committees",
+        "bullish_threshold": "No public factional disputes and unified committee leadership votes",
+        "neutral_threshold": "Minor factional disagreements contained within party caucus meetings",
+        "bearish_threshold": "Public factional splits with competing legislative proposals"
+      },
+      {
+        "name": "Public Approval of Governing Coalition",
+        "why_it_matters": "Rising public support reduces electoral pressure and strengthens coalition incentives.",
+        "current_read": "Likely near neutral given mixed polling on administration and congressional approval",
+        "bullish_threshold": "Sustained approval ratings above 50% for administration and majority party",
+        "neutral_threshold": "Approval ratings between 40% and 50%",
+        "bearish_threshold": "Approval ratings below 40% sustained for over 2 months"
+      },
+      {
+        "name": "Institutional Veto Point Activity",
+        "why_it_matters": "Increased use of procedural blocks or judicial challenges indicates coalition vulnerability.",
+        "current_read": "Structurally tilted bearish due to rising procedural delays and legal challenges",
+        "bullish_threshold": "Minimal use of procedural blocks and few legal challenges",
+        "neutral_threshold": "Moderate procedural delays with some legal challenges",
+        "bearish_threshold": "Frequent procedural blocks and multiple adverse legal rulings"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "Recent legislative bills show multiple defections",
+      "Visible factional disputes in party leadership",
+      "Mixed executive-legislative messaging",
+      "Moderate public approval ratings"
+    ],
+    "disconfirm_current_view": [
+      "Strong party-line voting on major legislation",
+      "Coordinated executive-legislative policy rollouts",
+      "Decline in public factional disputes",
+      "Improved public approval above 50%"
+    ],
+    "what_to_ignore": [
+      "Routine legislative amendments without coalition impact",
+      "Short-term polling volatility under 2 weeks",
+      "Isolated individual legislator statements without broader faction support"
+    ],
+    "hidden_variables": [
+      "Influence of external interest groups on coalition cohesion",
+      "Backchannel negotiations not visible in public records",
+      "Impact of upcoming midterm election candidate positioning",
+      "Role of Senate filibuster and reconciliation rules in legislative momentum"
+    ],
+    "change_my_mind_conditions": [
+      "IF sustained party-line voting above 90% on key bills -> coalition cohesion stronger than assumed",
+      "IF executive publicly criticizes majority party leadership -> executive-legislative coordination weaker than assumed",
+      "IF major faction publicly splits and forms alternative legislative agenda -> coalition fracturing accelerating",
+      "IF public approval ratings rise above 50% for over 3 months -> electoral pressure easing, coalition strengthening"
+    ],
+    "bottom_line": "View: Coalition durability is currently near neutral with structural fragility due to factionalism and legislative defections. Reason: Mixed voting unity, factional disputes, and moderate public support limit momentum. Risk: Increased factional splits or executive-legislative conflicts could fracture coalition. Downgrade if: Party-line voting drops below 75% with public factional splits. Upgrade if: Sustained party-line votes above 90% and rising public approval above 50%. Review: Monthly monitoring of voting unity, factional disputes, executive-legislative coordination, public approval, and procedural veto activity. Ignore: Short-term polling noise under 2 weeks and isolated legislator statements.",
+    "watchlist": [
+      "Party-line voting on major legislation drops below 75% signaling coalition fracture",
+      "Public factional disputes emerge with competing legislative proposals indicating internal splits",
+      "Executive issues public criticism of majority party leadership implying coordination breakdown",
+      "Sustained public approval ratings rise above 50% for over 3 months indicating easing electoral pressure",
+      "Increase in procedural blocks or adverse legal rulings delaying legislation signaling vulnerability",
+      "Midterm election candidate positioning shifts toward anti-establishment candidates weakening coalition unity"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 3,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 3,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 3,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 3,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Explicit, operational monitoring signals with clear thresholds and current reads",
+      "Reframed question is sharper and more actionable than the original",
+      "Objective alignment is strong: review cadence, what-to-ignore, and confirm/disconfirm logic are all present"
+    ],
+    "notable_weaknesses": [
+      "Hidden variables are plausible but not especially non-obvious",
+      "Some confirm/disconfirm and watchlist items are slightly repetitive in causal logic",
+      "Bottom line is clear but not especially decisive or novel"
+    ],
+    "summary": "This monitor output is structurally sound, with explicit, operational signals and clear thresholds. The reframed question is sharper and the objective alignment is strong, including review cadence and what-to-ignore discipline. Weaknesses include only moderately insightful hidden variables and some repetition in confirm/disconfirm logic. Overall, this is a competent, above-average monitor analysis with no major gaps.",
+    "average_score": 3.33
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis introduces more precise disconfirmation logic and sharper watchlist criteria, specifying timeframes and thresholds for key signals (e.g., 'sustained over 2 consecutive votes', 'repeated public executive criticism within one month'). It also clarifies the weakest assumption in the bottom line and refines change-my-mind conditions for greater falsifiability. However, most claims and the overall bottom line remain similar in strength and structure, with only minor tightening of language.",
+    "best_red_team_change": "Watchlist and change-my-mind conditions now specify durations and repetition thresholds, making signals more actionable and less ambiguous.",
+    "remaining_gap": "The analysis still lacks deeper exploration of alternative explanations for coalition shifts and does not address potential confounders or edge cases in signal interpretation."
+  }
+}

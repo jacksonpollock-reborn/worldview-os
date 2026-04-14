@@ -1,0 +1,445 @@
+{
+  "id": "10-f1-understand",
+  "category": "sports",
+  "question": "What is really driving Formula 1's long-term audience growth, and which growth drivers are most fragile?",
+  "selectedDomain": "sports",
+  "selectedObjective": "understand",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v5",
+  "analysisId": "cmnwt1dq40009nrmemvg8v870",
+  "redTeamRan": true,
+  "durationMs": 24582,
+  "analysis": {
+    "title": "Drivers and Fragility of Formula 1 Audience Growth (2024–2027)",
+    "original_question": "What is really driving Formula 1's long-term audience growth, and which growth drivers are most fragile?",
+    "reframed_question": "Which causal mechanisms drive Formula 1's audience growth over the next 3 years, and which are most vulnerable to disruption?",
+    "time_horizon": "next 3 years",
+    "objective": "understand",
+    "definitions": [
+      {
+        "term": "Formula 1 audience growth",
+        "definition": "Increase in the number of unique viewers, event attendees, and digital followers engaging with Formula 1 content globally."
+      },
+      {
+        "term": "Growth drivers",
+        "definition": "Factors or mechanisms that causally increase Formula 1’s audience size or engagement."
+      },
+      {
+        "term": "Fragile growth drivers",
+        "definition": "Growth drivers that are susceptible to reversal or significant weakening due to internal or external shocks."
+      },
+      {
+        "term": "Audience engagement",
+        "definition": "Depth and frequency of interaction by fans with Formula 1 content, including live viewership, social media activity, and event attendance."
+      }
+    ],
+    "domains": [
+      "Sports Entertainment Economics",
+      "Media and Broadcasting",
+      "Digital Media and Social Platforms",
+      "Global Cultural Trends"
+    ],
+    "key_drivers": [
+      "Star driver appeal and rivalries",
+      "Broadcasting rights and media distribution",
+      "Digital and social media engagement",
+      "Global market expansion and new venues",
+      "Sport format and race experience innovations",
+      "Economic conditions affecting discretionary spending"
+    ],
+    "lenses": [
+      {
+        "name": "Talent and Competitive Narrative Lens",
+        "why_it_matters": "Star drivers and compelling rivalries create emotional investment and drive viewership spikes.",
+        "key_drivers": [
+          "Star driver appeal and rivalries"
+        ],
+        "bull_case": "Emergence of new charismatic stars and intense rivalries sustain fan interest and attract new demographics.",
+        "bear_case": "Dominance by a single team or driver reduces unpredictability, lowering fan engagement and audience growth.",
+        "base_case": "Stable presence of popular drivers with moderate competitive balance maintains steady audience growth.",
+        "wildcard_case": "Unexpected retirement or scandal involving top drivers causes sudden audience drop.",
+        "evidence_for": [
+          "Rising social media followings of new drivers",
+          "Close championship battles",
+          "Increased fan polls favoring driver personalities"
+        ],
+        "evidence_against": [
+          "One team’s season-long dominance",
+          "Declining driver popularity metrics",
+          "Fan surveys indicating boredom"
+        ],
+        "leading_indicators": [
+          "Driver transfer news",
+          "Race competitiveness metrics",
+          "Social sentiment analysis on drivers"
+        ],
+        "disconfirming_signals": [
+          "Emergence of new rivalries",
+          "Improved race unpredictability"
+        ]
+      },
+      {
+        "name": "Media Distribution and Digital Engagement Lens",
+        "why_it_matters": "Access to live broadcasts and digital content shapes audience size and engagement, especially among younger fans.",
+        "key_drivers": [
+          "Broadcasting rights and media distribution",
+          "Digital and social media engagement"
+        ],
+        "bull_case": "Expansion of streaming platforms and innovative digital content increases accessibility and attracts younger viewers.",
+        "bear_case": "Loss of key broadcasting deals or restrictive geo-blocking reduces audience reach and frustrates fans.",
+        "base_case": "Incremental growth in digital engagement offsets traditional TV viewership declines, sustaining overall audience growth.",
+        "wildcard_case": "Platform outages or major digital rights disputes cause temporary but sharp audience declines.",
+        "evidence_for": [
+          "Growth in F1 TV subscriptions",
+          "Rising social media engagement metrics",
+          "New digital content formats launched"
+        ],
+        "evidence_against": [
+          "Declining linear TV ratings",
+          "Negative user feedback on streaming quality",
+          "Loss of major broadcast partners"
+        ],
+        "leading_indicators": [
+          "Renewal or loss of media rights deals",
+          "Subscriber growth rates",
+          "Social media engagement trends"
+        ],
+        "disconfirming_signals": [
+          "Improved broadcast accessibility",
+          "Innovations in fan interaction"
+        ]
+      },
+      {
+        "name": "Global Market Expansion and Event Experience Lens",
+        "why_it_matters": "New race venues and enhanced fan experiences drive global audience growth by tapping new demographics and increasing live engagement.",
+        "key_drivers": [
+          "Global market expansion and new venues",
+          "Sport format and race experience innovations",
+          "Economic conditions affecting discretionary spending"
+        ],
+        "bull_case": "Successful launch of new Grand Prix events in emerging markets combined with innovative race formats boosts global fan base.",
+        "bear_case": "Economic downturns or geopolitical tensions reduce travel and attendance; new venues fail to attract local interest.",
+        "base_case": "Moderate expansion with mixed success in new markets maintains steady audience growth without spikes.",
+        "wildcard_case": "Major event cancellations or safety incidents cause reputational damage and audience contraction.",
+        "evidence_for": [
+          "Rising attendance figures in new markets",
+          "Positive fan feedback on race format changes",
+          "Stable or growing sponsorship revenue"
+        ],
+        "evidence_against": [
+          "Event cancellations",
+          "Poor local engagement metrics",
+          "Economic indicators signaling reduced discretionary spending"
+        ],
+        "leading_indicators": [
+          "Ticket sales trends",
+          "Local TV ratings in new markets",
+          "Sponsorship deal announcements"
+        ],
+        "disconfirming_signals": [
+          "Improved economic outlook",
+          "Successful fan engagement campaigns"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Digital-Driven Global Expansion",
+        "description": "Audience growth accelerates driven by digital platform innovations and successful penetration of emerging markets, supported by charismatic new stars; media rights deals expand and fan engagement deepens.",
+        "probability": 50,
+        "impact": "high",
+        "time_horizon": "next 3 years",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Strong F1 TV subscription growth",
+          "High attendance at new market races",
+          "Emergence of new driver fanbases"
+        ]
+      },
+      {
+        "name": "Stagnation from Competitive Imbalance and Media Fragmentation",
+        "description": "Dominance by a single team and loss of key broadcast partners cause audience stagnation or decline; digital engagement fails to compensate for traditional viewership losses.",
+        "probability": 30,
+        "impact": "medium",
+        "time_horizon": "next 3 years",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Prolonged team dominance",
+          "Declining TV ratings",
+          "Loss of major media deals"
+        ]
+      },
+      {
+        "name": "Audience Contraction from Economic and Geopolitical Shocks",
+        "description": "Economic downturns and geopolitical tensions reduce discretionary spending and travel, leading to lower event attendance and weaker global market growth; digital engagement plateaus.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 3 years",
+        "confidence": "low",
+        "leading_indicators": [
+          "Declining ticket sales",
+          "Negative economic indicators in key markets",
+          "Event cancellations or postponements"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Fan demographic shifts toward younger, digital-native audiences with different consumption habits",
+      "Impact of emerging motorsport alternatives (e.g., electric racing series) on F1’s relative appeal",
+      "Effectiveness of F1’s sustainability initiatives on brand perception and fan loyalty",
+      "Regulatory changes affecting race formats or team competitiveness",
+      "Influence of social media influencers and non-traditional content creators on fan acquisition"
+    ],
+    "change_my_mind_conditions": [
+      "Disprove \"Digital media expansion will reliably offset traditional broadcast declines\": Sustained decline in F1 TV subscriptions despite new digital content launches",
+      "Disprove \"Compelling driver narratives alone can sustain long-term audience growth\": Emergence of new driver rivalries fails to increase social media engagement or viewership",
+      "Disprove \"Global market expansion will consistently attract and retain new fans\": New Grand Prix events show declining attendance and local TV ratings over multiple quarters",
+      "Major broadcast partners announce non-renewal or reduced coverage in key markets",
+      "Economic indicators show prolonged contraction in discretionary spending in top F1 markets"
+    ],
+    "bottom_line": "Formula 1’s audience growth over the next three years hinges on digital media expansion and global market penetration supported by driver narratives; however, this path is most vulnerable to the assumption that digital engagement can compensate for traditional broadcast losses and that new markets will sustain fan interest.",
+    "watchlist": [
+      "Quarterly F1 TV subscription and active user retention rates",
+      "Monthly attendance and local TV ratings for new and established Grand Prix events",
+      "Social media engagement growth rates for top 5 drivers and newly promoted stars",
+      "Status updates and contract terms of top 3 global broadcasting rights agreements",
+      "Quarterly GDP growth and consumer discretionary spending in top 5 F1 markets",
+      "Official announcements of race cancellations, postponements, or geopolitical disruptions"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Drivers and Fragility of Formula 1 Audience Growth (2024–2027)",
+    "original_question": "What is really driving Formula 1's long-term audience growth, and which growth drivers are most fragile?",
+    "reframed_question": "Which causal mechanisms drive Formula 1's audience growth over the next 3 years, and which are most vulnerable to disruption?",
+    "time_horizon": "next 3 years",
+    "objective": "understand",
+    "definitions": [
+      {
+        "term": "Formula 1 audience growth",
+        "definition": "Increase in the number of unique viewers, event attendees, and digital followers engaging with Formula 1 content globally."
+      },
+      {
+        "term": "Growth drivers",
+        "definition": "Factors or mechanisms that causally increase Formula 1’s audience size or engagement."
+      },
+      {
+        "term": "Fragile growth drivers",
+        "definition": "Growth drivers that are susceptible to reversal or significant weakening due to internal or external shocks."
+      },
+      {
+        "term": "Audience engagement",
+        "definition": "Depth and frequency of interaction by fans with Formula 1 content, including live viewership, social media activity, and event attendance."
+      }
+    ],
+    "domains": [
+      "Sports Entertainment Economics",
+      "Media and Broadcasting",
+      "Digital Media and Social Platforms",
+      "Global Cultural Trends"
+    ],
+    "key_drivers": [
+      "Star driver appeal and rivalries",
+      "Broadcasting rights and media distribution",
+      "Digital and social media engagement",
+      "Global market expansion and new venues",
+      "Sport format and race experience innovations",
+      "Economic conditions affecting discretionary spending"
+    ],
+    "lenses": [
+      {
+        "name": "Talent and Competitive Narrative Lens",
+        "why_it_matters": "Star drivers and compelling rivalries create emotional investment and drive viewership spikes.",
+        "key_drivers": [
+          "Star driver appeal and rivalries"
+        ],
+        "bull_case": "Emergence of new charismatic stars and intense rivalries sustain fan interest and attract new demographics.",
+        "bear_case": "Dominance by a single team or driver reduces unpredictability, lowering fan engagement and audience growth.",
+        "base_case": "Stable presence of popular drivers with moderate competitive balance maintains steady audience growth.",
+        "wildcard_case": "Unexpected retirement or scandal involving top drivers causes sudden audience drop.",
+        "evidence_for": [
+          "Rising social media followings of new drivers",
+          "Close championship battles",
+          "Increased fan polls favoring driver personalities"
+        ],
+        "evidence_against": [
+          "One team’s season-long dominance",
+          "Declining driver popularity metrics",
+          "Fan surveys indicating boredom"
+        ],
+        "leading_indicators": [
+          "Driver transfer news",
+          "Race competitiveness metrics",
+          "Social sentiment analysis on drivers"
+        ],
+        "disconfirming_signals": [
+          "Emergence of new rivalries",
+          "Improved race unpredictability"
+        ]
+      },
+      {
+        "name": "Media Distribution and Digital Engagement Lens",
+        "why_it_matters": "Access to live broadcasts and digital content shapes audience size and engagement, especially among younger fans.",
+        "key_drivers": [
+          "Broadcasting rights and media distribution",
+          "Digital and social media engagement"
+        ],
+        "bull_case": "Expansion of streaming platforms and innovative digital content increases accessibility and attracts younger viewers.",
+        "bear_case": "Loss of key broadcasting deals or restrictive geo-blocking reduces audience reach and frustrates fans.",
+        "base_case": "Incremental growth in digital engagement offsets traditional TV viewership declines, sustaining overall audience growth.",
+        "wildcard_case": "Platform outages or major digital rights disputes cause temporary but sharp audience declines.",
+        "evidence_for": [
+          "Growth in F1 TV subscriptions",
+          "Rising social media engagement metrics",
+          "New digital content formats launched"
+        ],
+        "evidence_against": [
+          "Declining linear TV ratings",
+          "Negative user feedback on streaming quality",
+          "Loss of major broadcast partners"
+        ],
+        "leading_indicators": [
+          "Renewal or loss of media rights deals",
+          "Subscriber growth rates",
+          "Social media engagement trends"
+        ],
+        "disconfirming_signals": [
+          "Improved broadcast accessibility",
+          "Innovations in fan interaction"
+        ]
+      },
+      {
+        "name": "Global Market Expansion and Event Experience Lens",
+        "why_it_matters": "New race venues and enhanced fan experiences drive global audience growth by tapping new demographics and increasing live engagement.",
+        "key_drivers": [
+          "Global market expansion and new venues",
+          "Sport format and race experience innovations",
+          "Economic conditions affecting discretionary spending"
+        ],
+        "bull_case": "Successful launch of new Grand Prix events in emerging markets combined with innovative race formats boosts global fan base.",
+        "bear_case": "Economic downturns or geopolitical tensions reduce travel and attendance; new venues fail to attract local interest.",
+        "base_case": "Moderate expansion with mixed success in new markets maintains steady audience growth without spikes.",
+        "wildcard_case": "Major event cancellations or safety incidents cause reputational damage and audience contraction.",
+        "evidence_for": [
+          "Rising attendance figures in new markets",
+          "Positive fan feedback on race format changes",
+          "Stable or growing sponsorship revenue"
+        ],
+        "evidence_against": [
+          "Event cancellations",
+          "Poor local engagement metrics",
+          "Economic indicators signaling reduced discretionary spending"
+        ],
+        "leading_indicators": [
+          "Ticket sales trends",
+          "Local TV ratings in new markets",
+          "Sponsorship deal announcements"
+        ],
+        "disconfirming_signals": [
+          "Improved economic outlook",
+          "Successful fan engagement campaigns"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Digital-Driven Global Expansion",
+        "description": "Audience growth accelerates driven by digital platform innovations and successful penetration of emerging markets, supported by charismatic new stars; media rights deals expand and fan engagement deepens.",
+        "probability": 50,
+        "impact": "high",
+        "time_horizon": "next 3 years",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Strong F1 TV subscription growth",
+          "High attendance at new market races",
+          "Emergence of new driver fanbases"
+        ]
+      },
+      {
+        "name": "Stagnation from Competitive Imbalance and Media Fragmentation",
+        "description": "Dominance by a single team and loss of key broadcast partners cause audience stagnation or decline; digital engagement fails to compensate for traditional viewership losses.",
+        "probability": 30,
+        "impact": "medium",
+        "time_horizon": "next 3 years",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Prolonged team dominance",
+          "Declining TV ratings",
+          "Loss of major media deals"
+        ]
+      },
+      {
+        "name": "Audience Contraction from Economic and Geopolitical Shocks",
+        "description": "Economic downturns and geopolitical tensions reduce discretionary spending and travel, leading to lower event attendance and weaker global market growth; digital engagement plateaus.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 3 years",
+        "confidence": "low",
+        "leading_indicators": [
+          "Declining ticket sales",
+          "Negative economic indicators in key markets",
+          "Event cancellations or postponements"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Fan demographic shifts toward younger, digital-native audiences with different consumption habits",
+      "Impact of emerging motorsport alternatives (e.g., electric racing series) on F1’s relative appeal",
+      "Effectiveness of F1’s sustainability initiatives on brand perception and fan loyalty",
+      "Regulatory changes affecting race formats or team competitiveness",
+      "Influence of social media influencers and non-traditional content creators on fan acquisition"
+    ],
+    "change_my_mind_conditions": [
+      "Significant new media rights deals expanding global reach announced",
+      "Emergence of a new driver rivalry generating record social media engagement",
+      "Major economic recession indicators in key F1 markets sustained over 6 months",
+      "Cancellation or postponement of multiple Grand Prix events due to geopolitical issues",
+      "Rapid growth in alternative motorsport audiences drawing away younger fans"
+    ],
+    "bottom_line": "Formula 1’s audience growth over the next three years is most likely to be driven by digital media expansion and successful global market penetration anchored by compelling driver narratives; however, this growth is fragile to prolonged competitive imbalance and media distribution setbacks, with economic and geopolitical shocks posing significant downside risks. Monitoring media rights developments and emerging driver rivalries will be critical to validate this trajectory.",
+    "watchlist": [
+      "F1 TV subscription and streaming viewership metrics quarterly",
+      "Attendance and TV ratings trends in new and existing markets",
+      "Social media engagement levels of top drivers and emerging stars",
+      "Status and renewal of key broadcasting rights agreements",
+      "Economic indicators in major F1 markets (GDP growth, consumer spending)",
+      "Announcements of race cancellations or geopolitical disruptions"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Reframed question is sharper and operational with clear causal focus and vulnerability aspect",
+      "Domains and lenses are well chosen, relevant, and materially distinct",
+      "Scenarios and hidden variables are causally distinct and insightful with concrete leading indicators"
+    ],
+    "notable_weaknesses": [
+      "Some watchlist items and change-my-mind conditions could be more granular or quantified",
+      "Bottom line is strong but hedges on assumptions without explicit thresholds for reversal",
+      "Minor overlap in lenses around media and digital engagement"
+    ],
+    "summary": "The analysis provides a clear, operational reframing of the original question and selects relevant, distinct domains and lenses that capture key causal drivers. Scenarios and hidden variables are well differentiated and supported by concrete evidence and leading indicators. The bottom line makes a decisive call with plausible disconfirming conditions, though some watchlist and change-my-mind items could be more specific. Overall, the output aligns well with the objective to understand Formula 1's audience growth drivers and fragility over the next three years.",
+    "average_score": 4.11
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 2
+    },
+    "summary": "The final analysis improves notably by refining the change_my_mind conditions to explicitly disprove key assumptions, enhancing disconfirmation logic. It also sharpens the bottom line by highlighting critical vulnerabilities in digital engagement and market expansion assumptions. The watchlist is more specific with clearer metrics and frequencies, improving monitoring precision. However, weak claims remain mostly similar, with only minor tightening.",
+    "best_red_team_change": "Introduction of explicit, falsifiable change_my_mind conditions that challenge core assumptions about digital media compensating for broadcast declines and sustained fan interest in new markets.",
+    "remaining_gap": "The final analysis could further strengthen by integrating more quantitative thresholds for fragility and by explicitly addressing potential confounding factors or alternative explanations for audience trends."
+  }
+}

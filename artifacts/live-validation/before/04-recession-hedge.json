@@ -1,0 +1,219 @@
+{
+  "slug": "04-recession-hedge",
+  "domain": "markets",
+  "timeHorizon": "next 12 months",
+  "objective": "monitor",
+  "question": "Should a global consumer brand hedge against a 2026 recession, and what signals should it watch now?",
+  "status": 200,
+  "response": {
+    "id": "cmnvzz0bd0003nr0hqf48fjlg",
+    "analysis": {
+      "title": "Strategic Hedging for a Potential 2026 Recession by a Global Consumer Brand",
+      "original_question": "Should a global consumer brand hedge against a 2026 recession, and what signals should it watch now?",
+      "reframed_question": "What is the strategic rationale for a global consumer brand to implement hedging measures against a potential recession in 2026, and which early economic and market indicators over the next 12 months should it monitor to inform this decision?",
+      "time_horizon": "next 12 months",
+      "objective": "monitor",
+      "definitions": [
+        {
+          "term": "hedge",
+          "definition": "Actions taken by a company to reduce financial risk exposure, such as diversifying investments, adjusting supply chains, or financial instruments to mitigate potential negative impacts from economic downturns."
+        },
+        {
+          "term": "global consumer brand",
+          "definition": "A company that markets and sells consumer goods or services internationally with significant brand recognition across multiple countries."
+        },
+        {
+          "term": "recession",
+          "definition": "A significant decline in economic activity spread across the economy lasting more than a few months, typically visible in GDP, employment, and other macroeconomic indicators."
+        },
+        {
+          "term": "signals",
+          "definition": "Observable economic, financial, or market indicators that provide early warning or confirmation of macroeconomic trends."
+        }
+      ],
+      "domains": [
+        "macroeconomics",
+        "financial markets",
+        "consumer behavior",
+        "corporate strategy",
+        "risk management"
+      ],
+      "key_drivers": [
+        "global GDP growth rates",
+        "consumer confidence indices",
+        "inflation and interest rate trends",
+        "supply chain stability",
+        "geopolitical risks",
+        "monetary and fiscal policy actions",
+        "corporate earnings trends",
+        "currency fluctuations"
+      ],
+      "lenses": [
+        {
+          "name": "Macroeconomic Lens",
+          "why_it_matters": "Recession risk is primarily driven by macroeconomic conditions; understanding economic cycles and leading indicators is critical for timing hedging strategies.",
+          "key_drivers": [
+            "global GDP growth rates",
+            "inflation and interest rate trends",
+            "monetary and fiscal policy actions"
+          ],
+          "bull_case": "Global economies continue moderate growth with controlled inflation, avoiding recession and supporting steady consumer demand.",
+          "bear_case": "Economic contraction occurs due to tightening monetary policy and external shocks, triggering a recession by 2026.",
+          "base_case": "Slowing growth with mild recession risk, allowing partial hedging to mitigate moderate downside.",
+          "wildcard_case": "Unexpected rapid technological or policy shifts spur a new growth cycle, negating recession risk.",
+          "evidence_for": [
+            "Inverted yield curves",
+            "Rising unemployment claims",
+            "Declining manufacturing PMI"
+          ],
+          "evidence_against": [
+            "Strong consumer spending",
+            "Robust employment data",
+            "Expansionary fiscal stimulus"
+          ],
+          "leading_indicators": [
+            "Yield curve spreads",
+            "Purchasing Managers' Index (PMI)",
+            "Consumer confidence indices"
+          ],
+          "disconfirming_signals": [
+            "Sustained GDP growth above trend",
+            "Rising capital expenditures",
+            "Improving trade balances"
+          ]
+        },
+        {
+          "name": "Consumer Behavior Lens",
+          "why_it_matters": "Consumer spending drives revenue for consumer brands; shifts in confidence and purchasing patterns signal demand changes ahead of economic downturns.",
+          "key_drivers": [
+            "consumer confidence indices",
+            "disposable income trends",
+            "retail sales data"
+          ],
+          "bull_case": "Consumers maintain or increase spending, driven by wage growth and low unemployment.",
+          "bear_case": "Consumer confidence deteriorates sharply, causing reduced discretionary spending and brand switching.",
+          "base_case": "Moderate weakening in consumer spending with selective category impacts.",
+          "wildcard_case": "Emergence of new consumer trends or product innovations that sustain demand despite economic headwinds.",
+          "evidence_for": [
+            "Declining consumer confidence surveys",
+            "Rising credit card delinquencies",
+            "Slowing retail sales growth"
+          ],
+          "evidence_against": [
+            "Stable or rising consumer confidence",
+            "Increasing household savings rates",
+            "Strong retail foot traffic"
+          ],
+          "leading_indicators": [
+            "Consumer confidence index",
+            "Retail sales reports",
+            "Household debt service ratios"
+          ],
+          "disconfirming_signals": [
+            "Unexpected wage growth",
+            "Improved labor market conditions",
+            "Positive consumer sentiment surveys"
+          ]
+        },
+        {
+          "name": "Financial Markets Lens",
+          "why_it_matters": "Financial markets often price in recession risks earlier than economic data; market volatility and credit conditions affect corporate financing and investment decisions.",
+          "key_drivers": [
+            "equity market trends",
+            "credit spreads",
+            "currency volatility"
+          ],
+          "bull_case": "Stable or rising equity markets with tight credit spreads indicate low near-term recession risk.",
+          "bear_case": "Widening credit spreads and sustained equity market declines signal increased recession probability.",
+          "base_case": "Moderate market volatility with intermittent risk-off episodes.",
+          "wildcard_case": "Sudden geopolitical or systemic financial crisis triggers rapid market dislocation.",
+          "evidence_for": [
+            "Rising credit default swap spreads",
+            "S&P 500 volatility index spikes",
+            "Currency depreciation in key markets"
+          ],
+          "evidence_against": [
+            "Strong equity market rallies",
+            "Narrowing credit spreads",
+            "Stable currency exchange rates"
+          ],
+          "leading_indicators": [
+            "Credit default swap (CDS) spreads",
+            "Volatility indices (VIX)",
+            "Corporate bond yields"
+          ],
+          "disconfirming_signals": [
+            "Sustained low volatility",
+            "Tightening credit conditions easing",
+            "Positive earnings revisions"
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Recession Materializes in 2026",
+          "description": "Macroeconomic indicators deteriorate over the next 12 months leading to a global recession in 2026, causing reduced consumer spending and increased market volatility.",
+          "probability": 40,
+          "impact": "high",
+          "time_horizon": "12-24 months",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Inverted yield curve persists",
+            "Declining consumer confidence",
+            "Widening credit spreads"
+          ]
+        },
+        {
+          "name": "Soft Landing Avoided Recession",
+          "description": "Economic growth slows but does not contract; consumer spending weakens moderately but markets remain stable, allowing the brand to partially hedge risk.",
+          "probability": 45,
+          "impact": "medium",
+          "time_horizon": "12-24 months",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Stable but slowing GDP growth",
+            "Moderate decline in consumer confidence",
+            "Stable credit spreads"
+          ]
+        },
+        {
+          "name": "Continued Growth and No Recession",
+          "description": "Global economy continues steady growth with strong consumer demand and stable financial markets, negating the need for aggressive hedging.",
+          "probability": 15,
+          "impact": "low",
+          "time_horizon": "12-24 months",
+          "confidence": "low",
+          "leading_indicators": [
+            "Rising GDP growth",
+            "Strong consumer confidence",
+            "Tight credit spreads"
+          ]
+        }
+      ],
+      "hidden_variables": [
+        "Geopolitical shocks (e.g., conflicts, trade wars)",
+        "Unexpected monetary policy shifts",
+        "Supply chain disruptions",
+        "Technological innovation impacting consumer demand",
+        "Pandemic or health crises resurgence"
+      ],
+      "change_my_mind_conditions": [
+        "Sustained reversal of inverted yield curve",
+        "Significant fiscal stimulus mitigating slowdown",
+        "Rapid improvement in labor market conditions",
+        "Emergence of new consumer demand drivers",
+        "Stabilization of global trade and supply chains"
+      ],
+      "bottom_line": "Given the moderate probability of a 2026 recession and its high potential impact on consumer demand and financial conditions, a global consumer brand should adopt a flexible hedging strategy informed by leading macroeconomic, consumer, and financial market indicators over the next 12 months. Early signals such as yield curve inversion, consumer confidence trends, and credit market conditions should be closely monitored to adjust hedging intensity dynamically.",
+      "watchlist": [
+        "Yield curve spreads (10-year minus 2-year Treasury yields)",
+        "Consumer confidence indices (e.g., Conference Board, University of Michigan)",
+        "Purchasing Managers' Index (PMI) for major economies",
+        "Credit default swap spreads on corporate bonds",
+        "Retail sales and household debt service ratios",
+        "Monetary policy announcements from major central banks",
+        "Geopolitical developments impacting trade and supply chains"
+      ]
+    }
+  }
+}

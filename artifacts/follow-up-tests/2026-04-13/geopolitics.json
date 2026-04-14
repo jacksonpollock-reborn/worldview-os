@@ -1,0 +1,30 @@
+{
+  "analysisId": "cmnwv65do0002nrcwjpbohvr5",
+  "domain": "geopolitics",
+  "question": "What would make scenario 3 more likely? Focus on the fastest military and diplomatic triggers.",
+  "status": 200,
+  "response": {
+    "followUp": {
+      "id": "cmnwwmu9f000fnreq8hih5p6p",
+      "question": "What would make scenario 3 more likely? Focus on the fastest military and diplomatic triggers.",
+      "title": "Fast Military and Diplomatic Triggers for De-escalation Scenario",
+      "answer": "Scenario 3 becomes more likely if there are rapid, visible reductions in military activities by both China and Taiwan, coupled with public diplomatic initiatives explicitly aimed at easing Taiwan Strait tensions. The fastest triggers include announcements of formal dialogue or agreements involving all parties, a measurable drop in PLA and Taiwanese military exercises, and increased US-China diplomatic cooperation that includes Taiwan issues. These actions signal a shift from confrontation to confidence-building, quickly lowering escalation risk.",
+      "keyPoints": [
+        "Public announcements of dialogue or formal agreements addressing Taiwan Strait tensions act as immediate diplomatic triggers.",
+        "A measurable reduction in PLA and Taiwanese military exercises signals military restraint and willingness to de-escalate.",
+        "Increased US-China diplomatic cooperation on Taiwan issues supports trust and confidence-building.",
+        "Combined military and diplomatic restraint shifts the risk balance toward lower escalation likelihood."
+      ],
+      "watchouts": [
+        "Diplomatic rhetoric without sustained reductions in military activity may not indicate true de-escalation.",
+        "Domestic political pressures in China or Taiwan could undermine diplomatic progress.",
+        "US or allied reluctance to engage diplomatically or maintain deterrence posture could stall efforts.",
+        "Covert military or cyber operations not publicly disclosed could escalate tensions despite visible diplomacy."
+      ],
+      "modelUsed": "gpt-4.1-mini",
+      "promptVersion": "follow-up-v1",
+      "createdAt": "2026-04-13T08:02:14.835Z",
+      "updatedAt": "2026-04-13T08:02:14.835Z"
+    }
+  }
+}

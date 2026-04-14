@@ -1,0 +1,276 @@
+{
+  "id": "04-recession-monitor",
+  "category": "macro/markets",
+  "question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+  "selectedDomain": "markets",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v6.2",
+  "analysisId": "cmnx6un9s0001nrrjiawpb104",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 36434,
+  "analysis": {
+    "title": "Premium Brand Recession Risk Monitoring for Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators over the next 12 months will signal recession risk shifts that materially impact premium brand pricing power and inventory management?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned in the upper tier of the market, targeting consumers willing to pay a price premium for perceived quality, exclusivity, or brand status."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, rising unemployment, and reduced consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without significant loss of demand."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Strategic choices regarding stock levels to balance supply with expected demand and avoid excess or shortage."
+      }
+    ],
+    "domains": [
+      "Macro-economic indicators",
+      "Consumer behavior",
+      "Credit and liquidity conditions"
+    ],
+    "key_drivers": [
+      "GDP growth trajectory",
+      "Consumer discretionary spending trends",
+      "Labor market strength",
+      "Inflation and real income dynamics",
+      "Credit spreads and financing conditions"
+    ],
+    "hidden_variables": [
+      "Shift in consumer sentiment specific to luxury vs. mass-market segments",
+      "Changes in credit availability specifically for premium consumers",
+      "Supply chain disruptions affecting inventory replenishment timing",
+      "Brand-specific pricing elasticity shifts due to competitive dynamics"
+    ],
+    "change_my_mind_conditions": [
+      "IF consumer discretionary spending declines >1% YoY for two consecutive months -> pricing power and demand assumptions fail",
+      "IF unemployment rate rises >0.2 percentage points within one month -> labor market stability assumption fails",
+      "IF credit spreads widen >20 basis points within one month -> liquidity conditions assumption fails",
+      "IF inflation-adjusted real incomes grow >1% annually for two consecutive quarters -> recession risk assumption fails"
+    ],
+    "bottom_line": "View: Moderate recession risk warrants cautious pricing and inventory management. Reason: Leading indicators show slowing but stable growth and consumer spending. Risk: Labor market stability is the weakest assumption; rapid deterioration in unemployment or credit spreads could erode pricing power and demand. Downgrade if: GDP contracts two months, discretionary spending drops >1% YoY for two months, or unemployment rises >0.2 points monthly. Upgrade if: GDP growth exceeds 0.3% monthly, discretionary spending grows >2% YoY, and unemployment declines. Review: Monthly.",
+    "watchlist": [
+      "GDP monthly growth < -0.1% for two consecutive months signals rising recession risk and demand erosion",
+      "Consumer discretionary spending decline >1% YoY for two consecutive months signals weakening premium demand",
+      "Unemployment rate increase >0.2 percentage points within one month signals labor market stress and demand risk",
+      "Credit spreads widening >20 basis points within one month signals tightening liquidity threatening consumer financing",
+      "Inflation-adjusted real income growth >1% annualized for two consecutive quarters signals stronger pricing power and lower recession risk"
+    ],
+    "current_stance": "Moderate recession risk with cautious pricing and inventory posture",
+    "monitoring_signals": [
+      {
+        "name": "Monthly GDP growth rate",
+        "why_it_matters": "Direct measure of economic expansion or contraction affecting consumer demand",
+        "bullish_threshold": "GDP growth > 0.3% month-over-month",
+        "neutral_threshold": "GDP growth between -0.1% and 0.3%",
+        "bearish_threshold": "GDP contraction > -0.1% month-over-month"
+      },
+      {
+        "name": "Consumer discretionary spending growth",
+        "why_it_matters": "Indicates willingness of premium consumers to spend on non-essential goods",
+        "bullish_threshold": "Growth > 2% year-over-year",
+        "neutral_threshold": "Growth between -1% and 2%",
+        "bearish_threshold": "Decline > 1% year-over-year"
+      },
+      {
+        "name": "Unemployment rate change",
+        "why_it_matters": "Rising unemployment reduces disposable income and consumer confidence",
+        "bullish_threshold": "Unemployment rate stable or declining by >0.1 percentage points",
+        "neutral_threshold": "Unemployment rate change within ±0.1 percentage points",
+        "bearish_threshold": "Unemployment rate rising by >0.1 percentage points"
+      },
+      {
+        "name": "Inflation-adjusted real income growth",
+        "why_it_matters": "Real income growth sustains purchasing power critical for premium pricing",
+        "bullish_threshold": "Real income growth > 1% annualized",
+        "neutral_threshold": "Real income growth between -0.5% and 1%",
+        "bearish_threshold": "Real income contraction > 0.5%"
+      },
+      {
+        "name": "Investment-grade credit spreads",
+        "why_it_matters": "Widening spreads signal tighter financing conditions impacting consumer credit availability",
+        "bullish_threshold": "Spreads tightening by >10 basis points",
+        "neutral_threshold": "Spreads stable within ±10 basis points",
+        "bearish_threshold": "Spreads widening by >10 basis points"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "GDP growth remains positive but below trend",
+      "Consumer discretionary spending shows modest growth",
+      "Unemployment rate stable near historical lows"
+    ],
+    "disconfirm_current_view": [
+      "GDP contracts for two consecutive months",
+      "Consumer discretionary spending declines >1% YoY",
+      "Unemployment rate rises >0.2 percentage points in one month"
+    ],
+    "what_to_ignore": [
+      "Single-month volatile GDP revisions",
+      "Minor inflation fluctuations within central bank target range"
+    ],
+    "lenses": [],
+    "scenarios": []
+  },
+  "primaryAnalysis": {
+    "title": "Premium Brand Recession Risk Monitoring for Pricing and Inventory",
+    "original_question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+    "reframed_question": "Which leading economic and market indicators over the next 12 months will signal recession risk shifts that materially impact premium brand pricing power and inventory management?",
+    "time_horizon": "next 12 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "Premium consumer brand",
+        "definition": "A brand positioned in the upper tier of the market, targeting consumers willing to pay a price premium for perceived quality, exclusivity, or brand status."
+      },
+      {
+        "term": "Recession risk",
+        "definition": "The probability of a significant economic contraction characterized by declining GDP, rising unemployment, and reduced consumer spending."
+      },
+      {
+        "term": "Pricing power",
+        "definition": "The ability of a brand to maintain or increase prices without significant loss of demand."
+      },
+      {
+        "term": "Inventory decisions",
+        "definition": "Strategic choices regarding stock levels to balance supply with expected demand and avoid excess or shortage."
+      }
+    ],
+    "domains": [
+      "Macro-economic indicators",
+      "Consumer behavior",
+      "Credit and liquidity conditions"
+    ],
+    "key_drivers": [
+      "GDP growth trajectory",
+      "Consumer discretionary spending trends",
+      "Labor market strength",
+      "Inflation and real income dynamics",
+      "Credit spreads and financing conditions"
+    ],
+    "current_stance": "Moderate recession risk with cautious pricing and inventory posture",
+    "monitoring_signals": [
+      {
+        "name": "Monthly GDP growth rate",
+        "why_it_matters": "Direct measure of economic expansion or contraction affecting consumer demand",
+        "bullish_threshold": "GDP growth > 0.3% month-over-month",
+        "neutral_threshold": "GDP growth between -0.1% and 0.3%",
+        "bearish_threshold": "GDP contraction > -0.1% month-over-month"
+      },
+      {
+        "name": "Consumer discretionary spending growth",
+        "why_it_matters": "Indicates willingness of premium consumers to spend on non-essential goods",
+        "bullish_threshold": "Growth > 2% year-over-year",
+        "neutral_threshold": "Growth between -1% and 2%",
+        "bearish_threshold": "Decline > 1% year-over-year"
+      },
+      {
+        "name": "Unemployment rate change",
+        "why_it_matters": "Rising unemployment reduces disposable income and consumer confidence",
+        "bullish_threshold": "Unemployment rate stable or declining by >0.1 percentage points",
+        "neutral_threshold": "Unemployment rate change within ±0.1 percentage points",
+        "bearish_threshold": "Unemployment rate rising by >0.1 percentage points"
+      },
+      {
+        "name": "Inflation-adjusted real income growth",
+        "why_it_matters": "Real income growth sustains purchasing power critical for premium pricing",
+        "bullish_threshold": "Real income growth > 1% annualized",
+        "neutral_threshold": "Real income growth between -0.5% and 1%",
+        "bearish_threshold": "Real income contraction > 0.5%"
+      },
+      {
+        "name": "Investment-grade credit spreads",
+        "why_it_matters": "Widening spreads signal tighter financing conditions impacting consumer credit availability",
+        "bullish_threshold": "Spreads tightening by >10 basis points",
+        "neutral_threshold": "Spreads stable within ±10 basis points",
+        "bearish_threshold": "Spreads widening by >10 basis points"
+      }
+    ],
+    "review_cadence": "Monthly",
+    "confirm_current_view": [
+      "GDP growth remains positive but below trend",
+      "Consumer discretionary spending shows modest growth",
+      "Unemployment rate stable near historical lows"
+    ],
+    "disconfirm_current_view": [
+      "GDP contracts for two consecutive months",
+      "Consumer discretionary spending declines >1% YoY",
+      "Unemployment rate rises >0.2 percentage points in one month"
+    ],
+    "what_to_ignore": [
+      "Single-month volatile GDP revisions",
+      "Minor inflation fluctuations within central bank target range"
+    ],
+    "lenses": [],
+    "scenarios": [],
+    "hidden_variables": [
+      "Shift in consumer sentiment specific to luxury vs. mass-market segments",
+      "Changes in credit availability specifically for premium consumers",
+      "Supply chain disruptions affecting inventory replenishment timing",
+      "Brand-specific pricing elasticity shifts due to competitive dynamics"
+    ],
+    "change_my_mind_conditions": [
+      "IF consumer discretionary spending declines >2% YoY for two consecutive months -> recession risk underestimated and pricing power weakening",
+      "IF unemployment rate rises >0.3 percentage points within one quarter -> consumer demand erosion faster than expected",
+      "IF credit spreads widen >30 basis points rapidly -> liquidity tightening threatens premium consumer financing",
+      "IF inflation-adjusted real incomes grow >2% consistently -> recession risk overstated and pricing power stronger"
+    ],
+    "bottom_line": "View: Moderate recession risk warrants cautious pricing and inventory management. Reason: Leading indicators show slowing but stable growth and consumer spending. Risk: Rapid deterioration in labor market or credit conditions could erode pricing power and demand. Downgrade if: GDP contracts two months, discretionary spending drops >1% YoY, or unemployment rises >0.2 points monthly. Upgrade if: GDP growth exceeds 0.3% monthly, discretionary spending grows >2% YoY, and unemployment declines. Review: Monthly. Ignore: Single-month GDP revisions and minor inflation fluctuations.",
+    "watchlist": [
+      "GDP monthly growth < -0.1% for two months signals rising recession risk",
+      "Consumer discretionary spending decline >1% YoY indicates weakening premium demand",
+      "Unemployment rate increase >0.2 percentage points in one month signals labor market stress",
+      "Credit spreads widening >10 basis points within one month signals tightening liquidity",
+      "Real income contraction >0.5% annualized signals erosion of purchasing power",
+      "Consumer sentiment index for luxury goods dropping below 50 signals demand caution"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 5,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 5,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 5,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Clear, operational reframed question focused on actionable signals",
+      "Highly relevant domains and well-chosen causal drivers",
+      "Explicit, quantitative thresholds for monitoring and change-my-mind triggers"
+    ],
+    "notable_weaknesses": [
+      "No explicit scenario narratives despite scenario differentiation scoring",
+      "Lens section empty, missing opportunity for additional distinct perspectives",
+      "Bottom line could be more forceful in stating explicit decision actions"
+    ],
+    "summary": "The analysis provides a strong, operational monitoring framework with well-defined economic signals and thresholds tailored to premium brand pricing and inventory decisions. Domains and hidden variables are highly relevant and non-obvious, and the change-my-mind conditions are sharply specified. Minor weaknesses include the absence of scenario narratives and an empty lens section, which slightly limit distinctness and richness. Overall, the output aligns well with the monitoring objective and offers concrete, actionable watchlist items.",
+    "average_score": 4.44
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis improves disconfirmation logic by specifying more precise thresholds and durations for key indicators, enhancing the ability to detect meaningful shifts. Watchlist items are more specific, adding clarity on timing and impact, especially for credit spreads and income growth. Bottom line is slightly sharper with clearer articulation of risks and downgrade/upgrade triggers. Weak claims are marginally improved by refining change-my-mind conditions but remain largely similar.",
+    "best_red_team_change": "Refinement of change-my-mind conditions and watchlist thresholds to include consecutive month criteria and tighter credit spread widening thresholds, improving signal reliability and actionable monitoring.",
+    "remaining_gap": "The final analysis could further improve by integrating scenario planning or lenses to anticipate complex interactions and by explicitly addressing inventory decision triggers beyond pricing power signals."
+  }
+}

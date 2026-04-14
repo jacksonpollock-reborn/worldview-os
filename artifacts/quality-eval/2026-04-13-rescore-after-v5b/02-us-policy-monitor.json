@@ -1,0 +1,447 @@
+{
+  "id": "02-us-policy-monitor",
+  "category": "politics/geopolitics",
+  "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+  "selectedDomain": "politics",
+  "selectedObjective": "monitor",
+  "providerUsed": "OpenAI",
+  "modelUsed": "gpt-4.1-mini",
+  "promptVersion": "v5",
+  "analysisId": "cmnwt74p8000dnrme5ofiu8jn",
+  "redTeamRan": true,
+  "redTeamStatus": "completed",
+  "redTeamError": "",
+  "durationMs": 50128,
+  "analysis": {
+    "title": "Durability and Cohesion of US Governing Coalition over Next 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reveal strengthening or fracturing of the US governing coalition sustaining policy momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The set of political actors, primarily within the ruling party and allied factions, whose cooperation is necessary to enact and sustain policy and legislative agendas."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity of the governing coalition to pass and implement significant laws and policies aligned with its agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in cohesion, coordination, and effective cooperation among coalition members, leading to smoother legislative processes."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of significant internal divisions, defections, or conflicts within the governing coalition that impede legislative effectiveness."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process",
+      "Political Coalitions",
+      "Interest Group Influence",
+      "Public Opinion"
+    ],
+    "key_drivers": [
+      "Intra-party factional alignment",
+      "Leadership control and discipline",
+      "Legislative agenda clarity and prioritization",
+      "Interest group and donor pressure",
+      "Public approval and electoral incentives",
+      "External political shocks or crises"
+    ],
+    "lenses": [
+      {
+        "name": "Intra-Party Cohesion and Leadership Control",
+        "why_it_matters": "The governing coalition’s ability to maintain discipline and align factions is critical to sustaining legislative momentum.",
+        "key_drivers": [
+          "Intra-party factional alignment",
+          "Leadership control and discipline"
+        ],
+        "bull_case": "Party leadership successfully manages factional disputes, enforces discipline, and unites members behind key legislative priorities.",
+        "bear_case": "Factional infighting intensifies, leadership loses control, and defections or rebellions increase, stalling legislation.",
+        "base_case": "Moderate factional tensions persist but leadership maintains enough control to pass core legislation with occasional concessions.",
+        "wildcard_case": "A major faction breaks away or leadership is replaced mid-cycle, causing legislative paralysis.",
+        "evidence_for": [
+          "Consistent party-line voting on key bills",
+          "Public statements of unity from leadership and factions",
+          "Low incidence of defections or public dissent"
+        ],
+        "evidence_against": [
+          "High-profile public disputes within the party",
+          "Frequent amendments or withdrawals of legislation due to internal opposition",
+          "Leadership struggles or resignations"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line votes",
+          "Leadership whip success rates",
+          "Public factional statements or endorsements"
+        ],
+        "disconfirming_signals": [
+          "Sudden surge in dissenting votes on major bills",
+          "Leadership challenges or resignations",
+          "Emergence of formal splinter groups"
+        ]
+      },
+      {
+        "name": "Interest Group and Donor Influence",
+        "why_it_matters": "External pressure from interest groups and donors can either reinforce coalition unity or exacerbate fractures by incentivizing divergent behavior.",
+        "key_drivers": [
+          "Interest group and donor pressure"
+        ],
+        "bull_case": "Major donors and interest groups align behind coalition priorities, providing resources and incentives for unity.",
+        "bear_case": "Competing donor interests fund factional opposition, increasing intra-coalition conflicts and legislative gridlock.",
+        "base_case": "Mixed donor signals create some tension but do not decisively break coalition cohesion.",
+        "wildcard_case": "A major donor withdrawal or scandal shifts funding away from coalition leaders, destabilizing alliances.",
+        "evidence_for": [
+          "Unified donor fundraising campaigns",
+          "Interest group endorsements of coalition legislation",
+          "Publicized donor support statements"
+        ],
+        "evidence_against": [
+          "Reports of donor funding for opposition within the coalition",
+          "Public criticism of coalition leaders by major donors",
+          "Scandals involving donor influence"
+        ],
+        "leading_indicators": [
+          "Donor fundraising totals for coalition-aligned candidates",
+          "Interest group lobbying activity levels",
+          "Media reports on donor-coalition relations"
+        ],
+        "disconfirming_signals": [
+          "Major donors publicly withdrawing support",
+          "Increase in funding for intra-coalition challengers",
+          "Investigations into donor-coalition corruption"
+        ]
+      },
+      {
+        "name": "Public Opinion and Electoral Incentives",
+        "why_it_matters": "Public approval and upcoming electoral pressures shape coalition members’ incentives to cooperate or defect.",
+        "key_drivers": [
+          "Public approval and electoral incentives"
+        ],
+        "bull_case": "Rising public support for coalition policies strengthens member incentives to maintain unity and legislative momentum.",
+        "bear_case": "Declining approval and looming electoral threats push members to prioritize local interests or opposition, fracturing the coalition.",
+        "base_case": "Stable but lukewarm public support leads to cautious coalition cooperation with occasional defections.",
+        "wildcard_case": "A sudden electoral upset or scandal shifts public opinion dramatically, triggering coalition realignment.",
+        "evidence_for": [
+          "Positive polling on coalition policies",
+          "Strong fundraising and candidate recruitment for coalition members",
+          "Low primary challenges within the coalition"
+        ],
+        "evidence_against": [
+          "Declining approval ratings for coalition leadership",
+          "Rising primary challenges or defections",
+          "Negative media coverage linked to coalition policies"
+        ],
+        "leading_indicators": [
+          "Polling trends on coalition policy approval",
+          "Frequency and success of primary challenges",
+          "Fundraising trends for coalition incumbents"
+        ],
+        "disconfirming_signals": [
+          "Sharp drops in approval ratings",
+          "High-profile primary defeats of coalition incumbents",
+          "Public protests targeting coalition policies"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Sustained Coalition Cohesion",
+        "description": "Leadership maintains control over factions, interest groups align behind coalition priorities, and public support remains stable or improves, enabling steady legislative progress.",
+        "probability": 55,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Consistent party-line votes above 85%",
+          "Stable or rising donor fundraising for coalition members",
+          "Public approval ratings for coalition policies above 50%"
+        ]
+      },
+      {
+        "name": "Incremental Fracturing with Legislative Gridlock",
+        "description": "Factional disputes intensify, donor interests diverge, and public support stagnates or declines slightly, resulting in slowed legislative momentum and occasional defections.",
+        "probability": 30,
+        "impact": "medium",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes drop below 75%",
+          "Increase in public intra-party dissent",
+          "Moderate decline in coalition fundraising"
+        ]
+      },
+      {
+        "name": "Coalition Breakdown and Legislative Paralysis",
+        "description": "Leadership loses control, major donor realignments occur, and public backlash intensifies, causing significant defections, splinter groups, and near-total legislative standstill.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Leadership resignations or challenges",
+          "Major donors publicly withdrawing support",
+          "Primary defeats of key coalition incumbents"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Informal backchannel negotiations between factions",
+      "Unreported donor influence shifts",
+      "Emergence of charismatic faction leaders",
+      "Impact of midterm election candidate recruitment"
+    ],
+    "change_my_mind_conditions": [
+      "Disprove \"Leadership control and discipline will remain stable without mid-cycle disruption\": Unexpected leadership resignation or formal challenge within 3 months",
+      "Disprove \"Donor interests will stay sufficiently aligned to prevent coalition fractures\": Public report of major donor withdrawing or redirecting funding from coalition leaders",
+      "Disprove \"Public opinion shifts will be gradual and not trigger sudden coalition realignments\": Polling drop of 10+ points on coalition policies within a 2-month period",
+      "High-profile primary defeat of a coalition incumbent in a key district",
+      "Emergence of a formal splinter group or faction publicly opposing coalition leadership"
+    ],
+    "bottom_line": "The base case expects sustained coalition cohesion and legislative momentum, contingent on stable leadership control and aligned donor support; the weakest assumption is that leadership and donor unity will hold without disruptive shocks.",
+    "watchlist": [
+      "Party-line votes on major bills falling below 75% threshold",
+      "Public announcements or credible leaks of leadership challenges or resignations",
+      "Major donor fundraising totals declining by 20% quarter-over-quarter for coalition candidates",
+      "Polling on coalition policy approval dropping more than 10 points within 8 weeks",
+      "Primary election results showing coalition incumbent losses or strong intra-party challenges",
+      "Formation or public recognition of splinter factions within the governing party"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Durability and Cohesion of US Governing Coalition over Next 9 Months",
+    "original_question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+    "reframed_question": "Which indicators will reveal strengthening or fracturing of the US governing coalition sustaining policy momentum over the next 9 months?",
+    "time_horizon": "9 months",
+    "objective": "monitor",
+    "definitions": [
+      {
+        "term": "US governing coalition",
+        "definition": "The set of political actors, primarily within the ruling party and allied factions, whose cooperation is necessary to enact and sustain policy and legislative agendas."
+      },
+      {
+        "term": "policy and legislative momentum",
+        "definition": "The ongoing capacity of the governing coalition to pass and implement significant laws and policies aligned with its agenda."
+      },
+      {
+        "term": "strengthening",
+        "definition": "An increase in cohesion, coordination, and effective cooperation among coalition members, leading to smoother legislative processes."
+      },
+      {
+        "term": "fracturing",
+        "definition": "Emergence of significant internal divisions, defections, or conflicts within the governing coalition that impede legislative effectiveness."
+      }
+    ],
+    "domains": [
+      "US Domestic Politics",
+      "Legislative Process",
+      "Political Coalitions",
+      "Interest Group Influence",
+      "Public Opinion"
+    ],
+    "key_drivers": [
+      "Intra-party factional alignment",
+      "Leadership control and discipline",
+      "Legislative agenda clarity and prioritization",
+      "Interest group and donor pressure",
+      "Public approval and electoral incentives",
+      "External political shocks or crises"
+    ],
+    "lenses": [
+      {
+        "name": "Intra-Party Cohesion and Leadership Control",
+        "why_it_matters": "The governing coalition’s ability to maintain discipline and align factions is critical to sustaining legislative momentum.",
+        "key_drivers": [
+          "Intra-party factional alignment",
+          "Leadership control and discipline"
+        ],
+        "bull_case": "Party leadership successfully manages factional disputes, enforces discipline, and unites members behind key legislative priorities.",
+        "bear_case": "Factional infighting intensifies, leadership loses control, and defections or rebellions increase, stalling legislation.",
+        "base_case": "Moderate factional tensions persist but leadership maintains enough control to pass core legislation with occasional concessions.",
+        "wildcard_case": "A major faction breaks away or leadership is replaced mid-cycle, causing legislative paralysis.",
+        "evidence_for": [
+          "Consistent party-line voting on key bills",
+          "Public statements of unity from leadership and factions",
+          "Low incidence of defections or public dissent"
+        ],
+        "evidence_against": [
+          "High-profile public disputes within the party",
+          "Frequent amendments or withdrawals of legislation due to internal opposition",
+          "Leadership struggles or resignations"
+        ],
+        "leading_indicators": [
+          "Frequency of party-line votes",
+          "Leadership whip success rates",
+          "Public factional statements or endorsements"
+        ],
+        "disconfirming_signals": [
+          "Sudden surge in dissenting votes on major bills",
+          "Leadership challenges or resignations",
+          "Emergence of formal splinter groups"
+        ]
+      },
+      {
+        "name": "Interest Group and Donor Influence",
+        "why_it_matters": "External pressure from interest groups and donors can either reinforce coalition unity or exacerbate fractures by incentivizing divergent behavior.",
+        "key_drivers": [
+          "Interest group and donor pressure"
+        ],
+        "bull_case": "Major donors and interest groups align behind coalition priorities, providing resources and incentives for unity.",
+        "bear_case": "Competing donor interests fund factional opposition, increasing intra-coalition conflicts and legislative gridlock.",
+        "base_case": "Mixed donor signals create some tension but do not decisively break coalition cohesion.",
+        "wildcard_case": "A major donor withdrawal or scandal shifts funding away from coalition leaders, destabilizing alliances.",
+        "evidence_for": [
+          "Unified donor fundraising campaigns",
+          "Interest group endorsements of coalition legislation",
+          "Publicized donor support statements"
+        ],
+        "evidence_against": [
+          "Reports of donor funding for opposition within the coalition",
+          "Public criticism of coalition leaders by major donors",
+          "Scandals involving donor influence"
+        ],
+        "leading_indicators": [
+          "Donor fundraising totals for coalition-aligned candidates",
+          "Interest group lobbying activity levels",
+          "Media reports on donor-coalition relations"
+        ],
+        "disconfirming_signals": [
+          "Major donors publicly withdrawing support",
+          "Increase in funding for intra-coalition challengers",
+          "Investigations into donor-coalition corruption"
+        ]
+      },
+      {
+        "name": "Public Opinion and Electoral Incentives",
+        "why_it_matters": "Public approval and upcoming electoral pressures shape coalition members’ incentives to cooperate or defect.",
+        "key_drivers": [
+          "Public approval and electoral incentives"
+        ],
+        "bull_case": "Rising public support for coalition policies strengthens member incentives to maintain unity and legislative momentum.",
+        "bear_case": "Declining approval and looming electoral threats push members to prioritize local interests or opposition, fracturing the coalition.",
+        "base_case": "Stable but lukewarm public support leads to cautious coalition cooperation with occasional defections.",
+        "wildcard_case": "A sudden electoral upset or scandal shifts public opinion dramatically, triggering coalition realignment.",
+        "evidence_for": [
+          "Positive polling on coalition policies",
+          "Strong fundraising and candidate recruitment for coalition members",
+          "Low primary challenges within the coalition"
+        ],
+        "evidence_against": [
+          "Declining approval ratings for coalition leadership",
+          "Rising primary challenges or defections",
+          "Negative media coverage linked to coalition policies"
+        ],
+        "leading_indicators": [
+          "Polling trends on coalition policy approval",
+          "Frequency and success of primary challenges",
+          "Fundraising trends for coalition incumbents"
+        ],
+        "disconfirming_signals": [
+          "Sharp drops in approval ratings",
+          "High-profile primary defeats of coalition incumbents",
+          "Public protests targeting coalition policies"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Sustained Coalition Cohesion",
+        "description": "Leadership maintains control over factions, interest groups align behind coalition priorities, and public support remains stable or improves, enabling steady legislative progress.",
+        "probability": 55,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Consistent party-line votes above 85%",
+          "Stable or rising donor fundraising for coalition members",
+          "Public approval ratings for coalition policies above 50%"
+        ]
+      },
+      {
+        "name": "Incremental Fracturing with Legislative Gridlock",
+        "description": "Factional disputes intensify, donor interests diverge, and public support stagnates or declines slightly, resulting in slowed legislative momentum and occasional defections.",
+        "probability": 30,
+        "impact": "medium",
+        "time_horizon": "9 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Party-line votes drop below 75%",
+          "Increase in public intra-party dissent",
+          "Moderate decline in coalition fundraising"
+        ]
+      },
+      {
+        "name": "Coalition Breakdown and Legislative Paralysis",
+        "description": "Leadership loses control, major donor realignments occur, and public backlash intensifies, causing significant defections, splinter groups, and near-total legislative standstill.",
+        "probability": 15,
+        "impact": "high",
+        "time_horizon": "9 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Leadership resignations or challenges",
+          "Major donors publicly withdrawing support",
+          "Primary defeats of key coalition incumbents"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Informal backchannel negotiations between factions",
+      "Unreported donor influence shifts",
+      "Emergence of charismatic faction leaders",
+      "Impact of midterm election candidate recruitment"
+    ],
+    "change_my_mind_conditions": [
+      "Sudden leadership resignation or replacement",
+      "Public disclosure of major donor defections",
+      "Sharp polling drop (>10 points) in coalition policy approval",
+      "High-profile primary defeats of coalition incumbents"
+    ],
+    "bottom_line": "The base case of sustained coalition cohesion leading to continued legislative momentum is most likely, supported by stable leadership control and aligned donor interests; however, leadership challenges or major donor withdrawals would rapidly shift the outlook toward fracturing or breakdown.",
+    "watchlist": [
+      "Party-line vote percentages on key legislation falling below 75%",
+      "Public statements or actions signaling leadership challenges",
+      "Major donor fundraising totals and public endorsements",
+      "Polling shifts exceeding 10 points on coalition policies",
+      "Frequency and success of primary challenges against coalition incumbents"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 3,
+      "domain_relevance": 4,
+      "lens_distinctness": 3,
+      "scenario_differentiation": 3,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 3,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 3,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Domains and drivers are well-chosen and causally relevant",
+      "Watchlist and change-my-mind conditions are concrete and observable",
+      "Objective alignment is clear and monitoring logic is explicit"
+    ],
+    "notable_weaknesses": [
+      "Lenses and scenarios show some overlap and restate similar risks",
+      "Hidden variables are plausible but not especially novel",
+      "Bottom line is cautious and lacks a sharp overturn trigger"
+    ],
+    "summary": "This analysis is competent and operationally useful, with clear monitoring signals, relevant domains, and actionable watchlist items. However, it falls short of excellence due to some repetition across lenses and scenarios, only moderately insightful hidden variables, and a bottom line that hedges rather than making a decisive call. The structure fits the monitor objective well, but the analysis does not display unusual sharpness or originality.",
+    "average_score": 3.22
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 1,
+      "disconfirmation_logic": 2,
+      "watchlist_specificity": 2,
+      "bottom_line_sharpness": 1
+    },
+    "summary": "The final analysis introduces explicit, falsifiable 'change my mind' conditions tied to core assumptions, improving disconfirmation logic and clarifying what would invalidate the base case. The watchlist is more specific, adding quantitative thresholds (e.g., donor fundraising declines, polling drops within set timeframes) and new items (splinter group formation). Weak claims and the bottom line are modestly improved by highlighting the weakest assumption and making contingency more explicit.",
+    "best_red_team_change": "Addition of precise, testable 'change my mind' conditions for leadership, donor, and public opinion assumptions.",
+    "remaining_gap": "The analysis still lacks detailed operationalization for some hidden variables and could further specify how to distinguish between temporary noise and true coalition fracturing in ambiguous cases."
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "id": "07-bitcoin-forecast",
+  "category": "crypto",
+  "question": "What is the serious 12-month outlook for Bitcoin?",
+  "selectedDomain": "crypto",
+  "selectedObjective": "forecast",
+  "providerUsed": "OpenAI",
+  "modelUsed": "mock:bitcoin",
+  "promptVersion": "mock-bitcoin-v1",
+  "analysisId": "cmnwuy0zo0006nr6cspuynk2k",
+  "redTeamRan": false,
+  "redTeamStatus": "skipped",
+  "redTeamError": "Mock mode skips the live red-team pass.",
+  "durationMs": 27,
+  "analysis": {
+    "title": "Bitcoin: 12-Month Bull, Base, and Bear Cases",
+    "original_question": "What is the serious 12-month outlook for Bitcoin?",
+    "reframed_question": "Over the next 12 months, what mix of macro liquidity, ETF flows, regulatory posture, positioning, and reflexive narrative dynamics is most likely to drive Bitcoin’s price path?",
+    "time_horizon": "next 12 months",
+    "objective": "forecast",
+    "definitions": [
+      {
+        "term": "Bull case",
+        "definition": "A path where capital inflows, narrative strength, and market structure reinforce higher prices materially."
+      },
+      {
+        "term": "Base case",
+        "definition": "The central scenario balancing upside catalysts against volatility, policy friction, and position crowding."
+      },
+      {
+        "term": "Bear case",
+        "definition": "A path where liquidity, regulation, or positioning dynamics unwind the current thesis."
+      }
+    ],
+    "domains": [
+      "crypto",
+      "macro",
+      "markets",
+      "regulation",
+      "behavioral"
+    ],
+    "key_drivers": [
+      "Global liquidity and real-rate direction",
+      "ETF and institutional flow persistence",
+      "Regulatory tone toward crypto market structure",
+      "Leverage and positioning crowding",
+      "Narrative reflexivity and retail re-engagement"
+    ],
+    "lenses": [
+      {
+        "name": "Liquidity and macro",
+        "why_it_matters": "Bitcoin tends to perform best when liquidity is easing, real rates are contained, and risk appetite broadens.",
+        "key_drivers": [
+          "Dollar direction",
+          "Real-yield trend",
+          "Liquidity expansion versus tightening"
+        ],
+        "bull_case": "Easier macro conditions re-open risk appetite and support continued digital-asset bid depth.",
+        "bear_case": "Tighter financial conditions compress multiples and make crypto beta harder to sustain.",
+        "base_case": "Macro remains mixed, creating tradable volatility without a clean one-way trend.",
+        "wildcard_case": "A macro shock turns Bitcoin into a temporary liquidity barometer rather than a crypto-specific story.",
+        "evidence_for": [
+          "Liquidity expansion historically improves beta assets",
+          "Narratives strengthen when macro headwinds soften"
+        ],
+        "evidence_against": [
+          "Bitcoin can still sell off hard during policy surprises",
+          "Macro is necessary but not sufficient when positioning is crowded"
+        ],
+        "leading_indicators": [
+          "Real-yield direction",
+          "Dollar trend",
+          "Broad risk-asset breadth"
+        ],
+        "disconfirming_signals": [
+          "Bitcoin underperforming despite easier liquidity",
+          "Rising rates with no deterioration in crypto risk appetite"
+        ]
+      },
+      {
+        "name": "Institutional flow durability",
+        "why_it_matters": "The strongest medium-term bull thesis depends on whether new access products keep converting curiosity into persistent demand.",
+        "key_drivers": [
+          "ETF net flows",
+          "Treasury and corporate allocation appetite",
+          "Sell-side distribution support"
+        ],
+        "bull_case": "Access vehicles continue to pull in steady institutional demand and deepen spot support.",
+        "bear_case": "Flows fade after the first allocation wave, exposing a weaker marginal-buyer base than the market expected.",
+        "base_case": "Institutional flows remain positive but episodic, limiting straight-line upside.",
+        "wildcard_case": "A major allocator publicly reframes Bitcoin as a strategic reserve-like asset and resets the narrative.",
+        "evidence_for": [
+          "Access matters for previously constrained allocators",
+          "Incremental institutional participation changes market structure"
+        ],
+        "evidence_against": [
+          "A one-time access unlock can be mistaken for durable recurring demand",
+          "Flow headlines may hide weak underlying breadth"
+        ],
+        "leading_indicators": [
+          "ETF flow streak quality",
+          "Block trade behavior around macro events",
+          "Large-holder net accumulation"
+        ],
+        "disconfirming_signals": [
+          "Flat price despite strong headline flows",
+          "Flow concentration in one venue without broader market confirmation"
+        ]
+      },
+      {
+        "name": "Positioning and reflexivity",
+        "why_it_matters": "Bitcoin often overshoots in both directions because narrative, leverage, and price action feed back into one another.",
+        "key_drivers": [
+          "Leverage build-up",
+          "Retail participation",
+          "Funding and basis behavior"
+        ],
+        "bull_case": "Positioning stays healthy enough for narrative to attract new demand without triggering a violent unwind.",
+        "bear_case": "Crowded longs and leverage make the market fragile to even modest negative surprises.",
+        "base_case": "Reflexivity drives sharp swings, but the structure alternates between squeeze and digestion rather than breaking decisively.",
+        "wildcard_case": "A large non-crypto shock forces indiscriminate de-risking and temporarily overrides crypto-specific fundamentals.",
+        "evidence_for": [
+          "Reflexive rallies can persist longer than fundamental models imply",
+          "Narrative and access can create self-reinforcing demand loops"
+        ],
+        "evidence_against": [
+          "Leverage-heavy rallies are vulnerable to liquidation cascades",
+          "Retail enthusiasm often arrives late in the cycle"
+        ],
+        "leading_indicators": [
+          "Funding-rate persistence",
+          "Options skew",
+          "Retail app rankings and search interest"
+        ],
+        "disconfirming_signals": [
+          "Clean breakouts without leverage expansion",
+          "Retail apathy during strong upside continuation"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case: upward but unstable",
+        "description": "Bitcoin trends constructively over 12 months, but the path is volatile, with sharp drawdowns caused by leverage and macro repricing rather than thesis failure.",
+        "probability": 45,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Intermittent but positive ETF flows",
+          "Mixed macro backdrop",
+          "Leverage resets without structural breakdown"
+        ]
+      },
+      {
+        "name": "Bull case: reflexive upside extension",
+        "description": "Institutional access stays sticky, macro loosens, and price strength attracts incremental demand fast enough to sustain a stronger upside regime.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Persistent positive ETF flows",
+          "Dollar softness",
+          "Healthy breakouts with broad market confirmation"
+        ]
+      },
+      {
+        "name": "Bear case: crowded-trade unwind",
+        "description": "Macro tightening, policy friction, or fading marginal demand exposes fragile positioning and drives a deep but not necessarily thesis-ending reset.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Funding and basis overheating",
+          "Weakening flows",
+          "Risk-asset breadth deterioration"
+        ]
+      },
+      {
+        "name": "Wildcard: regulatory narrative break",
+        "description": "A major regulatory or policy event unexpectedly changes how allocators treat crypto risk, creating a regime shift in either direction.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "6 to 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Market-structure rule changes",
+          "Large exchange or custody policy shocks"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "How much current demand is recurring allocation versus one-time access conversion",
+      "Whether Bitcoin behaves more like a high-beta liquidity asset or a distinct macro hedge in the next shock",
+      "How much retail re-engagement is needed to sustain the next leg higher"
+    ],
+    "change_my_mind_conditions": [
+      "Persistent ETF inflows with weak price response would weaken the bull thesis",
+      "Bitcoin outperforming through tighter real rates would upgrade its resilience",
+      "A deep drawdown without leverage excess would suggest a more structural demand problem"
+    ],
+    "bottom_line": "The cleanest base case is constructive but unstable: Bitcoin still has upside if liquidity and access stay supportive, but the path is likely to include severe, positioning-driven air pockets.",
+    "watchlist": [
+      "ETF flow persistence versus headline-only spikes",
+      "Funding, basis, and options-skew regime",
+      "Dollar and real-rate direction",
+      "Retail search and app-engagement reacceleration",
+      "Crypto market-structure policy developments"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Bitcoin: 12-Month Bull, Base, and Bear Cases",
+    "original_question": "What is the serious 12-month outlook for Bitcoin?",
+    "reframed_question": "Over the next 12 months, what mix of macro liquidity, ETF flows, regulatory posture, positioning, and reflexive narrative dynamics is most likely to drive Bitcoin’s price path?",
+    "time_horizon": "next 12 months",
+    "objective": "forecast",
+    "definitions": [
+      {
+        "term": "Bull case",
+        "definition": "A path where capital inflows, narrative strength, and market structure reinforce higher prices materially."
+      },
+      {
+        "term": "Base case",
+        "definition": "The central scenario balancing upside catalysts against volatility, policy friction, and position crowding."
+      },
+      {
+        "term": "Bear case",
+        "definition": "A path where liquidity, regulation, or positioning dynamics unwind the current thesis."
+      }
+    ],
+    "domains": [
+      "crypto",
+      "macro",
+      "markets",
+      "regulation",
+      "behavioral"
+    ],
+    "key_drivers": [
+      "Global liquidity and real-rate direction",
+      "ETF and institutional flow persistence",
+      "Regulatory tone toward crypto market structure",
+      "Leverage and positioning crowding",
+      "Narrative reflexivity and retail re-engagement"
+    ],
+    "lenses": [
+      {
+        "name": "Liquidity and macro",
+        "why_it_matters": "Bitcoin tends to perform best when liquidity is easing, real rates are contained, and risk appetite broadens.",
+        "key_drivers": [
+          "Dollar direction",
+          "Real-yield trend",
+          "Liquidity expansion versus tightening"
+        ],
+        "bull_case": "Easier macro conditions re-open risk appetite and support continued digital-asset bid depth.",
+        "bear_case": "Tighter financial conditions compress multiples and make crypto beta harder to sustain.",
+        "base_case": "Macro remains mixed, creating tradable volatility without a clean one-way trend.",
+        "wildcard_case": "A macro shock turns Bitcoin into a temporary liquidity barometer rather than a crypto-specific story.",
+        "evidence_for": [
+          "Liquidity expansion historically improves beta assets",
+          "Narratives strengthen when macro headwinds soften"
+        ],
+        "evidence_against": [
+          "Bitcoin can still sell off hard during policy surprises",
+          "Macro is necessary but not sufficient when positioning is crowded"
+        ],
+        "leading_indicators": [
+          "Real-yield direction",
+          "Dollar trend",
+          "Broad risk-asset breadth"
+        ],
+        "disconfirming_signals": [
+          "Bitcoin underperforming despite easier liquidity",
+          "Rising rates with no deterioration in crypto risk appetite"
+        ]
+      },
+      {
+        "name": "Institutional flow durability",
+        "why_it_matters": "The strongest medium-term bull thesis depends on whether new access products keep converting curiosity into persistent demand.",
+        "key_drivers": [
+          "ETF net flows",
+          "Treasury and corporate allocation appetite",
+          "Sell-side distribution support"
+        ],
+        "bull_case": "Access vehicles continue to pull in steady institutional demand and deepen spot support.",
+        "bear_case": "Flows fade after the first allocation wave, exposing a weaker marginal-buyer base than the market expected.",
+        "base_case": "Institutional flows remain positive but episodic, limiting straight-line upside.",
+        "wildcard_case": "A major allocator publicly reframes Bitcoin as a strategic reserve-like asset and resets the narrative.",
+        "evidence_for": [
+          "Access matters for previously constrained allocators",
+          "Incremental institutional participation changes market structure"
+        ],
+        "evidence_against": [
+          "A one-time access unlock can be mistaken for durable recurring demand",
+          "Flow headlines may hide weak underlying breadth"
+        ],
+        "leading_indicators": [
+          "ETF flow streak quality",
+          "Block trade behavior around macro events",
+          "Large-holder net accumulation"
+        ],
+        "disconfirming_signals": [
+          "Flat price despite strong headline flows",
+          "Flow concentration in one venue without broader market confirmation"
+        ]
+      },
+      {
+        "name": "Positioning and reflexivity",
+        "why_it_matters": "Bitcoin often overshoots in both directions because narrative, leverage, and price action feed back into one another.",
+        "key_drivers": [
+          "Leverage build-up",
+          "Retail participation",
+          "Funding and basis behavior"
+        ],
+        "bull_case": "Positioning stays healthy enough for narrative to attract new demand without triggering a violent unwind.",
+        "bear_case": "Crowded longs and leverage make the market fragile to even modest negative surprises.",
+        "base_case": "Reflexivity drives sharp swings, but the structure alternates between squeeze and digestion rather than breaking decisively.",
+        "wildcard_case": "A large non-crypto shock forces indiscriminate de-risking and temporarily overrides crypto-specific fundamentals.",
+        "evidence_for": [
+          "Reflexive rallies can persist longer than fundamental models imply",
+          "Narrative and access can create self-reinforcing demand loops"
+        ],
+        "evidence_against": [
+          "Leverage-heavy rallies are vulnerable to liquidation cascades",
+          "Retail enthusiasm often arrives late in the cycle"
+        ],
+        "leading_indicators": [
+          "Funding-rate persistence",
+          "Options skew",
+          "Retail app rankings and search interest"
+        ],
+        "disconfirming_signals": [
+          "Clean breakouts without leverage expansion",
+          "Retail apathy during strong upside continuation"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case: upward but unstable",
+        "description": "Bitcoin trends constructively over 12 months, but the path is volatile, with sharp drawdowns caused by leverage and macro repricing rather than thesis failure.",
+        "probability": 45,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Intermittent but positive ETF flows",
+          "Mixed macro backdrop",
+          "Leverage resets without structural breakdown"
+        ]
+      },
+      {
+        "name": "Bull case: reflexive upside extension",
+        "description": "Institutional access stays sticky, macro loosens, and price strength attracts incremental demand fast enough to sustain a stronger upside regime.",
+        "probability": 30,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Persistent positive ETF flows",
+          "Dollar softness",
+          "Healthy breakouts with broad market confirmation"
+        ]
+      },
+      {
+        "name": "Bear case: crowded-trade unwind",
+        "description": "Macro tightening, policy friction, or fading marginal demand exposes fragile positioning and drives a deep but not necessarily thesis-ending reset.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Funding and basis overheating",
+          "Weakening flows",
+          "Risk-asset breadth deterioration"
+        ]
+      },
+      {
+        "name": "Wildcard: regulatory narrative break",
+        "description": "A major regulatory or policy event unexpectedly changes how allocators treat crypto risk, creating a regime shift in either direction.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "6 to 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Market-structure rule changes",
+          "Large exchange or custody policy shocks"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "How much current demand is recurring allocation versus one-time access conversion",
+      "Whether Bitcoin behaves more like a high-beta liquidity asset or a distinct macro hedge in the next shock",
+      "How much retail re-engagement is needed to sustain the next leg higher"
+    ],
+    "change_my_mind_conditions": [
+      "Persistent ETF inflows with weak price response would weaken the bull thesis",
+      "Bitcoin outperforming through tighter real rates would upgrade its resilience",
+      "A deep drawdown without leverage excess would suggest a more structural demand problem"
+    ],
+    "bottom_line": "The cleanest base case is constructive but unstable: Bitcoin still has upside if liquidity and access stay supportive, but the path is likely to include severe, positioning-driven air pockets.",
+    "watchlist": [
+      "ETF flow persistence versus headline-only spikes",
+      "Funding, basis, and options-skew regime",
+      "Dollar and real-rate direction",
+      "Retail search and app-engagement reacceleration",
+      "Crypto market-structure policy developments"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 4,
+      "domain_relevance": 5,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 4,
+      "change_my_mind_specificity": 4,
+      "bottom_line_decisiveness": 4,
+      "watchlist_action_usefulness": 4,
+      "objective_alignment": 5
+    },
+    "notable_strengths": [
+      "Reframed question is sharply operational, linking key drivers to price path",
+      "Domains are well-chosen and clearly relevant to Bitcoin's 12-month outlook",
+      "Scenarios and lenses are distinct with clear causal separation and useful indicators"
+    ],
+    "notable_weaknesses": [
+      "Some watchlist items could be more granular or quantified",
+      "Change-my-mind conditions are good but could include more precise thresholds",
+      "Bottom line is decisive but could better quantify probabilities or triggers"
+    ],
+    "summary": "The analysis provides a clear, operational reframing of the question and selects highly relevant domains. Lenses and scenarios are well differentiated with useful leading and disconfirming indicators. Hidden variables and change-my-mind conditions are insightful though could be more granular. The bottom line makes a clear call with contingencies, and watchlist items are actionable but somewhat general. Overall, the output aligns strongly with the forecasting objective.",
+    "average_score": 4.22
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 0,
+      "disconfirmation_logic": 0,
+      "watchlist_specificity": 0,
+      "bottom_line_sharpness": 0
+    },
+    "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. The red-team pass did not produce any material improvement.",
+    "best_red_team_change": "No changes were made between the primary and final analyses.",
+    "remaining_gap": "The analysis could improve by sharpening the bottom line, adding more specific watchlist criteria, and enhancing disconfirmation logic to better challenge the base case assumptions."
+  }
+}

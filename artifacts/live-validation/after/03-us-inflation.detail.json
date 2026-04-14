@@ -1,0 +1,256 @@
+{
+  "analysis": {
+    "id": "cmnw0ang1000fnr0hpvqo1v53",
+    "title": "U.S. Inflation Outlook Over Next 12 Months: Causal Scenarios and Key Drivers",
+    "notes": null,
+    "modelUsed": "gpt-4.1-mini",
+    "createdAt": "2026-04-12T16:56:58.417Z",
+    "updatedAt": "2026-04-12T16:56:58.417Z",
+    "analysis": {
+      "title": "U.S. Inflation Outlook Over Next 12 Months: Causal Scenarios and Key Drivers",
+      "original_question": "What are the bull, base, and bear cases for U.S. inflation over the next 12 months?",
+      "reframed_question": "What are the plausible inflation trajectories for the U.S. CPI over the next 12 months, driven by macroeconomic demand-supply dynamics, monetary policy stance, and external price shocks, and what uncertainties most influence these trajectories?",
+      "time_horizon": "next 12 months",
+      "objective": "forecast",
+      "definitions": [
+        {
+          "term": "Inflation",
+          "definition": "The rate of change in the consumer price index (CPI), reflecting the average increase in prices paid by consumers for goods and services."
+        },
+        {
+          "term": "Bull case for inflation",
+          "definition": "Scenario where inflation significantly accelerates above current consensus expectations."
+        },
+        {
+          "term": "Base case for inflation",
+          "definition": "Scenario where inflation follows the consensus or median forecast, showing moderate or stable inflation consistent with central bank targets."
+        },
+        {
+          "term": "Bear case for inflation",
+          "definition": "Scenario where inflation decelerates significantly below consensus expectations, possibly approaching or falling below target levels."
+        },
+        {
+          "term": "Monetary policy stance",
+          "definition": "The Federal Reserve’s interest rate decisions and quantitative tightening or easing measures that influence borrowing costs and liquidity."
+        }
+      ],
+      "domains": [
+        "Macroeconomics",
+        "Monetary Policy",
+        "Supply Chain and Commodity Markets",
+        "Labor Market Dynamics"
+      ],
+      "key_drivers": [
+        "Aggregate demand growth",
+        "Supply chain constraints and input costs",
+        "Federal Reserve monetary policy actions",
+        "Labor market tightness and wage growth",
+        "Energy and commodity price volatility",
+        "Fiscal policy and government spending"
+      ],
+      "lenses": [
+        {
+          "name": "Demand-Pull Inflation Lens",
+          "why_it_matters": "Inflation can accelerate if aggregate demand outpaces supply capacity, driven by consumer spending, fiscal stimulus, and credit availability.",
+          "key_drivers": [
+            "Consumer spending growth",
+            "Fiscal stimulus magnitude",
+            "Credit conditions",
+            "Monetary policy interest rates"
+          ],
+          "bull_case": "Strong consumer demand persists fueled by sustained fiscal stimulus and accommodative credit, while monetary policy remains loose or lags inflation, pushing inflation above 4%.",
+          "bear_case": "Demand weakens due to fading fiscal support, tighter credit, and aggressive Fed rate hikes, causing inflation to fall below 2%.",
+          "base_case": "Moderate demand growth balanced by Fed tightening leads to inflation stabilizing around 2.5%-3%.",
+          "wildcard_case": "A sudden surge in consumer confidence or a new fiscal package triggers a demand spike, temporarily pushing inflation above 5%.",
+          "evidence_for": [
+            "Recent strong retail sales data",
+            "High household savings rates",
+            "Ongoing fiscal transfers or infrastructure spending"
+          ],
+          "evidence_against": [
+            "Rising interest rates dampening borrowing",
+            "Consumer debt service ratios increasing",
+            "Weakening consumer sentiment surveys"
+          ],
+          "leading_indicators": [
+            "Retail sales growth",
+            "Consumer confidence indices",
+            "Credit growth metrics",
+            "Federal funds rate trajectory"
+          ],
+          "disconfirming_signals": [
+            "Sharp drops in retail sales",
+            "Unexpected Fed rate hikes beyond guidance",
+            "Rising loan delinquencies"
+          ]
+        },
+        {
+          "name": "Supply-Side and Cost-Push Inflation Lens",
+          "why_it_matters": "Inflation can be driven by supply constraints, rising input costs, and bottlenecks that limit goods availability and push prices higher.",
+          "key_drivers": [
+            "Global supply chain disruptions",
+            "Commodity and energy prices",
+            "Labor shortages in key sectors",
+            "Import price inflation"
+          ],
+          "bull_case": "Persistent supply chain bottlenecks and elevated commodity prices keep input costs high, sustaining inflation above 4%.",
+          "bear_case": "Supply chains normalize rapidly, commodity prices fall due to weak global demand, and labor shortages ease, pushing inflation below 2%.",
+          "base_case": "Gradual easing of supply constraints and stable commodity prices keep inflation near 3%.",
+          "wildcard_case": "Geopolitical tensions or natural disasters cause sudden commodity price spikes, triggering inflation surges above 5%.",
+          "evidence_for": [
+            "Ongoing shipping delays and container shortages",
+            "Elevated oil and metal prices",
+            "Reports of labor shortages in transportation and manufacturing"
+          ],
+          "evidence_against": [
+            "Improvement in delivery times and inventory restocking",
+            "Declining commodity futures prices",
+            "Rising unemployment claims in key sectors"
+          ],
+          "leading_indicators": [
+            "ISM supplier delivery times",
+            "Commodity price indices",
+            "Job openings and quits rates in logistics",
+            "Import price index"
+          ],
+          "disconfirming_signals": [
+            "Sharp declines in commodity prices",
+            "Improved port throughput and logistics data",
+            "Labor market softening in supply-sensitive sectors"
+          ]
+        },
+        {
+          "name": "Monetary Policy and Inflation Expectations Lens",
+          "why_it_matters": "The Federal Reserve’s policy decisions and public inflation expectations shape wage-setting and price-setting behavior, influencing actual inflation.",
+          "key_drivers": [
+            "Federal Reserve interest rate path",
+            "Quantitative tightening pace",
+            "Inflation expectations (consumer and market-based)",
+            "Wage growth trends"
+          ],
+          "bull_case": "Fed delays rate hikes or signals dovish stance, inflation expectations rise, and wage-price spirals emerge, pushing inflation above 4%.",
+          "bear_case": "Fed aggressively hikes rates and shrinks balance sheet, anchoring inflation expectations below 2%, leading to disinflation.",
+          "base_case": "Fed follows a steady tightening path, inflation expectations remain anchored near 2.5%, and inflation stabilizes around 2.5%-3%.",
+          "wildcard_case": "A sudden Fed policy error or communication failure causes inflation expectations to de-anchor, triggering volatile inflation.",
+          "evidence_for": [
+            "Fed meeting minutes signaling dovish bias",
+            "Rising breakeven inflation rates in TIPS markets",
+            "Accelerating wage growth data"
+          ],
+          "evidence_against": [
+            "Fed rate hikes as scheduled or accelerated",
+            "Stable or declining inflation expectations surveys",
+            "Moderate wage growth reports"
+          ],
+          "leading_indicators": [
+            "Federal Reserve statements and dot plots",
+            "TIPS breakeven inflation rates",
+            "University of Michigan inflation expectations",
+            "Average hourly earnings data"
+          ],
+          "disconfirming_signals": [
+            "Fed surprises with hawkish moves",
+            "Declining inflation expectations",
+            "Slowing wage growth"
+          ]
+        },
+        {
+          "name": "Labor Market Tightness and Wage-Price Spiral Lens",
+          "why_it_matters": "Tight labor markets can drive wage increases that businesses pass on as higher prices, potentially creating a self-reinforcing inflation cycle.",
+          "key_drivers": [
+            "Unemployment rate",
+            "Labor force participation",
+            "Wage growth",
+            "Productivity growth"
+          ],
+          "bull_case": "Labor market remains extremely tight with low unemployment and strong wage growth, fueling a wage-price spiral and inflation above 4%.",
+          "bear_case": "Labor market slack increases due to higher unemployment or labor force return, wage growth slows, and inflation falls below 2%.",
+          "base_case": "Labor market gradually loosens but remains moderately tight, wage growth moderates, and inflation holds near 2.5%-3%.",
+          "wildcard_case": "Unexpected surge in labor productivity offsets wage pressures, containing inflation despite tight labor market.",
+          "evidence_for": [
+            "Record low unemployment claims",
+            "Strong wage growth reports",
+            "High quit rates indicating labor market tightness"
+          ],
+          "evidence_against": [
+            "Rising unemployment rate",
+            "Slowing wage growth",
+            "Increasing labor force participation"
+          ],
+          "leading_indicators": [
+            "Monthly jobs reports",
+            "Average hourly earnings",
+            "Labor force participation rate",
+            "Productivity statistics"
+          ],
+          "disconfirming_signals": [
+            "Unexpected rise in unemployment",
+            "Wage growth deceleration",
+            "Improvement in labor productivity"
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Persistent Inflation Due to Supply Constraints and Wage Pressures",
+          "description": "Supply chain bottlenecks and commodity prices remain elevated while labor market tightness sustains strong wage growth, keeping inflation above 4%. Fed tightening is moderate and lagging.",
+          "probability": 30,
+          "impact": "high",
+          "time_horizon": "next 12 months",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Commodity price indices remain elevated",
+            "Labor market tightness persists",
+            "Fed signals slower rate hikes"
+          ]
+        },
+        {
+          "name": "Moderate Inflation Stabilizing Near Target",
+          "description": "Supply chains gradually normalize, commodity prices stabilize, and Fed tightening proceeds as expected. Labor market loosens slightly, moderating wage growth. Inflation settles near 2.5%-3%.",
+          "probability": 50,
+          "impact": "medium",
+          "time_horizon": "next 12 months",
+          "confidence": "high",
+          "leading_indicators": [
+            "Improved supply chain metrics",
+            "Steady Fed rate hikes",
+            "Moderate wage growth"
+          ]
+        },
+        {
+          "name": "Disinflation Driven by Aggressive Fed Tightening and Demand Weakness",
+          "description": "Aggressive Fed rate hikes combined with fading fiscal stimulus and weakening consumer demand cause inflation to fall below 2%, possibly approaching 1.5%.",
+          "probability": 20,
+          "impact": "high",
+          "time_horizon": "next 12 months",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Fed accelerates rate hikes beyond current guidance",
+            "Retail sales and consumer confidence decline sharply",
+            "Inflation expectations fall"
+          ]
+        }
+      ],
+      "hidden_variables": [
+        "Speed and effectiveness of global supply chain normalization",
+        "Federal Reserve’s tolerance for inflation overshoot and reaction function",
+        "Labor force participation changes due to demographic or pandemic-related effects",
+        "Geopolitical events impacting energy and commodity prices"
+      ],
+      "change_my_mind_conditions": [
+        "Sustained drop or spike in commodity prices beyond 10% over 3 months",
+        "Fed signaling a significant shift in policy stance (e.g., pause or acceleration of rate hikes)",
+        "Labor market indicators showing unexpected loosening or tightening (unemployment rate change >0.5% in one quarter)",
+        "Consumer inflation expectations shifting by more than 0.5 percentage points in surveys"
+      ],
+      "bottom_line": "The most likely inflation path over the next 12 months is moderate inflation stabilizing near 2.5%-3%, driven by gradual easing of supply constraints and steady Fed tightening. However, persistent supply bottlenecks combined with tight labor markets could sustain inflation above 4%, while aggressive Fed action and demand weakening could push inflation below 2%. The main factor that could overturn this base case is a sudden shift in Fed policy or a major commodity price shock.",
+      "watchlist": [
+        "Monthly CPI and PPI reports",
+        "Federal Reserve meeting statements and dot plots",
+        "Commodity price indices (oil, metals)",
+        "Labor market data: unemployment rate, wage growth, labor force participation",
+        "Consumer inflation expectations surveys (University of Michigan, NY Fed)"
+      ]
+    }
+  }
+}

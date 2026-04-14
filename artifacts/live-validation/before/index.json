@@ -1,0 +1,2135 @@
+[
+  {
+    "slug": "01-us-policy-momentum",
+    "domain": "politics",
+    "timeHorizon": "through 2027",
+    "objective": "forecast",
+    "question": "What are the serious pathways for the current U.S. administration to lose policy momentum by 2027?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzxeh10000nr0havsadvsp",
+      "analysis": {
+        "title": "Pathways to U.S. Administration Policy Momentum Loss by 2027",
+        "original_question": "What are the serious pathways for the current U.S. administration to lose policy momentum by 2027?",
+        "reframed_question": "What are the primary mechanisms and conditions through which the current U.S. administration could experience a significant decline in its ability to advance and implement its policy agenda by the end of 2027?",
+        "time_horizon": "through 2027",
+        "objective": "forecast",
+        "definitions": [
+          {
+            "term": "policy momentum",
+            "definition": "The sustained ability of the U.S. administration to propose, advance, and enact its legislative and executive policy priorities effectively."
+          },
+          {
+            "term": "current U.S. administration",
+            "definition": "The executive branch leadership of the United States government in office as of 2024, including the President, Vice President, and appointed officials."
+          },
+          {
+            "term": "lose policy momentum",
+            "definition": "A measurable reduction in legislative successes, executive actions, public support, or political capital that impedes the administration's policy agenda."
+          }
+        ],
+        "domains": [
+          "politics",
+          "governance",
+          "economics",
+          "public opinion",
+          "international relations",
+          "media"
+        ],
+        "key_drivers": [
+          "Congressional composition and cooperation",
+          "Public approval ratings",
+          "Economic conditions",
+          "Internal administration cohesion",
+          "Media environment and narrative framing",
+          "External crises (domestic and international)",
+          "Judicial rulings affecting policy",
+          "Opposition party strategies"
+        ],
+        "lenses": [
+          {
+            "name": "Political Institutional Dynamics",
+            "why_it_matters": "The balance of power in Congress and inter-branch relations directly affect the administration’s legislative success and policy implementation.",
+            "key_drivers": [
+              "Congressional composition and cooperation",
+              "Judicial rulings affecting policy",
+              "Opposition party strategies"
+            ],
+            "bull_case": "The administration maintains or gains Congressional support, enabling smooth passage of key policies.",
+            "bear_case": "Increased opposition control or intra-party fractures lead to legislative gridlock and policy stagnation.",
+            "base_case": "Mixed Congressional control with episodic cooperation results in moderate policy progress.",
+            "wildcard_case": "Unexpected bipartisan coalition forms or major shifts in party alignment accelerate or stall policy momentum.",
+            "evidence_for": [
+              "Recent legislative successes",
+              "Bipartisan agreements",
+              "Judicial support for administration policies"
+            ],
+            "evidence_against": [
+              "Filibusters and legislative blockades",
+              "Court rulings invalidating policies",
+              "Increased partisanship"
+            ],
+            "leading_indicators": [
+              "Midterm election outcomes",
+              "Key committee leadership changes",
+              "Supreme Court decisions"
+            ],
+            "disconfirming_signals": [
+              "Unexpected bipartisan opposition",
+              "Judicial rulings favoring opposition"
+            ]
+          },
+          {
+            "name": "Public Opinion and Media Environment",
+            "why_it_matters": "Public support and media framing influence political capital and pressure on legislators, impacting policy momentum.",
+            "key_drivers": [
+              "Public approval ratings",
+              "Media environment and narrative framing"
+            ],
+            "bull_case": "Sustained high approval ratings and favorable media coverage bolster administration leverage.",
+            "bear_case": "Declining approval and negative media narratives erode political capital and embolden opposition.",
+            "base_case": "Fluctuating approval with mixed media coverage leads to cautious policy advancement.",
+            "wildcard_case": "Viral media events or scandals rapidly shift public opinion and media framing.",
+            "evidence_for": [
+              "Polling data showing stable or rising approval",
+              "Positive media endorsements"
+            ],
+            "evidence_against": [
+              "Polls indicating declining support",
+              "Widespread negative media coverage"
+            ],
+            "leading_indicators": [
+              "National polls",
+              "Media sentiment analysis",
+              "Social media trends"
+            ],
+            "disconfirming_signals": [
+              "Public rallies supporting the administration",
+              "Media shifts toward neutrality or support"
+            ]
+          },
+          {
+            "name": "Economic and External Crisis Factors",
+            "why_it_matters": "Economic performance and crises (domestic or international) can either empower or constrain the administration’s policy agenda.",
+            "key_drivers": [
+              "Economic conditions",
+              "External crises (domestic and international)"
+            ],
+            "bull_case": "Strong economic growth and absence of major crises facilitate policy momentum.",
+            "bear_case": "Economic downturns, inflation, or major crises divert attention and reduce capacity to advance policies.",
+            "base_case": "Moderate economic conditions with manageable crises allow steady but cautious policy progress.",
+            "wildcard_case": "Sudden economic shocks or geopolitical events dramatically alter policy priorities and momentum.",
+            "evidence_for": [
+              "Current economic indicators trending positive",
+              "No major crises reported"
+            ],
+            "evidence_against": [
+              "Rising inflation, unemployment",
+              "Emerging geopolitical conflicts"
+            ],
+            "leading_indicators": [
+              "GDP growth rates",
+              "Unemployment data",
+              "Crisis emergence reports"
+            ],
+            "disconfirming_signals": [
+              "Unexpected economic recovery",
+              "Rapid resolution of crises"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Legislative Gridlock and Partisan Polarization",
+            "description": "Opposition party gains control or strengthens in Congress, combined with intra-party divisions, create legislative deadlock preventing major policy advances.",
+            "probability": 45,
+            "impact": "high",
+            "time_horizon": "through 2027",
+            "confidence": "medium",
+            "leading_indicators": [
+              "2024 and 2026 midterm election results",
+              "Frequency of filibusters",
+              "Party unity votes"
+            ]
+          },
+          {
+            "name": "Sustained Public Support and Bipartisan Cooperation",
+            "description": "The administration maintains strong public approval and negotiates bipartisan agreements, enabling steady policy progress despite challenges.",
+            "probability": 30,
+            "impact": "medium",
+            "time_horizon": "through 2027",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Stable or rising approval ratings",
+              "Bipartisan legislative initiatives",
+              "Positive media coverage"
+            ]
+          },
+          {
+            "name": "Economic or Crisis-Induced Distraction",
+            "description": "Significant economic downturn or unexpected domestic/international crises shift focus away from the administration’s agenda, reducing policy momentum.",
+            "probability": 25,
+            "impact": "high",
+            "time_horizon": "through 2027",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Economic recession signals",
+              "Emergence of geopolitical conflicts",
+              "Natural disasters or pandemics"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Internal administration leadership stability and coherence",
+          "Influence of social movements and grassroots activism",
+          "Judicial appointments and rulings beyond Supreme Court",
+          "Unforeseen scandals or revelations",
+          "Technological disruptions affecting communication and policy implementation"
+        ],
+        "change_my_mind_conditions": [
+          "Unexpected bipartisan legislative breakthroughs",
+          "Rapid and sustained improvement or deterioration in public opinion",
+          "Major shifts in global geopolitical landscape",
+          "Significant changes in Congressional leadership or party control"
+        ],
+        "bottom_line": "The current U.S. administration’s policy momentum through 2027 will largely depend on Congressional dynamics, public support, and external economic or crisis factors. Legislative gridlock and partisan polarization present the highest risk to momentum loss, while sustained public approval and bipartisan cooperation offer a moderate chance for steady progress. Unexpected crises could abruptly shift priorities and reduce policy advancement capacity.",
+        "watchlist": [
+          "2024 and 2026 midterm election outcomes",
+          "Public approval rating trends",
+          "Major Supreme Court and lower court rulings",
+          "Economic indicators such as GDP growth and unemployment",
+          "Emergence of domestic or international crises",
+          "Media sentiment and major news cycles",
+          "Internal administration leadership changes"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "02-taiwan-tensions",
+    "domain": "geopolitics",
+    "timeHorizon": "next 18 months",
+    "objective": "forecast",
+    "question": "What are the most credible paths for China-Taiwan tensions over the next 18 months, and what would change the base case?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzxw680001nr0h244iu4wn",
+      "analysis": {
+        "title": "Forecasting China-Taiwan Tensions Over 18 Months",
+        "original_question": "What are the most credible paths for China-Taiwan tensions over the next 18 months, and what would change the base case?",
+        "reframed_question": "What are the most plausible geopolitical developments regarding China-Taiwan relations within the next 18 months, what scenarios could unfold, and which factors could shift the expected trajectory?",
+        "time_horizon": "next 18 months",
+        "objective": "forecast",
+        "definitions": [
+          {
+            "term": "China-Taiwan tensions",
+            "definition": "The range of political, military, economic, and diplomatic frictions and conflicts between the People's Republic of China and Taiwan (Republic of China), including threats or acts of coercion, military posturing, or diplomatic isolation."
+          },
+          {
+            "term": "credible paths",
+            "definition": "Plausible scenarios or developments grounded in current evidence, expert analysis, and historical precedent."
+          },
+          {
+            "term": "base case",
+            "definition": "The most likely scenario or expected trajectory of China-Taiwan relations absent major unforeseen shocks."
+          }
+        ],
+        "domains": [
+          "geopolitics",
+          "international relations",
+          "military strategy",
+          "economic policy",
+          "diplomacy"
+        ],
+        "key_drivers": [
+          "China's domestic political stability and leadership priorities",
+          "Taiwan's political leadership and public opinion",
+          "US and allied countries' strategic policies and military posture",
+          "Cross-strait military capabilities and deployments",
+          "Economic interdependence and trade relations",
+          "International diplomatic recognition and alliances",
+          "Regional security dynamics including other actors (Japan, ASEAN, India)"
+        ],
+        "lenses": [
+          {
+            "name": "Military and Security Lens",
+            "why_it_matters": "Military posturing and capabilities directly influence the risk of conflict escalation or deterrence effectiveness.",
+            "key_drivers": [
+              "China's PLA modernization and exercises near Taiwan",
+              "Taiwan's defense readiness and asymmetric capabilities",
+              "US military presence and commitments in the region"
+            ],
+            "bull_case": "China escalates military pressure, including potential limited incursions or blockade attempts to coerce Taiwan.",
+            "bear_case": "Military tensions de-escalate due to diplomatic engagement or deterrence credibility, reducing risk of conflict.",
+            "base_case": "Sustained high-alert military posturing with periodic exercises but no direct conflict.",
+            "wildcard_case": "Unexpected military incident triggers rapid escalation or miscalculation leading to open conflict.",
+            "evidence_for": [
+              "Increased PLA exercises and incursions into Taiwan's ADIZ",
+              "US arms sales and naval transits near Taiwan",
+              "Taiwan's defense budget increases"
+            ],
+            "evidence_against": [
+              "Public statements by China emphasizing peaceful reunification",
+              "US diplomatic efforts to reduce tensions",
+              "Taiwan's political moves towards moderation"
+            ],
+            "leading_indicators": [
+              "Frequency and scale of PLA air and naval operations near Taiwan",
+              "Changes in Taiwan's military readiness status",
+              "US military deployments or joint exercises in the region"
+            ],
+            "disconfirming_signals": [
+              "Sudden reduction in PLA activity near Taiwan",
+              "High-level diplomatic meetings between China and Taiwan",
+              "Public statements by China signaling de-escalation"
+            ]
+          },
+          {
+            "name": "Diplomatic and Political Lens",
+            "why_it_matters": "Diplomatic recognition, alliances, and political rhetoric shape international support and legitimacy, influencing conflict dynamics.",
+            "key_drivers": [
+              "Taiwan's international diplomatic engagements",
+              "China's efforts to isolate Taiwan diplomatically",
+              "US and allies' policy statements and actions"
+            ],
+            "bull_case": "China intensifies diplomatic isolation of Taiwan, reducing its international space and increasing pressure.",
+            "bear_case": "Taiwan secures new diplomatic partners or informal alliances, strengthening its international position.",
+            "base_case": "Status quo diplomatic contest with limited changes in recognition but ongoing political friction.",
+            "wildcard_case": "Major diplomatic breakthrough or crisis, such as Taiwan joining international organizations or China imposing sanctions.",
+            "evidence_for": [
+              "China's efforts to block Taiwan's participation in international forums",
+              "US and allies' reaffirmation of Taiwan support",
+              "Taiwan's outreach to new diplomatic partners"
+            ],
+            "evidence_against": [
+              "Taiwan losing diplomatic allies",
+              "China signaling willingness to engage in talks",
+              "US reducing public support for Taiwan"
+            ],
+            "leading_indicators": [
+              "Changes in diplomatic recognition or status of Taiwan",
+              "Statements from key international actors on Taiwan",
+              "International organization membership developments"
+            ],
+            "disconfirming_signals": [
+              "Improved China-Taiwan official communications",
+              "International actors adopting neutral or ambiguous stances"
+            ]
+          },
+          {
+            "name": "Economic and Trade Lens",
+            "why_it_matters": "Economic interdependence and trade relations can act as both a stabilizing factor and a source of leverage or vulnerability.",
+            "key_drivers": [
+              "Cross-strait trade volume and restrictions",
+              "Global supply chain dependencies on Taiwan's semiconductor industry",
+              "Economic sanctions or trade barriers"
+            ],
+            "bull_case": "China imposes economic sanctions or trade restrictions to pressure Taiwan, disrupting supply chains.",
+            "bear_case": "Economic ties deepen, incentivizing peaceful coexistence and reducing conflict risk.",
+            "base_case": "Continued economic interdependence with occasional trade frictions but no major disruptions.",
+            "wildcard_case": "Global semiconductor supply shock triggers new alliances or escalates tensions.",
+            "evidence_for": [
+              "China restricting imports from Taiwan",
+              "Taiwan diversifying trade partnerships",
+              "Global semiconductor demand fluctuations"
+            ],
+            "evidence_against": [
+              "Stable or growing cross-strait trade",
+              "Joint economic initiatives or agreements",
+              "Global efforts to reduce semiconductor supply chain risks"
+            ],
+            "leading_indicators": [
+              "Changes in trade volume or tariffs between China and Taiwan",
+              "Announcements of supply chain diversification",
+              "Economic sanctions or countermeasures"
+            ],
+            "disconfirming_signals": [
+              "Resumption of stalled economic dialogues",
+              "Joint investments or cooperation announcements"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Sustained Status Quo with High Tensions",
+            "description": "China maintains intense military and diplomatic pressure without initiating direct conflict; Taiwan strengthens defenses and international support; US and allies continue strategic ambiguity and deterrence.",
+            "probability": 60,
+            "impact": "medium",
+            "time_horizon": "next 18 months",
+            "confidence": "high",
+            "leading_indicators": [
+              "Continued PLA exercises near Taiwan",
+              "Stable diplomatic contest without major shifts",
+              "Ongoing US arms sales and naval presence"
+            ]
+          },
+          {
+            "name": "Escalation to Limited Military Conflict",
+            "description": "A miscalculation or deliberate limited military action by China occurs, such as a blockade or airspace incursion, prompting heightened crisis but avoiding full-scale war.",
+            "probability": 20,
+            "impact": "high",
+            "time_horizon": "next 18 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Significant increase in PLA incursions or naval blockades",
+              "Heightened Taiwan military alert levels",
+              "US and allied military repositioning"
+            ]
+          },
+          {
+            "name": "Diplomatic De-escalation and Engagement",
+            "description": "China and Taiwan engage in meaningful diplomatic dialogue, possibly facilitated by international actors, leading to reduced tensions and confidence-building measures.",
+            "probability": 15,
+            "impact": "medium",
+            "time_horizon": "next 18 months",
+            "confidence": "low",
+            "leading_indicators": [
+              "High-level meetings or communication channels established",
+              "Public statements emphasizing peaceful resolution",
+              "Reduction in military exercises near Taiwan"
+            ]
+          },
+          {
+            "name": "Rapid Escalation to Full-Scale Conflict",
+            "description": "An unexpected incident or strategic decision triggers full-scale military conflict between China and Taiwan, drawing in regional and global powers.",
+            "probability": 5,
+            "impact": "high",
+            "time_horizon": "next 18 months",
+            "confidence": "low",
+            "leading_indicators": [
+              "Sudden large-scale PLA mobilization near Taiwan",
+              "Breakdown of diplomatic communications",
+              "US and allies moving to wartime postures"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Internal political stability within China, including leadership cohesion",
+          "Taiwanese public opinion shifts toward independence or reconciliation",
+          "US domestic political will and policy consistency",
+          "Unexpected external shocks (e.g., global economic crisis, pandemics)",
+          "Technological breakthroughs affecting military balance"
+        ],
+        "change_my_mind_conditions": [
+          "Significant reduction in PLA military activities near Taiwan sustained over months",
+          "Major diplomatic breakthrough between China and Taiwan mediated by a third party",
+          "US policy shift away from strategic ambiguity toward explicit defense commitments",
+          "Taiwanese elections resulting in a government with radically different cross-strait policy",
+          "Emergence of a severe economic crisis in China limiting its capacity for external coercion"
+        ],
+        "bottom_line": "The most credible near-term path is continued high-tension status quo marked by military posturing and diplomatic contest without direct conflict, driven by China's strategic calculus and US-Taiwan deterrence. However, risks of limited military escalation or rare diplomatic breakthroughs remain. Monitoring military activities, diplomatic signals, and internal political dynamics in China and Taiwan is critical to detecting shifts that could alter this trajectory.",
+        "watchlist": [
+          "Frequency and scale of PLA military exercises near Taiwan",
+          "Taiwan's defense budget and readiness indicators",
+          "US and allied military deployments and arms sales",
+          "Diplomatic recognition changes or international organization participation by Taiwan",
+          "Public statements by Chinese and Taiwanese leadership on cross-strait relations",
+          "Taiwanese election outcomes and policy shifts",
+          "Global semiconductor supply chain developments"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "03-us-inflation",
+    "domain": "macro",
+    "timeHorizon": "next 12 months",
+    "objective": "forecast",
+    "question": "What are the bull, base, and bear cases for U.S. inflation over the next 12 months?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzymnx0002nr0hhnx33odo",
+      "analysis": {
+        "title": "U.S. Inflation Outlook Over Next 12 Months",
+        "original_question": "What are the bull, base, and bear cases for U.S. inflation over the next 12 months?",
+        "reframed_question": "What are the plausible optimistic (bull), baseline (base), and pessimistic (bear) scenarios for the trajectory of U.S. inflation rates over the next 12 months, considering macroeconomic factors and their potential impacts?",
+        "time_horizon": "next 12 months",
+        "objective": "forecast",
+        "definitions": [
+          {
+            "term": "U.S. inflation",
+            "definition": "The rate at which the general price level of goods and services in the United States increases over time, typically measured by the Consumer Price Index (CPI) or Personal Consumption Expenditures (PCE) index."
+          },
+          {
+            "term": "bull case",
+            "definition": "An optimistic scenario where inflation decreases or remains low, benefiting economic stability and purchasing power."
+          },
+          {
+            "term": "base case",
+            "definition": "The most likely or median scenario for inflation based on current data and trends."
+          },
+          {
+            "term": "bear case",
+            "definition": "A pessimistic scenario where inflation rises significantly or remains persistently high, causing economic challenges."
+          }
+        ],
+        "domains": [
+          "macroeconomics",
+          "monetary policy",
+          "fiscal policy",
+          "global trade",
+          "labor markets",
+          "energy markets"
+        ],
+        "key_drivers": [
+          "Federal Reserve monetary policy stance",
+          "Supply chain disruptions",
+          "Labor market tightness and wage growth",
+          "Energy prices (oil, gas)",
+          "Fiscal stimulus and government spending",
+          "Global geopolitical events",
+          "Consumer demand and savings rates",
+          "Exchange rates and import prices"
+        ],
+        "lenses": [
+          {
+            "name": "Monetary Policy",
+            "why_it_matters": "The Federal Reserve's interest rate decisions and quantitative tightening directly influence inflation by affecting borrowing costs and money supply.",
+            "key_drivers": [
+              "Federal Reserve monetary policy stance",
+              "Consumer demand",
+              "Labor market tightness"
+            ],
+            "bull_case": "Fed aggressively raises rates and reduces balance sheet, cooling demand and anchoring inflation expectations below 2%.",
+            "bear_case": "Fed is forced to pause or reverse tightening due to economic slowdown, allowing inflation to remain elevated above 4%.",
+            "base_case": "Gradual rate hikes continue with moderate balance sheet reduction, leading inflation to moderate toward 2.5%-3%.",
+            "wildcard_case": "Unexpected Fed policy error or communication failure triggers market volatility and inflation expectations become unanchored.",
+            "evidence_for": [
+              "Recent Fed rate hikes",
+              "Inflation expectations surveys",
+              "Fed balance sheet data"
+            ],
+            "evidence_against": [
+              "Lagged effect of monetary policy",
+              "Strong labor market resilience"
+            ],
+            "leading_indicators": [
+              "Fed meeting minutes",
+              "Interest rate futures",
+              "Inflation expectations"
+            ],
+            "disconfirming_signals": [
+              "Fed signals dovish shift",
+              "Inflation surprises on downside"
+            ]
+          },
+          {
+            "name": "Supply Chain and Energy Markets",
+            "why_it_matters": "Disruptions in supply chains and volatile energy prices can cause cost-push inflation, impacting consumer prices directly.",
+            "key_drivers": [
+              "Supply chain disruptions",
+              "Energy prices",
+              "Global geopolitical events"
+            ],
+            "bull_case": "Supply chains normalize and energy prices stabilize or decline, easing cost pressures and reducing inflation.",
+            "bear_case": "New supply shocks or geopolitical conflicts push energy prices higher and prolong supply chain bottlenecks.",
+            "base_case": "Gradual improvement in supply chains with moderate energy price volatility, keeping inflation elevated but contained.",
+            "wildcard_case": "Major geopolitical crisis disrupts global trade routes, causing sharp inflation spikes.",
+            "evidence_for": [
+              "Shipping cost indices",
+              "Oil price trends",
+              "Inventory levels"
+            ],
+            "evidence_against": [
+              "Improved logistics data",
+              "Energy supply increases"
+            ],
+            "leading_indicators": [
+              "Commodity futures",
+              "Port congestion reports",
+              "Geopolitical news"
+            ],
+            "disconfirming_signals": [
+              "Energy price collapse",
+              "Supply chain acceleration"
+            ]
+          },
+          {
+            "name": "Labor Market and Wage Dynamics",
+            "why_it_matters": "Tight labor markets and rising wages can drive demand-pull inflation if productivity gains do not offset higher labor costs.",
+            "key_drivers": [
+              "Labor market tightness",
+              "Wage growth",
+              "Consumer demand"
+            ],
+            "bull_case": "Labor market softens, wage growth slows, reducing inflationary wage pressures.",
+            "bear_case": "Labor shortages persist, wages accelerate, fueling sustained inflation above target.",
+            "base_case": "Moderate wage growth continues with some easing in labor market tightness, supporting moderate inflation.",
+            "wildcard_case": "Significant labor market disruption (e.g., strikes or policy changes) causes wage shocks.",
+            "evidence_for": [
+              "Employment reports",
+              "Wage growth data",
+              "Job openings"
+            ],
+            "evidence_against": [
+              "Rising unemployment claims",
+              "Slowing wage growth"
+            ],
+            "leading_indicators": [
+              "Initial jobless claims",
+              "Average hourly earnings",
+              "Labor participation rates"
+            ],
+            "disconfirming_signals": [
+              "Rapid unemployment rise",
+              "Wage freezes"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Bull Case: Inflation Moderates Below 2%",
+            "description": "Aggressive Fed tightening, normalized supply chains, stable energy prices, and easing labor market pressures lead inflation to fall below the Fed’s 2% target by year-end.",
+            "probability": 30,
+            "impact": "high",
+            "time_horizon": "12 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Fed rate hikes continue",
+              "Declining commodity prices",
+              "Slowing wage growth"
+            ]
+          },
+          {
+            "name": "Base Case: Inflation Moderates to 2.5%-3%",
+            "description": "Gradual monetary tightening combined with partial supply chain recovery and moderate wage growth results in inflation easing but remaining slightly above target.",
+            "probability": 50,
+            "impact": "medium",
+            "time_horizon": "12 months",
+            "confidence": "high",
+            "leading_indicators": [
+              "Steady Fed policy",
+              "Stable energy prices",
+              "Moderate labor market data"
+            ]
+          },
+          {
+            "name": "Bear Case: Inflation Remains Elevated Above 4%",
+            "description": "Persistent supply chain issues, renewed energy price shocks, and tight labor market conditions keep inflation elevated, forcing the Fed into a policy dilemma.",
+            "probability": 20,
+            "impact": "high",
+            "time_horizon": "12 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Rising commodity prices",
+              "Strong wage growth",
+              "Fed policy pause or easing"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Consumer inflation expectations and their feedback loop",
+          "Fiscal policy changes or new stimulus measures",
+          "Technological advancements affecting productivity",
+          "Global economic slowdown or recession risks",
+          "Currency fluctuations impacting import prices"
+        ],
+        "change_my_mind_conditions": [
+          "Significant deviation in inflation data from forecasts for three consecutive months",
+          "Unexpected Fed policy shifts or communication changes",
+          "Major geopolitical event disrupting energy or trade markets",
+          "Labor market indicators showing rapid deterioration or improvement"
+        ],
+        "bottom_line": "U.S. inflation over the next 12 months is most likely to moderate gradually but remain slightly above the Fed’s 2% target under current trends. However, risks from supply chain disruptions, energy price volatility, and labor market tightness could push inflation higher, while aggressive monetary tightening and normalization of supply conditions could bring inflation below target. Close monitoring of Fed policy, commodity prices, and labor market data is essential to adjust forecasts.",
+        "watchlist": [
+          "Federal Reserve policy announcements and meeting minutes",
+          "Monthly CPI and PCE inflation reports",
+          "Energy price trends (oil, natural gas)",
+          "Labor market reports including wage growth and unemployment claims",
+          "Supply chain indicators such as shipping costs and inventory levels",
+          "Geopolitical developments affecting trade and energy"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "04-recession-hedge",
+    "domain": "markets",
+    "timeHorizon": "next 12 months",
+    "objective": "monitor",
+    "question": "Should a global consumer brand hedge against a 2026 recession, and what signals should it watch now?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzz0bd0003nr0hqf48fjlg",
+      "analysis": {
+        "title": "Strategic Hedging for a Potential 2026 Recession by a Global Consumer Brand",
+        "original_question": "Should a global consumer brand hedge against a 2026 recession, and what signals should it watch now?",
+        "reframed_question": "What is the strategic rationale for a global consumer brand to implement hedging measures against a potential recession in 2026, and which early economic and market indicators over the next 12 months should it monitor to inform this decision?",
+        "time_horizon": "next 12 months",
+        "objective": "monitor",
+        "definitions": [
+          {
+            "term": "hedge",
+            "definition": "Actions taken by a company to reduce financial risk exposure, such as diversifying investments, adjusting supply chains, or financial instruments to mitigate potential negative impacts from economic downturns."
+          },
+          {
+            "term": "global consumer brand",
+            "definition": "A company that markets and sells consumer goods or services internationally with significant brand recognition across multiple countries."
+          },
+          {
+            "term": "recession",
+            "definition": "A significant decline in economic activity spread across the economy lasting more than a few months, typically visible in GDP, employment, and other macroeconomic indicators."
+          },
+          {
+            "term": "signals",
+            "definition": "Observable economic, financial, or market indicators that provide early warning or confirmation of macroeconomic trends."
+          }
+        ],
+        "domains": [
+          "macroeconomics",
+          "financial markets",
+          "consumer behavior",
+          "corporate strategy",
+          "risk management"
+        ],
+        "key_drivers": [
+          "global GDP growth rates",
+          "consumer confidence indices",
+          "inflation and interest rate trends",
+          "supply chain stability",
+          "geopolitical risks",
+          "monetary and fiscal policy actions",
+          "corporate earnings trends",
+          "currency fluctuations"
+        ],
+        "lenses": [
+          {
+            "name": "Macroeconomic Lens",
+            "why_it_matters": "Recession risk is primarily driven by macroeconomic conditions; understanding economic cycles and leading indicators is critical for timing hedging strategies.",
+            "key_drivers": [
+              "global GDP growth rates",
+              "inflation and interest rate trends",
+              "monetary and fiscal policy actions"
+            ],
+            "bull_case": "Global economies continue moderate growth with controlled inflation, avoiding recession and supporting steady consumer demand.",
+            "bear_case": "Economic contraction occurs due to tightening monetary policy and external shocks, triggering a recession by 2026.",
+            "base_case": "Slowing growth with mild recession risk, allowing partial hedging to mitigate moderate downside.",
+            "wildcard_case": "Unexpected rapid technological or policy shifts spur a new growth cycle, negating recession risk.",
+            "evidence_for": [
+              "Inverted yield curves",
+              "Rising unemployment claims",
+              "Declining manufacturing PMI"
+            ],
+            "evidence_against": [
+              "Strong consumer spending",
+              "Robust employment data",
+              "Expansionary fiscal stimulus"
+            ],
+            "leading_indicators": [
+              "Yield curve spreads",
+              "Purchasing Managers' Index (PMI)",
+              "Consumer confidence indices"
+            ],
+            "disconfirming_signals": [
+              "Sustained GDP growth above trend",
+              "Rising capital expenditures",
+              "Improving trade balances"
+            ]
+          },
+          {
+            "name": "Consumer Behavior Lens",
+            "why_it_matters": "Consumer spending drives revenue for consumer brands; shifts in confidence and purchasing patterns signal demand changes ahead of economic downturns.",
+            "key_drivers": [
+              "consumer confidence indices",
+              "disposable income trends",
+              "retail sales data"
+            ],
+            "bull_case": "Consumers maintain or increase spending, driven by wage growth and low unemployment.",
+            "bear_case": "Consumer confidence deteriorates sharply, causing reduced discretionary spending and brand switching.",
+            "base_case": "Moderate weakening in consumer spending with selective category impacts.",
+            "wildcard_case": "Emergence of new consumer trends or product innovations that sustain demand despite economic headwinds.",
+            "evidence_for": [
+              "Declining consumer confidence surveys",
+              "Rising credit card delinquencies",
+              "Slowing retail sales growth"
+            ],
+            "evidence_against": [
+              "Stable or rising consumer confidence",
+              "Increasing household savings rates",
+              "Strong retail foot traffic"
+            ],
+            "leading_indicators": [
+              "Consumer confidence index",
+              "Retail sales reports",
+              "Household debt service ratios"
+            ],
+            "disconfirming_signals": [
+              "Unexpected wage growth",
+              "Improved labor market conditions",
+              "Positive consumer sentiment surveys"
+            ]
+          },
+          {
+            "name": "Financial Markets Lens",
+            "why_it_matters": "Financial markets often price in recession risks earlier than economic data; market volatility and credit conditions affect corporate financing and investment decisions.",
+            "key_drivers": [
+              "equity market trends",
+              "credit spreads",
+              "currency volatility"
+            ],
+            "bull_case": "Stable or rising equity markets with tight credit spreads indicate low near-term recession risk.",
+            "bear_case": "Widening credit spreads and sustained equity market declines signal increased recession probability.",
+            "base_case": "Moderate market volatility with intermittent risk-off episodes.",
+            "wildcard_case": "Sudden geopolitical or systemic financial crisis triggers rapid market dislocation.",
+            "evidence_for": [
+              "Rising credit default swap spreads",
+              "S&P 500 volatility index spikes",
+              "Currency depreciation in key markets"
+            ],
+            "evidence_against": [
+              "Strong equity market rallies",
+              "Narrowing credit spreads",
+              "Stable currency exchange rates"
+            ],
+            "leading_indicators": [
+              "Credit default swap (CDS) spreads",
+              "Volatility indices (VIX)",
+              "Corporate bond yields"
+            ],
+            "disconfirming_signals": [
+              "Sustained low volatility",
+              "Tightening credit conditions easing",
+              "Positive earnings revisions"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Recession Materializes in 2026",
+            "description": "Macroeconomic indicators deteriorate over the next 12 months leading to a global recession in 2026, causing reduced consumer spending and increased market volatility.",
+            "probability": 40,
+            "impact": "high",
+            "time_horizon": "12-24 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Inverted yield curve persists",
+              "Declining consumer confidence",
+              "Widening credit spreads"
+            ]
+          },
+          {
+            "name": "Soft Landing Avoided Recession",
+            "description": "Economic growth slows but does not contract; consumer spending weakens moderately but markets remain stable, allowing the brand to partially hedge risk.",
+            "probability": 45,
+            "impact": "medium",
+            "time_horizon": "12-24 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Stable but slowing GDP growth",
+              "Moderate decline in consumer confidence",
+              "Stable credit spreads"
+            ]
+          },
+          {
+            "name": "Continued Growth and No Recession",
+            "description": "Global economy continues steady growth with strong consumer demand and stable financial markets, negating the need for aggressive hedging.",
+            "probability": 15,
+            "impact": "low",
+            "time_horizon": "12-24 months",
+            "confidence": "low",
+            "leading_indicators": [
+              "Rising GDP growth",
+              "Strong consumer confidence",
+              "Tight credit spreads"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Geopolitical shocks (e.g., conflicts, trade wars)",
+          "Unexpected monetary policy shifts",
+          "Supply chain disruptions",
+          "Technological innovation impacting consumer demand",
+          "Pandemic or health crises resurgence"
+        ],
+        "change_my_mind_conditions": [
+          "Sustained reversal of inverted yield curve",
+          "Significant fiscal stimulus mitigating slowdown",
+          "Rapid improvement in labor market conditions",
+          "Emergence of new consumer demand drivers",
+          "Stabilization of global trade and supply chains"
+        ],
+        "bottom_line": "Given the moderate probability of a 2026 recession and its high potential impact on consumer demand and financial conditions, a global consumer brand should adopt a flexible hedging strategy informed by leading macroeconomic, consumer, and financial market indicators over the next 12 months. Early signals such as yield curve inversion, consumer confidence trends, and credit market conditions should be closely monitored to adjust hedging intensity dynamically.",
+        "watchlist": [
+          "Yield curve spreads (10-year minus 2-year Treasury yields)",
+          "Consumer confidence indices (e.g., Conference Board, University of Michigan)",
+          "Purchasing Managers' Index (PMI) for major economies",
+          "Credit default swap spreads on corporate bonds",
+          "Retail sales and household debt service ratios",
+          "Monetary policy announcements from major central banks",
+          "Geopolitical developments impacting trade and supply chains"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "05-bitcoin",
+    "domain": "crypto",
+    "timeHorizon": "next 12 months",
+    "objective": "invest",
+    "question": "What are the real bull, base, and bear cases for Bitcoin over the next 12 months?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzzejl0004nr0h0tvldvoh",
+      "analysis": {
+        "title": "Bitcoin 12-Month Investment Outlook: Bull, Base, and Bear Cases",
+        "original_question": "What are the real bull, base, and bear cases for Bitcoin over the next 12 months?",
+        "reframed_question": "What are the plausible optimistic (bull), neutral (base), and pessimistic (bear) investment outcome scenarios for Bitcoin's price and adoption over the next 12 months, considering relevant market, technological, regulatory, and macroeconomic factors?",
+        "time_horizon": "next 12 months",
+        "objective": "invest",
+        "definitions": [
+          {
+            "term": "Bitcoin",
+            "definition": "A decentralized digital cryptocurrency operating on a blockchain, used as a store of value and medium of exchange."
+          },
+          {
+            "term": "Bull case",
+            "definition": "An optimistic scenario where Bitcoin's value and adoption increase significantly."
+          },
+          {
+            "term": "Base case",
+            "definition": "A neutral or most likely scenario where Bitcoin's value and adoption remain relatively stable or grow moderately."
+          },
+          {
+            "term": "Bear case",
+            "definition": "A pessimistic scenario where Bitcoin's value and adoption decline significantly."
+          },
+          {
+            "term": "Adoption",
+            "definition": "The extent to which Bitcoin is used by individuals, institutions, and businesses for transactions, investment, or as a reserve asset."
+          }
+        ],
+        "domains": [
+          "cryptocurrency markets",
+          "blockchain technology",
+          "financial regulation",
+          "macroeconomics",
+          "investor behavior"
+        ],
+        "key_drivers": [
+          "regulatory environment",
+          "institutional adoption",
+          "macroeconomic conditions",
+          "technological developments",
+          "market sentiment and speculation",
+          "competitive landscape (altcoins and CBDCs)",
+          "security incidents and network integrity"
+        ],
+        "lenses": [
+          {
+            "name": "Regulatory Environment",
+            "why_it_matters": "Regulations can enable or restrict Bitcoin usage, affecting price and adoption.",
+            "key_drivers": [
+              "regulatory environment"
+            ],
+            "bull_case": "Clear, favorable regulations globally increase institutional participation and retail adoption.",
+            "bear_case": "Harsh crackdowns, bans, or restrictive policies reduce demand and increase selling pressure.",
+            "base_case": "Mixed regulatory signals with gradual clarity but no sweeping bans or endorsements.",
+            "wildcard_case": "Unexpected global regulatory harmonization or a major country legalizing Bitcoin as legal tender.",
+            "evidence_for": [
+              "Recent SEC guidance clarifying Bitcoin ETF approvals",
+              "Countries adopting crypto-friendly policies"
+            ],
+            "evidence_against": [
+              "China's continued crypto ban",
+              "Potential US regulatory tightening"
+            ],
+            "leading_indicators": [
+              "New legislation proposals",
+              "Regulatory agency statements",
+              "Enforcement actions"
+            ],
+            "disconfirming_signals": [
+              "Sudden regulatory reversals",
+              "Unexpected global bans"
+            ]
+          },
+          {
+            "name": "Institutional and Retail Adoption",
+            "why_it_matters": "Adoption drives demand, liquidity, and network effects, impacting price and ecosystem growth.",
+            "key_drivers": [
+              "institutional adoption",
+              "market sentiment and speculation"
+            ],
+            "bull_case": "Major corporations, funds, and payment platforms increase Bitcoin holdings and acceptance.",
+            "bear_case": "Institutional interest wanes due to volatility or alternative assets; retail enthusiasm fades.",
+            "base_case": "Steady but slow growth in adoption with no major new entrants or exits.",
+            "wildcard_case": "A major corporation or country announces Bitcoin as a reserve asset or payment method.",
+            "evidence_for": [
+              "Growing number of Bitcoin ETFs and custody solutions",
+              "Corporate treasury disclosures"
+            ],
+            "evidence_against": [
+              "High-profile institutional sell-offs",
+              "Declining retail trading volumes"
+            ],
+            "leading_indicators": [
+              "Institutional fund inflows/outflows",
+              "Corporate announcements",
+              "Payment network integrations"
+            ],
+            "disconfirming_signals": [
+              "Withdrawal of institutional support",
+              "Negative public sentiment spikes"
+            ]
+          },
+          {
+            "name": "Macroeconomic Conditions",
+            "why_it_matters": "Inflation, interest rates, and economic uncertainty influence Bitcoin's appeal as a hedge or speculative asset.",
+            "key_drivers": [
+              "macroeconomic conditions"
+            ],
+            "bull_case": "Persistently high inflation and low real interest rates drive demand for Bitcoin as a store of value.",
+            "bear_case": "Rising interest rates and economic recovery reduce Bitcoin's appeal; risk assets sell off.",
+            "base_case": "Moderate inflation and stable rates lead to balanced demand for Bitcoin.",
+            "wildcard_case": "A major economic crisis or currency collapse boosts Bitcoin demand dramatically.",
+            "evidence_for": [
+              "Inflation data",
+              "Central bank policies",
+              "Correlation with risk assets"
+            ],
+            "evidence_against": [
+              "Strong economic growth reducing safe-haven demand",
+              "Rising yields making bonds more attractive"
+            ],
+            "leading_indicators": [
+              "Inflation reports",
+              "Fed announcements",
+              "Market volatility indices"
+            ],
+            "disconfirming_signals": [
+              "Unexpected economic stabilization",
+              "Rapid interest rate hikes"
+            ]
+          },
+          {
+            "name": "Technological Developments and Security",
+            "why_it_matters": "Improvements or failures in Bitcoin's technology affect usability, security, and trust.",
+            "key_drivers": [
+              "technological developments",
+              "security incidents and network integrity"
+            ],
+            "bull_case": "Successful upgrades improve scalability and privacy, enhancing adoption and trust.",
+            "bear_case": "Security breaches, protocol failures, or competing technologies reduce confidence.",
+            "base_case": "Incremental improvements with no major breakthroughs or failures.",
+            "wildcard_case": "Breakthrough in quantum computing threatens Bitcoin's cryptography.",
+            "evidence_for": [
+              "Taproot upgrade adoption",
+              "Lightning Network growth"
+            ],
+            "evidence_against": [
+              "High-profile thefts or bugs",
+              "Emergence of superior competing blockchains"
+            ],
+            "leading_indicators": [
+              "Network upgrade adoption rates",
+              "Security incident reports",
+              "Developer activity"
+            ],
+            "disconfirming_signals": [
+              "Major protocol vulnerabilities discovered",
+              "Declining developer interest"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Bull Case: Bitcoin Growth and Adoption Surge",
+            "description": "Favorable regulatory clarity, increasing institutional and retail adoption, persistent macroeconomic uncertainty, and successful technological upgrades drive Bitcoin price significantly higher over 12 months.",
+            "probability": 30,
+            "impact": "high",
+            "time_horizon": "next 12 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Approval of new Bitcoin ETFs",
+              "Major corporations adding Bitcoin to balance sheets",
+              "Sustained inflation above target",
+              "Successful network upgrades"
+            ]
+          },
+          {
+            "name": "Base Case: Moderate Growth and Consolidation",
+            "description": "Mixed regulatory environment, steady but unspectacular adoption growth, balanced macroeconomic conditions, and incremental technological progress result in Bitcoin price remaining range-bound or growing modestly.",
+            "probability": 50,
+            "impact": "medium",
+            "time_horizon": "next 12 months",
+            "confidence": "high",
+            "leading_indicators": [
+              "Stable regulatory announcements",
+              "Consistent but moderate fund flows",
+              "Stable inflation and interest rates",
+              "No major security incidents"
+            ]
+          },
+          {
+            "name": "Bear Case: Regulatory Crackdowns and Market Decline",
+            "description": "Harsh regulatory actions, waning institutional interest, improving macroeconomic conditions reducing Bitcoin's appeal, and potential security incidents cause significant price decline and reduced adoption.",
+            "probability": 20,
+            "impact": "high",
+            "time_horizon": "next 12 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "New bans or restrictions",
+              "Institutional sell-offs",
+              "Economic recovery with rising rates",
+              "Security breaches"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Geopolitical events impacting global financial markets",
+          "Emergence of central bank digital currencies (CBDCs) competing with Bitcoin",
+          "Changes in energy costs affecting Bitcoin mining economics",
+          "Shifts in public perception driven by media or influential figures"
+        ],
+        "change_my_mind_conditions": [
+          "Unexpected global regulatory harmonization favoring Bitcoin",
+          "Major technological breakthrough or failure in Bitcoin protocol",
+          "Significant macroeconomic shock altering risk asset dynamics",
+          "Large-scale institutional adoption or divestment announcements"
+        ],
+        "bottom_line": "Over the next 12 months, Bitcoin's trajectory depends heavily on regulatory developments, adoption trends, macroeconomic conditions, and technological progress. While moderate growth is the most probable outcome, significant upside or downside scenarios remain plausible given the volatile and evolving crypto landscape.",
+        "watchlist": [
+          "Regulatory announcements from major economies (US, EU, China)",
+          "Institutional fund flows and corporate Bitcoin disclosures",
+          "Inflation and interest rate data from key central banks",
+          "Network upgrade progress and security incident reports",
+          "Emergence and adoption of competing digital assets and CBDCs"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "06-ethereum-vs-bitcoin",
+    "domain": "crypto",
+    "timeHorizon": "next 18 months",
+    "objective": "invest",
+    "question": "What would have to happen for Ethereum to outperform Bitcoin over the next 18 months?",
+    "status": 200,
+    "response": {
+      "id": "cmnvzzs730005nr0h5f19uubt",
+      "analysis": {
+        "title": "Conditions for Ethereum Outperformance vs Bitcoin in 18 Months",
+        "original_question": "What would have to happen for Ethereum to outperform Bitcoin over the next 18 months?",
+        "reframed_question": "What key factors and developments would enable Ethereum to achieve superior price performance relative to Bitcoin within the next 18 months from an investment perspective?",
+        "time_horizon": "next 18 months",
+        "objective": "invest",
+        "definitions": [
+          {
+            "term": "Ethereum outperform Bitcoin",
+            "definition": "Ethereum's total return (price appreciation plus any network-related value accrual) exceeds that of Bitcoin over the specified 18-month period."
+          },
+          {
+            "term": "Outperform",
+            "definition": "Achieve higher percentage gains in market price or total value compared to a benchmark asset."
+          },
+          {
+            "term": "Price performance",
+            "definition": "Change in market price or market capitalization over time."
+          },
+          {
+            "term": "Key drivers",
+            "definition": "Fundamental or external factors that significantly influence asset price movements."
+          }
+        ],
+        "domains": [
+          "cryptocurrency markets",
+          "blockchain technology",
+          "macroeconomics",
+          "regulatory environment",
+          "investment behavior"
+        ],
+        "key_drivers": [
+          "Network adoption and usage",
+          "Technological upgrades and scalability",
+          "Regulatory developments",
+          "Market sentiment and investor flows",
+          "Macroeconomic conditions and risk appetite",
+          "Competitive landscape and innovation",
+          "Security and network stability"
+        ],
+        "lenses": [
+          {
+            "name": "Technological Innovation and Network Upgrades",
+            "why_it_matters": "Ethereum's ability to improve scalability, reduce fees, and increase utility can drive adoption and investor confidence, potentially boosting price performance.",
+            "key_drivers": [
+              "Technological upgrades and scalability",
+              "Network adoption and usage"
+            ],
+            "bull_case": "Successful implementation of upgrades (e.g., Ethereum 2.0, sharding) leads to increased throughput, lower fees, and expanded DeFi/NFT ecosystems, attracting capital and users.",
+            "bear_case": "Delays, technical failures, or security vulnerabilities in upgrades erode confidence and slow adoption, limiting price appreciation.",
+            "base_case": "Incremental improvements with moderate adoption gains maintain Ethereum's position but do not significantly outpace Bitcoin.",
+            "wildcard_case": "Breakthrough innovations or partnerships dramatically expand Ethereum's use cases beyond expectations.",
+            "evidence_for": [
+              "Progress on Ethereum 2.0 and Layer 2 solutions",
+              "Growing DeFi and NFT activity on Ethereum",
+              "Developer ecosystem expansion"
+            ],
+            "evidence_against": [
+              "Repeated upgrade delays",
+              "Emergence of scalable competitors",
+              "Security incidents on Ethereum"
+            ],
+            "leading_indicators": [
+              "Timely successful network upgrades",
+              "Transaction volume and fees trends",
+              "Developer activity metrics"
+            ],
+            "disconfirming_signals": [
+              "Major bugs or outages post-upgrade",
+              "Shift of DeFi projects to other chains",
+              "Declining active addresses"
+            ]
+          },
+          {
+            "name": "Regulatory Environment and Institutional Adoption",
+            "why_it_matters": "Regulatory clarity or restrictions and institutional investment flows can disproportionately affect Ethereum and Bitcoin differently, influencing relative performance.",
+            "key_drivers": [
+              "Regulatory developments",
+              "Market sentiment and investor flows"
+            ],
+            "bull_case": "Favorable regulations for smart contract platforms and institutional inflows into Ethereum-based assets increase demand and price.",
+            "bear_case": "Regulatory crackdowns on DeFi or smart contracts disproportionately impact Ethereum, reducing demand relative to Bitcoin.",
+            "base_case": "Regulatory environment remains neutral or equally affects both assets, maintaining status quo.",
+            "wildcard_case": "Major institutional endorsement or ETF approvals for Ethereum-based products accelerate inflows.",
+            "evidence_for": [
+              "Regulatory statements differentiating smart contract platforms",
+              "Launch of Ethereum ETFs or futures",
+              "Institutional investment reports"
+            ],
+            "evidence_against": [
+              "Broad regulatory bans on crypto",
+              "Institutional preference for Bitcoin as digital gold",
+              "Negative regulatory news targeting DeFi"
+            ],
+            "leading_indicators": [
+              "Regulatory announcements and guidance",
+              "Institutional fund inflows/outflows data",
+              "Launch of new Ethereum financial products"
+            ],
+            "disconfirming_signals": [
+              "Delayed or rejected Ethereum ETFs",
+              "Regulatory fines or sanctions on Ethereum projects",
+              "Institutional divestment from Ethereum"
+            ]
+          },
+          {
+            "name": "Macroeconomic and Market Sentiment Factors",
+            "why_it_matters": "Broader economic conditions and investor risk appetite influence capital allocation between Bitcoin and Ethereum, affecting relative price performance.",
+            "key_drivers": [
+              "Macroeconomic conditions and risk appetite",
+              "Market sentiment and investor flows"
+            ],
+            "bull_case": "Risk-on environment with strong appetite for growth and innovation assets favors Ethereum's diverse use cases over Bitcoin's store-of-value narrative.",
+            "bear_case": "Risk-off conditions lead investors to prefer Bitcoin's perceived safety, causing Ethereum to lag.",
+            "base_case": "Mixed economic signals produce balanced flows, resulting in similar performance.",
+            "wildcard_case": "Sudden macro shocks or crypto-specific crises shift sentiment abruptly.",
+            "evidence_for": [
+              "Correlation of Ethereum with growth assets",
+              "Market volatility and risk premium trends",
+              "Investor surveys on crypto preferences"
+            ],
+            "evidence_against": [
+              "Flight to safety into Bitcoin during downturns",
+              "Ethereum's higher volatility deterring investors",
+              "Stablecoin or fiat alternatives gaining traction"
+            ],
+            "leading_indicators": [
+              "Equity market performance",
+              "Crypto market volatility indices",
+              "Investor sentiment indices"
+            ],
+            "disconfirming_signals": [
+              "Ethereum outperforming in risk-off periods",
+              "Bitcoin losing store-of-value status",
+              "Rapid shifts in investor allocation"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Ethereum Outperformance via Successful Upgrades and Adoption",
+            "description": "Ethereum completes key network upgrades on schedule, leading to scalability improvements and lower fees. DeFi and NFT ecosystems expand significantly, attracting new users and institutional investors. Regulatory environment remains supportive or neutral. Market sentiment favors growth assets.",
+            "probability": 35,
+            "impact": "high",
+            "time_horizon": "next 18 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Successful Ethereum 2.0 milestones",
+              "Rising transaction volumes and active addresses",
+              "Positive regulatory developments",
+              "Institutional inflows into Ethereum assets"
+            ]
+          },
+          {
+            "name": "Bitcoin Maintains Dominance Amid Ethereum Challenges",
+            "description": "Ethereum faces delays and technical issues with upgrades, limiting adoption growth. Regulatory scrutiny targets DeFi and smart contract platforms more heavily than Bitcoin. Macroeconomic risk-off environment favors Bitcoin's store-of-value narrative. Ethereum underperforms Bitcoin in price terms.",
+            "probability": 40,
+            "impact": "high",
+            "time_horizon": "next 18 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Ethereum upgrade delays or failures",
+              "Regulatory actions against Ethereum projects",
+              "Market preference for Bitcoin during volatility",
+              "Declining Ethereum network activity"
+            ]
+          },
+          {
+            "name": "Neutral Outcome with Sideways Relative Performance",
+            "description": "Ethereum and Bitcoin experience mixed developments with no clear dominance. Ethereum upgrades proceed but with moderate impact. Regulatory environment remains balanced. Market sentiment fluctuates, resulting in similar returns for both assets.",
+            "probability": 25,
+            "impact": "medium",
+            "time_horizon": "next 18 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Partial upgrade progress",
+              "Stable regulatory environment",
+              "Balanced investor flows",
+              "Moderate network activity changes"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Emergence of new competing blockchain platforms",
+          "Unexpected security breaches or exploits",
+          "Changes in energy consumption perceptions affecting Bitcoin",
+          "Macro shocks altering global liquidity conditions",
+          "Shifts in developer community focus"
+        ],
+        "change_my_mind_conditions": [
+          "Ethereum demonstrates sustained transaction throughput and low fees post-upgrade",
+          "Regulators explicitly favor or disfavor smart contract platforms",
+          "Significant institutional capital reallocates between Bitcoin and Ethereum",
+          "Macroeconomic indicators signal prolonged risk-on or risk-off environment",
+          "Major security incidents occur on either network"
+        ],
+        "bottom_line": "Ethereum can outperform Bitcoin over the next 18 months if it successfully executes technological upgrades that enhance scalability and utility, benefits from favorable regulatory developments, and capitalizes on a risk-on market environment that rewards innovation. However, delays, regulatory headwinds, or macroeconomic risk aversion could reinforce Bitcoin's dominance. Investors should monitor upgrade progress, regulatory signals, institutional flows, and macro conditions closely.",
+        "watchlist": [
+          "Ethereum 2.0 upgrade milestones and network performance metrics",
+          "Regulatory announcements impacting DeFi and smart contract platforms",
+          "Institutional investment trends in Ethereum and Bitcoin",
+          "Macro risk sentiment indicators and equity market trends",
+          "Security incidents or exploits on Ethereum or Bitcoin networks"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "07-lakers-contention",
+    "domain": "sports",
+    "timeHorizon": "next NBA season",
+    "objective": "forecast",
+    "question": "Will the Lakers contend for a title next season, and what would change that view?",
+    "status": 200,
+    "response": {
+      "id": "cmnw003mf0006nr0husap0icn",
+      "analysis": {
+        "title": "Lakers Title Contention Forecast for Next NBA Season",
+        "original_question": "Will the Lakers contend for a title next season, and what would change that view?",
+        "reframed_question": "What is the likelihood that the Los Angeles Lakers will be legitimate NBA title contenders in the upcoming season, and which factors could significantly alter this assessment?",
+        "time_horizon": "next NBA season (2024-2025)",
+        "objective": "forecast",
+        "definitions": [
+          {
+            "term": "contend for a title",
+            "definition": "To be a legitimate competitor with a realistic chance to win the NBA championship, typically implying reaching at least the Western Conference Finals."
+          },
+          {
+            "term": "Lakers",
+            "definition": "The Los Angeles Lakers, a professional NBA basketball team."
+          },
+          {
+            "term": "next season",
+            "definition": "The upcoming NBA season, specifically 2024-2025."
+          }
+        ],
+        "domains": [
+          "sports",
+          "NBA basketball",
+          "team performance analysis",
+          "sports management"
+        ],
+        "key_drivers": [
+          "player health and injuries",
+          "team roster composition and depth",
+          "coaching and strategy",
+          "opponent strength and league dynamics",
+          "player development and chemistry",
+          "front office decisions and trades"
+        ],
+        "lenses": [
+          {
+            "name": "Player Health and Availability",
+            "why_it_matters": "Injuries to key players can drastically reduce team competitiveness and playoff success.",
+            "key_drivers": [
+              "player health and injuries"
+            ],
+            "bull_case": "Core stars remain healthy throughout the season and playoffs, maximizing team performance.",
+            "bear_case": "Significant injuries to key players, especially stars or critical role players, limit competitiveness.",
+            "base_case": "Minor injuries occur but do not significantly impact the core lineup or playoff readiness.",
+            "wildcard_case": "Unexpected injury to a key player early in the season forces major lineup changes.",
+            "evidence_for": [
+              "Recent injury history of Lakers' core players",
+              "Medical and training staff quality",
+              "Player age and durability records"
+            ],
+            "evidence_against": [
+              "Past seasons with injury setbacks",
+              "High minutes load on aging stars"
+            ],
+            "leading_indicators": [
+              "Preseason health reports",
+              "Early season injury reports",
+              "Minutes played and load management"
+            ],
+            "disconfirming_signals": [
+              "Unexpected early season injuries to key players",
+              "Reports of chronic issues worsening"
+            ]
+          },
+          {
+            "name": "Roster Composition and Depth",
+            "why_it_matters": "A balanced roster with strong starters and bench depth is critical for navigating the long season and playoffs.",
+            "key_drivers": [
+              "team roster composition and depth",
+              "front office decisions and trades"
+            ],
+            "bull_case": "Roster improvements through trades or development create a deep, versatile team capable of adapting.",
+            "bear_case": "Roster lacks depth or has poor fit, leading to overreliance on aging stars and vulnerability.",
+            "base_case": "Roster remains largely stable with moderate bench contributions and adequate fit.",
+            "wildcard_case": "Midseason trade acquisition significantly strengthens or weakens the roster.",
+            "evidence_for": [
+              "Recent offseason acquisitions",
+              "Player development trajectories",
+              "Bench performance in previous season"
+            ],
+            "evidence_against": [
+              "Aging core players with declining performance",
+              "Lack of impactful new signings"
+            ],
+            "leading_indicators": [
+              "Preseason roster moves",
+              "Player usage and performance metrics",
+              "Trade rumors and front office activity"
+            ],
+            "disconfirming_signals": [
+              "Key players underperforming or clashing",
+              "Failure to improve bench production"
+            ]
+          },
+          {
+            "name": "League and Opponent Dynamics",
+            "why_it_matters": "The strength of other Western Conference teams and overall league competitiveness affects the Lakers’ title chances.",
+            "key_drivers": [
+              "opponent strength and league dynamics"
+            ],
+            "bull_case": "Major rivals face setbacks or decline, easing Lakers’ path to conference finals and title contention.",
+            "bear_case": "Rivals improve significantly, raising the bar and reducing Lakers' relative competitiveness.",
+            "base_case": "Competitive balance remains similar to previous season with no major shifts.",
+            "wildcard_case": "Emergence of a new dominant team or star player disrupts league balance.",
+            "evidence_for": [
+              "Offseason moves by rival teams",
+              "Injury status of key opponents",
+              "Historical competitive trends"
+            ],
+            "evidence_against": [
+              "Rivals acquiring top talent",
+              "Improved coaching or strategies by opponents"
+            ],
+            "leading_indicators": [
+              "Preseason power rankings",
+              "Early season win-loss records of rivals",
+              "Trade and free agency activity league-wide"
+            ],
+            "disconfirming_signals": [
+              "Unexpected dominance by an underdog team",
+              "Rivals’ key players returning from injury stronger"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Strong Contender Scenario",
+            "description": "Lakers maintain health, improve roster depth through strategic moves, and face a relatively stable competitive landscape, enabling a deep playoff run and legitimate title contention.",
+            "probability": 40,
+            "impact": "high",
+            "time_horizon": "2024-2025 NBA season",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Core players remain healthy",
+              "Successful offseason acquisitions",
+              "Early season strong performance"
+            ]
+          },
+          {
+            "name": "Moderate Contender Scenario",
+            "description": "Lakers face some injuries and roster challenges but remain competitive, likely reaching playoffs but falling short of conference finals.",
+            "probability": 40,
+            "impact": "medium",
+            "time_horizon": "2024-2025 NBA season",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Inconsistent player availability",
+              "Bench depth struggles",
+              "Mixed early season results"
+            ]
+          },
+          {
+            "name": "Non-Contender Scenario",
+            "description": "Significant injuries, poor roster fit, or stronger rivals prevent Lakers from seriously contending, resulting in early playoff exit or missing playoffs.",
+            "probability": 20,
+            "impact": "high",
+            "time_horizon": "2024-2025 NBA season",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Major injuries to stars",
+              "Underperformance of key players",
+              "Dominance of rival teams"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Internal team chemistry and locker room dynamics",
+          "Effectiveness of coaching adjustments during season",
+          "Impact of emerging young players or rookies",
+          "Unforeseen external disruptions (e.g., league-wide events)"
+        ],
+        "change_my_mind_conditions": [
+          "Unexpected long-term injury to a core star",
+          "Major midseason trade that significantly alters roster strength",
+          "Clear evidence of improved or worsened team chemistry",
+          "Significant shifts in rival teams’ competitiveness"
+        ],
+        "bottom_line": "The Lakers have a moderate to strong chance of contending for the NBA title next season if they maintain player health and improve roster depth, but their prospects are sensitive to injuries, roster moves, and the competitive landscape. Monitoring health reports, roster changes, and rival team developments will be critical to updating this forecast.",
+        "watchlist": [
+          "Health status of key players (LeBron James, Anthony Davis, others)",
+          "Offseason and midseason roster transactions",
+          "Early season performance trends",
+          "Injury reports across Western Conference rivals",
+          "Emergence of new contenders or decline of established ones"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "08-f1-viewership",
+    "domain": "sports",
+    "timeHorizon": "next two seasons",
+    "objective": "monitor",
+    "question": "What are the serious scenarios for Formula 1 viewership growth over the next two seasons?",
+    "status": 200,
+    "response": {
+      "id": "cmnw00frg0007nr0hbpu4ol2g",
+      "analysis": {
+        "title": "Formula 1 Viewership Growth Scenarios for Next Two Seasons",
+        "original_question": "What are the serious scenarios for Formula 1 viewership growth over the next two seasons?",
+        "reframed_question": "What are the plausible scenarios for the growth trajectory of Formula 1 global and regional viewership metrics over the next two racing seasons, considering key influencing factors and uncertainties?",
+        "time_horizon": "next two seasons (approximately 2024 and 2025)",
+        "objective": "monitor",
+        "definitions": [
+          {
+            "term": "Formula 1 viewership growth",
+            "definition": "An increase in the number of viewers, both live and recorded, across all platforms (TV, streaming, digital) who watch Formula 1 races and related content."
+          },
+          {
+            "term": "next two seasons",
+            "definition": "The upcoming two Formula 1 racing seasons, typically spanning roughly from early 2024 through late 2025."
+          },
+          {
+            "term": "serious scenarios",
+            "definition": "Plausible, well-supported, and distinct narratives or outcomes that could realistically occur, impacting viewership growth."
+          }
+        ],
+        "domains": [
+          "sports entertainment",
+          "media and broadcasting",
+          "technology and digital platforms",
+          "consumer behavior",
+          "global economics"
+        ],
+        "key_drivers": [
+          "race calendar and geographic expansion",
+          "driver and team competitiveness and popularity",
+          "media rights and distribution strategies",
+          "technological innovation in broadcasting and engagement",
+          "economic conditions affecting discretionary spending",
+          "regulatory and environmental policies impacting the sport",
+          "emergence of competing entertainment options"
+        ],
+        "lenses": [
+          {
+            "name": "Sporting Competitiveness and Star Power",
+            "why_it_matters": "Competitive racing and popular drivers attract and retain viewers, driving engagement and word-of-mouth growth.",
+            "key_drivers": [
+              "driver rivalries",
+              "team performance balance",
+              "presence of high-profile athletes"
+            ],
+            "bull_case": "Emergence of new charismatic stars and close championship battles increase global fan interest and viewership.",
+            "bear_case": "Dominance by a single team or lack of compelling storylines leads to viewer fatigue and stagnation.",
+            "base_case": "Moderate competitiveness with some popular drivers maintains steady viewership without significant growth.",
+            "wildcard_case": "Unexpected retirements or scandals disrupt fan engagement positively or negatively.",
+            "evidence_for": [
+              "Historical spikes in viewership during close championships",
+              "Social media growth around popular drivers"
+            ],
+            "evidence_against": [
+              "Periods of dominance correlating with viewership declines",
+              "Limited new star emergence in recent seasons"
+            ],
+            "leading_indicators": [
+              "Pre-season driver transfers and team performance forecasts",
+              "Social media engagement metrics"
+            ],
+            "disconfirming_signals": [
+              "Declining fan sentiment despite competitive races",
+              "Negative publicity around key drivers"
+            ]
+          },
+          {
+            "name": "Media Rights and Distribution Evolution",
+            "why_it_matters": "Accessibility and quality of broadcast and streaming options directly impact audience size and demographics.",
+            "key_drivers": [
+              "new broadcasting deals",
+              "streaming platform partnerships",
+              "pricing and subscription models",
+              "regional content availability"
+            ],
+            "bull_case": "Expansion into new digital platforms and affordable packages significantly increase global reach and younger demographics.",
+            "bear_case": "Fragmentation of rights and high subscription costs limit access, causing viewership decline.",
+            "base_case": "Incremental improvements in distribution maintain current audience levels with slight growth in digital segments.",
+            "wildcard_case": "Emergence of disruptive streaming technologies or regulatory changes affecting content availability.",
+            "evidence_for": [
+              "Growth in F1 TV Pro subscriptions",
+              "Successful digital engagement campaigns"
+            ],
+            "evidence_against": [
+              "Loss of key broadcast partners in major markets",
+              "Consumer pushback against rising subscription costs"
+            ],
+            "leading_indicators": [
+              "Announcements of new media deals",
+              "Subscriber growth rates",
+              "User engagement statistics on digital platforms"
+            ],
+            "disconfirming_signals": [
+              "Declining viewership in markets with new streaming launches",
+              "Negative feedback on streaming quality or accessibility"
+            ]
+          },
+          {
+            "name": "Global Economic and Sociocultural Factors",
+            "why_it_matters": "Economic conditions influence discretionary spending on entertainment; cultural trends affect interest in motorsports.",
+            "key_drivers": [
+              "global and regional economic growth or recession",
+              "consumer spending power",
+              "shifts in entertainment preferences",
+              "environmental concerns impacting motorsport perception"
+            ],
+            "bull_case": "Strong economic growth and rising middle classes in emerging markets drive increased viewership and fan engagement.",
+            "bear_case": "Economic downturns and growing environmental criticism reduce interest and investment in Formula 1.",
+            "base_case": "Stable economic conditions maintain current viewership levels with minor fluctuations.",
+            "wildcard_case": "Major geopolitical events or environmental regulations reshape the sport's appeal or accessibility.",
+            "evidence_for": [
+              "Rising viewership in emerging markets with growing economies",
+              "Increased sponsorship from environmentally conscious brands"
+            ],
+            "evidence_against": [
+              "Economic slowdowns correlating with reduced sports viewership",
+              "Public protests or campaigns against motorsport environmental impact"
+            ],
+            "leading_indicators": [
+              "Economic growth forecasts in key markets",
+              "Public opinion surveys on motorsport and environment"
+            ],
+            "disconfirming_signals": [
+              "Viewership growth despite economic downturns",
+              "Shifts in sponsorship patterns away from sustainability"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Accelerated Growth Scenario",
+            "description": "Formula 1 experiences significant global viewership growth driven by competitive racing, star driver emergence, expanded digital access, and favorable economic conditions.",
+            "probability": 30,
+            "impact": "high",
+            "time_horizon": "next two seasons",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Increased social media engagement",
+              "New media rights deals expanding accessibility",
+              "Positive economic indicators in emerging markets"
+            ]
+          },
+          {
+            "name": "Stagnation Scenario",
+            "description": "Viewership remains flat with minor fluctuations due to moderate competitiveness, stable but non-disruptive media distribution, and neutral economic conditions.",
+            "probability": 50,
+            "impact": "medium",
+            "time_horizon": "next two seasons",
+            "confidence": "high",
+            "leading_indicators": [
+              "Stable subscription and broadcast ratings",
+              "No major shifts in driver or team dynamics",
+              "Steady economic indicators"
+            ]
+          },
+          {
+            "name": "Decline Scenario",
+            "description": "Viewership declines due to dominance by few teams reducing excitement, fragmented or costly media access, and economic or sociocultural headwinds dampening interest.",
+            "probability": 20,
+            "impact": "high",
+            "time_horizon": "next two seasons",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Declining broadcast ratings",
+              "Negative fan sentiment on social media",
+              "Economic downturns in key markets"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Impact of emerging technologies such as virtual reality on fan engagement",
+          "Potential regulatory changes affecting race formats or environmental standards",
+          "Unforeseen global events (e.g., pandemics, geopolitical conflicts) disrupting schedules or access",
+          "Shifts in competitor sports or entertainment attracting overlapping audiences"
+        ],
+        "change_my_mind_conditions": [
+          "Significant changes in race calendar or format that alter fan interest",
+          "Breakthrough innovations in broadcast technology increasing accessibility",
+          "Major economic shocks or booms in key markets",
+          "Unexpected rise or fall of key drivers or teams influencing fan loyalty"
+        ],
+        "bottom_line": "Formula 1 viewership growth over the next two seasons is most likely to be moderate with a tendency toward stagnation, contingent on maintaining competitive racing and accessible media distribution. Accelerated growth is plausible if multiple positive factors align, while decline risks stem from reduced competitiveness, media fragmentation, and adverse economic or sociocultural shifts. Continuous monitoring of driver dynamics, media deals, and economic indicators is essential to anticipate directional changes.",
+        "watchlist": [
+          "Driver and team performance trends and emerging stars",
+          "Announcements of new media rights agreements and platform launches",
+          "Subscription and viewership data across key regions",
+          "Economic forecasts in major and emerging markets",
+          "Fan sentiment and engagement metrics on social media",
+          "Regulatory developments impacting the sport"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "09-ai-product-strategy",
+    "domain": "strategy",
+    "timeHorizon": "next 2 years",
+    "objective": "decide",
+    "question": "Should a solo founder build a vertical AI workflow product or a horizontal assistant for SMB teams over the next 2 years?",
+    "status": 200,
+    "response": {
+      "id": "cmnw00tq70008nr0h64bh7u4c",
+      "analysis": {
+        "title": "Strategic Choice for Solo Founder: Vertical AI Workflow vs. Horizontal SMB Assistant",
+        "original_question": "Should a solo founder build a vertical AI workflow product or a horizontal assistant for SMB teams over the next 2 years?",
+        "reframed_question": "What is the optimal product focus for a solo founder over the next 2 years: developing a vertical AI workflow solution targeting a specific industry or function, or creating a horizontal AI assistant platform aimed at small and medium-sized business (SMB) teams across multiple sectors?",
+        "time_horizon": "next 2 years",
+        "objective": "decide",
+        "definitions": [
+          {
+            "term": "vertical AI workflow product",
+            "definition": "An AI-driven software solution tailored to automate or optimize workflows within a specific industry or business function."
+          },
+          {
+            "term": "horizontal assistant for SMB teams",
+            "definition": "A general-purpose AI assistant platform designed to support a broad range of tasks and workflows across various small and medium-sized business teams."
+          },
+          {
+            "term": "solo founder",
+            "definition": "An individual entrepreneur who is the sole founder and primary driver of the startup or product development."
+          },
+          {
+            "term": "SMB",
+            "definition": "Small and Medium-sized Businesses, typically defined by employee count and revenue thresholds varying by region."
+          }
+        ],
+        "domains": [
+          "strategy",
+          "product management",
+          "artificial intelligence",
+          "entrepreneurship",
+          "market analysis",
+          "technology adoption"
+        ],
+        "key_drivers": [
+          "market size and growth potential",
+          "founder's expertise and resources",
+          "competitive landscape",
+          "customer acquisition cost and sales cycle",
+          "product complexity and development time",
+          "AI technology maturity",
+          "SMB adoption rates of AI tools",
+          "industry-specific regulatory environment"
+        ],
+        "lenses": [
+          {
+            "name": "Market Opportunity",
+            "why_it_matters": "Determines potential revenue, growth, and scalability of the product choice.",
+            "key_drivers": [
+              "market size and growth potential",
+              "competitive landscape",
+              "SMB adoption rates of AI tools"
+            ],
+            "bull_case": "Vertical AI workflows have high willingness to pay due to deep integration and high impact, with less competition and clearer value proposition.",
+            "bear_case": "Horizontal SMB assistants face saturated markets with dominant incumbents and low differentiation, limiting growth and revenue.",
+            "base_case": "Both vertical and horizontal markets show moderate growth with manageable competition; success depends on execution and niche selection.",
+            "wildcard_case": "Emergence of a new AI platform or ecosystem that disrupts current market boundaries, enabling rapid horizontal adoption.",
+            "evidence_for": [
+              "Industry reports showing vertical AI adoption growth",
+              "SMB surveys indicating interest in AI assistants",
+              "Funding trends favoring vertical AI startups"
+            ],
+            "evidence_against": [
+              "High churn rates in horizontal SaaS products",
+              "Slow AI adoption in certain verticals",
+              "Dominance of large horizontal AI platforms"
+            ],
+            "leading_indicators": [
+              "Increase in vertical AI workflow startups funded",
+              "SMB AI tool usage metrics",
+              "Customer acquisition cost trends"
+            ],
+            "disconfirming_signals": [
+              "Declining SMB budgets for AI tools",
+              "Vertical industries resisting AI automation",
+              "Horizontal platforms gaining rapid market share"
+            ]
+          },
+          {
+            "name": "Founder's Capabilities and Constraints",
+            "why_it_matters": "The solo founder's skills, network, and resources critically influence product feasibility and speed to market.",
+            "key_drivers": [
+              "founder's expertise and resources",
+              "product complexity and development time"
+            ],
+            "bull_case": "Founder has deep domain expertise in a vertical market, enabling faster product-market fit and customer trust.",
+            "bear_case": "Limited resources and lack of domain knowledge hinder vertical product development; horizontal assistant requires broader expertise and more features.",
+            "base_case": "Founder can leverage existing skills and partnerships to build a minimum viable product in either direction with moderate effort.",
+            "wildcard_case": "Founder gains unexpected access to strategic partnerships or funding, accelerating development and go-to-market.",
+            "evidence_for": [
+              "Founder's background and prior experience",
+              "Available development tools and AI frameworks",
+              "Network access to early adopters"
+            ],
+            "evidence_against": [
+              "Founder lacks domain expertise in verticals",
+              "High complexity of AI workflows requiring large teams",
+              "Long sales cycles in SMB markets"
+            ],
+            "leading_indicators": [
+              "Prototype development speed",
+              "Early customer feedback",
+              "Partnership or pilot agreements"
+            ],
+            "disconfirming_signals": [
+              "Repeated development delays",
+              "Customer acquisition difficulties",
+              "Resource constraints limiting feature scope"
+            ]
+          },
+          {
+            "name": "Technology and Adoption Trends",
+            "why_it_matters": "AI technology maturity and user readiness affect product viability and adoption speed.",
+            "key_drivers": [
+              "AI technology maturity",
+              "SMB adoption rates of AI tools",
+              "industry-specific regulatory environment"
+            ],
+            "bull_case": "Rapid advances in AI enable easy integration into vertical workflows and horizontal assistants, with SMBs eager to adopt productivity tools.",
+            "bear_case": "Technical limitations and regulatory hurdles slow AI integration, especially in regulated verticals; SMBs remain cautious about AI adoption.",
+            "base_case": "Gradual improvements in AI capabilities and SMB comfort with AI tools lead to steady but not explosive adoption.",
+            "wildcard_case": "Breakthrough AI technology or regulatory changes dramatically lower barriers for AI adoption across all sectors.",
+            "evidence_for": [
+              "Recent AI breakthroughs in natural language processing",
+              "SMB surveys showing increased AI tool usage",
+              "Regulatory easing in certain industries"
+            ],
+            "evidence_against": [
+              "Persistent AI accuracy and reliability issues",
+              "Data privacy concerns limiting AI use",
+              "Regulatory crackdowns in sensitive verticals"
+            ],
+            "leading_indicators": [
+              "New AI tool launches targeting SMBs",
+              "Regulatory updates",
+              "Customer AI adoption rates"
+            ],
+            "disconfirming_signals": [
+              "Negative AI adoption feedback",
+              "Increased regulatory restrictions",
+              "High AI implementation failure rates"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Vertical AI Workflow Success",
+            "description": "The founder leverages domain expertise to build a specialized AI workflow product that gains strong traction in a niche vertical, achieving sustainable revenue and defensible market position.",
+            "probability": 40,
+            "impact": "high",
+            "time_horizon": "2 years",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Early pilot customers in vertical",
+              "Positive ROI demonstrated in vertical workflows",
+              "Low churn and high engagement metrics"
+            ]
+          },
+          {
+            "name": "Horizontal SMB Assistant Adoption",
+            "description": "The founder develops a general-purpose AI assistant for SMB teams that achieves moderate adoption by addressing common pain points, but faces stiff competition and slower growth.",
+            "probability": 35,
+            "impact": "medium",
+            "time_horizon": "2 years",
+            "confidence": "medium",
+            "leading_indicators": [
+              "User growth across diverse SMB segments",
+              "Partnerships with SMB platforms",
+              "Feature adoption rates"
+            ]
+          },
+          {
+            "name": "Founder Struggles and Pivot",
+            "description": "The solo founder faces resource constraints, technical challenges, or market resistance, resulting in slow progress and the need to pivot product focus or business model.",
+            "probability": 25,
+            "impact": "medium",
+            "time_horizon": "2 years",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Delayed product milestones",
+              "Difficulty securing early customers",
+              "Negative feedback on product-market fit"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Founder’s ability to rapidly learn and adapt",
+          "Access to early adopters and feedback loops",
+          "Unforeseen regulatory changes",
+          "Emergence of new AI platforms or APIs",
+          "Macroeconomic conditions affecting SMB budgets"
+        ],
+        "change_my_mind_conditions": [
+          "Evidence of rapid SMB AI adoption outpacing vertical AI growth",
+          "Founder gains significant domain expertise or partnerships in a vertical",
+          "Regulatory environment shifts favoring or disfavoring vertical AI solutions",
+          "Breakthrough AI technology simplifying horizontal assistant development"
+        ],
+        "bottom_line": "For a solo founder over the next two years, focusing on a vertical AI workflow product offers higher potential impact and defensibility if domain expertise and early customer access exist; however, a horizontal SMB assistant may provide broader market reach but faces tougher competition and requires more resources. Success hinges on founder capabilities, market receptivity, and technology maturity.",
+        "watchlist": [
+          "Early customer acquisition and retention metrics",
+          "Funding and market trends in vertical vs. horizontal AI startups",
+          "Regulatory developments affecting AI adoption",
+          "Advances in AI technology relevant to workflow automation",
+          "Competitor moves and new entrants in SMB AI assistant space"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "10-media-growth",
+    "domain": "strategy",
+    "timeHorizon": "next 24 months",
+    "objective": "forecast",
+    "question": "What are the most credible ways a mid-sized media company could rebuild growth over the next 24 months?",
+    "status": 200,
+    "response": {
+      "id": "cmnw0149a0009nr0hfnnplg94",
+      "analysis": {
+        "title": "Growth Rebuilding Strategies for Mid-Sized Media Companies",
+        "original_question": "What are the most credible ways a mid-sized media company could rebuild growth over the next 24 months?",
+        "reframed_question": "What strategic approaches can a mid-sized media company implement to sustainably rebuild revenue and audience growth within the next 24 months, considering current industry dynamics and internal capabilities?",
+        "time_horizon": "next 24 months",
+        "objective": "forecast",
+        "definitions": [
+          {
+            "term": "mid-sized media company",
+            "definition": "A media organization with moderate scale in terms of revenue, audience reach, and operational capacity, typically positioned between small startups and large multinational conglomerates."
+          },
+          {
+            "term": "rebuild growth",
+            "definition": "To restore or increase revenue, audience size, market share, or other key performance indicators after a period of stagnation or decline."
+          },
+          {
+            "term": "credible ways",
+            "definition": "Strategic options that are realistic, feasible, and supported by evidence or precedent within the media industry context."
+          }
+        ],
+        "domains": [
+          "media strategy",
+          "digital transformation",
+          "marketing and audience development",
+          "technology adoption",
+          "financial management",
+          "competitive analysis"
+        ],
+        "key_drivers": [
+          "digital content monetization models",
+          "audience engagement and retention",
+          "advertising market trends",
+          "technology infrastructure and innovation",
+          "competitive positioning",
+          "regulatory environment",
+          "cost structure and operational efficiency"
+        ],
+        "lenses": [
+          {
+            "name": "Digital Transformation and Innovation",
+            "why_it_matters": "The shift to digital platforms and new content formats is critical for media companies to capture audience attention and monetize effectively.",
+            "key_drivers": [
+              "technology infrastructure and innovation",
+              "digital content monetization models",
+              "audience engagement and retention"
+            ],
+            "bull_case": "Rapid adoption of emerging technologies (e.g., AI-driven content personalization, OTT platforms) leads to increased audience engagement and diversified revenue streams.",
+            "bear_case": "High investment costs and slow user adoption result in poor ROI and operational strain.",
+            "base_case": "Gradual digital integration improves user experience and monetization with moderate cost and risk.",
+            "wildcard_case": "Breakthrough technology or platform disrupts the market, enabling exponential growth or rendering current models obsolete.",
+            "evidence_for": [
+              "Successful digital pivots by comparable media companies",
+              "Increasing consumer preference for digital content consumption"
+            ],
+            "evidence_against": [
+              "Legacy infrastructure limitations",
+              "Resistance to change within company culture"
+            ],
+            "leading_indicators": [
+              "Investment in digital platforms",
+              "User engagement metrics on digital channels",
+              "Revenue share from digital products"
+            ],
+            "disconfirming_signals": [
+              "Declining digital audience despite investments",
+              "Negative feedback on new digital offerings"
+            ]
+          },
+          {
+            "name": "Audience Development and Content Strategy",
+            "why_it_matters": "Attracting and retaining a loyal audience is fundamental to media growth and monetization opportunities.",
+            "key_drivers": [
+              "audience engagement and retention",
+              "content quality and relevance",
+              "marketing and audience development"
+            ],
+            "bull_case": "Targeted content and personalized marketing significantly grow audience base and loyalty, leading to higher monetization.",
+            "bear_case": "Content fails to resonate, resulting in audience attrition and reduced revenue.",
+            "base_case": "Incremental improvements in content and marketing stabilize audience numbers with modest growth.",
+            "wildcard_case": "Viral content or exclusive partnerships dramatically boost audience and brand recognition.",
+            "evidence_for": [
+              "Data-driven content strategies showing audience growth",
+              "Successful niche audience targeting in media"
+            ],
+            "evidence_against": [
+              "Market saturation and high competition for attention",
+              "Shifts in consumer preferences away from company’s content genres"
+            ],
+            "leading_indicators": [
+              "Audience growth metrics",
+              "Engagement rates (time spent, repeat visits)",
+              "Subscriber or membership growth"
+            ],
+            "disconfirming_signals": [
+              "Declining engagement despite content investments",
+              "Negative audience feedback or brand perception issues"
+            ]
+          },
+          {
+            "name": "Financial and Operational Efficiency",
+            "why_it_matters": "Optimizing cost structures and financial management enables reinvestment into growth initiatives and improves sustainability.",
+            "key_drivers": [
+              "cost structure and operational efficiency",
+              "financial management",
+              "competitive positioning"
+            ],
+            "bull_case": "Streamlined operations reduce costs, freeing capital for strategic investments and improving profitability.",
+            "bear_case": "Cost-cutting harms content quality or employee morale, undermining growth efforts.",
+            "base_case": "Moderate efficiency gains improve financial health without significant operational disruption.",
+            "wildcard_case": "Unexpected financial windfall or investment accelerates growth plans.",
+            "evidence_for": [
+              "Successful restructuring cases in media companies",
+              "Industry benchmarks showing cost-saving potentials"
+            ],
+            "evidence_against": [
+              "Fixed costs limiting flexibility",
+              "Potential negative impact on creative talent retention"
+            ],
+            "leading_indicators": [
+              "Operating margin improvements",
+              "Cost per content unit metrics",
+              "Employee turnover rates"
+            ],
+            "disconfirming_signals": [
+              "Rising operational costs despite efficiency efforts",
+              "Loss of key talent or content quality decline"
+            ]
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Digital-First Growth",
+            "description": "The company aggressively invests in digital transformation, adopting new technologies and platforms to capture emerging audience segments and diversify revenue.",
+            "probability": 40,
+            "impact": "high",
+            "time_horizon": "24 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Increased digital revenue share",
+              "Growth in digital audience metrics",
+              "Launch of new digital products or services"
+            ]
+          },
+          {
+            "name": "Content-Centric Audience Expansion",
+            "description": "Focus is placed on refining content strategy and marketing to deepen audience engagement and expand loyal user base, leveraging data analytics and niche targeting.",
+            "probability": 35,
+            "impact": "medium",
+            "time_horizon": "24 months",
+            "confidence": "medium",
+            "leading_indicators": [
+              "Audience growth and retention rates",
+              "Positive audience feedback",
+              "Increased subscription or membership numbers"
+            ]
+          },
+          {
+            "name": "Operational Optimization with Conservative Growth",
+            "description": "The company prioritizes cost-cutting and operational efficiency to stabilize finances, enabling modest growth through incremental improvements without major strategic shifts.",
+            "probability": 25,
+            "impact": "low",
+            "time_horizon": "24 months",
+            "confidence": "high",
+            "leading_indicators": [
+              "Improved operating margins",
+              "Stable or slightly growing revenue",
+              "Reduced cost per content unit"
+            ]
+          }
+        ],
+        "hidden_variables": [
+          "Speed of technological adoption by target audience",
+          "Competitor moves and market disruption",
+          "Regulatory changes impacting content or advertising",
+          "Internal leadership stability and culture",
+          "Access to capital for investment"
+        ],
+        "change_my_mind_conditions": [
+          "Emergence of a new dominant content platform reshaping audience behavior",
+          "Significant regulatory shifts affecting monetization models",
+          "Unexpected economic downturn reducing advertising spend",
+          "Breakthrough in AI or automation drastically lowering content production costs"
+        ],
+        "bottom_line": "Mid-sized media companies aiming to rebuild growth over the next 24 months should prioritize a balanced approach combining digital transformation, targeted audience development, and operational efficiency. Success depends on agile adaptation to technology trends, deep understanding of audience preferences, and prudent financial management. Monitoring leading indicators across these domains will be critical to adjust strategy dynamically.",
+        "watchlist": [
+          "Digital revenue growth rates",
+          "Audience engagement and retention metrics",
+          "Operational cost trends",
+          "Competitive landscape changes",
+          "Regulatory developments affecting media"
+        ]
+      }
+    }
+  }
+]

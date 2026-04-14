@@ -1,0 +1,291 @@
+[
+  {
+    "id": "qb-01",
+    "question": "What is the serious 12-month outlook for Bitcoin?",
+    "category": "clean_single_target_forecast",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-02",
+    "question": "How should a premium consumer brand monitor recession risk over the next 12 months?",
+    "category": "clean_monitor_fit",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-03",
+    "question": "What are the key forces shaping F1 audience growth over the next 3 years?",
+    "category": "clean_understand_fit",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "low"
+  },
+  {
+    "id": "qb-04",
+    "question": "Will Peter Magyar or Viktor Orbán emerge stronger by the next Hungarian parliamentary election if inflation cools but EU funds remain constrained and elite defections accelerate?",
+    "category": "named_entity_heavy_compound",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "entity-retention check",
+    "regression_priority": "high",
+    "notes": "Treat this as the concrete compound named-entity regression case implied by the explicit Magyar/Orbán preservation rule in the prompts."
+  },
+  {
+    "id": "qb-05",
+    "question": "If Xi Jinping tightens military pressure on Taiwan without crossing into blockade, while Lai Ching-te hardens rhetoric and Washington avoids treaty-level commitments, what path is most likely over the next 18 months?",
+    "category": "title_heavy_geopolitical",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "reframed-question validation",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-06",
+    "question": "If Trump wins but Republicans underperform down-ballot, how does that change the probability of durable tariff escalation versus negotiated moderation?",
+    "category": "multi_branch_conditional",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "reframed-question validation",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-07",
+    "question": "If Nvidia misses once but hyperscaler capex remains firm, while AMD gains share only in inference and not training, who is actually better positioned over 12 months?",
+    "category": "named_entity_heavy_compound",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "entity-retention check",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-08",
+    "question": "What is happening right now in the South China Sea and who is escalating?",
+    "category": "unsupported_live_current_state",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-09",
+    "question": "What is Bitcoin's current risk posture and what should I monitor over the next 30 days?",
+    "category": "supported_live_pilot_monitor",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-10",
+    "question": "What is Ethereum's current risk posture and what should I monitor over the next 30 days?",
+    "category": "unsupported_live_current_state",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-11",
+    "question": "Compare Ethereum and Bitcoin over the next 12 months.",
+    "category": "compare_intent_disguised_as_analysis",
+    "expected_behavior": "should be routed to another mode",
+    "likely_failure_layer": "intake/routing",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-12",
+    "question": "Compare OpenAI and Anthropic on enterprise defensibility over the next 24 months.",
+    "category": "compare_intent_disguised_as_analysis",
+    "expected_behavior": "should be routed to another mode",
+    "likely_failure_layer": "intake/routing",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-13",
+    "question": "Should I buy Bitcoin now, what is the 12-month outlook, and what would make you change your mind?",
+    "category": "mixed_forecast_recommendation_explanation",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-14",
+    "question": "What should a solo founder do first, what is most likely to fail, and what should they monitor weekly?",
+    "category": "mixed_forecast_recommendation_explanation",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-15",
+    "question": "If the ECB cuts before the Fed, but oil rises and European growth stays weak, what happens to the euro, European equities, and sovereign spreads?",
+    "category": "multi_target_probability",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-16",
+    "question": "What is the probability that Apple, Nvidia, and Microsoft each outperform the S&P 500 over the next year?",
+    "category": "multi_target_probability",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-17",
+    "question": "If China avoids invasion but intensifies gray-zone pressure, while Taiwan politics polarize and U.S. export controls tighten, what should semiconductor investors monitor monthly?",
+    "category": "nested_branch_monitor",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "reframed-question validation",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-18",
+    "question": "What should I monitor in elite sentiment around Xi, PLA signaling discipline, and propaganda tone over the next 6 months?",
+    "category": "soft_signal_monitor",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-19",
+    "question": "What should I monitor in whether media buyers are taking niche AI video tools seriously before revenue inflects?",
+    "category": "soft_signal_monitor",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-20",
+    "question": "How should a premium newsletter monitor audience trust erosion if the first signs are tone, backlash intensity, and sponsor hesitation rather than hard churn?",
+    "category": "soft_signal_monitor",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-21",
+    "question": "What did Xi Jinping, Lai Ching-te, and Blinken each say this week about Taiwan? Quote them and tell me who shifted position.",
+    "category": "quote_heavy_current_state",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-22",
+    "question": "What are the latest statements from Jerome Powell, Christopher Waller, and Mary Daly, and what do they imply for June cuts?",
+    "category": "quote_heavy_current_state",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-23",
+    "question": "Will BYD or Tesla have the stronger global EV position by 2027 if China price competition intensifies but Western tariffs rise?",
+    "category": "named_entity_heavy_compound",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "entity-retention check",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-24",
+    "question": "Will TSMC, Samsung, or Intel Foundry Services be the most strategically important manufacturer by 2028?",
+    "category": "multi_target_probability",
+    "expected_behavior": "should be routed to another mode",
+    "likely_failure_layer": "intake/routing",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-25",
+    "question": "If OpenAI wins consumer mindshare, Anthropic wins enterprise trust, and Google controls distribution, which path matters most for model-platform economics?",
+    "category": "nested_branch_question",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "reframed-question validation",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-26",
+    "question": "What is the serious 24-month outlook for a solo-founder AI research copilot selling into hedge funds?",
+    "category": "schema_fit_strategy",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "hidden-variable novelty",
+    "regression_priority": "low"
+  },
+  {
+    "id": "qb-27",
+    "question": "Should a solo founder target hedge funds, IR teams, or media companies first if product quality improves but distribution remains founder-led?",
+    "category": "multi_target_decision",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-28",
+    "question": "If Le Pen underperforms, Macron remains weakened, and the constitutional court constrains executive maneuver, what changes in France's fiscal path?",
+    "category": "title_heavy_geopolitical",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "entity-retention check",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-29",
+    "question": "Monitor whether the Lakers are real title contenders over the next 8 weeks.",
+    "category": "monitor_fit_edge_case",
+    "expected_behavior": "should pass cleanly",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "low"
+  },
+  {
+    "id": "qb-30",
+    "question": "Monitor whether the Lakers are contenders by watching locker-room belief, lineup trust, and the seriousness of internal messaging.",
+    "category": "soft_signal_monitor",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "monitor structure",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-31",
+    "question": "What happens if Trump wins, the Senate flips, and the Supreme Court limits agency discretion, but tariff policy still fragments across executive and legislative channels?",
+    "category": "nested_branch_question",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "reframed-question validation",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-32",
+    "question": "Should I own Nvidia, AMD, or both over the next 12 months?",
+    "category": "compare_intent_disguised_as_analysis",
+    "expected_behavior": "should be routed to another mode",
+    "likely_failure_layer": "intake/routing",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-33",
+    "question": "Is the real issue for Bitcoin over the next year ETF flows, Treasury liquidity, miner stress, or something else underappreciated?",
+    "category": "hidden_variable_edge_case",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "hidden-variable novelty",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-34",
+    "question": "What is the latest BTC price, 24-hour move, and market cap, and what does that imply for next month?",
+    "category": "supported_live_pilot_forecast",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "medium"
+  },
+  {
+    "id": "qb-35",
+    "question": "What is the latest SOL price, 24-hour move, and market cap, and what does that imply for next month?",
+    "category": "unsupported_live_current_state",
+    "expected_behavior": "should fail honestly",
+    "likely_failure_layer": "live-data honesty",
+    "regression_priority": "high"
+  },
+  {
+    "id": "qb-36",
+    "question": "Explain the strongest bull case, bear case, and my best action plan for Taiwan risk over the next year.",
+    "category": "mixed_forecast_recommendation_explanation",
+    "expected_behavior": "should pass with warning",
+    "likely_failure_layer": "generic output-shape mismatch",
+    "regression_priority": "medium"
+  }
+]

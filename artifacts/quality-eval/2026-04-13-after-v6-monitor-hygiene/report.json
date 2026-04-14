@@ -1,0 +1,799 @@
+{
+  "generated_at": "2026-04-13T07:15:41.286Z",
+  "provider_used": "OpenAI",
+  "analysis_model": "gpt-4.1-mini",
+  "judge_model": "gpt-4.1-mini",
+  "run_count": 12,
+  "rubric": {
+    "scale": {
+      "1": "Poor: generic, weak, or not useful.",
+      "2": "Weak: some relevant material but substantial drift or vagueness.",
+      "3": "Adequate: mostly correct and usable, but still generic or uneven.",
+      "4": "Strong: specific, differentiated, and decision-useful.",
+      "5": "Excellent: sharp, distinct, well-calibrated, and highly useful."
+    },
+    "dimensions": [
+      "reframed_question_quality",
+      "domain_relevance",
+      "lens_distinctness",
+      "scenario_differentiation",
+      "hidden_variable_usefulness",
+      "change_my_mind_specificity",
+      "bottom_line_decisiveness",
+      "watchlist_action_usefulness",
+      "objective_alignment"
+    ]
+  },
+  "averages": {
+    "overall_score": 3.86,
+    "dimensions": {
+      "reframed_question_quality": 3.33,
+      "domain_relevance": 4.42,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3.92,
+      "change_my_mind_specificity": 3.58,
+      "bottom_line_decisiveness": 3.5,
+      "watchlist_action_usefulness": 3.58,
+      "objective_alignment": 4.42
+    },
+    "categories": {
+      "politics/geopolitics": {
+        "average_score": 3.77,
+        "objective_alignment": 4.5
+      },
+      "macro/markets": {
+        "average_score": 3.73,
+        "objective_alignment": 4
+      },
+      "crypto": {
+        "average_score": 4.22,
+        "objective_alignment": 5
+      },
+      "sports": {
+        "average_score": 3.67,
+        "objective_alignment": 4
+      },
+      "open-ended strategy": {
+        "average_score": 3.56,
+        "objective_alignment": 4
+      }
+    },
+    "red_team_improvement": {
+      "weak_claims": 0,
+      "disconfirmation_logic": 0,
+      "watchlist_specificity": 0,
+      "bottom_line_sharpness": 0
+    },
+    "red_team_status_counts": {
+      "skipped": 12
+    }
+  },
+  "objective_comparison": {
+    "material_difference_score": 1,
+    "objective_alignment_scores": {
+      "understand": 1,
+      "invest": 1,
+      "forecast": 1,
+      "monitor": 1
+    },
+    "distinctive_traits": {
+      "understand": "Identical content focused on base case and drivers without deeper explanatory framing.",
+      "invest": "Same as understand; no investment-specific risk/reward or portfolio context.",
+      "forecast": "Mirrors understand and invest; no probabilistic or scenario-based forecasting detail.",
+      "monitor": "Repeats identical watchlist and change conditions without monitoring-specific triggers or metrics."
+    },
+    "overlap_or_genericity": "All four objectives share identical text, watchlists, and reframed questions, indicating no material differentiation or tailoring to their distinct purposes.",
+    "summary": "The shaping across understand, invest, forecast, and monitor is effectively identical, with no material differences in framing, content, or focus. Each objective uses the same base case, watchlist, change conditions, and reframed question, lacking any distinctive tailoring. This uniformity suggests a generic approach rather than objective-aware shaping."
+  },
+  "results": [
+    {
+      "id": "01-taiwan-forecast",
+      "category": "politics/geopolitics",
+      "question": "What is the serious 12-month outlook for cross-strait tensions around Taiwan, and what would materially increase or decrease escalation risk?",
+      "selectedDomain": "geopolitics",
+      "selectedObjective": "forecast",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 26,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 2,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 3,
+          "change_my_mind_specificity": 3,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 3,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are relevant and causally linked to the question",
+          "Scenarios are clearly distinct with differentiated probabilities and impacts",
+          "Reframed question and objective alignment focus on operational decision-making"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is vague and meta rather than sharper or more operational",
+          "Hidden variables are somewhat obvious and not deeply novel",
+          "Change-my-mind conditions and watchlist items are generic and lack concrete observables"
+        ],
+        "summary": "The analysis demonstrates strong domain relevance and scenario differentiation with well-chosen lenses. However, the reframed question is more abstract than sharpened, limiting decision-usefulness. Hidden variables and change-my-mind criteria are generic, and watchlist items could be more concrete. Overall, the output aligns well with the forecasting objective but falls short of exceptional clarity and operational specificity.",
+        "average_score": 3.33
+      },
+      "notableStrengths": [
+        "Domains and lenses are relevant and causally linked to the question",
+        "Scenarios are clearly distinct with differentiated probabilities and impacts",
+        "Reframed question and objective alignment focus on operational decision-making"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is vague and meta rather than sharper or more operational",
+        "Hidden variables are somewhat obvious and not deeply novel",
+        "Change-my-mind conditions and watchlist items are generic and lack concrete observables"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis with no changes in content, structure, or emphasis. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. Therefore, no improvement is evident.",
+        "best_red_team_change": "None; the final analysis is a verbatim copy of the primary analysis.",
+        "remaining_gap": "The analysis lacks any refinement or sharpening that would better address weak claims, improve disconfirmation logic, specify watchlist items, or sharpen the bottom line."
+      },
+      "analysisId": "cmnwux3ef0000nr6cb7ducqtl"
+    },
+    {
+      "id": "02-us-policy-monitor",
+      "category": "politics/geopolitics",
+      "question": "How durable is the current US policy and legislative momentum, and what signals would show that the governing coalition is strengthening or fracturing?",
+      "selectedDomain": "politics",
+      "selectedObjective": "monitor",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 13,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 4,
+          "domain_relevance": 5,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 5
+        },
+        "notable_strengths": [
+          "Reframed question sharpens focus on pathways of losing policy capacity",
+          "Domains and lenses are well-chosen and causally relevant",
+          "Watchlist items are concrete and operationally useful"
+        ],
+        "notable_weaknesses": [
+          "Some lens elements and scenarios overlap in macro and narrative effects",
+          "Change-my-mind conditions could be more granular in disconfirmation logic",
+          "Bottom line is somewhat cautious and could state clearer thresholds for reversal"
+        ],
+        "summary": "The analysis provides a clear, operational reframing and uses relevant political and economic domains with distinct lenses. Scenarios are causally differentiated and watchlist items actionable. Minor weaknesses include some overlap in lens content and slightly generic disconfirmation criteria. Overall, it aligns well with the monitoring objective and offers a decisive, if cautious, bottom line.",
+        "average_score": 4.22
+      },
+      "notableStrengths": [
+        "Reframed question sharpens focus on pathways of losing policy capacity",
+        "Domains and lenses are well-chosen and causally relevant",
+        "Watchlist items are concrete and operationally useful"
+      ],
+      "notableWeaknesses": [
+        "Some lens elements and scenarios overlap in macro and narrative effects",
+        "Change-my-mind conditions could be more granular in disconfirmation logic",
+        "Bottom line is somewhat cautious and could state clearer thresholds for reversal"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There is no added specificity, refinement, or new insights introduced by the red-team pass. Consequently, no improvement is evident across any evaluated dimension.",
+        "best_red_team_change": "None; the final analysis is a verbatim copy of the primary analysis.",
+        "remaining_gap": "The analysis could benefit from clearer disconfirmation logic, more specific watchlist indicators, sharper bottom-line conclusions, and stronger claims to better guide monitoring efforts."
+      },
+      "analysisId": "cmnwux9br0001nr6cwsnwjwoq"
+    },
+    {
+      "id": "03-inflation-forecast",
+      "category": "macro/markets",
+      "question": "What is the serious outlook for US inflation and rate cuts over the next 12 months?",
+      "selectedDomain": "macro",
+      "selectedObjective": "forecast",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 18,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 3,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 3,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are well chosen and relevant to macro forecasting",
+          "Scenarios are clearly distinct with meaningful causal differences",
+          "Hidden variables are insightful and non-obvious drivers worth tracking"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is somewhat generic and not sharply operationalized",
+          "Change-my-mind conditions are plausible but somewhat vague and not fully observable",
+          "Bottom line is cautious and non-committal, limiting decisiveness"
+        ],
+        "summary": "The analysis demonstrates strong domain relevance and well-differentiated lenses and scenarios, providing useful hidden variables. However, the reframed question lacks sharper focus, and the change-my-mind conditions and bottom line could be more specific and decisive. Overall, it aligns well with the forecasting objective but remains somewhat generic in operational detail.",
+        "average_score": 3.56
+      },
+      "notableStrengths": [
+        "Domains and lenses are well chosen and relevant to macro forecasting",
+        "Scenarios are clearly distinct with meaningful causal differences",
+        "Hidden variables are insightful and non-obvious drivers worth tracking"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is somewhat generic and not sharply operationalized",
+        "Change-my-mind conditions are plausible but somewhat vague and not fully observable",
+        "Bottom line is cautious and non-committal, limiting decisiveness"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects. There are no changes in claims, logic, watchlist specificity, or bottom line clarity. Therefore, no improvement is evident after the red-team pass.",
+        "best_red_team_change": "None; the final analysis is unchanged from the primary analysis.",
+        "remaining_gap": "The analysis could improve by adding more specific watchlist indicators, sharpening the bottom line with clearer actionable conclusions, and incorporating stronger disconfirmation logic."
+      },
+      "analysisId": "cmnwuxe2g0002nr6ciy8gbpm4"
+    },
+    {
+      "id": "04-recession-monitor",
+      "category": "macro/markets",
+      "question": "How should a premium consumer brand monitor recession risk over the next 12 months, and what would matter most for pricing power and inventory decisions?",
+      "selectedDomain": "markets",
+      "selectedObjective": "monitor",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 16,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are well chosen and causally relevant to monitoring recession risk and pricing/inventory decisions.",
+          "Scenarios are clearly differentiated with distinct causal pathways and useful leading indicators.",
+          "Watchlist items and change-my-mind conditions are concrete, operational, and tied to observable signals."
+        ],
+        "notable_weaknesses": [
+          "Reframed question is somewhat generic and does not sharpen the original question substantially.",
+          "Some lens descriptions and evidence are somewhat generic, limiting maximal distinctness.",
+          "Bottom line is cautious and somewhat vague, lacking a stronger directional call."
+        ],
+        "summary": "The analysis provides a solid, causally grounded framework with distinct lenses and scenarios relevant to the premium consumer brand's monitoring objective. It offers concrete watchlist items and change-my-mind conditions that enhance operational usefulness. However, the reframed question lacks sharper focus, and the bottom line could be more decisive to better guide pricing and inventory decisions.",
+        "average_score": 3.89
+      },
+      "notableStrengths": [
+        "Domains and lenses are well chosen and causally relevant to monitoring recession risk and pricing/inventory decisions.",
+        "Scenarios are clearly differentiated with distinct causal pathways and useful leading indicators.",
+        "Watchlist items and change-my-mind conditions are concrete, operational, and tied to observable signals."
+      ],
+      "notableWeaknesses": [
+        "Reframed question is somewhat generic and does not sharpen the original question substantially.",
+        "Some lens descriptions and evidence are somewhat generic, limiting maximal distinctness.",
+        "Bottom line is cautious and somewhat vague, lacking a stronger directional call."
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is nearly identical to the primary analysis with no substantive changes in content, structure, or specificity. Both analyses present the same domains, lenses, scenarios, hidden variables, and watchlist items. There is no added clarity, refinement, or new insights that improve the monitoring framework or decision criteria for pricing power and inventory decisions.",
+        "best_red_team_change": "No meaningful changes were made between the primary and final analyses.",
+        "remaining_gap": "The analysis lacks more explicit connection to premium consumer brand specifics, pricing power nuances, and inventory decision triggers, limiting practical applicability."
+      },
+      "analysisId": "cmnwuxiz10003nr6cvs4l02ns"
+    },
+    {
+      "id": "05-bitcoin-understand",
+      "category": "crypto",
+      "question": "What is the serious 12-month outlook for Bitcoin?",
+      "selectedDomain": "crypto",
+      "selectedObjective": "understand",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 14,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 4,
+          "domain_relevance": 5,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 5
+        },
+        "notable_strengths": [
+          "Reframed question is sharply operational and decision-useful",
+          "Domains are highly relevant and causally linked to Bitcoin's outlook",
+          "Scenarios and lenses are well differentiated with clear causal drivers"
+        ],
+        "notable_weaknesses": [
+          "Some hidden variables are somewhat obvious given domain knowledge",
+          "Change-my-mind conditions could be more granular and explicitly measurable",
+          "Watchlist items, while concrete, could better specify thresholds or triggers"
+        ],
+        "summary": "The analysis provides a clear, operational reframing of the question and selects highly relevant domains. Lenses and scenarios are distinct and causally grounded, supporting a nuanced 12-month outlook. The bottom line is decisive with explicit conditions for revision. Minor weaknesses include somewhat generic hidden variables and watchlist items that could be more precisely actionable.",
+        "average_score": 4.22
+      },
+      "notableStrengths": [
+        "Reframed question is sharply operational and decision-useful",
+        "Domains are highly relevant and causally linked to Bitcoin's outlook",
+        "Scenarios and lenses are well differentiated with clear causal drivers"
+      ],
+      "notableWeaknesses": [
+        "Some hidden variables are somewhat obvious given domain knowledge",
+        "Change-my-mind conditions could be more granular and explicitly measurable",
+        "Watchlist items, while concrete, could better specify thresholds or triggers"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is effectively identical to the primary analysis in all respects, including structure, content, and detail. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. The red-team pass did not improve the analysis.",
+        "best_red_team_change": "No substantive changes were made; the final analysis is a verbatim copy of the primary analysis.",
+        "remaining_gap": "The analysis could improve by sharpening the bottom line, adding more specific watchlist triggers, and strengthening disconfirmation logic to better guide interpretation of outcomes."
+      },
+      "analysisId": "cmnwuxpqw0004nr6c6urd7ugn"
+    },
+    {
+      "id": "06-bitcoin-invest",
+      "category": "crypto",
+      "question": "What is the serious 12-month outlook for Bitcoin?",
+      "selectedDomain": "crypto",
+      "selectedObjective": "invest",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 15,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 4,
+          "domain_relevance": 5,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 5
+        },
+        "notable_strengths": [
+          "Reframed question is sharply operational with clear drivers",
+          "Domains are highly relevant and causal to Bitcoin's price",
+          "Scenarios and lenses are well differentiated and actionable"
+        ],
+        "notable_weaknesses": [
+          "Some watchlist items could be more granular or quantified",
+          "Change-my-mind conditions are good but could be more explicitly tied to quantitative thresholds",
+          "Bottom line is decisive but hedged with moderate confidence, limiting maximal decisiveness"
+        ],
+        "summary": "The analysis provides a clear, operational reframing of the question with highly relevant domains and distinct lenses. Scenarios are causally separated and useful for investment decisions. Hidden variables and change-my-mind conditions are insightful though could be more quantitatively specific. The bottom line makes a real call aligned with the investment objective, supported by concrete watchlist items.",
+        "average_score": 4.22
+      },
+      "notableStrengths": [
+        "Reframed question is sharply operational with clear drivers",
+        "Domains are highly relevant and causal to Bitcoin's price",
+        "Scenarios and lenses are well differentiated and actionable"
+      ],
+      "notableWeaknesses": [
+        "Some watchlist items could be more granular or quantified",
+        "Change-my-mind conditions are good but could be more explicitly tied to quantitative thresholds",
+        "Bottom line is decisive but hedged with moderate confidence, limiting maximal decisiveness"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects. There are no changes in claims, logic, watchlist items, or the bottom line. Therefore, no improvement was made by the red-team pass.",
+        "best_red_team_change": "None; the final analysis is unchanged from the primary analysis.",
+        "remaining_gap": "The analysis could improve by sharpening the bottom line with clearer actionable conclusions, increasing watchlist specificity with more precise indicators, and strengthening disconfirmation logic with explicit counterexamples."
+      },
+      "analysisId": "cmnwuxvpt0005nr6c001r8x07"
+    },
+    {
+      "id": "07-bitcoin-forecast",
+      "category": "crypto",
+      "question": "What is the serious 12-month outlook for Bitcoin?",
+      "selectedDomain": "crypto",
+      "selectedObjective": "forecast",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 27,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 4,
+          "domain_relevance": 5,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 5
+        },
+        "notable_strengths": [
+          "Reframed question is sharply operational, linking key drivers to price path",
+          "Domains are well-chosen and clearly relevant to Bitcoin's 12-month outlook",
+          "Scenarios and lenses are distinct with clear causal separation and useful indicators"
+        ],
+        "notable_weaknesses": [
+          "Some watchlist items could be more granular or quantified",
+          "Change-my-mind conditions are good but could include more precise thresholds",
+          "Bottom line is decisive but could better quantify probabilities or triggers"
+        ],
+        "summary": "The analysis provides a clear, operational reframing of the question and selects highly relevant domains. Lenses and scenarios are well differentiated with useful leading and disconfirming indicators. Hidden variables and change-my-mind conditions are insightful though could be more granular. The bottom line makes a clear call with contingencies, and watchlist items are actionable but somewhat general. Overall, the output aligns strongly with the forecasting objective.",
+        "average_score": 4.22
+      },
+      "notableStrengths": [
+        "Reframed question is sharply operational, linking key drivers to price path",
+        "Domains are well-chosen and clearly relevant to Bitcoin's 12-month outlook",
+        "Scenarios and lenses are distinct with clear causal separation and useful indicators"
+      ],
+      "notableWeaknesses": [
+        "Some watchlist items could be more granular or quantified",
+        "Change-my-mind conditions are good but could include more precise thresholds",
+        "Bottom line is decisive but could better quantify probabilities or triggers"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. The red-team pass did not produce any material improvement.",
+        "best_red_team_change": "No changes were made between the primary and final analyses.",
+        "remaining_gap": "The analysis could improve by sharpening the bottom line, adding more specific watchlist criteria, and enhancing disconfirmation logic to better challenge the base case assumptions."
+      },
+      "analysisId": "cmnwuy0zo0006nr6cspuynk2k"
+    },
+    {
+      "id": "08-bitcoin-monitor",
+      "category": "crypto",
+      "question": "What is the serious 12-month outlook for Bitcoin?",
+      "selectedDomain": "crypto",
+      "selectedObjective": "monitor",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 27,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 4,
+          "domain_relevance": 5,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 4,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 5
+        },
+        "notable_strengths": [
+          "Highly relevant domains with strong causal links to Bitcoin price dynamics",
+          "Distinct lenses and scenarios that cover macro, institutional, and behavioral factors",
+          "Clear, operational watchlist items and specific change-my-mind conditions"
+        ],
+        "notable_weaknesses": [
+          "Some lenses and scenarios overlap slightly in drivers (e.g., positioning and reflexivity vs institutional flows)",
+          "Change-my-mind conditions could be more granular in observability",
+          "Bottom line is decisive but could better quantify thresholds for overturning views"
+        ],
+        "summary": "The analysis provides a well-structured, domain-relevant, and operationally useful outlook on Bitcoin over 12 months. It reframes the question sharply and aligns well with the monitoring objective. While lenses and scenarios are mostly distinct and causally grounded, minor overlaps and somewhat broad change-my-mind conditions limit perfect clarity. Overall, it is a strong, actionable framework with concrete watchlist items and a clear bottom line.",
+        "average_score": 4.22
+      },
+      "notableStrengths": [
+        "Highly relevant domains with strong causal links to Bitcoin price dynamics",
+        "Distinct lenses and scenarios that cover macro, institutional, and behavioral factors",
+        "Clear, operational watchlist items and specific change-my-mind conditions"
+      ],
+      "notableWeaknesses": [
+        "Some lenses and scenarios overlap slightly in drivers (e.g., positioning and reflexivity vs institutional flows)",
+        "Change-my-mind conditions could be more granular in observability",
+        "Bottom line is decisive but could better quantify thresholds for overturning views"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There are no changes or enhancements made during the red-team pass. Consequently, no improvements in claim strength, disconfirmation logic, watchlist specificity, or bottom-line clarity are evident.",
+        "best_red_team_change": "No changes were made in the final analysis relative to the primary analysis.",
+        "remaining_gap": "The analysis remains static with no refinement or sharpening of claims, logic, or monitoring criteria."
+      },
+      "analysisId": "cmnwuy5570007nr6ci0qcb9gi"
+    },
+    {
+      "id": "09-lakers-forecast",
+      "category": "sports",
+      "question": "Are the Lakers a real title contender this season, and what would materially improve or weaken that case?",
+      "selectedDomain": "sports",
+      "selectedObjective": "forecast",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 30,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 4,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 4,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are relevant and causally linked to the question",
+          "Scenarios are well differentiated with distinct probabilities and impacts",
+          "Hidden variables and change-my-mind conditions are specific and actionable"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is generic and does not sharpen the original question",
+          "Bottom line is somewhat vague and hedges without a strong decisive call",
+          "Some watchlist items are broad and could be more concretely operationalized"
+        ],
+        "summary": "The analysis demonstrates strong domain relevance and distinct causal lenses with well-structured scenarios and useful hidden variables. It aligns well with the forecasting objective and provides actionable watchlist items. However, the reframed question lacks sharper focus, and the bottom line is cautious without a clear decisive stance, limiting decisiveness.",
+        "average_score": 3.78
+      },
+      "notableStrengths": [
+        "Domains and lenses are relevant and causally linked to the question",
+        "Scenarios are well differentiated with distinct probabilities and impacts",
+        "Hidden variables and change-my-mind conditions are specific and actionable"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is generic and does not sharpen the original question",
+        "Bottom line is somewhat vague and hedges without a strong decisive call",
+        "Some watchlist items are broad and could be more concretely operationalized"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis with no changes in content, structure, or emphasis. There is no added clarity, specificity, or refinement in any analytical dimension. Consequently, no improvement is observed in weak claims, disconfirmation logic, watchlist specificity, or bottom line sharpness.",
+        "best_red_team_change": "None; the final analysis is unchanged from the primary analysis.",
+        "remaining_gap": "The analysis lacks explicit, material improvements such as clearer disconfirmation logic, more specific watchlist items, or a sharper bottom line conclusion."
+      },
+      "analysisId": "cmnwuy9z60008nr6c0kzb0kg2"
+    },
+    {
+      "id": "10-f1-understand",
+      "category": "sports",
+      "question": "What is really driving Formula 1's long-term audience growth, and which growth drivers are most fragile?",
+      "selectedDomain": "sports",
+      "selectedObjective": "understand",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 19,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 3,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 3,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains chosen are relevant and include multiple causal perspectives",
+          "Lenses and scenarios are materially distinct and well-structured",
+          "Hidden variables are insightful and non-obvious"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is somewhat generic and less operational than ideal",
+          "Change-my-mind conditions are plausible but somewhat vague and not strongly disconfirming",
+          "Bottom line and watchlist are somewhat cautious and lack strong decisiveness or concrete actions"
+        ],
+        "summary": "The analysis provides a solid multi-domain causal framework with distinct lenses and scenarios, well aligned with the objective to understand Formula 1's audience growth. However, the reframed question lacks sharper operational focus, and the change-my-mind and watchlist elements could be more specific and actionable. The bottom line is appropriately cautious but does not make a strong decisive call.",
+        "average_score": 3.56
+      },
+      "notableStrengths": [
+        "Domains chosen are relevant and include multiple causal perspectives",
+        "Lenses and scenarios are materially distinct and well-structured",
+        "Hidden variables are insightful and non-obvious"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is somewhat generic and less operational than ideal",
+        "Change-my-mind conditions are plausible but somewhat vague and not strongly disconfirming",
+        "Bottom line and watchlist are somewhat cautious and lack strong decisiveness or concrete actions"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis in all respects, including structure, content, and detail. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. No material improvement was made by the red-team pass.",
+        "best_red_team_change": "None; the final analysis is unchanged from the primary analysis.",
+        "remaining_gap": "The analysis lacks sharper differentiation of fragile growth drivers and stronger disconfirmation logic to better understand what truly drives Formula 1's audience growth."
+      },
+      "analysisId": "cmnwuyfg30009nr6c1hkaxune"
+    },
+    {
+      "id": "11-ai-strategy-understand",
+      "category": "open-ended strategy",
+      "question": "Should a solo founder build an AI workflow product for hedge funds over the next 12 months, and what would make this attractive or unattractive?",
+      "selectedDomain": "strategy",
+      "selectedObjective": "understand",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 16,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 3,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 3,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are well chosen and relevant to the strategic question",
+          "Scenarios are clearly distinct with useful leading indicators",
+          "Hidden variables are insightful and non-obvious"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is vague and not sharply operationalized",
+          "Change-my-mind conditions are somewhat generic and not strongly disconfirming",
+          "Bottom line is cautious and non-committal, limiting decisiveness"
+        ],
+        "summary": "The analysis demonstrates strong domain relevance, distinct lenses, and useful scenario differentiation with insightful hidden variables. However, the reframed question lacks sharpness, and the change-my-mind conditions and bottom line are somewhat generic and non-decisive. Overall, it aligns well with the objective but could improve in operational clarity and decisiveness.",
+        "average_score": 3.56
+      },
+      "notableStrengths": [
+        "Domains and lenses are well chosen and relevant to the strategic question",
+        "Scenarios are clearly distinct with useful leading indicators",
+        "Hidden variables are insightful and non-obvious"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is vague and not sharply operationalized",
+        "Change-my-mind conditions are somewhat generic and not strongly disconfirming",
+        "Bottom line is cautious and non-committal, limiting decisiveness"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis with no changes in content, structure, or emphasis. There is no added specificity, refinement, or sharpening of claims, watchlist items, disconfirmation logic, or bottom line. Therefore, no improvement is evident.",
+        "best_red_team_change": "None; the final analysis is a verbatim copy of the primary analysis.",
+        "remaining_gap": "The analysis lacks any refinement or deeper insight that would make the argument more precise, actionable, or discriminating."
+      },
+      "analysisId": "cmnwuyl5f000anr6c65wblfl3"
+    },
+    {
+      "id": "12-media-monitor",
+      "category": "open-ended strategy",
+      "question": "How should a niche media brand think about growth over the next 18 months, and what signals would show that the current strategy is working or failing?",
+      "selectedDomain": "strategy",
+      "selectedObjective": "monitor",
+      "providerUsed": "OpenAI",
+      "redTeamRan": false,
+      "redTeamStatus": "skipped",
+      "redTeamError": "Mock mode skips the live red-team pass.",
+      "durationMs": 8,
+      "quality": {
+        "scores": {
+          "reframed_question_quality": 3,
+          "domain_relevance": 4,
+          "lens_distinctness": 4,
+          "scenario_differentiation": 4,
+          "hidden_variable_usefulness": 4,
+          "change_my_mind_specificity": 3,
+          "bottom_line_decisiveness": 3,
+          "watchlist_action_usefulness": 3,
+          "objective_alignment": 4
+        },
+        "notable_strengths": [
+          "Domains and lenses are causally relevant and well-chosen for strategy monitoring",
+          "Scenarios are distinct with clear implications and leading indicators",
+          "Hidden variables are non-obvious and add depth to monitoring"
+        ],
+        "notable_weaknesses": [
+          "Reframed question is generic and does not sharpen operational focus",
+          "Change-my-mind conditions are somewhat vague and not strongly disconfirming",
+          "Bottom line is cautious and non-decisive, lacking clear actionable calls"
+        ],
+        "summary": "The analysis provides a solid strategic framework with relevant domains, distinct lenses, and useful scenarios for monitoring growth in a niche media brand. Hidden variables add valuable nuance. However, the reframed question lacks sharper operational focus, and the change-my-mind and bottom line elements are somewhat generic and non-decisive, limiting immediate decision-usefulness.",
+        "average_score": 3.56
+      },
+      "notableStrengths": [
+        "Domains and lenses are causally relevant and well-chosen for strategy monitoring",
+        "Scenarios are distinct with clear implications and leading indicators",
+        "Hidden variables are non-obvious and add depth to monitoring"
+      ],
+      "notableWeaknesses": [
+        "Reframed question is generic and does not sharpen operational focus",
+        "Change-my-mind conditions are somewhat vague and not strongly disconfirming",
+        "Bottom line is cautious and non-decisive, lacking clear actionable calls"
+      ],
+      "redTeamComparison": {
+        "improvement_scores": {
+          "weak_claims": 0,
+          "disconfirmation_logic": 0,
+          "watchlist_specificity": 0,
+          "bottom_line_sharpness": 0
+        },
+        "summary": "The final analysis is identical to the primary analysis with no changes in content, structure, or emphasis. There is no added clarity, specificity, or refinement in any analytical dimension. Consequently, no improvement is evident in weak claims, disconfirmation logic, watchlist specificity, or bottom line sharpness.",
+        "best_red_team_change": "None; the final analysis is unchanged from the primary analysis.",
+        "remaining_gap": "The analysis could improve by adding more precise watchlist indicators, sharpening disconfirmation criteria, and clarifying the bottom line to better guide decision-making."
+      },
+      "analysisId": "cmnwuyr6u000bnr6c9kjffi2c"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "analysisId": "cmnwvcal80009nrcw3vyou9ez",
+  "domain": "crypto",
+  "question": "Challenge the bottom line more aggressively. What is the single fastest downgrade trigger?",
+  "status": 200,
+  "response": {
+    "followUp": {
+      "id": "cmnwwn14j000jnreq9s63pb1u",
+      "question": "Challenge the bottom line more aggressively. What is the single fastest downgrade trigger?",
+      "title": "Single Fastest Downgrade Trigger for Bitcoin Outlook",
+      "answer": "The single fastest downgrade trigger to the 12-month Bitcoin outlook is a sustained period of negative perpetual swap funding rates below -0.05%, combined with rising open interest and exchange outflows. This trio of indicators historically signals forced deleveraging and margin liquidations, which can rapidly precipitate a sharp price crash below $20,000. If these conditions persist for more than four weeks, they would invalidate the base case and indicate a leverage-induced crash scenario requiring immediate reassessment of Bitcoin's price trajectory.",
+      "keyPoints": [
+        "Negative funding rates below -0.05% sustained over 4+ weeks indicate elevated deleveraging risk.",
+        "Rising open interest concurrent with negative funding rates signals mounting liquidation pressure.",
+        "Exchange outflows during this period confirm sell-side stress and potential price collapse.",
+        "This trigger can swiftly shift Bitcoin from a range-bound outlook to a high-impact crash scenario."
+      ],
+      "watchouts": [
+        "Perpetual swap funding rates below -0.05% sustained for over 4 weeks.",
+        "Rising open interest volatility concurrent with negative funding rates.",
+        "Exchange Bitcoin reserves increasing >10% with stablecoin outflows >$5B/month.",
+        "Delayed or rejected SEC ETF approvals beyond 3 months exacerbating institutional uncertainty."
+      ],
+      "modelUsed": "gpt-4.1-mini",
+      "promptVersion": "follow-up-v1",
+      "createdAt": "2026-04-13T08:02:23.731Z",
+      "updatedAt": "2026-04-13T08:02:23.731Z"
+    }
+  }
+}

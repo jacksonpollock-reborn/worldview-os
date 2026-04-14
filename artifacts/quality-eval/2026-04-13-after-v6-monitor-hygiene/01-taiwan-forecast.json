@@ -1,0 +1,383 @@
+{
+  "id": "01-taiwan-forecast",
+  "category": "politics/geopolitics",
+  "question": "What is the serious 12-month outlook for cross-strait tensions around Taiwan, and what would materially increase or decrease escalation risk?",
+  "selectedDomain": "geopolitics",
+  "selectedObjective": "forecast",
+  "providerUsed": "OpenAI",
+  "modelUsed": "mock:generic",
+  "promptVersion": "mock-generic-v1",
+  "analysisId": "cmnwux3ef0000nr6cb7ducqtl",
+  "redTeamRan": false,
+  "redTeamStatus": "skipped",
+  "redTeamError": "Mock mode skips the live red-team pass.",
+  "durationMs": 26,
+  "analysis": {
+    "title": "Cross-Domain Worldview Analysis",
+    "original_question": "What is the serious 12-month outlook for cross-strait tensions around Taiwan, and what would materially increase or decrease escalation risk?",
+    "reframed_question": "What is the cleanest analytical framing of this question, which domains matter most, and which scenarios should a decision-maker monitor?",
+    "time_horizon": "next 12 months",
+    "objective": "forecast",
+    "definitions": [
+      {
+        "term": "Serious angle",
+        "definition": "A causal lens that could materially change the answer rather than a cosmetic talking point."
+      },
+      {
+        "term": "Scenario",
+        "definition": "A coherent path with distinct implications, signals, and probability weight."
+      },
+      {
+        "term": "Watchpoint",
+        "definition": "A leading indicator or disconfirming signal that should update the current view."
+      }
+    ],
+    "domains": [
+      "geopolitics",
+      "strategy",
+      "economics",
+      "behavioral",
+      "institutional"
+    ],
+    "key_drivers": [
+      "Incentive alignment",
+      "Constraint intensity",
+      "Timing and trigger events",
+      "Narrative and perception",
+      "Second-order effects"
+    ],
+    "lenses": [
+      {
+        "name": "Incentives and decision rights",
+        "why_it_matters": "Outcomes usually follow who has the power to decide and what they are rewarded for doing.",
+        "key_drivers": [
+          "Who controls the key decision",
+          "What trade-offs they face",
+          "What failure looks like for them"
+        ],
+        "bull_case": "Decision-makers are aligned with the favorable outcome and have enough room to execute.",
+        "bear_case": "The key actors are incentivized to protect themselves rather than optimize the system outcome.",
+        "base_case": "Incentives stay mixed, producing partial progress and recurring friction.",
+        "wildcard_case": "A new actor or rule change shifts who actually has leverage.",
+        "evidence_for": [
+          "Clear ownership can improve execution speed",
+          "Aligned incentives reduce internal sabotage"
+        ],
+        "evidence_against": [
+          "Formal power can differ from practical power",
+          "Actors often optimize around hidden constraints"
+        ],
+        "leading_indicators": [
+          "Decision timing",
+          "Resource allocation changes",
+          "Message discipline from key actors"
+        ],
+        "disconfirming_signals": [
+          "Execution improves despite obviously misaligned incentives",
+          "Ownership changes without outcome changes"
+        ]
+      },
+      {
+        "name": "Timing and trigger events",
+        "why_it_matters": "Even the correct thesis can fail if the catalysts arrive too late or in the wrong order.",
+        "key_drivers": [
+          "Catalyst sequencing",
+          "Window of opportunity",
+          "Sensitivity to shocks"
+        ],
+        "bull_case": "The relevant catalysts arrive in an order that strengthens the favorable path.",
+        "bear_case": "An adverse trigger lands before the system is ready, forcing a weaker path.",
+        "base_case": "Timing stays noisy, creating volatility around a middling central outcome.",
+        "wildcard_case": "An external shock compresses multiple catalysts into a short window.",
+        "evidence_for": [
+          "Timing often explains why good ideas still fail",
+          "Sequencing can change payoff more than direction"
+        ],
+        "evidence_against": [
+          "Strong fundamentals can survive poor short-term timing",
+          "Markets and institutions can front-run obvious catalysts"
+        ],
+        "leading_indicators": [
+          "Calendar risk",
+          "Pre-positioning behavior",
+          "Threshold events getting closer"
+        ],
+        "disconfirming_signals": [
+          "No reaction to a major trigger",
+          "Outcome improves despite catalyst delay"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case",
+        "description": "The system moves in the expected direction, but more slowly and with more friction than the initial narrative suggests.",
+        "probability": 50,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Mixed but improving execution signals",
+          "No decisive break in the current trend"
+        ]
+      },
+      {
+        "name": "Bull case",
+        "description": "The favorable thesis compounds because incentives, timing, and perception reinforce each other.",
+        "probability": 25,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Catalysts arriving in the right order",
+          "Positive feedback in key metrics"
+        ]
+      },
+      {
+        "name": "Bear case",
+        "description": "A constraint or misaligned incentive dominates the system and pushes the outcome off the favorable path.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Execution slippage",
+          "Resource pullback",
+          "Narrative deterioration"
+        ]
+      },
+      {
+        "name": "Wildcard",
+        "description": "An external shock changes the relevant decision-makers, timing, or payoff structure faster than expected.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "3 to 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "New external triggers",
+          "Unexpected stakeholder behavior"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Which constraint is still under-measured",
+      "Whether narrative is leading reality or lagging it",
+      "How much second-order behavior changes the primary thesis"
+    ],
+    "change_my_mind_conditions": [
+      "A high-quality indicator materially improves or worsens the execution path",
+      "The identity of the key decision-maker or constraint changes",
+      "Catalyst sequencing changes the payoff structure"
+    ],
+    "bottom_line": "The right default is disciplined uncertainty: keep the base case central, but treat incentives, timing, and hidden constraints as the main levers that can reprice the question fast.",
+    "watchlist": [
+      "Constraint intensity",
+      "Decision timing",
+      "Resource allocation changes",
+      "Leading perception shifts",
+      "Second-order effects becoming first-order"
+    ]
+  },
+  "primaryAnalysis": {
+    "title": "Cross-Domain Worldview Analysis",
+    "original_question": "What is the serious 12-month outlook for cross-strait tensions around Taiwan, and what would materially increase or decrease escalation risk?",
+    "reframed_question": "What is the cleanest analytical framing of this question, which domains matter most, and which scenarios should a decision-maker monitor?",
+    "time_horizon": "next 12 months",
+    "objective": "forecast",
+    "definitions": [
+      {
+        "term": "Serious angle",
+        "definition": "A causal lens that could materially change the answer rather than a cosmetic talking point."
+      },
+      {
+        "term": "Scenario",
+        "definition": "A coherent path with distinct implications, signals, and probability weight."
+      },
+      {
+        "term": "Watchpoint",
+        "definition": "A leading indicator or disconfirming signal that should update the current view."
+      }
+    ],
+    "domains": [
+      "geopolitics",
+      "strategy",
+      "economics",
+      "behavioral",
+      "institutional"
+    ],
+    "key_drivers": [
+      "Incentive alignment",
+      "Constraint intensity",
+      "Timing and trigger events",
+      "Narrative and perception",
+      "Second-order effects"
+    ],
+    "lenses": [
+      {
+        "name": "Incentives and decision rights",
+        "why_it_matters": "Outcomes usually follow who has the power to decide and what they are rewarded for doing.",
+        "key_drivers": [
+          "Who controls the key decision",
+          "What trade-offs they face",
+          "What failure looks like for them"
+        ],
+        "bull_case": "Decision-makers are aligned with the favorable outcome and have enough room to execute.",
+        "bear_case": "The key actors are incentivized to protect themselves rather than optimize the system outcome.",
+        "base_case": "Incentives stay mixed, producing partial progress and recurring friction.",
+        "wildcard_case": "A new actor or rule change shifts who actually has leverage.",
+        "evidence_for": [
+          "Clear ownership can improve execution speed",
+          "Aligned incentives reduce internal sabotage"
+        ],
+        "evidence_against": [
+          "Formal power can differ from practical power",
+          "Actors often optimize around hidden constraints"
+        ],
+        "leading_indicators": [
+          "Decision timing",
+          "Resource allocation changes",
+          "Message discipline from key actors"
+        ],
+        "disconfirming_signals": [
+          "Execution improves despite obviously misaligned incentives",
+          "Ownership changes without outcome changes"
+        ]
+      },
+      {
+        "name": "Timing and trigger events",
+        "why_it_matters": "Even the correct thesis can fail if the catalysts arrive too late or in the wrong order.",
+        "key_drivers": [
+          "Catalyst sequencing",
+          "Window of opportunity",
+          "Sensitivity to shocks"
+        ],
+        "bull_case": "The relevant catalysts arrive in an order that strengthens the favorable path.",
+        "bear_case": "An adverse trigger lands before the system is ready, forcing a weaker path.",
+        "base_case": "Timing stays noisy, creating volatility around a middling central outcome.",
+        "wildcard_case": "An external shock compresses multiple catalysts into a short window.",
+        "evidence_for": [
+          "Timing often explains why good ideas still fail",
+          "Sequencing can change payoff more than direction"
+        ],
+        "evidence_against": [
+          "Strong fundamentals can survive poor short-term timing",
+          "Markets and institutions can front-run obvious catalysts"
+        ],
+        "leading_indicators": [
+          "Calendar risk",
+          "Pre-positioning behavior",
+          "Threshold events getting closer"
+        ],
+        "disconfirming_signals": [
+          "No reaction to a major trigger",
+          "Outcome improves despite catalyst delay"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Base case",
+        "description": "The system moves in the expected direction, but more slowly and with more friction than the initial narrative suggests.",
+        "probability": 50,
+        "impact": "medium",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Mixed but improving execution signals",
+          "No decisive break in the current trend"
+        ]
+      },
+      {
+        "name": "Bull case",
+        "description": "The favorable thesis compounds because incentives, timing, and perception reinforce each other.",
+        "probability": 25,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "Catalysts arriving in the right order",
+          "Positive feedback in key metrics"
+        ]
+      },
+      {
+        "name": "Bear case",
+        "description": "A constraint or misaligned incentive dominates the system and pushes the outcome off the favorable path.",
+        "probability": 20,
+        "impact": "high",
+        "time_horizon": "next 12 months",
+        "confidence": "medium",
+        "leading_indicators": [
+          "Execution slippage",
+          "Resource pullback",
+          "Narrative deterioration"
+        ]
+      },
+      {
+        "name": "Wildcard",
+        "description": "An external shock changes the relevant decision-makers, timing, or payoff structure faster than expected.",
+        "probability": 5,
+        "impact": "high",
+        "time_horizon": "3 to 12 months",
+        "confidence": "low",
+        "leading_indicators": [
+          "New external triggers",
+          "Unexpected stakeholder behavior"
+        ]
+      }
+    ],
+    "hidden_variables": [
+      "Which constraint is still under-measured",
+      "Whether narrative is leading reality or lagging it",
+      "How much second-order behavior changes the primary thesis"
+    ],
+    "change_my_mind_conditions": [
+      "A high-quality indicator materially improves or worsens the execution path",
+      "The identity of the key decision-maker or constraint changes",
+      "Catalyst sequencing changes the payoff structure"
+    ],
+    "bottom_line": "The right default is disciplined uncertainty: keep the base case central, but treat incentives, timing, and hidden constraints as the main levers that can reprice the question fast.",
+    "watchlist": [
+      "Constraint intensity",
+      "Decision timing",
+      "Resource allocation changes",
+      "Leading perception shifts",
+      "Second-order effects becoming first-order"
+    ]
+  },
+  "quality": {
+    "scores": {
+      "reframed_question_quality": 2,
+      "domain_relevance": 4,
+      "lens_distinctness": 4,
+      "scenario_differentiation": 4,
+      "hidden_variable_usefulness": 3,
+      "change_my_mind_specificity": 3,
+      "bottom_line_decisiveness": 3,
+      "watchlist_action_usefulness": 3,
+      "objective_alignment": 4
+    },
+    "notable_strengths": [
+      "Domains and lenses are relevant and causally linked to the question",
+      "Scenarios are clearly distinct with differentiated probabilities and impacts",
+      "Reframed question and objective alignment focus on operational decision-making"
+    ],
+    "notable_weaknesses": [
+      "Reframed question is vague and meta rather than sharper or more operational",
+      "Hidden variables are somewhat obvious and not deeply novel",
+      "Change-my-mind conditions and watchlist items are generic and lack concrete observables"
+    ],
+    "summary": "The analysis demonstrates strong domain relevance and scenario differentiation with well-chosen lenses. However, the reframed question is more abstract than sharpened, limiting decision-usefulness. Hidden variables and change-my-mind criteria are generic, and watchlist items could be more concrete. Overall, the output aligns well with the forecasting objective but falls short of exceptional clarity and operational specificity.",
+    "average_score": 3.33
+  },
+  "redTeamComparison": {
+    "improvement_scores": {
+      "weak_claims": 0,
+      "disconfirmation_logic": 0,
+      "watchlist_specificity": 0,
+      "bottom_line_sharpness": 0
+    },
+    "summary": "The final analysis is identical to the primary analysis with no changes in content, structure, or emphasis. There is no added clarity, specificity, or refinement in claims, disconfirmation logic, watchlist items, or the bottom line. Therefore, no improvement is evident.",
+    "best_red_team_change": "None; the final analysis is a verbatim copy of the primary analysis.",
+    "remaining_gap": "The analysis lacks any refinement or sharpening that would better address weak claims, improve disconfirmation logic, specify watchlist items, or sharpen the bottom line."
+  }
+}

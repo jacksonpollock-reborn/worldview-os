@@ -1,0 +1,216 @@
+{
+  "slug": "09-ai-product-strategy",
+  "domain": "strategy",
+  "timeHorizon": "next 2 years",
+  "objective": "decide",
+  "question": "Should a solo founder build a vertical AI workflow product or a horizontal assistant for SMB teams over the next 2 years?",
+  "status": 200,
+  "response": {
+    "id": "cmnw00tq70008nr0h64bh7u4c",
+    "analysis": {
+      "title": "Strategic Choice for Solo Founder: Vertical AI Workflow vs. Horizontal SMB Assistant",
+      "original_question": "Should a solo founder build a vertical AI workflow product or a horizontal assistant for SMB teams over the next 2 years?",
+      "reframed_question": "What is the optimal product focus for a solo founder over the next 2 years: developing a vertical AI workflow solution targeting a specific industry or function, or creating a horizontal AI assistant platform aimed at small and medium-sized business (SMB) teams across multiple sectors?",
+      "time_horizon": "next 2 years",
+      "objective": "decide",
+      "definitions": [
+        {
+          "term": "vertical AI workflow product",
+          "definition": "An AI-driven software solution tailored to automate or optimize workflows within a specific industry or business function."
+        },
+        {
+          "term": "horizontal assistant for SMB teams",
+          "definition": "A general-purpose AI assistant platform designed to support a broad range of tasks and workflows across various small and medium-sized business teams."
+        },
+        {
+          "term": "solo founder",
+          "definition": "An individual entrepreneur who is the sole founder and primary driver of the startup or product development."
+        },
+        {
+          "term": "SMB",
+          "definition": "Small and Medium-sized Businesses, typically defined by employee count and revenue thresholds varying by region."
+        }
+      ],
+      "domains": [
+        "strategy",
+        "product management",
+        "artificial intelligence",
+        "entrepreneurship",
+        "market analysis",
+        "technology adoption"
+      ],
+      "key_drivers": [
+        "market size and growth potential",
+        "founder's expertise and resources",
+        "competitive landscape",
+        "customer acquisition cost and sales cycle",
+        "product complexity and development time",
+        "AI technology maturity",
+        "SMB adoption rates of AI tools",
+        "industry-specific regulatory environment"
+      ],
+      "lenses": [
+        {
+          "name": "Market Opportunity",
+          "why_it_matters": "Determines potential revenue, growth, and scalability of the product choice.",
+          "key_drivers": [
+            "market size and growth potential",
+            "competitive landscape",
+            "SMB adoption rates of AI tools"
+          ],
+          "bull_case": "Vertical AI workflows have high willingness to pay due to deep integration and high impact, with less competition and clearer value proposition.",
+          "bear_case": "Horizontal SMB assistants face saturated markets with dominant incumbents and low differentiation, limiting growth and revenue.",
+          "base_case": "Both vertical and horizontal markets show moderate growth with manageable competition; success depends on execution and niche selection.",
+          "wildcard_case": "Emergence of a new AI platform or ecosystem that disrupts current market boundaries, enabling rapid horizontal adoption.",
+          "evidence_for": [
+            "Industry reports showing vertical AI adoption growth",
+            "SMB surveys indicating interest in AI assistants",
+            "Funding trends favoring vertical AI startups"
+          ],
+          "evidence_against": [
+            "High churn rates in horizontal SaaS products",
+            "Slow AI adoption in certain verticals",
+            "Dominance of large horizontal AI platforms"
+          ],
+          "leading_indicators": [
+            "Increase in vertical AI workflow startups funded",
+            "SMB AI tool usage metrics",
+            "Customer acquisition cost trends"
+          ],
+          "disconfirming_signals": [
+            "Declining SMB budgets for AI tools",
+            "Vertical industries resisting AI automation",
+            "Horizontal platforms gaining rapid market share"
+          ]
+        },
+        {
+          "name": "Founder's Capabilities and Constraints",
+          "why_it_matters": "The solo founder's skills, network, and resources critically influence product feasibility and speed to market.",
+          "key_drivers": [
+            "founder's expertise and resources",
+            "product complexity and development time"
+          ],
+          "bull_case": "Founder has deep domain expertise in a vertical market, enabling faster product-market fit and customer trust.",
+          "bear_case": "Limited resources and lack of domain knowledge hinder vertical product development; horizontal assistant requires broader expertise and more features.",
+          "base_case": "Founder can leverage existing skills and partnerships to build a minimum viable product in either direction with moderate effort.",
+          "wildcard_case": "Founder gains unexpected access to strategic partnerships or funding, accelerating development and go-to-market.",
+          "evidence_for": [
+            "Founder's background and prior experience",
+            "Available development tools and AI frameworks",
+            "Network access to early adopters"
+          ],
+          "evidence_against": [
+            "Founder lacks domain expertise in verticals",
+            "High complexity of AI workflows requiring large teams",
+            "Long sales cycles in SMB markets"
+          ],
+          "leading_indicators": [
+            "Prototype development speed",
+            "Early customer feedback",
+            "Partnership or pilot agreements"
+          ],
+          "disconfirming_signals": [
+            "Repeated development delays",
+            "Customer acquisition difficulties",
+            "Resource constraints limiting feature scope"
+          ]
+        },
+        {
+          "name": "Technology and Adoption Trends",
+          "why_it_matters": "AI technology maturity and user readiness affect product viability and adoption speed.",
+          "key_drivers": [
+            "AI technology maturity",
+            "SMB adoption rates of AI tools",
+            "industry-specific regulatory environment"
+          ],
+          "bull_case": "Rapid advances in AI enable easy integration into vertical workflows and horizontal assistants, with SMBs eager to adopt productivity tools.",
+          "bear_case": "Technical limitations and regulatory hurdles slow AI integration, especially in regulated verticals; SMBs remain cautious about AI adoption.",
+          "base_case": "Gradual improvements in AI capabilities and SMB comfort with AI tools lead to steady but not explosive adoption.",
+          "wildcard_case": "Breakthrough AI technology or regulatory changes dramatically lower barriers for AI adoption across all sectors.",
+          "evidence_for": [
+            "Recent AI breakthroughs in natural language processing",
+            "SMB surveys showing increased AI tool usage",
+            "Regulatory easing in certain industries"
+          ],
+          "evidence_against": [
+            "Persistent AI accuracy and reliability issues",
+            "Data privacy concerns limiting AI use",
+            "Regulatory crackdowns in sensitive verticals"
+          ],
+          "leading_indicators": [
+            "New AI tool launches targeting SMBs",
+            "Regulatory updates",
+            "Customer AI adoption rates"
+          ],
+          "disconfirming_signals": [
+            "Negative AI adoption feedback",
+            "Increased regulatory restrictions",
+            "High AI implementation failure rates"
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Vertical AI Workflow Success",
+          "description": "The founder leverages domain expertise to build a specialized AI workflow product that gains strong traction in a niche vertical, achieving sustainable revenue and defensible market position.",
+          "probability": 40,
+          "impact": "high",
+          "time_horizon": "2 years",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Early pilot customers in vertical",
+            "Positive ROI demonstrated in vertical workflows",
+            "Low churn and high engagement metrics"
+          ]
+        },
+        {
+          "name": "Horizontal SMB Assistant Adoption",
+          "description": "The founder develops a general-purpose AI assistant for SMB teams that achieves moderate adoption by addressing common pain points, but faces stiff competition and slower growth.",
+          "probability": 35,
+          "impact": "medium",
+          "time_horizon": "2 years",
+          "confidence": "medium",
+          "leading_indicators": [
+            "User growth across diverse SMB segments",
+            "Partnerships with SMB platforms",
+            "Feature adoption rates"
+          ]
+        },
+        {
+          "name": "Founder Struggles and Pivot",
+          "description": "The solo founder faces resource constraints, technical challenges, or market resistance, resulting in slow progress and the need to pivot product focus or business model.",
+          "probability": 25,
+          "impact": "medium",
+          "time_horizon": "2 years",
+          "confidence": "medium",
+          "leading_indicators": [
+            "Delayed product milestones",
+            "Difficulty securing early customers",
+            "Negative feedback on product-market fit"
+          ]
+        }
+      ],
+      "hidden_variables": [
+        "Founder’s ability to rapidly learn and adapt",
+        "Access to early adopters and feedback loops",
+        "Unforeseen regulatory changes",
+        "Emergence of new AI platforms or APIs",
+        "Macroeconomic conditions affecting SMB budgets"
+      ],
+      "change_my_mind_conditions": [
+        "Evidence of rapid SMB AI adoption outpacing vertical AI growth",
+        "Founder gains significant domain expertise or partnerships in a vertical",
+        "Regulatory environment shifts favoring or disfavoring vertical AI solutions",
+        "Breakthrough AI technology simplifying horizontal assistant development"
+      ],
+      "bottom_line": "For a solo founder over the next two years, focusing on a vertical AI workflow product offers higher potential impact and defensibility if domain expertise and early customer access exist; however, a horizontal SMB assistant may provide broader market reach but faces tougher competition and requires more resources. Success hinges on founder capabilities, market receptivity, and technology maturity.",
+      "watchlist": [
+        "Early customer acquisition and retention metrics",
+        "Funding and market trends in vertical vs. horizontal AI startups",
+        "Regulatory developments affecting AI adoption",
+        "Advances in AI technology relevant to workflow automation",
+        "Competitor moves and new entrants in SMB AI assistant space"
+      ]
+    }
+  }
+}

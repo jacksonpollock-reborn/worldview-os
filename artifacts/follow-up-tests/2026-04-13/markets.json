@@ -1,0 +1,29 @@
+{
+  "analysisId": "cmnwv8t2n0005nrcwsso7yg1p",
+  "domain": "markets",
+  "question": "Turn this into a monitoring checklist with concrete weekly indicators and what to ignore.",
+  "status": 200,
+  "response": {
+    "followUp": {
+      "id": "cmnwwmy7w000hnreqoq3h2vkm",
+      "question": "Turn this into a monitoring checklist with concrete weekly indicators and what to ignore.",
+      "title": "Weekly Monitoring Checklist for Premium Brand Pricing and Inventory",
+      "answer": "Focus weekly monitoring on high-frequency labor market and credit indicators, alongside consumer sentiment proxies relevant to premium goods. Track weekly unemployment claims as an early labor market stress signal. Monitor consumer credit growth rates on a weekly or monthly cadence where available, noting any rapid contractions. Use social media sentiment analysis weekly to detect shifts in premium brand perception. Ignore minor retail sales fluctuations within ±2% weekly, as these do not materially affect pricing or inventory decisions in the short term.",
+      "keyPoints": [
+        "Monitor weekly initial unemployment claims for early signs of labor market deterioration.",
+        "Track consumer credit growth trends weekly or monthly; watch for contractions exceeding 7% quarter-over-quarter sustained over two quarters.",
+        "Analyze weekly social media sentiment for premium brands; drops over 20% month-over-month may indicate behavioral shifts.",
+        "Ignore minor weekly retail sales volatility within ±2%, as it does not signal meaningful demand changes."
+      ],
+      "watchouts": [
+        "Sharp credit tightening or labor market deterioration can rapidly force price cuts and inventory drawdowns.",
+        "Consumer sentiment and brand loyalty buffering assumptions are weakest and require close validation.",
+        "Unexpected geopolitical events or competitor discounting can disrupt supply chains and pricing strategies."
+      ],
+      "modelUsed": "gpt-4.1-mini",
+      "promptVersion": "follow-up-v1",
+      "createdAt": "2026-04-13T08:02:19.964Z",
+      "updatedAt": "2026-04-13T08:02:19.964Z"
+    }
+  }
+}
