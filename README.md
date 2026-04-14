@@ -123,5 +123,3 @@ Before pushing anywhere:
 - do not commit API keys or tokens
 - do not commit local SQLite databases with personal data
 - do not assume artifact folders are sanitized unless checked
-
-This repo should be kept private/internal if published at all.
